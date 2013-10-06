@@ -1,0 +1,46 @@
+(fn=ARG1, at=ARG3, it=ARG4)
+(bvl="back:*;["+at+"*]*", il="front:*;["+it+"*]*;~*;*アイコン*")
+(vl=bvl+";N(sc=T)")["N(sc=T)"]
+(vl=bvl+";Nl(sc=T)")["Nl(sc=T)"]
+(vl=bvl+";Nm(sc=T)")["Nm(sc=T)"]
+(vl=bvl+";Nr(sc=T)")["Nr(sc=T)"]
+===
+(vl=bvl+";W(sc=T)")["W(sc=T)"]
+(vl=bvl+";Wl(sc=T)")["Wl(sc=T)"]
+(vl=bvl+";Wm(sc=T)")["Wm(sc=T)"]
+(vl=bvl+";Wr(sc=T)")["Wr(sc=T)"]
+===
+(vl=bvl+";S(sc=T)")["S(sc=T)"]
+(vl=bvl+";Sl(sc=T)")["Sl(sc=T)"]
+(vl=bvl+";Sm(sc=T)")["Sm(sc=T)"]
+(vl=bvl+";Sr(sc=T)")["Sr(sc=T)"]
+===
+(vl=bvl+";E(sc=T)")["E(sc=T)"]
+(vl=bvl+";El(sc=T)")["El(sc=T)"]
+(vl=bvl+";Em(sc=T)")["Em(sc=T)"]
+(vl=bvl+";Er(sc=T)")["Er(sc=T)"]
+====
+(fvl="front:*;["+at+"*]*", il="back:*;["+it+"*]*;~*;*アイコン*;")
+(vl=fvl+";N(sc=T)")["N(sc=T)"]
+(vl=fvl+";Nl(sc=T)")["Nl(sc=T)"]
+(vl=fvl+";Nm(sc=T)")["Nm(sc=T)"]
+(vl=fvl+";Nr(sc=T)")["Nr(sc=T)"]
+===
+(vl=fvl+";W(sc=T)")["W(sc=T)"]
+(vl=fvl+";Wl(sc=T)")["Wl(sc=T)"]
+(vl=fvl+";Wm(sc=T)")["Wm(sc=T)"]
+(vl=fvl+";Wr(sc=T)")["Wr(sc=T)"]
+===
+(vl=fvl+";S(sc=T)")["S(sc=T)"]
+(vl=fvl+";Sl(sc=T)")["Sl(sc=T)"]
+(vl=fvl+";Sm(sc=T)")["Sm(sc=T)"]
+(vl=fvl+";Sr(sc=T)")["Sr(sc=T)"]
+===
+(vl=fvl+";E(sc=T)")["E(sc=T)"]
+(vl=fvl+";El(sc=T)")["El(sc=T)"]
+(vl=fvl+";Em(sc=T)")["Em(sc=T)"]
+(vl=fvl+";Er(sc=T)")["Er(sc=T)"]
+====
+(vl="["+at+"*]*;*アイコン*", il="back:*;front:*;["+it+"*]*;~*;")
+[">アイコン"]
+[6,0]

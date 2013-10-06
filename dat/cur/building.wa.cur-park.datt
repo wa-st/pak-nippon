@@ -1,0 +1,42 @@
+obj=building
+type=cur
+name=wa-cur-park-1
+copyright=wa
+passengers=20
+build_time=550
+chance=50
+
+%def :image, "park-1-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+----
+obj=building
+type=cur
+name=wa-cur-park-2
+copyright=wa
+passengers=20
+build_time=650
+chance=40
+
+%def :image, "park-2-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+----
+obj=building
+type=cur
+name=wa-cur-park-3
+copyright=wa
+passengers=20
+build_time=750
+chance=30
+%def :image, "park-3-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+----
+obj=building
+type=cur
+name=wa-cur-park-4
+copyright=wa
+passengers=20
+build_time=850
+chance=20
+
+%def :image, "park-4-tile.0.0"
+%buil_image 4, 4, 1, 4, 2

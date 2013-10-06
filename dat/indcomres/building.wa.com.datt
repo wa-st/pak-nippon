@@ -1,0 +1,256 @@
+%resource "com"
+copyright=wa
+obj=building
+type=com
+----
+level=1
+%def :image, "com-a.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=2
+%def :image, "com-a.0.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=3
+%def :image, "com-a.0.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=5
+%def :image, "com-l1.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=6
+%def :image, "com-l1.4.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=7
+%def :image, "com-l1.8.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=8
+%def :image, "com-l1.12.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=9
+%def :image, "com-l1.16.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=5
+%def :image, "com-t.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=6
+%def :image, "com-t.2.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=7
+%def :image, "com-t.4.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=8
+%def :image, "com-t.6.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=9
+%def :image, "com-t.8.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=10
+%def :image, "com-l2.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=11
+%def :image, "com-l2.4.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=12
+%def :image, "com-l2.8.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=13
+%def :image, "com-l2.12.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=14
+%def :image, "com-l2.16.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=15
+%def :image, "com-m1.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=16
+%def :image, "com-m1.4.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=17
+%def :image, "com-m1.8.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=18
+%def :image, "com-m1.12.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=19
+%def :image, "com-m1.16.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=20
+%def :image, "com-m2.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=21
+%def :image, "com-m2.4.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=22
+%def :image, "com-m2.8.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=23
+%def :image, "com-m2.12.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=24
+%def :image, "com-m2.16.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=25
+%def :image, "com-h1.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=26
+%def :image, "com-h1.4.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=27
+%def :image, "com-h1.8.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=28
+%def :image, "com-h1.12.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=29
+%def :image, "com-h1.16.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=30
+%def :image, "com-h2.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=30
+%def :image, "com-h2.4.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=30
+%def :image, "com-h2.8.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=30
+%def :image, "com-h2.12.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+---
+level=30
+%def :image, "com-h2.16.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 2, 8, 2
+----
+level=5
+%def :image, "com-parking.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+----
+level=15
+%def :image, "com-parking.2.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+----
+level=25
+%def :image, "com-parking.4.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+----
+level=30
+%def :image, "com-parking.6.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 1, 4, 2

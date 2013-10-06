@@ -1,0 +1,45 @@
+obj=building
+name=wa-cur-castle-1
+copyright=wa
+type=cur
+passengers=20
+build_time=310
+chance=10
+
+%def :image, "castle-1-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+---
+obj=building
+name=wa-cur-castle-2
+copyright=wa
+type=cur
+passengers=10
+build_time=0
+chance=10
+
+%def :image, "castle-2-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+---
+obj=building
+name=wa-cur-castle-3
+copyright=wa
+type=cur
+passengers=30
+build_time=510
+chance=10
+
+%def :image, "castle-3-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+
+---
+obj=building
+name=wa-cur-castle-4
+copyright=wa
+type=cur
+passengers=30
+build_time=1010
+chance=10
+
+%def :image, "castle-4-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+

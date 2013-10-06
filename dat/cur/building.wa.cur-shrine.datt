@@ -1,0 +1,43 @@
+obj=building
+name=wa-cur-shrine-1
+copyright=wa
+type=cur
+passengers=20
+build_time=820
+chance=50
+
+%def :image, "shrine-1-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+---
+obj=building
+name=wa-cur-shrine-2
+copyright=wa
+type=cur
+passengers=30
+build_time=1620
+chance=20
+
+%def :image, "shrine-2-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+---
+obj=building
+name=wa-cur-shrine-3
+copyright=wa
+type=cur
+passengers=10
+build_time=1220
+chance=20
+
+%def :image, "shrine-3-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+---
+obj=building
+name=wa-cur-shrine-4
+copyright=wa
+type=cur
+passengers=20
+build_time=420
+chance=50
+
+%def :image, "shrine-4-tile.0.0"
+%buil_image 3, 1, 1, 4, 2

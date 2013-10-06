@@ -1,0 +1,57 @@
+obj=building
+name=wa-cur-temple-1
+copyright=wa
+type=cur
+passengers=20
+build_time=220
+chance=70
+
+%def :image, "temple-1-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+---
+obj=building
+name=wa-cur-temple-2
+copyright=wa
+type=cur
+passengers=30
+build_time=0
+chance=20
+
+%def :image, "temple-2-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+
+---
+obj=building
+name=wa-cur-temple-3
+copyright=wa
+type=cur
+passengers=20
+build_time=0
+chance=30
+
+%def :image, "temple-3-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+
+---
+obj=building
+name=wa-cur-temple-4
+copyright=wa
+type=cur
+passengers=30
+build_time=1020
+chance=10
+
+%def :image, "temple-4-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+
+---
+obj=building
+name=wa-cur-temple-5
+copyright=wa
+type=cur
+passengers=10
+build_time=620
+chance=30
+
+%def :image, "temple-5-tile.0.0"
+%buil_image 3, 3, 1, 4, 2

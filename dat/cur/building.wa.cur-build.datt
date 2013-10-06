@@ -1,0 +1,151 @@
+%resource "cur"
+obj=building
+copyright=wa
+type=cur
+chance=15
+----
+name=wa-cur-o01
+passengers=20
+build_time=300
+%def :image, "o1-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-o02
+passengers=20
+build_time=400
+%def :image, "o2-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+
+
+----
+name=wa-cur-l01
+passengers=40
+build_time=500
+%def :image, "l01-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l02
+passengers=40
+build_time=600
+%def :image, "l02-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l03
+passengers=40
+build_time=700
+%def :image, "l03-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l04
+passengers=40
+build_time=800
+%def :image, "l04-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l05
+passengers=40
+build_time=900
+%def :image, "l05-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l06
+passengers=40
+build_time=1000
+%def :image, "l06-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l07
+passengers=40
+build_time=1100
+%def :image, "l07-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l08
+passengers=40
+build_time=1200
+%def :image, "l08-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l09
+passengers=40
+build_time=1300
+%def :image, "l09-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l10
+passengers=40
+build_time=1400
+%def :image, "l10-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l11
+passengers=40
+build_time=1500
+%def :image, "l11-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l12
+passengers=40
+build_time=1600
+%def :image, "l12-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-l13
+passengers=40
+build_time=1700
+%def :image, "l13-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+
+
+----
+name=wa-cur-m01
+passengers=40
+build_time=1800
+%def :image, "m1-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-m02
+passengers=40
+build_time=1900
+%def :image, "m2-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-m03
+passengers=40
+build_time=2000
+%def :image, "m3-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+----
+name=wa-cur-m04
+passengers=40
+build_time=2100
+%def :image, "m4-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+
+----
+name=wa-cur-h01
+passengers=40
+build_time=2200
+%def :image, "h1-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 2, 4, 2
+

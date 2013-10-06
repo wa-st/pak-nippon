@@ -1,0 +1,48 @@
+obj=building
+type=hq
+name=wa-headquarter-1
+noinfo=1
+copyright=wa
+hq_level=0
+passengers=20
+%def :image, "hq-1-tile.0.0"
+%buil_image 1, 1, 1, 4, 2
+--------------------
+obj=building
+type=hq
+name=wa-headquarter-2
+copyright=wa
+noinfo=1
+hq_level=1
+passengers=80
+%def :image, "hq-2-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+
+--------------------
+obj=building
+type=hq
+name=wa-headquarter-3
+copyright=wa
+noinfo=1
+hq_level=2
+passengers=150
+%def :image, "hq-3-tile.0.0"
+%buil_image 2, 2, 2, 4, 2
+--------------------
+obj=building
+type=hq
+name=wa-headquarter-4
+noinfo=1
+hq_level=3
+passengers=100
+%def :image, "hq-4-tile.0.0"
+%buil_image 2, 2, 2, 4, 2
+--------------------
+obj=building
+type=hq
+name=wa-headquarter-5
+noinfo=1
+hq_level=4
+passengers=300
+%def :image, "hq-5-tile.0.0"
+%buil_image 2, 2, 3, 4, 2

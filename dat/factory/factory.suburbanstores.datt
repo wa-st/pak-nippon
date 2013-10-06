@@ -1,0 +1,62 @@
+%require "factories.datt", addon: false
+---
+Obj=factory
+name=713-moebelhaus
+copyright=713
+
+%include "Moebelhaus", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+
+# >>> suburbanstores.zip: nitori.dat
+#intro_year=1967
+#retire_year=2100
+Dims=3,3,1
+BackImage[0][0][0][0][0]=nitori.0.0
+BackImage[0][0][1][0][0]=nitori.0.1
+BackImage[0][0][2][0][0]=nitori.0.2
+BackImage[0][1][0][0][0]=nitori.1.0
+BackImage[0][1][1][0][0]=nitori.1.1
+BackImage[0][1][2][0][0]=nitori.1.2
+BackImage[0][2][0][0][0]=nitori.2.0
+BackImage[0][2][1][0][0]=nitori.2.1
+BackImage[0][2][2][0][0]=nitori.2.2
+BackImage[0][0][0][1][0]=nitori.3.0
+BackImage[0][0][1][1][0]=nitori.3.1
+BackImage[0][0][2][1][0]=nitori.3.2
+BackImage[0][1][0][1][0]=nitori.4.0
+BackImage[0][2][0][1][0]=nitori.5.0
+#<<<
+---
+Obj=factory
+name=713-buchgrosshandel
+copyright=713
+
+%include "Buchgrosshandel", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+
+# >>> suburbanstores.zip: bookoff.dat
+#intro_year=1991
+#retire_year=2100
+Dims=2,2,1
+BackImage[0][0][0][0][0]=bookoff.0.0
+BackImage[0][0][1][0][0]=bookoff.0.1
+BackImage[0][1][0][0][0]=bookoff.1.0
+BackImage[0][1][1][0][0]=bookoff.1.1
+#<<<
+---
+Obj=factory
+name=713-chemist
+copyright=713
+
+%include "CHEMIST", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+
+# >>> suburbanstores.zip: matsukiyo.dat
+#intro_year=1954
+#retire_year=2100
+Dims=2,2,1
+BackImage[0][0][0][0][0]=matsukiyo.0.0
+BackImage[0][0][1][0][0]=matsukiyo.0.1
+BackImage[0][1][0][0][0]=matsukiyo.1.0
+BackImage[0][1][1][0][0]=matsukiyo.1.1
+#<<<

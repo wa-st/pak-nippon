@@ -1,0 +1,21 @@
+obj=building
+name=wa-cur-kofun-1
+copyright=wa
+type=cur
+passengers=10
+build_time=0
+chance=20
+
+%def :image, "kofun-1-tile.0.0"
+%buil_image 4, 3, 1, 4, 2
+---
+obj=building
+name=wa-cur-kofun-2
+copyright=wa
+type=cur
+passengers=20
+build_time=0
+chance=20
+
+%def :image, "kofun-2-tile.0.0"
+%buil_image 3, 3, 1, 1, 2

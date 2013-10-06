@@ -1,0 +1,37 @@
+%resource "pedestrian"
+obj=pedestrian
+distributionweight=3
+copyright=wa
+Image[S]=#{img(0, 0)},-14,-7
+Image[E]=#{img(0, 0)},-14,7
+Image[SE]=#{img(0, 0)},-17,0
+Image[SW]=#{img(0, 0)},0,-10
+Image[N]=#{img(0, 0)},14,7
+Image[W]=#{img(0, 0)},14,-7
+Image[NW]=#{img(0, 0)},17,0
+Image[NE]=#{img(0, 0)},0,10
+
+---
+name=wa-pedestrian-1
+%def :image, "pedestrian.0.0"
+%include "pedestrian"
+---
+name=wa-pedestrian-2
+%def :image, "pedestrian.1.0"
+%include "pedestrian"
+---
+name=wa-pedestrian-3
+%def :image, "pedestrian.2.0"
+%include "pedestrian"
+---
+name=wa-pedestrian-4
+%def :image, "pedestrian.3.0"
+%include "pedestrian"
+---
+name=wa-pedestrian-5
+%def :image, "pedestrian.4.0"
+%include "pedestrian"
+---
+name=wa-pedestrian-6
+%def :image, "pedestrian.5.0"
+%include "pedestrian"

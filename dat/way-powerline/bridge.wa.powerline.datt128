@@ -1,0 +1,73 @@
+%resource 'powerline-bridge'
+Obj=bridge
+copyright=wa
+waytype=power
+cost=70000
+maintenance=700
+max_lenght=5
+cursor=#{nm}.17.1
+icon=> #{nm}.17.0
+BackImage[NS]=-
+BackImage[EW]=-
+BackImage2[NS]=-
+BackImage2[EW]=-
+BackRamp[N]=-
+BackRamp[W]=-
+BackRamp[S]=-
+BackRamp[E]=-
+BackRamp2[N]=-
+BackRamp2[W]=-
+BackRamp2[S]=-
+BackRamp2[E]=-
+BackStart[N]=-
+BackStart[W]=-
+BackStart[S]=-
+BackStart[E]=-
+BackStart2[N]=-
+BackStart2[W]=-
+BackStart2[S]=-
+BackStart2[E]=-
+FrontImage[NS]=#{nm}.16.0,0,-64
+FrontImage[EW]=#{nm}.16.1,0,-64
+FrontImage2[NS]=#{nm}.16.0,0,-64
+FrontImage2[EW]=#{nm}.16.1,0,-64
+FrontRamp[N]=#{nm}.12.0,0,-64
+FrontRamp[W]=#{nm}.12.1,0,-64
+FrontRamp[S]=#{nm}.12.2,0,-64
+FrontRamp[E]=#{nm}.12.3,0,-64
+FrontRamp2[N]=#{nm}.13.0,0,-64
+FrontRamp2[W]=#{nm}.13.1,0,-64
+FrontRamp2[S]=#{nm}.13.2,0,-64
+FrontRamp2[E]=#{nm}.13.3,0,-64
+FrontStart[N]=#{nm}.14.2,0,-56
+FrontStart[W]=#{nm}.14.3,0,-56
+FrontStart[S]=#{nm}.14.0,0,-56
+FrontStart[E]=#{nm}.14.1,0,-56
+FrontStart2[N]=#{nm}.15.2,0,-48
+FrontStart2[W]=#{nm}.15.3,0,-48
+FrontStart2[S]=#{nm}.15.0,0,-48
+FrontStart2[E]=#{nm}.15.1,0,-48
+---
+%def :nm, 'powerline1a'
+name=wa-#{nm}-bridge
+%include 'powerline-bridge'
+---
+%def :nm, 'powerline1b'
+name=wa-#{nm}-bridge
+%include 'powerline-bridge'
+---
+%def :nm, 'powerline2'
+name=wa-#{nm}-bridge
+%include 'powerline-bridge'
+---
+%def :nm, 'powerline2hv'
+name=wa-#{nm}-bridge
+%include 'powerline-bridge'
+---
+%def :nm, 'powerline2red'
+name=wa-#{nm}-bridge
+%include 'powerline-bridge'
+---
+%def :nm, 'powerline4'
+name=wa-#{nm}-bridge
+%include 'powerline-bridge'
