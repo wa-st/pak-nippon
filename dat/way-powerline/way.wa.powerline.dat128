@@ -1,5 +1,6 @@
 ---
 name=wa-powerline1a
+copyright=wa
 Obj=way
 waytype=power
 cost=800
@@ -45,6 +46,7 @@ Diagonal[NW][0]=powerline1a.8.0,0,-64
 Diagonal[SW][0]=powerline1a.8.1,0,-64
 ---
 name=wa-powerline1b
+copyright=wa
 Obj=way
 waytype=power
 cost=800
@@ -90,6 +92,7 @@ Diagonal[NW][0]=powerline1b.8.0,0,-64
 Diagonal[SW][0]=powerline1b.8.1,0,-64
 ---
 name=wa-powerline2
+copyright=wa
 Obj=way
 waytype=power
 cost=800
@@ -135,6 +138,7 @@ Diagonal[NW][0]=powerline2.8.0,0,-64
 Diagonal[SW][0]=powerline2.8.1,0,-64
 ---
 name=wa-powerline2hv
+copyright=wa
 Obj=way
 waytype=power
 cost=800
@@ -180,6 +184,7 @@ Diagonal[NW][0]=powerline2hv.8.0,0,-64
 Diagonal[SW][0]=powerline2hv.8.1,0,-64
 ---
 name=wa-powerline2red
+copyright=wa
 Obj=way
 waytype=power
 cost=800
@@ -225,6 +230,7 @@ Diagonal[NW][0]=powerline2red.8.0,0,-64
 Diagonal[SW][0]=powerline2red.8.1,0,-64
 ---
 name=wa-powerline4
+copyright=wa
 Obj=way
 waytype=power
 cost=800

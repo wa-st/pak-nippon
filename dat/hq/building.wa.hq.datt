@@ -1,8 +1,8 @@
 obj=building
 type=hq
 name=wa-headquarter-1
-noinfo=1
 copyright=wa
+noinfo=1
 hq_level=0
 passengers=20
 %def :image, "hq-1-tile.0.0"
@@ -32,6 +32,7 @@ passengers=150
 obj=building
 type=hq
 name=wa-headquarter-4
+copyright=wa
 noinfo=1
 hq_level=3
 passengers=100
@@ -41,6 +42,7 @@ passengers=100
 obj=building
 type=hq
 name=wa-headquarter-5
+copyright=wa
 noinfo=1
 hq_level=4
 passengers=300
