@@ -1,0 +1,73 @@
+%require '..\common.datt'
+--------------------------
+Obj=bridge
+name=wa-concrete-sleeper-track-bridge
+copyright=wa
+waytype=track
+cost=24000
+maintenance=800
+topspeed=200
+pillar_distance=2
+pillar_asymmetric=1
+max_length=20
+
+%def :fn, "bridge-1"
+%include 'bridge-image'
+
+--------------------------
+Obj=bridge
+name=wa-slab-track-bridge
+copyright=wa
+waytype=track
+cost=80000
+maintenance=1600
+topspeed=450
+pillar_distance=2
+pillar_asymmetric=1
+max_length=20
+
+%def :fn, "bridge-2"
+%include 'bridge-image'
+--------------------------
+Obj=bridge
+name=wa-girder-track-bridge
+copyright=wa
+waytype=track
+cost=10000
+maintenance=400
+topspeed=120
+pillar_distance=2
+pillar_asymmetric=1
+max_length=10
+
+%def :fn, "bridge-3"
+%include 'bridge-image'
+--------------------------
+Obj=bridge
+name=wa-girder-track-bridge2
+copyright=wa
+waytype=track
+cost=10000
+maintenance=400
+topspeed=120
+pillar_distance=3
+pillar_asymmetric=1
+max_length=10
+
+%def :fn, "bridge-4"
+%include 'bridge-image'
+--------------------------
+Obj=bridge
+name=wa-truss-track-bridge
+copyright=wa
+waytype=track
+cost=10000
+maintenance=400
+topspeed=120
+pillar_distance=3
+pillar_asymmetric=1
+max_length=10
+
+%def :fn, "bridge-5"
+%include 'bridge-image'
+%include 'bridge-front-image'

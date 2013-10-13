@@ -1,69 +1,41 @@
+%require '..\common.datt'
+---
 %resource 'powerline-way'
 copyright=wa
 Obj=way
 waytype=power
 cost=800
 maintenance=50
-icon=> #{nm}.9.0
-cursor=#{nm}.9.1
 
-Image[S][0]=#{nm}.0.0,0,-64
-Image[E][0]=#{nm}.0.1,0,-64
-Image[N][0]=#{nm}.0.2,0,-64
-Image[W][0]=#{nm}.0.3,0,-64
+%def :offset, ",0,-64"
+%include "way-img-summer"
+%undef /diagonal.+/
 
-Image[SE][0]=#{nm}.1.0,0,-64
-Image[NE][0]=#{nm}.1.1,0,-64
-Image[NW][0]=#{nm}.1.2,0,-64
-Image[SW][0]=#{nm}.1.3,0,-64
-
-Image[NS][0]=#{nm}.2.0,0,-64
-Image[EW][0]=#{nm}.2.1,0,-64
-
-Image[NSEW][0]=#{nm}.3.0,0,-64
-
-Image[-][0]=#{nm}.4.0,0,-64
-
-Image[NSE][0]=#{nm}.5.0,0,-64
-Image[NEW][0]=#{nm}.5.1,0,-64
-Image[NSW][0]=#{nm}.5.2,0,-64
-Image[SEW][0]=#{nm}.5.3,0,-64
-
-ImageUp[12][0]=#{nm}.6.0,0,-64
-ImageUp[9][0]=#{nm}.6.1,0,-64
-ImageUp[3][0]=#{nm}.6.2,0,-64
-ImageUp[6][0]=#{nm}.6.3,0,-64
-
-ImageUp2[12][0]=#{nm}.7.0,0,-64
-ImageUp2[9][0]=#{nm}.7.1,0,-64
-ImageUp2[3][0]=#{nm}.7.2,0,-64
-ImageUp2[6][0]=#{nm}.7.3,0,-64
-
-Diagonal[NE][0]=#{nm}.8.0,0,-64
-Diagonal[SE][0]=#{nm}.8.1,0,-64
-Diagonal[NW][0]=#{nm}.8.0,0,-64
-Diagonal[SW][0]=#{nm}.8.1,0,-64
+Diagonal[NE][0]=#{fn}.8.0#{offset}
+Diagonal[SE][0]=#{fn}.8.1#{offset}
+Diagonal[NW][0]=#{fn}.8.0#{offset}
+Diagonal[SW][0]=#{fn}.8.1#{offset}
 ---
-%def :nm, 'powerline1a'
-name=wa-#{nm}
+%def :fn, 'powerline1a'
+name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :nm, 'powerline1b'
-name=wa-#{nm}
+%def :fn, 'powerline1b'
+name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :nm, 'powerline2'
-name=wa-#{nm}
+%def :fn, 'powerline2'
+name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :nm, 'powerline2hv'
-name=wa-#{nm}
+%def :fn, 'powerline2hv'
+name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :nm, 'powerline2red'
-name=wa-#{nm}
-%include 'powerline-way'
+#%def :fn, 'powerline2red'
+#name=wa-#{fn}
+#%include 'powerline-way'
 ---
-%def :nm, 'powerline4'
-name=wa-#{nm}
+%def :fn, 'powerline4'
+name=wa-#{fn}
 %include 'powerline-way'

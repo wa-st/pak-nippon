@@ -1,0 +1,62 @@
+%require '..\common.datt'
+---
+obj=way
+name=wa-river-1
+copyright=wa
+cost=1000000
+maintenance=100
+topspeed=0
+max_weight=1000
+waytype=water
+system_type=255
+
+%def :offset, ""
+%def :fn, "waterway-1"
+%include 'way-img-summer'
+%undef /diagonal.+/
+
+---
+obj=way
+name=wa-river-2
+copyright=wa
+cost=1000000
+maintenance=100
+topspeed=0
+max_weight=1000
+waytype=water
+system_type=255
+
+%def :offset, ""
+%def :fn, "waterway-2"
+%include 'way-img-summer'
+%undef /diagonal.+/
+---
+obj=way
+name=wa-river-3
+copyright=wa
+cost=1000000
+maintenance=100
+topspeed=0
+max_weight=1000
+waytype=water
+system_type=255
+
+%def :offset, ""
+%def :fn, "waterway-3"
+%include 'way-img-summer'
+%undef /diagonal.+/
+---
+obj=way
+name=wa-canal
+copyright=wa
+cost=1000000
+maintenance=100
+topspeed=30
+max_weight=1000
+waytype=water
+draw_as_ding=1
+
+%def :offset, ""
+%def :fn, "waterway-4"
+%include 'way-img-summer'
+%undef /diagonal.+/

@@ -1,0 +1,10 @@
+(fn=ARG1, at=ARG3, it=ARG4, otheril = ARG5, iconlayer = ARG6)
+(vl="*", il="["+it+"*]*;*アイコン*;~*;"+otheril)
+[0, 0 - 256,256][][][]
+=== ===
+=== ===
+(vl="*", il="["+it+"*]*;~*;"+otheril)
+["アイコン"]
+(fn="icons.xcfgz")
+(vl="*", il="~*;"+otheril)
+[iconlayer]

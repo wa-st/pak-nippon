@@ -1,49 +1,4 @@
 ---
-name=wa-powerline1a-tunnel
-Obj=tunnel
-copyright=wa
-waytype=power
-cost=100000
-maintenance=5000
-way=wa-underground-powerline
-cursor=powerline1a.11.1
-icon=> powerline1a.11.0
-FrontImage[N]=powerline1a.10.0,0,-64
-FrontImage[W]=powerline1a.10.1,0,-64
-FrontImage[S]=powerline1a.10.2,0,-64
-FrontImage[E]=powerline1a.10.3,0,-64
-
----
-name=wa-powerline1b-tunnel
-Obj=tunnel
-copyright=wa
-waytype=power
-cost=100000
-maintenance=5000
-way=wa-underground-powerline
-cursor=powerline1b.11.1
-icon=> powerline1b.11.0
-FrontImage[N]=powerline1b.10.0,0,-64
-FrontImage[W]=powerline1b.10.1,0,-64
-FrontImage[S]=powerline1b.10.2,0,-64
-FrontImage[E]=powerline1b.10.3,0,-64
-
----
-name=wa-powerline2-tunnel
-Obj=tunnel
-copyright=wa
-waytype=power
-cost=100000
-maintenance=5000
-way=wa-underground-powerline
-cursor=powerline2.11.1
-icon=> powerline2.11.0
-FrontImage[N]=powerline2.10.0,0,-64
-FrontImage[W]=powerline2.10.1,0,-64
-FrontImage[S]=powerline2.10.2,0,-64
-FrontImage[E]=powerline2.10.3,0,-64
-
----
 name=wa-powerline2hv-tunnel
 Obj=tunnel
 copyright=wa
@@ -57,34 +12,4 @@ FrontImage[N]=powerline2hv.10.0,0,-64
 FrontImage[W]=powerline2hv.10.1,0,-64
 FrontImage[S]=powerline2hv.10.2,0,-64
 FrontImage[E]=powerline2hv.10.3,0,-64
-
----
-name=wa-powerline2red-tunnel
-Obj=tunnel
-copyright=wa
-waytype=power
-cost=100000
-maintenance=5000
-way=wa-underground-powerline
-cursor=powerline2red.11.1
-icon=> powerline2red.11.0
-FrontImage[N]=powerline2red.10.0,0,-64
-FrontImage[W]=powerline2red.10.1,0,-64
-FrontImage[S]=powerline2red.10.2,0,-64
-FrontImage[E]=powerline2red.10.3,0,-64
-
----
-name=wa-powerline4-tunnel
-Obj=tunnel
-copyright=wa
-waytype=power
-cost=100000
-maintenance=5000
-way=wa-underground-powerline
-cursor=powerline4.11.1
-icon=> powerline4.11.0
-FrontImage[N]=powerline4.10.0,0,-64
-FrontImage[W]=powerline4.10.1,0,-64
-FrontImage[S]=powerline4.10.2,0,-64
-FrontImage[E]=powerline4.10.3,0,-64
 

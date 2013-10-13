@@ -1,3 +1,5 @@
+%require '..\common.datt'
+----
 %resource "summer-way"
 cursor=#{summer_img}.7.1
 icon=> #{summer_img}.7.0
@@ -250,3 +252,30 @@ draw_as_ding=1
 %def :offset, ",0,16"
 %def :summer_img, "road-100r-elv"
 %include "summer-way"
+
+---
+Obj=way
+Name=wa-dart-road
+copyright=wa
+cost=2000
+maintenance=100
+topspeed=25
+max_weight=15
+waytype=road
+
+%def :offset, ""
+%def :fn, "dart-1"
+%include "way-img"
+---
+Obj=way
+Name=wa-gavel-road
+copyright=wa
+cost=4000
+maintenance=300
+topspeed=40
+max_weight=30
+waytype=road
+
+%def :offset, ""
+%def :fn, "dart-2"
+%include "way-img"

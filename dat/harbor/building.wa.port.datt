@@ -1,0 +1,80 @@
+obj=building
+name=wa-port-1
+copyright=wa
+noinfo=1
+noconstruction=1
+type=habour
+level=1
+
+%def :image, "port1.0.0"
+icon=> #{img(1, 0)}
+cursor=#{img(1, 1)}
+%buil_image 1, 1, 1, 4, 1
+---
+obj=building
+name=wa-port-2
+copyright=wa
+noinfo=1
+noconstruction=1
+type=habour
+level=4
+
+%def :image, "port2-tile.0.0"
+icon=> #{img(4, 0)}
+cursor=#{img(4, 1)}
+%buil_image 1, 4, 1, 4, 1
+
+---
+obj=building
+name=wa-port-3a
+copyright=wa
+noinfo=1
+noconstruction=1
+type=habour
+level=2
+
+%def :image, "port3a-tile.0.0"
+icon=> #{img(4, 0)}
+cursor=#{img(4, 1)}
+%buil_image 1, 4, 1, 4, 1
+---
+obj=building
+name=wa-port-3b
+copyright=wa
+noinfo=1
+noconstruction=1
+type=habour
+level=2
+
+%def :image, "port3b-tile.0.0"
+icon=> #{img(4, 0)}
+cursor=#{img(4, 1)}
+%buil_image 1, 4, 1, 4, 1
+---
+obj=building
+name=wa-port-4
+copyright=wa
+noinfo=1
+noconstruction=1
+type=habour
+enables_pax=1
+level=2
+
+%def :image, "port4-tile.0.0"
+icon=> #{img(2, 0)}
+cursor=#{img(2, 1)}
+%buil_image 1, 2, 1, 4, 1
+---
+obj=building
+name=wa-port-5
+copyright=wa
+noinfo=1
+noconstruction=1
+type=habour
+enables_ware=1
+level=2
+
+%def :image, "port5-tile.0.0"
+icon=> #{img(4, 0)}
+cursor=#{img(4, 1)}
+%buil_image 1, 2, 2, 4, 1

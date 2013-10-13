@@ -1,0 +1,27 @@
+obj=building
+name=wa-car-depot
+copyright=wa
+type=depot
+waytype=road
+noinfo=1
+noconstruction= 1
+
+%def :image, 'car-depot.0.0'
+
+icon=> car-depot.2.0
+cursor=car-depot.2.1
+%buil_image 1, 1, 1, 4, 2, front: true
+---
+obj=building
+name=wa-train-depot
+copyright=wa
+type=depot
+waytype=track
+noinfo=1
+noconstruction= 1
+
+%def :image, 'train-depot.0.0'
+
+icon=> train-depot.2.0
+cursor=train-depot.2.1
+%buil_image 1, 1, 1, 4, 2, front: true

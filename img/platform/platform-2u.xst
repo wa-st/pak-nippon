@@ -1,0 +1,17 @@
+(fn="platform.xcfgz")
+(at="??u?:????", it="??-?:????", otheril = ARG3, iconlayer = "2u")
+(vl="["+at+"*]*", il="["+it+"*]*;~*;*アイコン*;"+otheril)
+[0, 0 - 256, 256][][][]
+===
+(fn="platform-2u.xcfgz")
+(vl="*", il="~*;*アイコン*;"+otheril)
+["背景"]
+===
+===
+===
+(fn="platform.xcfgz")
+(vl="*", il="["+it+"*]*;~*;"+otheril)
+["アイコン"]
+(fn="icons.xcfgz")
+(vl="*", il="~*;"+otheril)
+[iconlayer]
