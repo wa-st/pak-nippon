@@ -9,10 +9,10 @@
 
 
 # chance for renovation versus new building (bigger number => less sprawling)
-renovation_percentage = 12
+renovation_percentage = 1
 
 # citys will not growth further along exiting roads, if the buildings density is lower (in percent)
-minimum_building_density = 33
+minimum_building_density = 20
 
 #
 # relative affinities for certain building types which can lead to clustering of certain building types
@@ -62,93 +62,134 @@ ind_near_res = -8
 # Each row must have EXACTLY the same number of members!
 #
 
-
-# Haus am Strassenrand
+#  ...
+#  Hn.
+#  sss
 house_1 = ... Hn. sss
 house_1.chance = -2
-
-# Haus am Strassenrand
 house_2 = ... .nH sss
 house_2.chance = -2
 
-# Haus an der Ecke (too fast following diagonals)
+#  ...
+#  .ns
+#  .ss
 #house_3 = ... .ns .ss
 #house_3.chance = -7
-
-# Haus an der Ecke (too fast following diagonals)
 #house_4 = ... sn. ss.
 #house_4.chance = -7
 
-# fehlendes Haus an der Ecke
+#  ...
+#  hns
+#  .ss
 house_3 = ... hns .ss
 house_3.chance = -7
-
-# fehlendes Haus an der Ecke
 house_4 = ... snh ss.
 house_4.chance = -7
 
-# fehlendes Haus vom Block
+#  .h.
+#  hns
+#  .sH
 house_5 = .h. hns .sH
 house_5.chance = -7
-
-# fehlendes Haus vom Block
 house_6 = .h. snh Hs.
 house_6.chance = -7
 
-# Haus "mittendrin"
+#  .h.
+#  hnh
+#  .s.
 house_7 = .h. hnh .s.
 house_7.chance = -7
 
-# House in an empty area in between houses
+#  hhh
+#  hnh
+#  ...
 house_8 = hhh hnh ...
 house_8.chance = -7
 
-# House in an empty area in between houses
+#  ...
+#  hnh
+#  ...
 house_9 = ... hnh ...
 house_9.chance = -7
 
-# House in an empty area in between houses
+#  ...
+#  s.h
+#  ...
 house_10 = ... snh ...
 house_10.chance = -7
 
-# House in curve hole
-house_11 = hsh Hss HhH
+#  sss
+#  nnn
+#  ...
+house_11 = sss nnn ...
 house_11.chance = -7
 
-# House on other road side
-house_12 = sss nnn ...
-house_12.chance = -7
+#################################################
+# 直線延伸
+#  ...
+#  SnS
+#  SsS
+road_1 = ... SnS SsS
+road_1.chance = 0
 
+# 丁字路作成
+#  .....
+#  .S.S.
+#  SSnSS
+#  sssss
+#  .....
+road_2 = ..... .S.S. SSnSS sssss .....
+road_2.chance = 7
 
-# Strassenende weiterbauen
-road_1 = .H. SnS .sS
-road_1.chance = 8
+# 丁字路から十字路
+#  .....
+#  .....
+#  .SnS.
+#  .sss.
+#  ..s..
+road_3 = ..... ..... .SnS. .sss. ..s..
+road_3.chance = 0
 
-# Strassenende weiterbauen
-road_2 = .H. .n. SsS
-road_2.chance = 4
+# 丁字路2列
+#  .......
+#  .......
+#  .......
+#  .SSnSSs
+#  sssssss
+#  .......
+#  .......
+road_4 = ....... ....... ....... .SSnSSs sssssss ....... .......
+road_4.chance = 0
+road_5 = ....... ....... ....... sSSnSS. sssssss ....... .......
+road_5.chance = 0
 
-# Strassenende weiterbauen
-road_3 = ... SnS SsS
-road_3.chance = -2
+# L字
+#  .....
+#  .....
+#  SSnS.
+#  sssS.
+#  S.S..
+road_6 = ..... ..... SSnS. sssS. S.S..
+road_6.chance = 0
+road_7 = ..... ..... .SnSS .Ssss ..S.S
+road_7.chance = 0
 
-# L�cke schlie�en
-road_4 = .h. hns .sh
-road_4.chance = 2
+# L字→丁字路 or 丁字路→十字路
+#  .....
+#  .....
+#  .SnS.
+#  .ss..
+#  ..s..
+road_8 = ..... ..... .SnS. .ss.. ..s..
+road_8.chance = 0
+road_9 = ..... ..... .SnS. ..ss. ..s..
+road_9.chance = 0
 
-# L�cke schlie�en
-road_5 = .h. snh hs.
-road_5.chance = 2
-
-# Einmuendung in Natur
-road_6 = .H. nnn sss
-road_6.chance = 3
-
-# Einmuendung in Natur
-road_7 = SHS nnn sss
-road_7.chance = -1
-
-# Einmuendung zwischen 2 H�usern
-road_8 = .H. hnh sss
-road_8.chance = -5
-
+# 接続
+#  .S.
+#  snS
+#  Ss.
+road_10 = .S. snS Ss.
+road_10.chance = 7
+road_11 = .S. Sns .sS
+road_11.chance = 7

@@ -153,7 +153,7 @@ diagonal_multiplier = 724
 draw_earth_border = 1
 
 # Tile the outside with the ground.ouside.pak (default 0 off)
-draw_outside_tile = 1
+draw_outside_tile = 0
 
 # special pak set colors for day and night
 special_color[0]=0x57, 0x65, 0x6F, 0xD3, 0xC3, 0x80 // Dark windows, lit yellowish at night
@@ -294,23 +294,19 @@ intercity_road_length = 70
 
 # Type of initial intercity roads - must be available
 # as PAK file. Fallback (if PAK is not found) is "asphalt_road"
-intercity_road[0] = asphalt_road, 1955
-intercity_road[1] = cobblestone_road, 1500
-intercity_road[2] = dirt_road, 0
+intercity_road[0] = wa-road-70r, 0
 
 # Type of city roads - must be available as PAK file.
 # order is random
 # format is besch_name[,into_year[,retire_year]]
 # if intro or retire is not given, the default dates from the pak is used
-city_road[0] = city_road, 1945
-city_road[1] = cobblestone_road, 1921
-city_road[2] = gavel_road, 1830
-city_road[3] = dirt_road, 0
+city_road[0] = city_road, 0
 
 # rivers:
 # The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
-river_type[0] = river
-river_type[1] = river2
+river_type[0] = wa-river-1
+river_type[1] = wa-river-2
+river_type[2] = wa-river-3
 
 # start with 16 (looks nice on not too large maps)
 river_number = 16
@@ -320,4 +316,9 @@ river_min_length = 20
 
 # river max length (not too long?)
 river_max_length = 512
-
+############################################################################
+tile_height = 8
+height_conversion_factor = 2
+drive_left = 1
+signals_on_left = 1
+station_coverage = 4
