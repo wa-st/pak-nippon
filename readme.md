@@ -9,6 +9,8 @@
 以下のファイルはpak64に由来するファイルです。
 利用条件はlicense\pak64_licence.txtを参照してください。
 
+- config\cityrules.tab
+- config\simuconf.tab
 - dat\factory\factories.datt
 - dat\factory\factory_waste_factories.datt
 - dat\factory\power.datt
