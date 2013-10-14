@@ -9,6 +9,8 @@ enables_ware=1
 Level=2
 waytype=track
 needs_ground=1
+noconstruction=1
+
 cursor=fplatform-1.4.1
 icon=> fplatform-1.4.0
 
@@ -39,6 +41,8 @@ enables_ware=1
 Level=2
 waytype=track
 needs_ground=1
+noconstruction=1
+
 cursor=fplatform-1.4.3
 icon=> fplatform-1.4.2
 
@@ -47,3 +51,20 @@ BackImage[1][0][0][0][0]=fplatform-1.0.1
 FrontImage[0][0][0][0][0]=fplatform-1.0.2
 FrontImage[1][0][0][0][0]=fplatform-1.0.3
 
+---
+obj=building
+name=wa-freight-platform-3
+copyright=wa
+NoInfo=1
+Dims=1,1,2
+Type=stop
+enables_ware=1
+Level=2
+waytype=track
+noconstruction=1
+
+cursor=freight-platform-3.2.1
+icon=> freight-platform-3.2.0
+
+BackImage[0][0][0][0][0]=freight-platform-3.0.0
+BackImage[1][0][0][0][0]=freight-platform-3.0.1

@@ -50,6 +50,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.Feste.pak
 @del %TARGET_DIR%\building.Fluid_StationBlg.pak
 @del %TARGET_DIR%\building.FreightShipStop.pak
+@del %TARGET_DIR%\building.FreightTrainStop.pak
 @del %TARGET_DIR%\building.GCG1TrainStop.pak
 @del %TARGET_DIR%\building.GCG2TrainStop.pak
 @del %TARGET_DIR%\building.GCGTrainStop.pak
@@ -72,10 +73,13 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.Raven_Kirche.pak
 @del %TARGET_DIR%\building.STADIUM2.pak
 @del %TARGET_DIR%\building.SandStationMHz.pak
+@del %TARGET_DIR%\building.ShipDepot.pak
+@del %TARGET_DIR%\building.ShipDepotEW.pak
 @del %TARGET_DIR%\building.ShipStop.pak
 @del %TARGET_DIR%\building.TrainDepot.pak
 @del %TARGET_DIR%\building.Theatre.pak
 @del %TARGET_DIR%\building.TrainStop.pak
+@del %TARGET_DIR%\building.TramDepot.pak
 @del %TARGET_DIR%\building.VictorianStation.pak
 @del %TARGET_DIR%\building.Vorplatz.pak
 @del %TARGET_DIR%\building.Windmill.pak
@@ -131,6 +135,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\ground.Marker.pak
 @del %TARGET_DIR%\ground.Outside.pak
 @del %TARGET_DIR%\ground.ShoreTrans.pak
+@del %TARGET_DIR%\ground.SlopeTrans.pak
 @del %TARGET_DIR%\ground.Slopes.pak
 @del %TARGET_DIR%\ground.Water.pak
 @del %TARGET_DIR%\ground_obj.Hochsitz1.pak
@@ -144,9 +149,12 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\misc.Sidewalk.pak
 @del %TARGET_DIR%\pedestrian.*.pak
 @del %TARGET_DIR%\roadsign.ChooseSignals.pak
+@del %TARGET_DIR%\roadsign.ChooseSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.LongBlockSignals.pak
 @del %TARGET_DIR%\roadsign.Signals.pak
+@del %TARGET_DIR%\roadsign.SignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.preSignals.pak
+@del %TARGET_DIR%\roadsign.preSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.traffic_light.pak
 @del %TARGET_DIR%\tree.*.pak
 @del %TARGET_DIR%\tunnel.FastRailTunnel.pak
@@ -158,6 +166,7 @@ REM @del %TARGET_DIR%\vehicle.*.pak
 @del %TARGET_DIR%way-object.SlowOverheadpower.pak
 @del %TARGET_DIR%\way.Kanal.pak
 @del %TARGET_DIR%\way.Powerline.pak
+@del %TARGET_DIR%\way.Rillenschienen.pak
 @del %TARGET_DIR%\way.asphalt_road.pak
 @del %TARGET_DIR%\way.city_road.pak
 @del %TARGET_DIR%\way.cobblestone_road.pak
@@ -170,6 +179,9 @@ REM @del %TARGET_DIR%\vehicle.*.pak
 @del %TARGET_DIR%\way.sand_track.pak
 @del %TARGET_DIR%\way.steel_sleeper_track.pak
 @del %TARGET_DIR%\way.wooden_sleeper_track.pak
+@del %TARGET_DIR%\way-object.HighSpeedOverheadpower.pak
+@del %TARGET_DIR%\way-object.SlowOverheadpower.pak
+
 
 @del %TARGET_DIR%\compat.tab
 

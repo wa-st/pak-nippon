@@ -4,7 +4,7 @@ copyright=wa
 type=depot
 waytype=road
 noinfo=1
-noconstruction= 1
+noconstruction=1
 
 %def :image, 'car-depot.0.0'
 
@@ -18,10 +18,38 @@ copyright=wa
 type=depot
 waytype=track
 noinfo=1
-noconstruction= 1
+noconstruction=1
 
 %def :image, 'train-depot.0.0'
 
 icon=> train-depot.2.0
 cursor=train-depot.2.1
+%buil_image 1, 1, 1, 4, 2, front: true
+---
+obj=building
+name=wa-ship-depot
+copyright=wa
+type=depot
+waytype=water
+noinfo=1
+noconstruction=1
+
+%def :image, 'ship-depot.0.0'
+
+icon=> ship-depot.2.0
+cursor=ship-depot.2.1
+%buil_image 1, 1, 1, 4, 2, front: true
+---
+obj=building
+name=wa-tram-depot
+copyright=wa
+type=depot
+waytype=tram_track
+noinfo=1
+noconstruction=1
+
+%def :image, 'tram-depot.0.0'
+
+icon=> tram-depot.2.0
+cursor=tram-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true

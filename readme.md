@@ -29,6 +29,16 @@
 
 参照: [Addon128/Buildings02 - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?Addon128%2FBuildings02)
 
+###りむ氏が作成されたファイルについて
+
+以下のファイルはりむ氏が作成された「日本風左側通行信号機セット」に由来するファイルです。
+利用条件はlicense\JpLeftSignais_readme.txtを参照してください。
+
+- dat\signal\Signals.png
+- dat\signal\roadsign.monorail-signals.dat
+- dat\signal\roadsign.railsignals.dat
+
+参照: [アドオン/railtool - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?%A5%A2%A5%C9%A5%AA%A5%F3%2Frailtool)
 
 ###市区町村一覧について
 

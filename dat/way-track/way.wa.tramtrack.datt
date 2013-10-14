@@ -1,0 +1,27 @@
+%require '..\common.datt'
+---
+Obj=way
+Name=wa-tramtrack-1
+copyright=wa
+waytype=tram_track
+cost=10000
+maintenance=1000
+topspeed=90
+max_weight=180
+
+%def :offset, ""
+%def :fn, "tramtrack-1"
+%include 'way-img-summer'
+---
+Obj=way
+Name=wa-tramtrack-2
+copyright=wa
+waytype=tram_track
+cost=10000
+maintenance=1000
+topspeed=90
+max_weight=180
+
+%def :offset, ""
+%def :fn, "tramtrack-2"
+%include 'way-img-summer'
