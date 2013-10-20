@@ -1,0 +1,39 @@
+%resource 'post-common'
+obj=building
+copyright=wa
+noinfo=1
+noconstruction=1
+type=extension
+enables_post=1
+cursor=#{img(0, 5)}
+icon=> #{img(0, 4)}
+---
+name=wa-post-office-1
+level=3
+%def :image, 'post-office.0.0'
+%include 'post-common'
+%buil_image 1, 1, 1, 4, 2
+---
+name=wa-post-office-2
+level=1
+%def :image, 'post-office.2.0'
+%include 'post-common'
+%buil_image 1, 1, 1, 4, 2
+---
+name=wa-post-office-3a
+level=10
+%def :image, 'post-office.4.0'
+%include 'post-common'
+%buil_image 1, 1, 1, 2, 2
+---
+name=wa-post-office-3b
+level=10
+%def :image, 'post-office.6.0'
+%include 'post-common'
+%buil_image 1, 1, 1, 4, 2
+---
+name=wa-post-office-4
+level=2
+%def :image, 'post-office.8.0'
+%include 'post-common'
+%buil_image 1, 1, 1, 4, 2
