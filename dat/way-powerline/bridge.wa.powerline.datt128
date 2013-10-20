@@ -48,26 +48,26 @@ FrontStart2[W]=#{nm}.15.3,0,-48
 FrontStart2[S]=#{nm}.15.0,0,-48
 FrontStart2[E]=#{nm}.15.1,0,-48
 ---
-#%def :nm, 'powerline1a'
+#%def :nm, 'powerline-1a'
 #name=wa-#{nm}-bridge
 #%include 'powerline-bridge'
 ---
-#%def :nm, 'powerline1b'
+#%def :nm, 'powerline-1b'
 #name=wa-#{nm}-bridge
 #%include 'powerline-bridge'
 ---
-#%def :nm, 'powerline2'
+#%def :nm, 'powerline-2'
 #name=wa-#{nm}-bridge
 #%include 'powerline-bridge'
 ---
-%def :nm, 'powerline2hv'
+%def :nm, 'powerline-2hv'
 name=wa-#{nm}-bridge
 %include 'powerline-bridge'
 ---
-%def :nm, 'powerline2red'
+%def :nm, 'powerline-2red'
 name=wa-#{nm}-bridge
 %include 'powerline-bridge'
 ---
-%def :nm, 'powerline4'
+%def :nm, 'powerline-4'
 name=wa-#{nm}-bridge
 %include 'powerline-bridge'

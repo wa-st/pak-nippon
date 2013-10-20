@@ -16,26 +16,26 @@ Diagonal[SE][0]=#{fn}.8.1#{offset}
 Diagonal[NW][0]=#{fn}.8.0#{offset}
 Diagonal[SW][0]=#{fn}.8.1#{offset}
 ---
-%def :fn, 'powerline1a'
+%def :fn, 'powerline-1a'
 name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :fn, 'powerline1b'
+%def :fn, 'powerline-1b'
 name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :fn, 'powerline2'
+%def :fn, 'powerline-2'
 name=wa-#{fn}
 %include 'powerline-way'
 ---
-%def :fn, 'powerline2hv'
+%def :fn, 'powerline-2hv'
 name=wa-#{fn}
 %include 'powerline-way'
 ---
-#%def :fn, 'powerline2red'
+#%def :fn, 'powerline-2red'
 #name=wa-#{fn}
 #%include 'powerline-way'
 ---
-%def :fn, 'powerline4'
+%def :fn, 'powerline-4'
 name=wa-#{fn}
 %include 'powerline-way'
