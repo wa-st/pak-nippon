@@ -78,3 +78,37 @@ level=2
 icon=> #{img(4, 0)}
 cursor=#{img(4, 1)}
 %buil_image 1, 2, 2, 4, 1
+---
+obj=building
+name=wa-canal-stop-1
+copyright=wa
+noinfo=1
+noconstruction=1
+type=stop
+waytype=water
+enables_pax=1
+level=1
+dims= 1,1,2
+
+%def :image, "canal-stop.0.0"
+icon=> #{img(0, 4)}
+cursor=#{img(0, 5)}
+backimage[0][0][0][0][0][0]=#{img(0, 0)}
+backimage[1][0][0][0][0][0]=#{img(0, 1)}
+---
+obj=building
+name=wa-canal-stop-2
+copyright=wa
+noinfo=1
+noconstruction=1
+type=stop
+waytype=water
+enables_ware=1
+level=1
+dims= 1,1,2
+
+%def :image, "canal-stop.1.0"
+icon=> #{img(0, 4)}
+cursor=#{img(0, 5)}
+backimage[0][0][0][0][0][0]=#{img(0, 0)}
+backimage[1][0][0][0][0][0]=#{img(0, 1)}
