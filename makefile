@@ -24,6 +24,9 @@ PAKS: building.wa.cur-build.pak \
 	building.wa.res.pak \
 	misc.wa.pak \
 	pedestrian.wa.pak \
+	roadsign.monorail-signals.pak \
+	roadsign.railsignals.pak \
+	roadsign.wa.roadsignals.pak \
 	building.wa.container-yard.pak \
 	building.wa.freight-station-misc.pak \
 	building.wa.freight-station-roof.pak \
@@ -36,6 +39,9 @@ PAKS: building.wa.cur-build.pak \
 	building.wa.platform-4.pak \
 	building.wa.platform-d.pak \
 	building.wa.platform-f.pak \
+	building.wa.post-office.pak \
+	building.wa.busstops.pak \
+	building.wa.freightstops.pak \
 	building.wa.townhall.pak \
 	tree.wa.pak \
 	tunnel.wa.railtrack.pak \
@@ -43,14 +49,13 @@ PAKS: building.wa.cur-build.pak \
 	tunnel.wa.water.pak \
 	way.wa.underground-powerline.pak \
 	bridge.wa.road.pak \
-	building.wa.busstops.pak \
-	building.wa.freightstops.pak \
 	crossing.wa.rail-road-crossing.pak \
-	roadsign.wa.traffic-light.pak \
 	way.wa.road.pak \
 	way.wa.wall.pak \
 	bridge.wa.railtrack.pak \
+	way-object.wa.catenary.pak \
 	way.wa.railtrack.pak \
+	way.wa.tramtrack.pak \
 	way.wa.water.pak \
 	bridge.wa.powerline.pak \
 	tunnel.wa.powerline.pak \
@@ -73,7 +78,7 @@ building.wa.cur-substation.pak: dat/cur/building.wa.cur-substation.dat dat/cur/s
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-substation.dat
 building.wa.cur-temple.pak: dat/cur/building.wa.cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-temple.dat
-building.wa.depot.pak: dat/depot/building.wa.depot.dat dat/depot/car-depot.png dat/depot/train-depot.png
+building.wa.depot.pak: dat/depot/building.wa.depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png
 	$(MAKEOBJ64) $@ dat/depot/building.wa.depot.dat
 factory.suburbanstores.pak: dat/factory/factory.suburbanstores.dat dat/factory/nitori.png dat/factory/bookoff.png dat/factory/matsukiyo.png
 	$(MAKEOBJ64) $@ dat/factory/factory.suburbanstores.dat
@@ -83,7 +88,7 @@ ground.Outside.pak: dat/ground/ground.Outside.dat dat/ground/water.png
 	$(MAKEOBJ64) $@ dat/ground/ground.Outside.dat
 ground.wa.pak: dat/ground/ground.wa.dat dat/ground/basement.png dat/ground/slopes.png dat/ground/water.png dat/ground/texture-climate.png dat/ground/texture-slope.png dat/ground/texture-shore.png dat/ground/texture-lightmap.png dat/ground/borders.png dat/ground/marker.png
 	$(MAKEOBJ64) $@ dat/ground/ground.wa.dat
-building.wa.port.pak: dat/harbor/building.wa.port.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png
+building.wa.port.pak: dat/harbor/building.wa.port.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png dat/harbor/canal-stop.png
 	$(MAKEOBJ64) $@ dat/harbor/building.wa.port.dat
 building.wa.hq.pak: dat/hq/building.wa.hq.dat dat/hq/hq-1-tile.png dat/hq/hq-2-tile.png dat/hq/hq-3-tile.png dat/hq/hq-4-tile.png dat/hq/hq-5-tile.png
 	$(MAKEOBJ64) $@ dat/hq/building.wa.hq.dat
@@ -91,19 +96,25 @@ building.wa.com.pak: dat/indcomres/building.wa.com.dat dat/indcomres/com-a.png d
 	$(MAKEOBJ64) $@ dat/indcomres/building.wa.com.dat
 building.wa.ind.pak: dat/indcomres/building.wa.ind.dat dat/indcomres/ind-a.png dat/indcomres/ind-l.png dat/indcomres/ind-m1.png dat/indcomres/ind-m2.png dat/indcomres/ind-h1.png dat/indcomres/ind-h2.png dat/indcomres/ind-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.wa.ind.dat
-building.wa.res.pak: dat/indcomres/building.wa.res.dat dat/indcomres/res-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-m.png dat/indcomres/res-h.png dat/indcomres/res-parking.png dat/indcomres/res-empty.png
+building.wa.res.pak: dat/indcomres/building.wa.res.dat dat/indcomres/res-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-p.png dat/indcomres/res-m.png dat/indcomres/res-h.png dat/indcomres/res-parking.png dat/indcomres/res-empty.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.wa.res.dat
 misc.wa.pak: dat/misc/misc.wa.dat dat/misc/power-trans.png dat/misc/constructionsite.png dat/misc/tiles.png
 	$(MAKEOBJ64) $@ dat/misc/misc.wa.dat
 pedestrian.wa.pak: dat/pedestrian/pedestrian.wa.dat dat/pedestrian/pedestrian.png
 	$(MAKEOBJ64) $@ dat/pedestrian/pedestrian.wa.dat
+roadsign.monorail-signals.pak: dat/signal/roadsign.monorail-signals.dat dat/signal/Signals.png
+	$(MAKEOBJ64) $@ dat/signal/roadsign.monorail-signals.dat
+roadsign.railsignals.pak: dat/signal/roadsign.railsignals.dat dat/signal/Signals.png
+	$(MAKEOBJ64) $@ dat/signal/roadsign.railsignals.dat
+roadsign.wa.roadsignals.pak: dat/signal/roadsign.wa.roadsignals.dat dat/signal/traffic-light.png
+	$(MAKEOBJ64) $@ dat/signal/roadsign.wa.roadsignals.dat
 building.wa.container-yard.pak: dat/stop-freight-station/building.wa.container-yard.dat dat/stop-freight-station/containers.png dat/stop-freight-station/freight-station-office.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.container-yard.dat
 building.wa.freight-station-misc.pak: dat/stop-freight-station/building.wa.freight-station-misc.dat dat/stop-freight-station/freight-platform-misc.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station-misc.dat
 building.wa.freight-station-roof.pak: dat/stop-freight-station/building.wa.freight-station-roof.dat dat/stop-freight-station/fplatform-2.png dat/stop-freight-station/fplatform-1.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station-roof.dat
-building.wa.freight-station.pak: dat/stop-freight-station/building.wa.freight-station.dat dat/stop-freight-station/fplatform-1.png
+building.wa.freight-station.pak: dat/stop-freight-station/building.wa.freight-station.dat dat/stop-freight-station/fplatform-1.png dat/stop-freight-station/freight-platform-3.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station.dat
 building.wa.footbridge-1.pak: dat/stop-platform/building.wa.footbridge-1.dat dat/stop-platform/footbridge-1.png dat/stop-platform/footbridge-1-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.footbridge-1.dat
@@ -121,6 +132,12 @@ building.wa.platform-d.pak: dat/stop-platform/building.wa.platform-d.dat dat/sto
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.platform-d.dat
 building.wa.platform-f.pak: dat/stop-platform/building.wa.platform-f.dat dat/stop-platform/platform-f.png dat/stop-platform/platform-f-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.platform-f.dat
+building.wa.post-office.pak: dat/stop-post/building.wa.post-office.dat dat/stop-post/post-office.png
+	$(MAKEOBJ64) $@ dat/stop-post/building.wa.post-office.dat
+building.wa.busstops.pak: dat/stop-road/building.wa.busstops.dat dat/stop-road/stops.png dat/stop-road/stops-winter.png
+	$(MAKEOBJ64) $@ dat/stop-road/building.wa.busstops.dat
+building.wa.freightstops.pak: dat/stop-road/building.wa.freightstops.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
+	$(MAKEOBJ64) $@ dat/stop-road/building.wa.freightstops.dat
 building.wa.townhall.pak: dat/tow/building.wa.townhall.dat dat/tow/tow-1-tile.png dat/tow/tow-2-tile.png dat/tow/tow-3-tile.png dat/tow/tow-4-tile.png dat/tow/tow-5-tile.png dat/tow/tow-6-tile.png dat/tow/tow-7-tile.png dat/tow/tow-8-tile.png dat/tow/tow-9-tile.png
 	$(MAKEOBJ64) $@ dat/tow/building.wa.townhall.dat
 tree.wa.pak: dat/tree/tree.wa.dat dat/tree/trees.png
@@ -135,30 +152,28 @@ way.wa.underground-powerline.pak: dat/way-powerline/way.wa.underground-powerline
 	$(MAKEOBJ64) $@ dat/way-powerline/way.wa.underground-powerline.dat
 bridge.wa.road.pak: dat/way-road/bridge.wa.road.dat dat/way-road/road-100n-bridge.png dat/way-road/road-100r-bridge.png dat/way-road/road-bridge-3.png dat/way-road/road-bridge-3-winter.png dat/way-road/road-bridge-4.png dat/way-road/road-bridge-4-winter.png dat/way-road/road-bridge-5.png dat/way-road/road-bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/bridge.wa.road.dat
-building.wa.busstops.pak: dat/way-road/building.wa.busstops.dat dat/way-road/stops.png dat/way-road/stops-winter.png
-	$(MAKEOBJ64) $@ dat/way-road/building.wa.busstops.dat
-building.wa.freightstops.pak: dat/way-road/building.wa.freightstops.dat dat/way-road/freightstop-1.png dat/way-road/freightstop-1d.png dat/way-road/freightstop-2.png dat/way-road/freightstop-2-winter.png dat/way-road/freightstop-2d.png dat/way-road/freightstop-2d-winter.png
-	$(MAKEOBJ64) $@ dat/way-road/building.wa.freightstops.dat
 crossing.wa.rail-road-crossing.pak: dat/way-road/crossing.wa.rail-road-crossing.dat dat/way-road/crossing.png
 	$(MAKEOBJ64) $@ dat/way-road/crossing.wa.rail-road-crossing.dat
-roadsign.wa.traffic-light.pak: dat/way-road/roadsign.wa.traffic-light.dat dat/way-road/traffic-light.png
-	$(MAKEOBJ64) $@ dat/way-road/roadsign.wa.traffic-light.dat
 way.wa.road.pak: dat/way-road/way.wa.road.dat dat/way-road/cityroad.png dat/way-road/cityroad-winter.png dat/way-road/road-40n.png dat/way-road/road-40n-winter.png dat/way-road/road-70r.png dat/way-road/road-70r-winter.png dat/way-road/road-100n.png dat/way-road/road-100n-winter.png dat/way-road/road-100n-elv.png dat/way-road/road-100r.png dat/way-road/road-100r-winter.png dat/way-road/road-100r-elv.png dat/way-road/dart-1.png dat/way-road/dart-1-winter.png dat/way-road/dart-2.png dat/way-road/dart-2-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/way.wa.road.dat
 way.wa.wall.pak: dat/way-road/way.wa.wall.dat dat/way-road/wall.png dat/way-road/wall-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/way.wa.wall.dat
 bridge.wa.railtrack.pak: dat/way-track/bridge.wa.railtrack.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-track/bridge.wa.railtrack.dat
+way-object.wa.catenary.pak: dat/way-track/way-object.wa.catenary.dat dat/way-track/catenary-1.png dat/way-track/catenary-2.png
+	$(MAKEOBJ64) $@ dat/way-track/way-object.wa.catenary.dat
 way.wa.railtrack.pak: dat/way-track/way.wa.railtrack.dat dat/way-track/track-1.png dat/way-track/track-1-winter.png dat/way-track/track-2.png dat/way-track/track-2-winter.png dat/way-track/track-3.png dat/way-track/track-3-winter.png dat/way-track/track-4.png dat/way-track/track-4-winter.png dat/way-track/track-3-elv.png dat/way-track/track-3-elv-winter.png dat/way-track/track-4-elv.png dat/way-track/track-4-elv-winter.png
 	$(MAKEOBJ64) $@ dat/way-track/way.wa.railtrack.dat
+way.wa.tramtrack.pak: dat/way-track/way.wa.tramtrack.dat dat/way-track/tramtrack-1.png dat/way-track/tramtrack-2.png
+	$(MAKEOBJ64) $@ dat/way-track/way.wa.tramtrack.dat
 way.wa.water.pak: dat/way-water/way.wa.water.dat dat/way-water/waterway-1.png dat/way-water/waterway-2.png dat/way-water/waterway-3.png dat/way-water/waterway-4.png
 	$(MAKEOBJ64) $@ dat/way-water/way.wa.water.dat
-bridge.wa.powerline.pak: dat/way-powerline/bridge.wa.powerline.dat128 dat/way-powerline/powerline2hv.png dat/way-powerline/powerline2red.png dat/way-powerline/powerline4.png
-	$(MAKEOBJ64) $@ dat/way-powerline/bridge.wa.powerline.dat128
-tunnel.wa.powerline.pak: dat/way-powerline/tunnel.wa.powerline.dat128 dat/way-powerline/powerline2hv.png
-	$(MAKEOBJ64) $@ dat/way-powerline/tunnel.wa.powerline.dat128
-way.wa.powerline.pak: dat/way-powerline/way.wa.powerline.dat128 dat/way-powerline/powerline1a.png dat/way-powerline/powerline1b.png dat/way-powerline/powerline2.png dat/way-powerline/powerline2hv.png dat/way-powerline/powerline4.png
-	$(MAKEOBJ64) $@ dat/way-powerline/way.wa.powerline.dat128
+bridge.wa.powerline.pak: dat/way-powerline/bridge.wa.powerline.dat128 dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-2red.png dat/way-powerline/powerline-4.png
+	$(MAKEOBJ128) $@ dat/way-powerline/bridge.wa.powerline.dat128
+tunnel.wa.powerline.pak: dat/way-powerline/tunnel.wa.powerline.dat128 dat/way-powerline/powerline-2hv.png
+	$(MAKEOBJ128) $@ dat/way-powerline/tunnel.wa.powerline.dat128
+way.wa.powerline.pak: dat/way-powerline/way.wa.powerline.dat128 dat/way-powerline/powerline-1a.png dat/way-powerline/powerline-1b.png dat/way-powerline/powerline-2.png dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-4.png
+	$(MAKEOBJ128) $@ dat/way-powerline/way.wa.powerline.dat128
 
 ########### .datt => .dat
 dat/cur/building.wa.cur-build.dat: dat/cur/building.wa.cur-build.datt
@@ -195,6 +210,8 @@ dat/indcomres/building.wa.res.dat: dat/indcomres/building.wa.res.datt
 	$(DATT) $** > $@
 dat/pedestrian/pedestrian.wa.dat: dat/pedestrian/pedestrian.wa.datt
 	$(DATT) $** > $@
+dat/stop-post/building.wa.post-office.dat: dat/stop-post/building.wa.post-office.datt
+	$(DATT) $** > $@
 dat/tow/building.wa.townhall.dat: dat/tow/building.wa.townhall.datt
 	$(DATT) $** > $@
 dat/tunnel/tunnel.wa.railtrack.dat: dat/tunnel/tunnel.wa.railtrack.datt
@@ -209,7 +226,11 @@ dat/way-road/way.wa.road.dat: dat/way-road/way.wa.road.datt
 	$(DATT) $** > $@
 dat/way-track/bridge.wa.railtrack.dat: dat/way-track/bridge.wa.railtrack.datt
 	$(DATT) $** > $@
+dat/way-track/way-object.wa.catenary.dat: dat/way-track/way-object.wa.catenary.datt
+	$(DATT) $** > $@
 dat/way-track/way.wa.railtrack.dat: dat/way-track/way.wa.railtrack.datt
+	$(DATT) $** > $@
+dat/way-track/way.wa.tramtrack.dat: dat/way-track/way.wa.tramtrack.datt
 	$(DATT) $** > $@
 dat/way-water/way.wa.water.dat: dat/way-water/way.wa.water.datt
 	$(DATT) $** > $@

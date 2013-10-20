@@ -45,6 +45,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.CarStop.pak
 @del %TARGET_DIR%\building.Car_StationBlg.pak
 @del %TARGET_DIR%\building.Control_StationBlg.pak
+@del %TARGET_DIR%\building.ChannelStop.pak
 @del %TARGET_DIR%\building.Denk*.pak
 @del %TARGET_DIR%\building.Eingang.pak
 @del %TARGET_DIR%\building.Feste.pak
@@ -162,8 +163,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\tunnel.PowerTunnel.pak
 @del %TARGET_DIR%\tunnel.RailTunnel.pak
 @del %TARGET_DIR%\tunnel.RoadTunnel.pak
-REM @del %TARGET_DIR%\vehicle.*.pak
-@del %TARGET_DIR%way-object.SlowOverheadpower.pak
+@REM @del %TARGET_DIR%\vehicle.*.pak
 @del %TARGET_DIR%\way.Kanal.pak
 @del %TARGET_DIR%\way.Powerline.pak
 @del %TARGET_DIR%\way.Rillenschienen.pak
@@ -184,8 +184,11 @@ REM @del %TARGET_DIR%\vehicle.*.pak
 
 
 @del %TARGET_DIR%\compat.tab
+@del %TARGET_DIR%\text\*.tab
+@del %TARGET_DIR%\text\citylist_*.txt
+
 
 copy .\*.pak %TARGET_DIR%
-copy .\compat.pak %TARGET_DIR%
+copy .\compat.tab %TARGET_DIR%
 copy .\config %TARGET_DIR%\config
 copy .\text %TARGET_DIR%\text
