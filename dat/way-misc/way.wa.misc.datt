@@ -1,0 +1,40 @@
+%require '..\common.datt'
+---
+%resource 'waymisc'
+obj=way
+copyright=wa
+cost=1000
+maintenance=1
+topspeed=10
+max_weight=0
+waytype=track
+system_type=255
+draw_as_ding=1
+
+%def :offset, ""
+%include 'way-img'
+%undef /^diagonal.+/
+---
+name=wa-miscway-1
+%def :fn, "miscway-1"
+%include 'waymisc'
+---
+name=wa-miscway-2
+%def :fn, "miscway-2"
+%include 'waymisc'
+---
+name=wa-miscway-3
+%def :fn, "miscway-3"
+%include 'waymisc'
+---
+name=wa-miscway-4
+%def :fn, "miscway-4"
+%include 'waymisc'
+---
+name=wa-miscway-5
+%def :fn, "miscway-5"
+%include 'waymisc'
+
+
+
+
