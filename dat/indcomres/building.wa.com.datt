@@ -1,3 +1,34 @@
+# 01 a
+# 02 a
+# 03 a
+# 04 
+# 05 l1 t com-parking
+# 06 l1 t
+# 07 l1 t
+# 08 l1 t
+# 09 l1 t
+# 10 l2 s
+# 11 l2 s
+# 12 l2 s
+# 13 l2 s
+# 14 l2 s
+# 15 m1   com-parking
+# 16 m1
+# 17 m1
+# 18 m1
+# 19 m1
+# 20 m2
+# 21 m2
+# 22 m2
+# 23 m2
+# 24 m2
+# 25 h1   com-parking
+# 26 h1
+# 27 h1
+# 28 h1
+# 29 h1
+# 30 h2 h2 h2 h2 h2 com-parking
+---
 %resource "com"
 copyright=wa
 obj=building
@@ -110,6 +141,36 @@ level=14
 %autoname 5
 %include "com"
 %buil_image 1, 1, 2, 8, 2
+---
+level=10
+%def :image, "com-s.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=11
+%def :image, "com-s.2.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=12
+%def :image, "com-s.4.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=13
+%def :image, "com-s.6.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+---
+level=14
+%def :image, "com-s.8.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 1, 4, 2
 ---
 level=15
 %def :image, "com-m1.0.0"
