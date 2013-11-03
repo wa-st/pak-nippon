@@ -1,0 +1,28 @@
+----
+%resource 'common'
+obj=building
+copyright=wa
+noinfo=1
+noconstruction=1
+type=extension
+enables_ware=1
+cursor=#{img(0, 5)}
+icon=> #{img(0, 4)}
+---
+name=wa-tank-1
+level=8
+%def :image, 'tanks.0.0'
+%include 'common'
+%buil_image 1, 1, 1, 2, 2
+---
+name=wa-tank-2
+level=9
+%def :image, 'tanks.2.0'
+%include 'common'
+%buil_image 1, 1, 1, 1, 2
+---
+name=wa-tank-3
+level=10
+%def :image, 'tanks.4.0'
+%include 'common'
+%buil_image 2, 2, 1, 1, 2

@@ -74,10 +74,6 @@ AirTerminal477
 空港ターミナル
 BigTerminal477
 大型ターミナル
-Gas_StationBlg
-駅のガスタンク
-Goods_StationBlg
-駅倉庫
 Lighthouse
 灯台\n\n100年前に立った、光達距離は19海里
 MainTerminal1930
@@ -328,6 +324,12 @@ wa-road-freightstop-4
 屋根付き貨物ヤード
 wa-road-post-1
 郵便ポスト
+wa-tank-1
+石油化学タンク
+wa-tank-2
+ガスタンク
+wa-tank-3
+石油タンク
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 Ambulanz

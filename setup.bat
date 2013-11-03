@@ -52,9 +52,11 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.Fluid_StationBlg.pak
 @del %TARGET_DIR%\building.FreightShipStop.pak
 @del %TARGET_DIR%\building.FreightTrainStop.pak
+@del %TARGET_DIR%\building.Gas_StationBlg.pak
 @del %TARGET_DIR%\building.GCG1TrainStop.pak
 @del %TARGET_DIR%\building.GCG2TrainStop.pak
 @del %TARGET_DIR%\building.GCGTrainStop.pak
+@del %TARGET_DIR%\building.Goods_StationBlg.pak
 @del %TARGET_DIR%\building.Gymnasium.pak
 @del %TARGET_DIR%\building.HallBusStop.pak
 @del %TARGET_DIR%\building.KingsbridgeMonastry.pak
