@@ -186,7 +186,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\compat.tab
 @del %TARGET_DIR%\text\*.tab
 @del %TARGET_DIR%\text\citylist_*.txt
-
+@del %TARGET_DIR%\config\alternative_cityrules.tab
 
 copy .\*.pak %TARGET_DIR%
 copy .\compat.tab %TARGET_DIR%
