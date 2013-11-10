@@ -582,6 +582,420 @@ wa-stone-tunnel-track
 石積鉄道トンネル
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
+0Ben103
+ドイツ国鉄 BR103.1
+1Ben140
+ドイツ国鉄 BR140
+1Dampflokomotive
+H-Trans 0-4-0T タンク機関車
+1Diesellokomotive
+H-Trans BR212
+1Ellok
+H-Trans E1 暴風
+1Garrat
+ガーラット型蒸気機関車
+1TPEllok
+米国 EMD F7A
+221A
+221A 蒸気機関車
+221A_tender
+221A用炭水車
+2Ben155
+ドイツ東国鉄 Br250
+2Diesellokomotive
+ドイツ国鉄 Br218
+2Ellok
+H-Trans Tigress I
+2Garrat
+ガーラット型蒸気機関車(中央部)
+3Ben185
+ドイツ国鉄 Br185
+3Diesellokomotive
+ドイツ国鉄 Br365
+3Garrat
+ガーラット型蒸気機関車(後部)
+707
+ボーイング707
+A3-5
+スイス国鉄 A 3/5 テンダー機関車
+A3-5_tender
+A 3/5用炭水車
+A380
+エアバス A380
+Adler
+ドイツ アドラー号
+AdlerPersonenwagen
+アドラー号客車
+Autotrailer
+自動車トレーラー
+Autotransportanhaenger
+自動車トレーラー
+Autotransporter
+自動車運送車
+Autotransportwagen
+自動車運送貨車
+BB1280
+BB1280 電気機関車
+Be5-7
+スイスBLS Be 5/7 電気機関車
+Blimp
+飛行船
+Book_Trike
+書籍運搬トラック
+Boxcar
+有蓋車
+BR01
+ドイツ国鉄 BR01 テンダー機関車
+BR38
+ドイツ国鉄 BR38 テンダー機関車
+BR38-Tender
+BR38用炭水車
+BR39
+DRG BR39 テンダ式機関車
+BR45
+DRG BR45 テンダ式機関車
+Br614back
+ドイツ連邦鉄道 BR614(後尾車)
+Br614car
+ドイツ連邦鉄道 BR614(中間車)
+Br614front
+ドイツ連邦鉄道 BR614
+BR85
+DRG BR86 タンク式機関車
+Bretteranhaenger
+WF Ultd. 板材トレーラー
+Brettertransporter
+WF Ultd. 板材輸送トラック
+Bretterwagen
+VT板材用無蓋貨車
+BRV36
+BRV36 ディーゼル機関車
+Buchanhaenger
+Serj/H-Trans 書籍トレーラー
+Buchtrailer
+書籍トレーラー
+Buchtrailer2
+書籍トレーラー
+Buchtransporter
+Serj/H-Trans 書籍輸送トラック
+Buchwagen
+VT Vienna 有蓋貨車
+Buessig
+小型バス
+Bulkcarriage
+馬車用 ばら荷カート
+Bus
+H-Trans バス
+Cargosprinter-Front
+ドイツ国鉄 カーゴスプリンター
+Cargosprinter-Mittel
+カーゴスプリンター(中間車)
+Cargosprinter-Steuer
+カーゴスプリンター(後尾車)
+Cementtrailer
+セメントトレーラー
+CombinoShort(T)
+コンビーノ 広電5000型C/D車
+CombinoShortA(Mc)
+コンビーノ 広電5000型A車
+CombinoShortB(Mc)
+コンビーノ 広電5000型B車
+CombinoShortE(T)
+コンビーノ 広電5000型E車
+Comet
+デハビランドDH106コメット
+Concept1Front
+コンセプト１
+Concept1Mail
+コンセプト１ 郵便車
+Concept1Pass
+コンセプト１ 客車
+Concept1Rear
+コンセプト１ 後尾車
+Concept2Front
+コンセプト2
+Concept2Mail
+コンセプト2 (郵便車)
+Concept2Pass
+コンセプト2 (客車)
+Concept2Rear
+コンセプト2 (後部動力車)
+Concorde
+コンコルド
+Cooling_Container
+低温コンテナ車
+Cooling_Truck
+冷蔵トラック
+Cooling_Waggon
+冷蔵貨車
+DaimlerStoll
+ダイムラー・ストール
+DC-3
+ダグラスDC-3
+Deponielaster
+清掃車
+Deponielaster2
+清掃車
+Doubledeck_city_bus
+二階建て市内バス
+E44
+DB E44
+Eb3-5
+スイス国鉄 Eb 3/5
+Ed2x2
+Ed2x2 蒸気機関車
+EinheitsTender
+ドイツ国鉄 標準型炭水車
+EnCo_Bulk_Ship
+EnCo ばら荷運搬船
+EnCo_Car_Ship
+EnCo 自動車運搬船
+EnCo_Cement_Ship
+EnCo 粉体貨物運搬船
+EnCo_Container_Ship
+EnCo コンテナ運搬船
+EnCo_Oil_Ship
+EnCo 石油タンカー
+EnCo_Paper_Ship
+EnCo 紙運搬船
+EnCo_Steel_Ship
+EnCo 鉄鋼運搬船
+EnCo_Wood_Ship
+EnCo 木材運搬船
+Erzanhaenger
+ばら荷トレーラー
+Erztrailer
+ダンプトレーラー
+Erztransporter
+H-Trans ばら荷トラック
+Erzwagen
+H-Trans 鉱石用無蓋車
+F7back
+米国 F7A (後向き)
+FastFerry
+O.Bang ホバークラフト
+Fishing_Boat
+漁船
+Fishing_Boat_DanMacK
+漁船DanMacK型
+Flachwagen
+高速有蓋車
+Fokker_F27
+フォッカー F27 フレンドシップ
+GarbageTruck
+清掃車
+Gelenkbus_Ende
+連節バス（後）
+Gelenkbus_Front
+連節バス（前）
+Guppy
+ボーイングB-377スーパーグッピー
+H-Trans-Pantheress
+H-Trans Pantheress
+H-Trans-Pantheress-Back
+H-Trans Pantheress (後部機関車)
+H-Trans-Tiger-Car
+H-Trans Tigress 客車
+H-Trans-Tiger-Mail-Car
+H-Trans Tigress 郵便車
+H-Trans-Tigress-II-Back
+H-Trans Tigress II 後部機関車
+H-Trans-Tigress-II-Front
+H-Trans Tigress II 機関車
+Hadley-Page-V1500
+ハンドレページ V/1500
+Heavy_ore_truck
+大型ダンプトラック
+Hochbordwagen
+高枠無蓋車
+Holzanhaenger
+JET 木材トレーラー
+Holztrailer
+木材トレーラー
+Holztransporter
+H-Trans 木材運搬トラック
+Holzwagen
+木材貨車
+Horsebookscariage
+馬車用 書籍カート
+Horsemailcariage
+馬車用 郵便荷車
+Horsepapercariage
+馬車用 紙カート
+Horsepassengerscariage
+馬車用 客車
+Horses
+馬
+Horsewoodcariage
+馬車用 木材カート
+Hunslet
+Hunslet 蒸気機関車
+HVPosttransporter
+DIBU/H-Trans 郵便バン
+ICE_TD-back
+ドイツ鉄道 ICE-TD (後尾車)
+ICE_TD-car
+ドイツ鉄道 ICE-TD (中間車)
+ICE_TD-front
+ドイツ鉄道 ICE-TD
+IL-76
+イリューシン Il-76
+JNR_C11
+国鉄 C11
+JR_9600
+国鉄 9600
+JR_9600_tender
+国鉄 9600用炭水車
+Ju52
+ユンカース Ju52
+JumboCruiser
+大型クルーザーバス（前）
+JumboCruiserBack1
+大型クルーザーバス（後・旅客車）
+JumboCruiserBack2
+大型クルーザーバス（後・郵便車）
+JumboJet
+ボーイング747ジャンボジェット
+kkStB_tender
+墺国鉄 炭水車
+kkStB110
+墺国鉄 110型 蒸気機関車
+kkStB91
+墺国鉄 91型 蒸気機関車
+Kohleanhaenger
+H-Trans トレーラー MK2
+Kohletransporter
+H-Trans トラック
+Kohlewagen
+H-Trans 石炭用無蓋車
+Kunststofanhaenger
+H-Trans プラスチックトレーラー
+Kunststofftransporter
+H-Trans プラスチック運搬トラック
+Lockhead_Tristar
+ロッキード トライスター
+Lockheed10-Electra
+ロッキード・モデル10・エレクトラ
+logs
+木材筏
+Lowa_Anhaenger
+Lowa (付随車)
+Mailcontainerwagon
+郵便コンテナ貨車
+MailExpress
+郵便飛行機
+Mailwagon
+郵便貨車
+Milk_Truck
+牛乳トラック
+Milk_Waggon
+ミルク用タンク車
+Moebelschiff
+TPI/JET 貨物船
+Moebelwagen
+VT Vienna 軽貨物車
+NeuOelwagen
+新型タンク車
+Oelanhaenger
+H-Trans　石油類輸送トレーラー
+Oelwagen
+VT石油タンク車
+Oilbarge
+オイルバージ
+Oiltrailer
+石油トレーラー
+old_open_car
+旧式無蓋貨車
+OldOil
+タンク車
+Ox2
+牛（2頭）
+Ox4
+牛（4頭）
+Papieranhaenger
+紙用トレーラー
+Papiertransporter
+紙用トラック
+Papierwagen
+VT Vienna 紙用貨車
+Passagierwagen
+H-Trans 客車
+Pferdebahn
+鉄道馬車用馬
+Pferdebahnwagen
+鉄道馬車
+Postschiff
+郵便船
+Posttransporter
+H-Trans 郵便バン
+Postwagen
+H-Trans 郵便車
+PrPersonenwagen
+旧型客車
+PrPostwagen
+旧型郵便車
+RenaultTH5
+ルノー TH5 トラクタ
+Sandanhaenger
+WF Ultd. ばら荷トレーラー
+Sandtransporter
+WF Ultd. ダンプトラック
+schooner
+帆船
+SD40-2-back
+米EMD SD40-2 ディーゼル機関車(後向き)
+SD40-2-front
+米EMD SD40-2 ディーゼル機関車
+SlowFerry
+H-Trans 旅客フェリー
+SMPoiltruck
+タンクローリー
+Stahlanhaenger
+H-Trans 鉄鋼トレーラー
+Stahltransporter
+H-Trans 鉄鋼運搬トラック
+Stahlwagen
+VT-Vienna鉄鋼貨車
+Staubkesselwagen
+VT-Vienna プラスチック貨車
+Steamer
+蒸気客船
+Stoneanhaenger
+WF Ultd. ばら荷トレーラー
+Stonetransporter
+WF Ultd. ダンプトラック MK2
+SuperConstellation
+ロッキード Super Constellation
+T13
+T13型路面電車
+T24
+T24型路面電車
+Tanklastzug
+H-Trans タンクローリー
+Tatra-T4
+タトラ T4型路面電車
+Tatra-T4_Wagon
+タトラ T4型路面電車（付随車）
+teaclipper
+快速帆船 ティークリッパー
+TPBeiwagen
+TPI VS98
+TPPassagierwagen
+TPI Lopomo 客車
+TPSchienenbus
+TPI VT98
+Tram_GT6_Ende
+デューヴァク GT6型路面電車（後）
+Tram_GT6_Kopf
+デューヴァク GT6型路面電車（前）
+Trike
+ばら荷運搬トラック
+Tugboat
+タグボート
+VolvoFH12
+ボルボ FH12
+Zeppelin
+ツェッペリン飛行船
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 city_road
