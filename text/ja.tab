@@ -216,12 +216,10 @@ wa-canal-stop-1
 旅客用運河港
 wa-canal-stop-2
 貨物用運河港
-wa-containers-forklift
-ヤードフォークリフト
-wa-containers-office-1
-ヤード事務所
 wa-containeryard-crane
 コンテナヤードクレーン
+wa-containeryard-forklift
+フォークリフト
 wa-containeryard-light
 コンテナヤード照明塔
 wa-containeryard-m0
@@ -230,6 +228,10 @@ wa-containeryard-m1
 海上コンテナ少
 wa-containeryard-m2
 海上コンテナ多
+wa-containeryard-office-1
+貨物駅駅舎
+wa-containeryard-office-2
+プレハブ
 wa-containeryard-r0
 鉄道コンテナ無
 wa-containeryard-r1
@@ -238,6 +240,8 @@ wa-containeryard-r2
 鉄道コンテナ中
 wa-containeryard-r3
 鉄道コンテナ多
+wa-containeryard-tent
+テント
 wa-footbridge-1
 跨線橋(手前向き)
 wa-footbridge-1n
