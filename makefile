@@ -1,6 +1,6 @@
-SCRIPTS = ../k/ #
-MAKEOBJ64 = ..\..\makeobj\makeobjxx.exe pak
-MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
+SCRIPTS = ../k/
+MAKEOBJ64 = ../../makeobj/makeobjxx.exe pak
+MAKEOBJ128 = ../../makeobj/makeobjxx.exe pak128
 DATT = ruby $(SCRIPTS)datt.rb
 
 ########### .pak -> PAKS
@@ -31,6 +31,7 @@ PAKS: building.wa.cur-build.pak \
 	building.wa.freight-station-misc.pak \
 	building.wa.freight-station-roof.pak \
 	building.wa.freight-station.pak \
+	building.wa.tank.pak \
 	building.wa.footbridge-1.pak \
 	building.wa.platform-0.pak \
 	building.wa.platform-1.pak \
@@ -47,6 +48,7 @@ PAKS: building.wa.cur-build.pak \
 	tunnel.wa.railtrack.pak \
 	tunnel.wa.road.pak \
 	tunnel.wa.water.pak \
+	way.wa.misc.pak \
 	way.wa.underground-powerline.pak \
 	bridge.wa.road.pak \
 	crossing.wa.rail-road-crossing.pak \
@@ -92,7 +94,7 @@ building.wa.port.pak: dat/harbor/building.wa.port.dat dat/harbor/port1.png dat/h
 	$(MAKEOBJ64) $@ dat/harbor/building.wa.port.dat
 building.wa.hq.pak: dat/hq/building.wa.hq.dat dat/hq/hq-1-tile.png dat/hq/hq-2-tile.png dat/hq/hq-3-tile.png dat/hq/hq-4-tile.png dat/hq/hq-5-tile.png
 	$(MAKEOBJ64) $@ dat/hq/building.wa.hq.dat
-building.wa.com.pak: dat/indcomres/building.wa.com.dat dat/indcomres/com-a.png dat/indcomres/com-l1.png dat/indcomres/com-t.png dat/indcomres/com-l2.png dat/indcomres/com-m1.png dat/indcomres/com-m2.png dat/indcomres/com-h1.png dat/indcomres/com-h2.png dat/indcomres/com-parking.png
+building.wa.com.pak: dat/indcomres/building.wa.com.dat dat/indcomres/com-a.png dat/indcomres/com-l1.png dat/indcomres/com-t.png dat/indcomres/com-l2.png dat/indcomres/com-s.png dat/indcomres/com-m1.png dat/indcomres/com-m2.png dat/indcomres/com-h1.png dat/indcomres/com-h2.png dat/indcomres/com-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.wa.com.dat
 building.wa.ind.pak: dat/indcomres/building.wa.ind.dat dat/indcomres/ind-a.png dat/indcomres/ind-l.png dat/indcomres/ind-m1.png dat/indcomres/ind-m2.png dat/indcomres/ind-h1.png dat/indcomres/ind-h2.png dat/indcomres/ind-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.wa.ind.dat
@@ -108,7 +110,7 @@ roadsign.railsignals.pak: dat/signal/roadsign.railsignals.dat dat/signal/Signals
 	$(MAKEOBJ64) $@ dat/signal/roadsign.railsignals.dat
 roadsign.wa.roadsignals.pak: dat/signal/roadsign.wa.roadsignals.dat dat/signal/traffic-light.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.wa.roadsignals.dat
-building.wa.container-yard.pak: dat/stop-freight-station/building.wa.container-yard.dat dat/stop-freight-station/containers.png dat/stop-freight-station/freight-station-office.png
+building.wa.container-yard.pak: dat/stop-freight-station/building.wa.container-yard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.container-yard.dat
 building.wa.freight-station-misc.pak: dat/stop-freight-station/building.wa.freight-station-misc.dat dat/stop-freight-station/freight-platform-misc.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station-misc.dat
@@ -116,6 +118,8 @@ building.wa.freight-station-roof.pak: dat/stop-freight-station/building.wa.freig
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station-roof.dat
 building.wa.freight-station.pak: dat/stop-freight-station/building.wa.freight-station.dat dat/stop-freight-station/fplatform-1.png dat/stop-freight-station/freight-platform-3.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station.dat
+building.wa.tank.pak: dat/stop-freight-station/building.wa.tank.dat dat/stop-freight-station/tanks.png
+	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.tank.dat
 building.wa.footbridge-1.pak: dat/stop-platform/building.wa.footbridge-1.dat dat/stop-platform/footbridge-1.png dat/stop-platform/footbridge-1-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.footbridge-1.dat
 building.wa.platform-0.pak: dat/stop-platform/building.wa.platform-0.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png
@@ -148,6 +152,8 @@ tunnel.wa.road.pak: dat/tunnel/tunnel.wa.road.dat dat/tunnel/tunnel-cr1.png dat/
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.wa.road.dat
 tunnel.wa.water.pak: dat/tunnel/tunnel.wa.water.dat dat/tunnel/tunnel-water.png dat/tunnel/stone-tunnel.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.wa.water.dat
+way.wa.misc.pak: dat/way-misc/way.wa.misc.dat dat/way-misc/miscway-1.png dat/way-misc/miscway-1-winter.png dat/way-misc/miscway-2.png dat/way-misc/miscway-2-winter.png dat/way-misc/miscway-3.png dat/way-misc/miscway-3-winter.png dat/way-misc/miscway-4.png dat/way-misc/miscway-4-winter.png dat/way-misc/miscway-5.png dat/way-misc/miscway-5-winter.png
+	$(MAKEOBJ64) $@ dat/way-misc/way.wa.misc.dat
 way.wa.underground-powerline.pak: dat/way-powerline/way.wa.underground-powerline.dat dat/way-powerline/powerline-ug.png
 	$(MAKEOBJ64) $@ dat/way-powerline/way.wa.underground-powerline.dat
 bridge.wa.road.pak: dat/way-road/bridge.wa.road.dat dat/way-road/road-100n-bridge.png dat/way-road/road-100r-bridge.png dat/way-road/road-bridge-3.png dat/way-road/road-bridge-3-winter.png dat/way-road/road-bridge-4.png dat/way-road/road-bridge-4-winter.png dat/way-road/road-bridge-5.png dat/way-road/road-bridge-5-winter.png
@@ -210,6 +216,10 @@ dat/indcomres/building.wa.res.dat: dat/indcomres/building.wa.res.datt
 	$(DATT) $** > $@
 dat/pedestrian/pedestrian.wa.dat: dat/pedestrian/pedestrian.wa.datt
 	$(DATT) $** > $@
+dat/stop-freight-station/building.wa.container-yard.dat: dat/stop-freight-station/building.wa.container-yard.datt
+	$(DATT) $** > $@
+dat/stop-freight-station/building.wa.tank.dat: dat/stop-freight-station/building.wa.tank.datt
+	$(DATT) $** > $@
 dat/stop-post/building.wa.post-office.dat: dat/stop-post/building.wa.post-office.datt
 	$(DATT) $** > $@
 dat/tow/building.wa.townhall.dat: dat/tow/building.wa.townhall.datt
@@ -219,6 +229,8 @@ dat/tunnel/tunnel.wa.railtrack.dat: dat/tunnel/tunnel.wa.railtrack.datt
 dat/tunnel/tunnel.wa.road.dat: dat/tunnel/tunnel.wa.road.datt
 	$(DATT) $** > $@
 dat/tunnel/tunnel.wa.water.dat: dat/tunnel/tunnel.wa.water.datt
+	$(DATT) $** > $@
+dat/way-misc/way.wa.misc.dat: dat/way-misc/way.wa.misc.datt
 	$(DATT) $** > $@
 dat/way-road/bridge.wa.road.dat: dat/way-road/bridge.wa.road.datt
 	$(DATT) $** > $@
