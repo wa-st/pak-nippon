@@ -8,8 +8,8 @@ cost=3500
 maintenance=100
 topspeed=55
 max_weight=60
-intro_year=1810
-intro_month=9
+#intro_year=1810
+#intro_month=9
 waytype=track
 
 %def :offset, ""
@@ -23,8 +23,8 @@ cost=8000
 maintenance=500
 topspeed=120
 max_weight=110
-intro_year=1850
-intro_month=9
+#intro_year=1850
+#intro_month=9
 waytype=track
 
 %def :offset, ""
@@ -40,8 +40,8 @@ cost=12000
 maintenance=800
 topspeed=200
 max_weight=110
-intro_year=1938
-intro_month=7
+#intro_year=1938
+#intro_month=7
 waytype=track
 
 %def :offset, ""
@@ -58,8 +58,8 @@ cost=40000
 maintenance=1600
 topspeed=450
 max_weight=110
-intro_year=1978
-intro_month=3
+#intro_year=1978
+#intro_month=3
 
 %def :offset, ""
 %def :fn, "track-4"
@@ -74,8 +74,8 @@ cost=24000
 maintenance=800
 topspeed=200
 max_weight=110
-intro_year=1938
-intro_month=7
+#intro_year=1938
+#intro_month=7
 waytype=track
 system_type=1
 
@@ -93,8 +93,8 @@ cost=80000
 maintenance=1600
 topspeed=450
 max_weight=110
-intro_year=1978
-intro_month=3
+#intro_year=1978
+#intro_month=3
 system_type=1
 
 %def :offset, ",0,16"
