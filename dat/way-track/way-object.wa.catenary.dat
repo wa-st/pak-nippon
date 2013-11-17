@@ -47,8 +47,6 @@ FrontDiagonal[SE]=catenary-1.8.0
 FrontDiagonal[NE]=catenary-1.8.1
 FrontDiagonal[NW]=catenary-1.8.2
 FrontDiagonal[SW]=catenary-1.8.3
-
-
 ---
 Obj=way-object
 Name=wa-high-speed-overheadpower

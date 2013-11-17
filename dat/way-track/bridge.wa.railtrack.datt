@@ -13,6 +13,7 @@ max_length=20
 
 %def :fn, "bridge-1"
 %include 'bridge-image'
+%undef /(back|front)ramp2.*/
 
 --------------------------
 Obj=bridge
@@ -28,6 +29,7 @@ max_length=20
 
 %def :fn, "bridge-2"
 %include 'bridge-image'
+%undef /(back|front)ramp2.*/
 --------------------------
 Obj=bridge
 name=wa-girder-track-bridge
@@ -42,6 +44,7 @@ max_length=10
 
 %def :fn, "bridge-3"
 %include 'bridge-image'
+%undef /(back|front)ramp2.*/
 --------------------------
 Obj=bridge
 name=wa-girder-track-bridge2
@@ -56,6 +59,7 @@ max_length=10
 
 %def :fn, "bridge-4"
 %include 'bridge-image'
+%undef /(back|front)ramp2.*/
 --------------------------
 Obj=bridge
 name=wa-truss-track-bridge
@@ -71,3 +75,4 @@ max_length=10
 %def :fn, "bridge-5"
 %include 'bridge-image'
 %include 'bridge-front-image'
+%undef /(back|front)ramp2.*/

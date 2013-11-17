@@ -18,10 +18,10 @@ BackRamp[W][0]=bridge-1.0.1,0,0
 BackRamp[S][0]=bridge-1.0.2,0,0
 BackRamp[E][0]=bridge-1.0.3,0,0
 
-BackRamp2[N][0]=bridge-1.1.0,0,0
-BackRamp2[W][0]=bridge-1.1.1,0,0
-BackRamp2[S][0]=bridge-1.1.2,0,0
-BackRamp2[E][0]=bridge-1.1.3,0,0
+#BackRamp2[N][0]=bridge-1.1.0,0,0
+#BackRamp2[W][0]=bridge-1.1.1,0,0
+#BackRamp2[S][0]=bridge-1.1.2,0,0
+#BackRamp2[E][0]=bridge-1.1.3,0,0
 
 BackStart[N][0]=bridge-1.2.0,0,16
 BackStart[W][0]=bridge-1.2.1,0,16
@@ -50,10 +50,10 @@ BackRamp[W][1]=bridge-1-winter.0.1,0,0
 BackRamp[S][1]=bridge-1-winter.0.2,0,0
 BackRamp[E][1]=bridge-1-winter.0.3,0,0
 
-BackRamp2[N][1]=bridge-1-winter.1.0,0,0
-BackRamp2[W][1]=bridge-1-winter.1.1,0,0
-BackRamp2[S][1]=bridge-1-winter.1.2,0,0
-BackRamp2[E][1]=bridge-1-winter.1.3,0,0
+#BackRamp2[N][1]=bridge-1-winter.1.0,0,0
+#BackRamp2[W][1]=bridge-1-winter.1.1,0,0
+#BackRamp2[S][1]=bridge-1-winter.1.2,0,0
+#BackRamp2[E][1]=bridge-1-winter.1.3,0,0
 
 BackStart[N][1]=bridge-1-winter.2.0,0,16
 BackStart[W][1]=bridge-1-winter.2.1,0,16
@@ -97,10 +97,10 @@ BackRamp[W][0]=bridge-2.0.1,0,0
 BackRamp[S][0]=bridge-2.0.2,0,0
 BackRamp[E][0]=bridge-2.0.3,0,0
 
-BackRamp2[N][0]=bridge-2.1.0,0,0
-BackRamp2[W][0]=bridge-2.1.1,0,0
-BackRamp2[S][0]=bridge-2.1.2,0,0
-BackRamp2[E][0]=bridge-2.1.3,0,0
+#BackRamp2[N][0]=bridge-2.1.0,0,0
+#BackRamp2[W][0]=bridge-2.1.1,0,0
+#BackRamp2[S][0]=bridge-2.1.2,0,0
+#BackRamp2[E][0]=bridge-2.1.3,0,0
 
 BackStart[N][0]=bridge-2.2.0,0,16
 BackStart[W][0]=bridge-2.2.1,0,16
@@ -129,10 +129,10 @@ BackRamp[W][1]=bridge-2-winter.0.1,0,0
 BackRamp[S][1]=bridge-2-winter.0.2,0,0
 BackRamp[E][1]=bridge-2-winter.0.3,0,0
 
-BackRamp2[N][1]=bridge-2-winter.1.0,0,0
-BackRamp2[W][1]=bridge-2-winter.1.1,0,0
-BackRamp2[S][1]=bridge-2-winter.1.2,0,0
-BackRamp2[E][1]=bridge-2-winter.1.3,0,0
+#BackRamp2[N][1]=bridge-2-winter.1.0,0,0
+#BackRamp2[W][1]=bridge-2-winter.1.1,0,0
+#BackRamp2[S][1]=bridge-2-winter.1.2,0,0
+#BackRamp2[E][1]=bridge-2-winter.1.3,0,0
 
 BackStart[N][1]=bridge-2-winter.2.0,0,16
 BackStart[W][1]=bridge-2-winter.2.1,0,16
@@ -176,10 +176,10 @@ BackRamp[W][0]=bridge-3.0.1,0,0
 BackRamp[S][0]=bridge-3.0.2,0,0
 BackRamp[E][0]=bridge-3.0.3,0,0
 
-BackRamp2[N][0]=bridge-3.1.0,0,0
-BackRamp2[W][0]=bridge-3.1.1,0,0
-BackRamp2[S][0]=bridge-3.1.2,0,0
-BackRamp2[E][0]=bridge-3.1.3,0,0
+#BackRamp2[N][0]=bridge-3.1.0,0,0
+#BackRamp2[W][0]=bridge-3.1.1,0,0
+#BackRamp2[S][0]=bridge-3.1.2,0,0
+#BackRamp2[E][0]=bridge-3.1.3,0,0
 
 BackStart[N][0]=bridge-3.2.0,0,16
 BackStart[W][0]=bridge-3.2.1,0,16
@@ -208,10 +208,10 @@ BackRamp[W][1]=bridge-3-winter.0.1,0,0
 BackRamp[S][1]=bridge-3-winter.0.2,0,0
 BackRamp[E][1]=bridge-3-winter.0.3,0,0
 
-BackRamp2[N][1]=bridge-3-winter.1.0,0,0
-BackRamp2[W][1]=bridge-3-winter.1.1,0,0
-BackRamp2[S][1]=bridge-3-winter.1.2,0,0
-BackRamp2[E][1]=bridge-3-winter.1.3,0,0
+#BackRamp2[N][1]=bridge-3-winter.1.0,0,0
+#BackRamp2[W][1]=bridge-3-winter.1.1,0,0
+#BackRamp2[S][1]=bridge-3-winter.1.2,0,0
+#BackRamp2[E][1]=bridge-3-winter.1.3,0,0
 
 BackStart[N][1]=bridge-3-winter.2.0,0,16
 BackStart[W][1]=bridge-3-winter.2.1,0,16
@@ -255,10 +255,10 @@ BackRamp[W][0]=bridge-4.0.1,0,0
 BackRamp[S][0]=bridge-4.0.2,0,0
 BackRamp[E][0]=bridge-4.0.3,0,0
 
-BackRamp2[N][0]=bridge-4.1.0,0,0
-BackRamp2[W][0]=bridge-4.1.1,0,0
-BackRamp2[S][0]=bridge-4.1.2,0,0
-BackRamp2[E][0]=bridge-4.1.3,0,0
+#BackRamp2[N][0]=bridge-4.1.0,0,0
+#BackRamp2[W][0]=bridge-4.1.1,0,0
+#BackRamp2[S][0]=bridge-4.1.2,0,0
+#BackRamp2[E][0]=bridge-4.1.3,0,0
 
 BackStart[N][0]=bridge-4.2.0,0,16
 BackStart[W][0]=bridge-4.2.1,0,16
@@ -287,10 +287,10 @@ BackRamp[W][1]=bridge-4-winter.0.1,0,0
 BackRamp[S][1]=bridge-4-winter.0.2,0,0
 BackRamp[E][1]=bridge-4-winter.0.3,0,0
 
-BackRamp2[N][1]=bridge-4-winter.1.0,0,0
-BackRamp2[W][1]=bridge-4-winter.1.1,0,0
-BackRamp2[S][1]=bridge-4-winter.1.2,0,0
-BackRamp2[E][1]=bridge-4-winter.1.3,0,0
+#BackRamp2[N][1]=bridge-4-winter.1.0,0,0
+#BackRamp2[W][1]=bridge-4-winter.1.1,0,0
+#BackRamp2[S][1]=bridge-4-winter.1.2,0,0
+#BackRamp2[E][1]=bridge-4-winter.1.3,0,0
 
 BackStart[N][1]=bridge-4-winter.2.0,0,16
 BackStart[W][1]=bridge-4-winter.2.1,0,16
@@ -334,10 +334,10 @@ BackRamp[W][0]=bridge-5.0.1,0,0
 BackRamp[S][0]=bridge-5.0.2,0,0
 BackRamp[E][0]=bridge-5.0.3,0,0
 
-BackRamp2[N][0]=bridge-5.1.0,0,0
-BackRamp2[W][0]=bridge-5.1.1,0,0
-BackRamp2[S][0]=bridge-5.1.2,0,0
-BackRamp2[E][0]=bridge-5.1.3,0,0
+#BackRamp2[N][0]=bridge-5.1.0,0,0
+#BackRamp2[W][0]=bridge-5.1.1,0,0
+#BackRamp2[S][0]=bridge-5.1.2,0,0
+#BackRamp2[E][0]=bridge-5.1.3,0,0
 
 BackStart[N][0]=bridge-5.2.0,0,16
 BackStart[W][0]=bridge-5.2.1,0,16
@@ -366,10 +366,10 @@ BackRamp[W][1]=bridge-5-winter.0.1,0,0
 BackRamp[S][1]=bridge-5-winter.0.2,0,0
 BackRamp[E][1]=bridge-5-winter.0.3,0,0
 
-BackRamp2[N][1]=bridge-5-winter.1.0,0,0
-BackRamp2[W][1]=bridge-5-winter.1.1,0,0
-BackRamp2[S][1]=bridge-5-winter.1.2,0,0
-BackRamp2[E][1]=bridge-5-winter.1.3,0,0
+#BackRamp2[N][1]=bridge-5-winter.1.0,0,0
+#BackRamp2[W][1]=bridge-5-winter.1.1,0,0
+#BackRamp2[S][1]=bridge-5-winter.1.2,0,0
+#BackRamp2[E][1]=bridge-5-winter.1.3,0,0
 
 BackStart[N][1]=bridge-5-winter.2.0,0,16
 BackStart[W][1]=bridge-5-winter.2.1,0,16
@@ -398,10 +398,10 @@ FrontRamp[W][0]=bridge-5.0.5,0,0
 FrontRamp[S][0]=bridge-5.0.6,0,0
 FrontRamp[E][0]=bridge-5.0.7,0,0
 
-FrontRamp2[N][0]=bridge-5.1.4,0,0
-FrontRamp2[W][0]=bridge-5.1.5,0,0
-FrontRamp2[S][0]=bridge-5.1.6,0,0
-FrontRamp2[E][0]=bridge-5.1.7,0,0
+#FrontRamp2[N][0]=bridge-5.1.4,0,0
+#FrontRamp2[W][0]=bridge-5.1.5,0,0
+#FrontRamp2[S][0]=bridge-5.1.6,0,0
+#FrontRamp2[E][0]=bridge-5.1.7,0,0
 
 FrontStart[N][0]=bridge-5.2.4,0,16
 FrontStart[W][0]=bridge-5.2.5,0,16
@@ -430,10 +430,10 @@ FrontRamp[W][1]=bridge-5-winter.0.5,0,0
 FrontRamp[S][1]=bridge-5-winter.0.6,0,0
 FrontRamp[E][1]=bridge-5-winter.0.7,0,0
 
-FrontRamp2[N][1]=bridge-5-winter.1.4,0,0
-FrontRamp2[W][1]=bridge-5-winter.1.5,0,0
-FrontRamp2[S][1]=bridge-5-winter.1.6,0,0
-FrontRamp2[E][1]=bridge-5-winter.1.7,0,0
+#FrontRamp2[N][1]=bridge-5-winter.1.4,0,0
+#FrontRamp2[W][1]=bridge-5-winter.1.5,0,0
+#FrontRamp2[S][1]=bridge-5-winter.1.6,0,0
+#FrontRamp2[E][1]=bridge-5-winter.1.7,0,0
 
 FrontStart[N][1]=bridge-5-winter.2.4,0,16
 FrontStart[W][1]=bridge-5-winter.2.5,0,16

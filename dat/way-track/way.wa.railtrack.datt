@@ -30,6 +30,8 @@ waytype=track
 %def :offset, ""
 %def :fn, "track-2"
 %include 'way-img'
+%undef /imageup2/
+
 ---
 Obj=way
 Name=wa-concrete-sleeper-track
@@ -45,6 +47,7 @@ waytype=track
 %def :offset, ""
 %def :fn, "track-3"
 %include 'way-img'
+%undef /imageup2/
 
 ---
 Obj=way
@@ -61,6 +64,7 @@ intro_month=3
 %def :offset, ""
 %def :fn, "track-4"
 %include 'way-img'
+%undef /imageup2/
 
 ---
 Obj=way
@@ -78,6 +82,7 @@ system_type=1
 %def :offset, ",0,16"
 %def :fn, "track-3-elv"
 %include 'way-img'
+%undef /imageup2/
 
 ---
 Obj=way
@@ -95,3 +100,4 @@ system_type=1
 %def :offset, ",0,16"
 %def :fn, "track-4-elv"
 %include 'way-img'
+%undef /imageup2/
