@@ -189,6 +189,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\text\*.tab
 @del %TARGET_DIR%\text\citylist_*.txt
 @del %TARGET_DIR%\config\alternative_cityrules.tab
+for /D %%1 in (%TARGET_DIR%\scenario\*) do @rmdir /S /Q %%1
 
 copy .\*.pak %TARGET_DIR%
 copy .\compat.tab %TARGET_DIR%
