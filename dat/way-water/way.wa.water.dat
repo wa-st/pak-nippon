@@ -8,6 +8,7 @@ topspeed=0
 max_weight=1000
 waytype=water
 system_type=255
+draw_as_ding=1
 
 icon=> waterway-1.9.0
 cursor=waterway-1.9.1
@@ -59,6 +60,7 @@ topspeed=0
 max_weight=1000
 waytype=water
 system_type=255
+draw_as_ding=1
 
 icon=> waterway-2.9.0
 cursor=waterway-2.9.1
@@ -109,6 +111,7 @@ topspeed=0
 max_weight=1000
 waytype=water
 system_type=255
+draw_as_ding=1
 
 icon=> waterway-3.9.0
 cursor=waterway-3.9.1

@@ -9,6 +9,7 @@ topspeed=0
 max_weight=1000
 waytype=water
 system_type=255
+draw_as_ding=1
 
 %def :offset, ""
 %def :fn, "waterway-1"
@@ -25,6 +26,7 @@ topspeed=0
 max_weight=1000
 waytype=water
 system_type=255
+draw_as_ding=1
 
 %def :offset, ""
 %def :fn, "waterway-2"
@@ -40,6 +42,7 @@ topspeed=0
 max_weight=1000
 waytype=water
 system_type=255
+draw_as_ding=1
 
 %def :offset, ""
 %def :fn, "waterway-3"
