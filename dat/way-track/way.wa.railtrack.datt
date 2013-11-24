@@ -15,6 +15,7 @@ waytype=track
 %def :offset, ""
 %def :fn, "track-1"
 %include 'way-img'
+%undef /imageup2/
 ---
 Obj=way
 Name=wa-wooden-sleeper-track

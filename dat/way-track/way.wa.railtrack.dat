@@ -40,10 +40,10 @@ ImageUp[9][0]=track-1.6.1
 ImageUp[3][0]=track-1.6.2
 ImageUp[6][0]=track-1.6.3
 
-ImageUp2[12][0]=track-1.7.0
-ImageUp2[9][0]=track-1.7.1
-ImageUp2[3][0]=track-1.7.2
-ImageUp2[6][0]=track-1.7.3
+#ImageUp2[12][0]=track-1.7.0
+#ImageUp2[9][0]=track-1.7.1
+#ImageUp2[3][0]=track-1.7.2
+#ImageUp2[6][0]=track-1.7.3
 
 Diagonal[SE][0]=track-1.8.0
 Diagonal[NE][0]=track-1.8.1
@@ -77,10 +77,10 @@ ImageUp[9][1]=track-1-winter.6.1
 ImageUp[3][1]=track-1-winter.6.2
 ImageUp[6][1]=track-1-winter.6.3
 
-ImageUp2[12][1]=track-1-winter.7.0
-ImageUp2[9][1]=track-1-winter.7.1
-ImageUp2[3][1]=track-1-winter.7.2
-ImageUp2[6][1]=track-1-winter.7.3
+#ImageUp2[12][1]=track-1-winter.7.0
+#ImageUp2[9][1]=track-1-winter.7.1
+#ImageUp2[3][1]=track-1-winter.7.2
+#ImageUp2[6][1]=track-1-winter.7.3
 
 Diagonal[SE][1]=track-1-winter.8.0
 Diagonal[NE][1]=track-1-winter.8.1
