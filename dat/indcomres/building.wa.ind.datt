@@ -169,7 +169,7 @@ level=29
 %def :image, "ind-h1.16.0"
 %autoname 5
 %include "ind"
-%buil_image 1, 1, 2, 8, 2
+%buil_image 1, 1, 2, 2, 2
 ---
 level=30
 %def :image, "ind-h2.0.0"
