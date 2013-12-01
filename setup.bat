@@ -178,8 +178,11 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\way.mip_cobblestone_road.pak
 @del %TARGET_DIR%\way.river.pak
 @del %TARGET_DIR%\way.river2.pak
+@del %TARGET_DIR%\way.runway_grass.pak
+@del %TARGET_DIR%\way.runway_modern.pak
 @del %TARGET_DIR%\way.sand_track.pak
 @del %TARGET_DIR%\way.steel_sleeper_track.pak
+@del %TARGET_DIR%\way.taxiway.pak
 @del %TARGET_DIR%\way.wooden_sleeper_track.pak
 @del %TARGET_DIR%\way-object.HighSpeedOverheadpower.pak
 @del %TARGET_DIR%\way-object.SlowOverheadpower.pak

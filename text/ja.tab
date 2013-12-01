@@ -1020,12 +1020,8 @@ MaglevTrackElevated
 リニア軌道 高架部
 monorail
 モノレール軌道
-runway_grass
-草の滑走路
-runway_modern
-滑走路
-taxiway
-誘導路
+wa-apron
+エプロン
 wa-canal
 運河
 wa-concrete-sleeper-track
@@ -1074,12 +1070,16 @@ wa-road-100r
 対面高速道路
 wa-road-100r-elv
 対面高速高架道路
+wa-runway
+滑走路
 wa-sand-track
 簡易線用線路
 wa-slab-track
 スラブ線路
 wa-slab-track-elv
 スラブ高架線路
+wa-taxiway
+誘導路
 wa-tramtrack-1
 路面軌道1
 wa-tramtrack-2

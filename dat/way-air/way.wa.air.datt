@@ -1,0 +1,52 @@
+%require '..\common.datt'
+
+---
+
+obj=way
+name=wa-taxiway
+copyright=wa
+cost=10000
+maintenance=800
+topspeed=50
+max_weight=100
+#intro_year = 1901
+#intro_month = 7
+waytype=air
+system_type=0
+
+%def :offset, ""
+%def :fn, "taxiway-1"
+%include 'way-img-summer'
+%undef /imageup/
+---
+obj=way
+name=wa-apron
+copyright=wa
+cost=10000
+maintenance=800
+topspeed=50
+max_weight=100
+#intro_year = 1901
+#intro_month = 7
+waytype=air
+system_type=0
+
+%def :offset, ""
+%def :fn, "apron-1"
+%include 'way-img-summer'
+%undef /imageup/
+---
+obj=way
+name=wa-runway
+copyright=wa
+cost=27500
+maintenance=6500
+topspeed=333
+max_weight=950
+#intro_year = 1935
+waytype=air
+system_type=1
+%def :offset, ""
+%def :fn, "runway-1"
+%include 'way-img-summer'
+%undef /imageup/

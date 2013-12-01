@@ -49,6 +49,7 @@ PAKS: building.wa.cur-build.pak \
 	tunnel.wa.railtrack.pak \
 	tunnel.wa.road.pak \
 	tunnel.wa.water.pak \
+	way.wa.air.pak \
 	way.wa.misc.pak \
 	way.wa.underground-powerline.pak \
 	bridge.wa.road.pak \
@@ -155,6 +156,8 @@ tunnel.wa.road.pak: dat/tunnel/tunnel.wa.road.dat dat/tunnel/tunnel-cr1.png dat/
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.wa.road.dat
 tunnel.wa.water.pak: dat/tunnel/tunnel.wa.water.dat dat/tunnel/tunnel-water.png dat/tunnel/stone-tunnel.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.wa.water.dat
+way.wa.air.pak: dat/way-air/way.wa.air.dat dat/way-air/taxiway-1.png dat/way-air/apron-1.png dat/way-air/runway-1.png
+	$(MAKEOBJ64) $@ dat/way-air/way.wa.air.dat
 way.wa.misc.pak: dat/way-misc/way.wa.misc.dat dat/way-misc/miscway-1.png dat/way-misc/miscway-1-winter.png dat/way-misc/miscway-2.png dat/way-misc/miscway-2-winter.png dat/way-misc/miscway-3.png dat/way-misc/miscway-3-winter.png dat/way-misc/miscway-4.png dat/way-misc/miscway-4-winter.png dat/way-misc/miscway-5.png dat/way-misc/miscway-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-misc/way.wa.misc.dat
 way.wa.underground-powerline.pak: dat/way-powerline/way.wa.underground-powerline.dat dat/way-powerline/powerline-ug.png
@@ -234,6 +237,8 @@ dat/tunnel/tunnel.wa.railtrack.dat: dat/tunnel/tunnel.wa.railtrack.datt
 dat/tunnel/tunnel.wa.road.dat: dat/tunnel/tunnel.wa.road.datt
 	$(DATT) $** > $@
 dat/tunnel/tunnel.wa.water.dat: dat/tunnel/tunnel.wa.water.datt
+	$(DATT) $** > $@
+dat/way-air/way.wa.air.dat: dat/way-air/way.wa.air.datt
 	$(DATT) $** > $@
 dat/way-misc/way.wa.misc.dat: dat/way-misc/way.wa.misc.datt
 	$(DATT) $** > $@
