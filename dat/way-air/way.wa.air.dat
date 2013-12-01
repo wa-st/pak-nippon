@@ -150,7 +150,7 @@ Image[SEW][0]=runway-1.5.3
 #ImageUp2[3][0]=runway-1.7.2
 #ImageUp2[6][0]=runway-1.7.3
 
-Diagonal[SE][0]=runway-1.8.0
-Diagonal[NE][0]=runway-1.8.1
-Diagonal[NW][0]=runway-1.8.2
-Diagonal[SW][0]=runway-1.8.3
+#Diagonal[SE][0]=runway-1.8.0
+#Diagonal[NE][0]=runway-1.8.1
+#Diagonal[NW][0]=runway-1.8.2
+#Diagonal[SW][0]=runway-1.8.3

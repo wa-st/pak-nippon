@@ -50,3 +50,4 @@ system_type=1
 %def :fn, "runway-1"
 %include 'way-img-summer'
 %undef /imageup/
+%undef /diagonal/
