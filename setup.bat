@@ -35,6 +35,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.A5_STONEHENGE.pak
 @del %TARGET_DIR%\building.A6_DOME.pak
 @del %TARGET_DIR%\building.AirportShed1930.pak
+@del %TARGET_DIR%\building.AirStop.pak
 @del %TARGET_DIR%\building.Avila_Big_StationBlg.pak
 @del %TARGET_DIR%\building.Avila_Small_StationBlg.pak
 @del %TARGET_DIR%\building.Avila_Warehouse_StationBlg.pak
@@ -64,8 +65,10 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.leftShipStop.pak
 @del %TARGET_DIR%\building.LeuchtturmShipStop.pak
 @del %TARGET_DIR%\building.LongBusStop.pak
+@del %TARGET_DIR%\building.MainTerminal1930.pak
 @del %TARGET_DIR%\building.MHzSmallStation.pak
 @del %TARGET_DIR%\building.OldTownhall.pak
+@del %TARGET_DIR%\building.PlainAirStop.pak
 @del %TARGET_DIR%\building.PSFreightTrainStop.pak
 @del %TARGET_DIR%\building.PSHall1TrainStop.pak
 @del %TARGET_DIR%\building.PSHall2TrainStop.pak
@@ -79,8 +82,11 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.ShipDepot.pak
 @del %TARGET_DIR%\building.ShipDepotEW.pak
 @del %TARGET_DIR%\building.ShipStop.pak
+@del %TARGET_DIR%\building.Terminal1930.pak
 @del %TARGET_DIR%\building.TrainDepot.pak
 @del %TARGET_DIR%\building.Theatre.pak
+@del %TARGET_DIR%\building.Tower1930.pak
+@del %TARGET_DIR%\building.TowerMoistboy.pak
 @del %TARGET_DIR%\building.TrainStop.pak
 @del %TARGET_DIR%\building.TramDepot.pak
 @del %TARGET_DIR%\building.VictorianStation.pak
