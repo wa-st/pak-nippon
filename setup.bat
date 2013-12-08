@@ -3,13 +3,13 @@ set TARGET_DIR=R:\simutrans\pak
 
 @del %TARGET_DIR%\bridge.ClassicRail.pak
 @del %TARGET_DIR%\bridge.ClassicRoad.pak
-@del %TARGET_DIR%\bridge.koka_Bridge_single.pak
 @del %TARGET_DIR%\bridge.ModernRoad.pak
 @del %TARGET_DIR%\bridge.PowerBridge.pak
 @del %TARGET_DIR%\bridge.Schiffhebewerk.pak
 @del %TARGET_DIR%\bridge.SteelRail.pak
 @del %TARGET_DIR%\bridge.ViaductRail.pak
 @del %TARGET_DIR%\bridge.WoodenRoad.pak
+@del %TARGET_DIR%\bridge.koka_Bridge_single.pak
 @del %TARGET_DIR%\bridge.tb_classic_road.pak
 @del %TARGET_DIR%\building.00_01_CITY.pak
 @del %TARGET_DIR%\building.01_CITY.pak
@@ -34,8 +34,8 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.A4_SCHLOSS2.pak
 @del %TARGET_DIR%\building.A5_STONEHENGE.pak
 @del %TARGET_DIR%\building.A6_DOME.pak
-@del %TARGET_DIR%\building.AirportShed1930.pak
 @del %TARGET_DIR%\building.AirStop.pak
+@del %TARGET_DIR%\building.AirportShed1930.pak
 @del %TARGET_DIR%\building.Avila_Big_StationBlg.pak
 @del %TARGET_DIR%\building.Avila_Small_StationBlg.pak
 @del %TARGET_DIR%\building.Avila_Warehouse_StationBlg.pak
@@ -45,34 +45,33 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.CarDepot.pak
 @del %TARGET_DIR%\building.CarStop.pak
 @del %TARGET_DIR%\building.Car_StationBlg.pak
-@del %TARGET_DIR%\building.Control_StationBlg.pak
 @del %TARGET_DIR%\building.ChannelStop.pak
+@del %TARGET_DIR%\building.Control_StationBlg.pak
 @del %TARGET_DIR%\building.Denk*.pak
 @del %TARGET_DIR%\building.Eingang.pak
 @del %TARGET_DIR%\building.Feste.pak
 @del %TARGET_DIR%\building.Fluid_StationBlg.pak
 @del %TARGET_DIR%\building.FreightShipStop.pak
 @del %TARGET_DIR%\building.FreightTrainStop.pak
-@del %TARGET_DIR%\building.Gas_StationBlg.pak
 @del %TARGET_DIR%\building.GCG1TrainStop.pak
 @del %TARGET_DIR%\building.GCG2TrainStop.pak
 @del %TARGET_DIR%\building.GCGTrainStop.pak
+@del %TARGET_DIR%\building.Gas_StationBlg.pak
 @del %TARGET_DIR%\building.Goods_StationBlg.pak
 @del %TARGET_DIR%\building.Gymnasium.pak
 @del %TARGET_DIR%\building.HallBusStop.pak
 @del %TARGET_DIR%\building.KingsbridgeMonastry.pak
 @del %TARGET_DIR%\building.LargeShipStop.pak
-@del %TARGET_DIR%\building.leftShipStop.pak
 @del %TARGET_DIR%\building.LeuchtturmShipStop.pak
 @del %TARGET_DIR%\building.LongBusStop.pak
-@del %TARGET_DIR%\building.MainTerminal1930.pak
 @del %TARGET_DIR%\building.MHzSmallStation.pak
+@del %TARGET_DIR%\building.MainTerminal1930.pak
 @del %TARGET_DIR%\building.OldTownhall.pak
-@del %TARGET_DIR%\building.PlainAirStop.pak
 @del %TARGET_DIR%\building.PSFreightTrainStop.pak
 @del %TARGET_DIR%\building.PSHall1TrainStop.pak
 @del %TARGET_DIR%\building.PSHall2TrainStop.pak
 @del %TARGET_DIR%\building.Patricks_Rock.pak
+@del %TARGET_DIR%\building.PlainAirStop.pak
 @del %TARGET_DIR%\building.PostOffice.pak
 @del %TARGET_DIR%\building.PostStop.pak
 @del %TARGET_DIR%\building.RUIN_0.pak
@@ -83,10 +82,10 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.ShipDepotEW.pak
 @del %TARGET_DIR%\building.ShipStop.pak
 @del %TARGET_DIR%\building.Terminal1930.pak
-@del %TARGET_DIR%\building.TrainDepot.pak
 @del %TARGET_DIR%\building.Theatre.pak
 @del %TARGET_DIR%\building.Tower1930.pak
 @del %TARGET_DIR%\building.TowerMoistboy.pak
+@del %TARGET_DIR%\building.TrainDepot.pak
 @del %TARGET_DIR%\building.TrainStop.pak
 @del %TARGET_DIR%\building.TramDepot.pak
 @del %TARGET_DIR%\building.VictorianStation.pak
@@ -94,6 +93,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.Windmill.pak
 @del %TARGET_DIR%\building.com*.pak
 @del %TARGET_DIR%\building.ind*.pak
+@del %TARGET_DIR%\building.leftShipStop.pak
 @del %TARGET_DIR%\building.rampShipStop.pak
 @del %TARGET_DIR%\building.res*.pak
 @del %TARGET_DIR%\building.rightShipStop.pak
@@ -172,6 +172,8 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\tunnel.RailTunnel.pak
 @del %TARGET_DIR%\tunnel.RoadTunnel.pak
 @REM @del %TARGET_DIR%\vehicle.*.pak
+@del %TARGET_DIR%\way-object.HighSpeedOverheadpower.pak
+@del %TARGET_DIR%\way-object.SlowOverheadpower.pak
 @del %TARGET_DIR%\way.Kanal.pak
 @del %TARGET_DIR%\way.Powerline.pak
 @del %TARGET_DIR%\way.Rillenschienen.pak
@@ -190,8 +192,6 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\way.steel_sleeper_track.pak
 @del %TARGET_DIR%\way.taxiway.pak
 @del %TARGET_DIR%\way.wooden_sleeper_track.pak
-@del %TARGET_DIR%\way-object.HighSpeedOverheadpower.pak
-@del %TARGET_DIR%\way-object.SlowOverheadpower.pak
 
 
 @del %TARGET_DIR%\compat.tab
