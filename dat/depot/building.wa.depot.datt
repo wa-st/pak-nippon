@@ -53,3 +53,17 @@ noconstruction=1
 icon=> tram-depot.2.0
 cursor=tram-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true
+---
+obj=building
+name=wa-air-depot
+copyright=wa
+type=depot
+waytype=air
+noinfo=1
+noconstruction=1
+
+%def :image, 'air-depot.0.0'
+
+icon=> air-depot.2.0
+cursor=air-depot.2.1
+%buil_image 1, 1, 1, 4, 2, front: true

@@ -83,7 +83,7 @@ building.wa.cur-substation.pak: dat/cur/building.wa.cur-substation.dat dat/cur/s
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-substation.dat
 building.wa.cur-temple.pak: dat/cur/building.wa.cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-temple.dat
-building.wa.depot.pak: dat/depot/building.wa.depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png
+building.wa.depot.pak: dat/depot/building.wa.depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png
 	$(MAKEOBJ64) $@ dat/depot/building.wa.depot.dat
 factory.suburbanstores.pak: dat/factory/factory.suburbanstores.dat dat/factory/nitori.png dat/factory/bookoff.png dat/factory/matsukiyo.png
 	$(MAKEOBJ64) $@ dat/factory/factory.suburbanstores.dat
