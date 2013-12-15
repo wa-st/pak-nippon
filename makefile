@@ -56,7 +56,6 @@ PAKS: building.wa.cur-build.pak \
 	bridge.wa.road.pak \
 	crossing.wa.rail-road-crossing.pak \
 	way.wa.road.pak \
-	way.wa.wall.pak \
 	bridge.wa.railtrack.pak \
 	way-object.wa.catenary.pak \
 	way.wa.railtrack.pak \
@@ -161,7 +160,7 @@ tunnel.wa.water.pak: dat/tunnel/tunnel.wa.water.dat dat/tunnel/tunnel-water.png 
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.wa.water.dat
 way.wa.air.pak: dat/way-air/way.wa.air.dat dat/way-air/taxiway-1.png dat/way-air/apron-1.png dat/way-air/runway-1.png
 	$(MAKEOBJ64) $@ dat/way-air/way.wa.air.dat
-way.wa.misc.pak: dat/way-misc/way.wa.misc.dat dat/way-misc/miscway-1.png dat/way-misc/miscway-1-winter.png dat/way-misc/miscway-2.png dat/way-misc/miscway-2-winter.png dat/way-misc/miscway-3.png dat/way-misc/miscway-3-winter.png dat/way-misc/miscway-4.png dat/way-misc/miscway-4-winter.png dat/way-misc/miscway-5.png dat/way-misc/miscway-5-winter.png
+way.wa.misc.pak: dat/way-misc/way.wa.misc.dat dat/way-misc/miscway-1.png dat/way-misc/miscway-1-winter.png dat/way-misc/miscway-2.png dat/way-misc/miscway-2-winter.png dat/way-misc/miscway-3.png dat/way-misc/miscway-3-winter.png dat/way-misc/miscway-4.png dat/way-misc/miscway-4-winter.png dat/way-misc/miscway-5.png dat/way-misc/miscway-5-winter.png dat/way-misc/wall.png dat/way-misc/wall-winter.png
 	$(MAKEOBJ64) $@ dat/way-misc/way.wa.misc.dat
 way.wa.underground-powerline.pak: dat/way-powerline/way.wa.underground-powerline.dat dat/way-powerline/powerline-ug.png
 	$(MAKEOBJ64) $@ dat/way-powerline/way.wa.underground-powerline.dat
@@ -171,8 +170,6 @@ crossing.wa.rail-road-crossing.pak: dat/way-road/crossing.wa.rail-road-crossing.
 	$(MAKEOBJ64) $@ dat/way-road/crossing.wa.rail-road-crossing.dat
 way.wa.road.pak: dat/way-road/way.wa.road.dat dat/way-road/cityroad.png dat/way-road/cityroad-winter.png dat/way-road/road-40n.png dat/way-road/road-40n-winter.png dat/way-road/road-70r.png dat/way-road/road-70r-winter.png dat/way-road/road-100n.png dat/way-road/road-100n-winter.png dat/way-road/road-100n-elv.png dat/way-road/road-100r.png dat/way-road/road-100r-winter.png dat/way-road/road-100r-elv.png dat/way-road/dart-1.png dat/way-road/dart-1-winter.png dat/way-road/dart-2.png dat/way-road/dart-2-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/way.wa.road.dat
-way.wa.wall.pak: dat/way-road/way.wa.wall.dat dat/way-road/wall.png dat/way-road/wall-winter.png
-	$(MAKEOBJ64) $@ dat/way-road/way.wa.wall.dat
 bridge.wa.railtrack.pak: dat/way-track/bridge.wa.railtrack.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-track/bridge.wa.railtrack.dat
 way-object.wa.catenary.pak: dat/way-track/way-object.wa.catenary.dat dat/way-track/catenary-1.png dat/way-track/catenary-2.png
