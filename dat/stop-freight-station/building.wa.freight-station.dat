@@ -63,8 +63,8 @@ Level=2
 waytype=track
 noconstruction=1
 
-cursor=freight-platform-3.2.1
-icon=> freight-platform-3.2.0
+cursor=freight-platform-3.0.5
+icon=> freight-platform-3.0.4
 
 BackImage[0][0][0][0][0]=freight-platform-3.0.0
 BackImage[1][0][0][0][0]=freight-platform-3.0.1
