@@ -236,7 +236,7 @@ level=25
 %def :image, "com-h1.0.0"
 %autoname 1
 %include "com"
-%buil_image 1, 1, 2, 8, 2
+%buil_image 1, 1, 2, 4, 2
 ---
 level=26
 %def :image, "com-h1.4.0"
@@ -248,7 +248,7 @@ level=27
 %def :image, "com-h1.8.0"
 %autoname 3
 %include "com"
-%buil_image 1, 1, 2, 8, 2
+%buil_image 1, 1, 2, 4, 2
 ---
 level=28
 %def :image, "com-h1.12.0"
@@ -260,7 +260,7 @@ level=29
 %def :image, "com-h1.16.0"
 %autoname 5
 %include "com"
-%buil_image 1, 1, 2, 8, 2
+%buil_image 1, 1, 2, 4, 2
 ---
 level=30
 %def :image, "com-h2.0.0"
