@@ -37,11 +37,13 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.A6_DOME.pak
 @del %TARGET_DIR%\building.AirDepot.pak
 @del %TARGET_DIR%\building.AirStop.pak
+@del %TARGET_DIR%\building.AirTerminal477.pak
 @del %TARGET_DIR%\building.AirportShed1930.pak
 @del %TARGET_DIR%\building.Avila_Big_StationBlg.pak
 @del %TARGET_DIR%\building.Avila_Small_StationBlg.pak
 @del %TARGET_DIR%\building.Avila_Warehouse_StationBlg.pak
 @del %TARGET_DIR%\building.BigPostOffice.pak
+@del %TARGET_DIR%\building.BigTerminal477.pak
 @del %TARGET_DIR%\building.Bulk_StationBlg.pak
 @del %TARGET_DIR%\building.BusStop.pak
 @del %TARGET_DIR%\building.CarDepot.pak
@@ -68,6 +70,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.LongBusStop.pak
 @del %TARGET_DIR%\building.MHzSmallStation.pak
 @del %TARGET_DIR%\building.MainTerminal1930.pak
+@del %TARGET_DIR%\building.ModernAirTerminal477.pak
 @del %TARGET_DIR%\building.OldTownhall.pak
 @del %TARGET_DIR%\building.PSFreightTrainStop.pak
 @del %TARGET_DIR%\building.PSHall1TrainStop.pak

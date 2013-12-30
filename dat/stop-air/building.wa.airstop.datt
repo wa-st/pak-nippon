@@ -8,16 +8,6 @@ type=stop
 cursor=#{img(0, 5)}
 icon=> #{img(0, 4)}
 ---
-%resource 'air-ext-common'
-obj=building
-copyright=wa
-noinfo=1
-noconstruction=1
-waytype=air
-type=extension
-cursor=#{img(0, 5)}
-icon=> #{img(0, 4)}
----
 name=wa-airstop-1
 level=3
 %def :image, 'airstop.0.0'
@@ -35,21 +25,3 @@ level=5
 %def :image, 'airstop.2.0'
 %include 'airstop-common'
 %buil_image 1, 1, 1, 4, 1
----
-name=wa-atct-1
-level=3
-%def :image, 'airstop.3.0'
-%include 'air-ext-common'
-%buil_image 1, 1, 1, 4, 2
----
-name=wa-atct-2
-level=5
-%def :image, 'airstop.5.0'
-%include 'air-ext-common'
-%buil_image 1, 1, 2, 4, 2
----
-name=wa-vor-dme
-level=1
-%def :image, 'airstop.9.0'
-%include 'air-ext-common'
-%buil_image 1, 1, 1, 1, 2

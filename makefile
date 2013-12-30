@@ -27,6 +27,7 @@ PAKS: building.wa.cur-build.pak \
 	roadsign.monorail-signals.pak \
 	roadsign.railsignals.pak \
 	roadsign.wa.roadsignals.pak \
+	building.wa.airext.pak \
 	building.wa.airstop.pak \
 	building.wa.container-yard.pak \
 	building.wa.freight-station-misc.pak \
@@ -112,6 +113,8 @@ roadsign.railsignals.pak: dat/signal/roadsign.railsignals.dat dat/signal/Signals
 	$(MAKEOBJ64) $@ dat/signal/roadsign.railsignals.dat
 roadsign.wa.roadsignals.pak: dat/signal/roadsign.wa.roadsignals.dat dat/signal/traffic-light.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.wa.roadsignals.dat
+building.wa.airext.pak: dat/stop-air/building.wa.airext.dat dat/stop-air/airstop.png dat/stop-air/airext-terminal.png
+	$(MAKEOBJ64) $@ dat/stop-air/building.wa.airext.dat
 building.wa.airstop.pak: dat/stop-air/building.wa.airstop.dat dat/stop-air/airstop.png
 	$(MAKEOBJ64) $@ dat/stop-air/building.wa.airstop.dat
 building.wa.container-yard.pak: dat/stop-freight-station/building.wa.container-yard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png
@@ -221,6 +224,8 @@ dat/indcomres/building.wa.ind.dat: dat/indcomres/building.wa.ind.datt
 dat/indcomres/building.wa.res.dat: dat/indcomres/building.wa.res.datt
 	$(DATT) $** > $@
 dat/pedestrian/pedestrian.wa.dat: dat/pedestrian/pedestrian.wa.datt
+	$(DATT) $** > $@
+dat/stop-air/building.wa.airext.dat: dat/stop-air/building.wa.airext.datt
 	$(DATT) $** > $@
 dat/stop-air/building.wa.airstop.dat: dat/stop-air/building.wa.airstop.datt
 	$(DATT) $** > $@
