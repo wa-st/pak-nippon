@@ -285,3 +285,13 @@ Image[50][0]=marker.2.7
 Image[51][0]=marker.0.8
 Image[52][0]=marker.1.8
 Image[53][0]=marker.2.8
+---
+obj=ground
+name=Fence
+copyright=wa
+Image[0][0]=fence.0.0
+Image[1][0]=fence.0.1
+Image[2][0]=fence.0.2
+Image[3][0]=fence.1.0
+Image[4][0]=fence.1.1
+Image[5][0]=fence.1.2

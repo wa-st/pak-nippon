@@ -145,6 +145,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\ground.Basement.pak
 @del %TARGET_DIR%\ground.Borders.pak
 @del %TARGET_DIR%\ground.ClimateTexture.pak
+@del %TARGET_DIR%\ground.Fence.pak
 @del %TARGET_DIR%\ground.LightTexture.pak
 @del %TARGET_DIR%\ground.Marker.pak
 @del %TARGET_DIR%\ground.Outside.pak
