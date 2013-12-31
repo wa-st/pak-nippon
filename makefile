@@ -6,11 +6,11 @@ DATT = ruby $(SCRIPTS)datt.rb
 ########### .pak -> PAKS
 PAKS: building.wa.cur-build.pak \
 	building.wa.cur-castle.pak \
+	building.wa.cur-infrastructure.pak \
 	building.wa.cur-kofun.pak \
 	building.wa.cur-park.pak \
 	building.wa.cur-school.pak \
 	building.wa.cur-shrine.pak \
-	building.wa.cur-substation.pak \
 	building.wa.cur-temple.pak \
 	building.wa.depot.pak \
 	factory.suburbanstores.pak \
@@ -71,6 +71,8 @@ building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/o1-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-build.dat
 building.wa.cur-castle.pak: dat/cur/building.wa.cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-castle.dat
+building.wa.cur-infrastructure.pak: dat/cur/building.wa.cur-infrastructure.dat dat/cur/switchyard-tile.png dat/cur/substation-tile.png
+	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-infrastructure.dat
 building.wa.cur-kofun.pak: dat/cur/building.wa.cur-kofun.dat dat/cur/kofun-1-tile.png dat/cur/kofun-2-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-kofun.dat
 building.wa.cur-park.pak: dat/cur/building.wa.cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png
@@ -79,8 +81,6 @@ building.wa.cur-school.pak: dat/cur/building.wa.cur-school.dat dat/cur/school-1-
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-school.dat
 building.wa.cur-shrine.pak: dat/cur/building.wa.cur-shrine.dat dat/cur/shrine-1-tile.png dat/cur/shrine-2-tile.png dat/cur/shrine-3-tile.png dat/cur/shrine-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-shrine.dat
-building.wa.cur-substation.pak: dat/cur/building.wa.cur-substation.dat dat/cur/switchyard-tile.png dat/cur/substation-tile.png
-	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-substation.dat
 building.wa.cur-temple.pak: dat/cur/building.wa.cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-temple.dat
 building.wa.depot.pak: dat/depot/building.wa.depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png
@@ -91,7 +91,7 @@ factory.wa.pak: dat/factory/factory.wa.dat dat/factory/steelmill-tile.png dat/fa
 	$(MAKEOBJ64) $@ dat/factory/factory.wa.dat
 ground.Outside.pak: dat/ground/ground.Outside.dat dat/ground/water.png
 	$(MAKEOBJ64) $@ dat/ground/ground.Outside.dat
-ground.wa.pak: dat/ground/ground.wa.dat dat/ground/basement.png dat/ground/slopes.png dat/ground/water.png dat/ground/texture-climate.png dat/ground/texture-slope.png dat/ground/texture-shore.png dat/ground/texture-lightmap.png dat/ground/borders.png dat/ground/marker.png
+ground.wa.pak: dat/ground/ground.wa.dat dat/ground/basement.png dat/ground/slopes.png dat/ground/water.png dat/ground/texture-climate.png dat/ground/texture-slope.png dat/ground/texture-shore.png dat/ground/texture-lightmap.png dat/ground/borders.png dat/ground/marker.png dat/ground/fence.png
 	$(MAKEOBJ64) $@ dat/ground/ground.wa.dat
 building.wa.port.pak: dat/harbor/building.wa.port.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png dat/harbor/canal-stop.png
 	$(MAKEOBJ64) $@ dat/harbor/building.wa.port.dat
@@ -195,6 +195,8 @@ dat/cur/building.wa.cur-build.dat: dat/cur/building.wa.cur-build.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-castle.dat: dat/cur/building.wa.cur-castle.datt
 	$(DATT) $** > $@
+dat/cur/building.wa.cur-infrastructure.dat: dat/cur/building.wa.cur-infrastructure.datt
+	$(DATT) $** > $@
 dat/cur/building.wa.cur-kofun.dat: dat/cur/building.wa.cur-kofun.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-park.dat: dat/cur/building.wa.cur-park.datt
@@ -202,8 +204,6 @@ dat/cur/building.wa.cur-park.dat: dat/cur/building.wa.cur-park.datt
 dat/cur/building.wa.cur-school.dat: dat/cur/building.wa.cur-school.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-shrine.dat: dat/cur/building.wa.cur-shrine.datt
-	$(DATT) $** > $@
-dat/cur/building.wa.cur-substation.dat: dat/cur/building.wa.cur-substation.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-temple.dat: dat/cur/building.wa.cur-temple.datt
 	$(DATT) $** > $@
