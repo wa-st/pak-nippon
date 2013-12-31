@@ -67,6 +67,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.KingsbridgeMonastry.pak
 @del %TARGET_DIR%\building.LargeShipStop.pak
 @del %TARGET_DIR%\building.LeuchtturmShipStop.pak
+@del %TARGET_DIR%\building.Lighthouse.pak
 @del %TARGET_DIR%\building.LongBusStop.pak
 @del %TARGET_DIR%\building.MHzSmallStation.pak
 @del %TARGET_DIR%\building.MainTerminal1930.pak

@@ -64,8 +64,6 @@ wa-truss-track-bridge
 トラス橋
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-Lighthouse
-灯台\n\n100年前に立った、光達距離は19海里
 MonorailDepot
 モノレール基地
 MonorailFoundation
@@ -92,6 +90,8 @@ wa-cur-kofun-1
 前方後円墳
 wa-cur-kofun-2
 円墳
+wa-cur-lighthouse
+灯台
 wa-cur-park-1
 公園
 wa-cur-park-2

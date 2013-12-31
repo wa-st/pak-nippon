@@ -3,9 +3,9 @@ obj=building
 name=wa-cur-switchyard
 copyright=wa
 type=cur
-Passengers=1
-Build_Time=0
-Chance=20
+passengers=1
+build_time=0
+chance=20
 needs_ground=0
 
 dims=3,2,4
@@ -112,9 +112,9 @@ obj=building
 name=wa-cur-substation
 copyright=wa
 type=cur
-Passengers=1
-Build_Time=0
-Chance=20
+passengers=1
+build_time=0
+chance=20
 needs_ground=0
 
 dims=3,3,4
@@ -264,3 +264,28 @@ BackImage[3][2][1][0][0][1]=substation-tile.11.10
 #BackImage[3][2][1][1][0][1]=substation-tile.10.10
 BackImage[3][2][2][0][0][1]=substation-tile.11.11
 #BackImage[3][2][2][1][0][1]=substation-tile.10.11
+---
+obj=building
+name=wa-cur-lighthouse
+copyright=wa
+type=cur
+passengers=5
+build_time=0
+chance=20
+needs_ground=0
+climates=water
+animation_time=500
+
+dims=1,1,1
+
+BackImage[0][0][0][0][0][0]=lighthouse.0.0
+
+BackImage[0][0][0][0][0][1]=lighthouse.1.0
+FrontImage[0][0][0][0][0][0]=lighthouse.2.0
+FrontImage[0][0][0][0][1][0]=lighthouse.2.1
+FrontImage[0][0][0][0][2][0]=lighthouse.2.2
+FrontImage[0][0][0][0][3][0]=lighthouse.2.3
+FrontImage[0][0][0][0][0][1]=lighthouse.2.0
+FrontImage[0][0][0][0][1][1]=lighthouse.2.1
+FrontImage[0][0][0][0][2][1]=lighthouse.2.2
+FrontImage[0][0][0][0][3][1]=lighthouse.2.3

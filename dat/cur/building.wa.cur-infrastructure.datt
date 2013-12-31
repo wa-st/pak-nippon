@@ -2,9 +2,9 @@ obj=building
 name=wa-cur-switchyard
 copyright=wa
 type=cur
-Passengers=1
-Build_Time=0
-Chance=20
+passengers=1
+build_time=0
+chance=20
 needs_ground=0
 
 %def :image, "switchyard-tile.0.0"
@@ -14,10 +14,32 @@ obj=building
 name=wa-cur-substation
 copyright=wa
 type=cur
-Passengers=1
-Build_Time=0
-Chance=20
+passengers=1
+build_time=0
+chance=20
 needs_ground=0
 
 %def :image, "substation-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
+---
+obj=building
+name=wa-cur-lighthouse
+copyright=wa
+type=cur
+passengers=5
+build_time=0
+chance=20
+needs_ground=0
+climates=water
+animation_time=500
+
+%def :image, "lighthouse.0.0"
+%buil_image 1, 1, 1, 1, 2
+FrontImage[0][0][0][0][0][0]=#{img(2, 0)}
+FrontImage[0][0][0][0][1][0]=#{img(2, 1)}
+FrontImage[0][0][0][0][2][0]=#{img(2, 2)}
+FrontImage[0][0][0][0][3][0]=#{img(2, 3)}
+FrontImage[0][0][0][0][0][1]=#{img(2, 0)}
+FrontImage[0][0][0][0][1][1]=#{img(2, 1)}
+FrontImage[0][0][0][0][2][1]=#{img(2, 2)}
+FrontImage[0][0][0][0][3][1]=#{img(2, 3)}
