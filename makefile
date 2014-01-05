@@ -30,11 +30,11 @@ PAKS: building.wa.cur-build.pak \
 	roadsign.wa.roadsignals.pak \
 	building.wa.airext.pak \
 	building.wa.airstop.pak \
-	building.wa.container-yard.pak \
 	building.wa.freight-station-misc.pak \
 	building.wa.freight-station-roof.pak \
 	building.wa.freight-station.pak \
-	building.wa.tank.pak \
+	building.wa.miscext-containeryard.pak \
+	building.wa.miscext-tank.pak \
 	building.wa.footbridge-1.pak \
 	building.wa.platform-0.pak \
 	building.wa.platform-1.pak \
@@ -43,10 +43,10 @@ PAKS: building.wa.cur-build.pak \
 	building.wa.platform-4.pak \
 	building.wa.platform-d.pak \
 	building.wa.platform-f.pak \
-	building.wa.post-office.pak \
-	building.wa.busstops.pak \
-	building.wa.freightstops.pak \
-	building.wa.rail-station.pak \
+	building.wa.miscext-post-office.pak \
+	building.wa.roadstop-freight.pak \
+	building.wa.roadstop.pak \
+	building.wa.railext-localstation.pak \
 	building.wa.townhall.pak \
 	tree.wa.pak \
 	tunnel.wa.railtrack.pak \
@@ -120,16 +120,16 @@ building.wa.airext.pak: dat/stop-air/building.wa.airext.dat dat/stop-air/airstop
 	$(MAKEOBJ64) $@ dat/stop-air/building.wa.airext.dat
 building.wa.airstop.pak: dat/stop-air/building.wa.airstop.dat dat/stop-air/airstop.png
 	$(MAKEOBJ64) $@ dat/stop-air/building.wa.airstop.dat
-building.wa.container-yard.pak: dat/stop-freight-station/building.wa.container-yard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png
-	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.container-yard.dat
 building.wa.freight-station-misc.pak: dat/stop-freight-station/building.wa.freight-station-misc.dat dat/stop-freight-station/freight-platform-misc.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station-misc.dat
 building.wa.freight-station-roof.pak: dat/stop-freight-station/building.wa.freight-station-roof.dat dat/stop-freight-station/fplatform-2.png dat/stop-freight-station/fplatform-1.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station-roof.dat
 building.wa.freight-station.pak: dat/stop-freight-station/building.wa.freight-station.dat dat/stop-freight-station/fplatform-1.png dat/stop-freight-station/freight-platform-3.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.freight-station.dat
-building.wa.tank.pak: dat/stop-freight-station/building.wa.tank.dat dat/stop-freight-station/tanks.png
-	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.tank.dat
+building.wa.miscext-containeryard.pak: dat/stop-freight-station/building.wa.miscext-containeryard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png
+	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.miscext-containeryard.dat
+building.wa.miscext-tank.pak: dat/stop-freight-station/building.wa.miscext-tank.dat dat/stop-freight-station/tanks.png
+	$(MAKEOBJ64) $@ dat/stop-freight-station/building.wa.miscext-tank.dat
 building.wa.footbridge-1.pak: dat/stop-platform/building.wa.footbridge-1.dat dat/stop-platform/footbridge-1.png dat/stop-platform/footbridge-1-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.footbridge-1.dat
 building.wa.platform-0.pak: dat/stop-platform/building.wa.platform-0.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png
@@ -146,14 +146,14 @@ building.wa.platform-d.pak: dat/stop-platform/building.wa.platform-d.dat dat/sto
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.platform-d.dat
 building.wa.platform-f.pak: dat/stop-platform/building.wa.platform-f.dat dat/stop-platform/platform-f.png dat/stop-platform/platform-f-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.wa.platform-f.dat
-building.wa.post-office.pak: dat/stop-post/building.wa.post-office.dat dat/stop-post/post-office.png
-	$(MAKEOBJ64) $@ dat/stop-post/building.wa.post-office.dat
-building.wa.busstops.pak: dat/stop-road/building.wa.busstops.dat dat/stop-road/stops.png dat/stop-road/stops-winter.png
-	$(MAKEOBJ64) $@ dat/stop-road/building.wa.busstops.dat
-building.wa.freightstops.pak: dat/stop-road/building.wa.freightstops.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
-	$(MAKEOBJ64) $@ dat/stop-road/building.wa.freightstops.dat
-building.wa.rail-station.pak: dat/stop-station/building.wa.rail-station.dat dat/stop-station/local-station.png
-	$(MAKEOBJ64) $@ dat/stop-station/building.wa.rail-station.dat
+building.wa.miscext-post-office.pak: dat/stop-post/building.wa.miscext-post-office.dat dat/stop-post/post-office.png
+	$(MAKEOBJ64) $@ dat/stop-post/building.wa.miscext-post-office.dat
+building.wa.roadstop-freight.pak: dat/stop-road/building.wa.roadstop-freight.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
+	$(MAKEOBJ64) $@ dat/stop-road/building.wa.roadstop-freight.dat
+building.wa.roadstop.pak: dat/stop-road/building.wa.roadstop.dat dat/stop-road/stops.png dat/stop-road/stops-winter.png
+	$(MAKEOBJ64) $@ dat/stop-road/building.wa.roadstop.dat
+building.wa.railext-localstation.pak: dat/stop-station/building.wa.railext-localstation.dat dat/stop-station/local-station.png
+	$(MAKEOBJ64) $@ dat/stop-station/building.wa.railext-localstation.dat
 building.wa.townhall.pak: dat/tow/building.wa.townhall.dat dat/tow/tow-1-tile.png dat/tow/tow-2-tile.png dat/tow/tow-3-tile.png dat/tow/tow-4-tile.png dat/tow/tow-5-tile.png dat/tow/tow-6-tile.png dat/tow/tow-7-tile.png dat/tow/tow-8-tile.png dat/tow/tow-9-tile.png
 	$(MAKEOBJ64) $@ dat/tow/building.wa.townhall.dat
 tree.wa.pak: dat/tree/tree.wa.dat dat/tree/trees.png
@@ -234,13 +234,13 @@ dat/stop-air/building.wa.airext.dat: dat/stop-air/building.wa.airext.datt
 	$(DATT) $** > $@
 dat/stop-air/building.wa.airstop.dat: dat/stop-air/building.wa.airstop.datt
 	$(DATT) $** > $@
-dat/stop-freight-station/building.wa.container-yard.dat: dat/stop-freight-station/building.wa.container-yard.datt
+dat/stop-freight-station/building.wa.miscext-containeryard.dat: dat/stop-freight-station/building.wa.miscext-containeryard.datt
 	$(DATT) $** > $@
-dat/stop-freight-station/building.wa.tank.dat: dat/stop-freight-station/building.wa.tank.datt
+dat/stop-freight-station/building.wa.miscext-tank.dat: dat/stop-freight-station/building.wa.miscext-tank.datt
 	$(DATT) $** > $@
-dat/stop-post/building.wa.post-office.dat: dat/stop-post/building.wa.post-office.datt
+dat/stop-post/building.wa.miscext-post-office.dat: dat/stop-post/building.wa.miscext-post-office.datt
 	$(DATT) $** > $@
-dat/stop-station/building.wa.rail-station.dat: dat/stop-station/building.wa.rail-station.datt
+dat/stop-station/building.wa.railext-localstation.dat: dat/stop-station/building.wa.railext-localstation.datt
 	$(DATT) $** > $@
 dat/tow/building.wa.townhall.dat: dat/tow/building.wa.townhall.datt
 	$(DATT) $** > $@
