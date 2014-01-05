@@ -87,6 +87,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.ShipDepot.pak
 @del %TARGET_DIR%\building.ShipDepotEW.pak
 @del %TARGET_DIR%\building.ShipStop.pak
+@del %TARGET_DIR%\building.Tennis_Court.pak
 @del %TARGET_DIR%\building.Terminal1930.pak
 @del %TARGET_DIR%\building.Theatre.pak
 @del %TARGET_DIR%\building.Tower1930.pak

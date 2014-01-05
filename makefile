@@ -11,6 +11,7 @@ PAKS: building.wa.cur-build.pak \
 	building.wa.cur-park.pak \
 	building.wa.cur-school.pak \
 	building.wa.cur-shrine.pak \
+	building.wa.cur-sport.pak \
 	building.wa.cur-temple.pak \
 	building.wa.depot.pak \
 	factory.suburbanstores.pak \
@@ -71,7 +72,7 @@ building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/o1-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-build.dat
 building.wa.cur-castle.pak: dat/cur/building.wa.cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-castle.dat
-building.wa.cur-infrastructure.pak: dat/cur/building.wa.cur-infrastructure.dat dat/cur/switchyard-tile.png dat/cur/substation-tile.png
+building.wa.cur-infrastructure.pak: dat/cur/building.wa.cur-infrastructure.dat dat/cur/switchyard-tile.png dat/cur/substation-tile.png dat/cur/lighthouse.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-infrastructure.dat
 building.wa.cur-kofun.pak: dat/cur/building.wa.cur-kofun.dat dat/cur/kofun-1-tile.png dat/cur/kofun-2-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-kofun.dat
@@ -81,6 +82,8 @@ building.wa.cur-school.pak: dat/cur/building.wa.cur-school.dat dat/cur/school-1-
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-school.dat
 building.wa.cur-shrine.pak: dat/cur/building.wa.cur-shrine.dat dat/cur/shrine-1-tile.png dat/cur/shrine-2-tile.png dat/cur/shrine-3-tile.png dat/cur/shrine-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-shrine.dat
+building.wa.cur-sport.pak: dat/cur/building.wa.cur-sport.dat dat/cur/tenniscourt-tile.png dat/cur/baseballfield-tile.png dat/cur/soccer-stadium-tile.png
+	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-sport.dat
 building.wa.cur-temple.pak: dat/cur/building.wa.cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-temple.dat
 building.wa.depot.pak: dat/depot/building.wa.depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png
@@ -204,6 +207,8 @@ dat/cur/building.wa.cur-park.dat: dat/cur/building.wa.cur-park.datt
 dat/cur/building.wa.cur-school.dat: dat/cur/building.wa.cur-school.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-shrine.dat: dat/cur/building.wa.cur-shrine.datt
+	$(DATT) $** > $@
+dat/cur/building.wa.cur-sport.dat: dat/cur/building.wa.cur-sport.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-temple.dat: dat/cur/building.wa.cur-temple.datt
 	$(DATT) $** > $@

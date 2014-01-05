@@ -70,14 +70,14 @@ MonorailFoundation
 モノレール基部
 MonorailGround
 モノレール地上部
-Tennis_Court
-テニスコート
 TrainStopMaglev
 旅客駅
 TrainStopMaglevIndicator
 旅客駅(表示板付)
 #___________________________________building(cur)_______________________________
 #___________________________________building(cur)_______________________________
+wa-cur-baseballfield
+野球場
 wa-cur-castle-1
 城址
 wa-cur-castle-2
@@ -116,6 +116,8 @@ wa-cur-shrine-3
 天神
 wa-cur-shrine-4
 八幡
+wa-cur-soccer-stadium
+サッカースタジアム
 wa-cur-substation
 変電所
 wa-cur-switchyard
@@ -130,6 +132,8 @@ wa-cur-temple-4
 国分寺
 wa-cur-temple-5
 観音寺
+wa-cur-tenniscourt
+テニスコート
 wa-cur-university-1
 大学
 #___________________________________building(depot)_____________________________

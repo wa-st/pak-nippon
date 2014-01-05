@@ -1,0 +1,36 @@
+---
+obj=building
+name=wa-cur-tenniscourt
+copyright=wa
+type=cur
+passengers=25
+build_time=1040
+chance=20
+needs_ground=0
+
+%def :image, "tenniscourt-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+---
+obj=building
+name=wa-cur-baseballfield
+copyright=wa
+type=cur
+passengers=5
+build_time=1540
+chance=20
+needs_ground=0
+
+%def :image, "baseballfield-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+---
+obj=building
+name=wa-cur-soccer-stadium
+copyright=wa
+type=cur
+passengers=40
+build_time=3040
+chance=15
+needs_ground=0
+
+%def :image, "soccer-stadium-tile.0.0"
+%buil_image 4, 4, 1, 2, 2
