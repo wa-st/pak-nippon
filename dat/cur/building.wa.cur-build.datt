@@ -20,20 +20,6 @@ build_time=400
 
 
 ----
-name=wa-cur-l01
-passengers=40
-build_time=500
-%def :image, "l01-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-----
-name=wa-cur-l02
-passengers=40
-build_time=600
-%def :image, "l02-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-----
 name=wa-cur-l03
 passengers=40
 build_time=700
@@ -111,14 +97,6 @@ build_time=1700
 %include "cur"
 %buil_image 2, 2, 2, 4, 2
 
-
-----
-name=wa-cur-m01
-passengers=40
-build_time=1800
-%def :image, "m1-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
 ----
 name=wa-cur-m02
 passengers=40
@@ -138,14 +116,6 @@ name=wa-cur-m04
 passengers=40
 build_time=2100
 %def :image, "m4-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-
-----
-name=wa-cur-h01
-passengers=40
-build_time=2200
-%def :image, "h1-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 2, 4, 2
 

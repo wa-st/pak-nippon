@@ -1,0 +1,19 @@
+%resource "cur"
+obj=building
+copyright=wa
+type=cur
+chance=15
+----
+name=wa-cur-hospital-1
+passengers=40
+build_time=2200
+%def :image, "hospital-1-tile.0.0"
+%include "cur"
+%buil_image 4, 4, 2, 4, 2
+----
+name=wa-cur-hospital-2
+passengers=40
+build_time=1800
+%def :image, "hospital-2-tile.0.0"
+%include "cur"
+%buil_image 3, 3, 2, 4, 2

@@ -1,0 +1,19 @@
+%resource "cur"
+obj=building
+copyright=wa
+type=cur
+chance=15
+----
+name=wa-cur-policestation
+passengers=40
+build_time=500
+%def :image, "policestation-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-firestation
+passengers=40
+build_time=600
+%def :image, "firestation-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
