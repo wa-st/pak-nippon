@@ -1,6 +1,6 @@
 ---
-Obj=way
-Name=wa-tramtrack-1
+obj=way
+name=wa-tramtrack-1
 copyright=wa
 waytype=tram_track
 cost=10000
@@ -38,19 +38,18 @@ ImageUp[9][0]=tramtrack-1.6.1
 ImageUp[3][0]=tramtrack-1.6.2
 ImageUp[6][0]=tramtrack-1.6.3
 
-#ImageUp2[12][0]=tramtrack-1.7.0
-#ImageUp2[9][0]=tramtrack-1.7.1
-#ImageUp2[3][0]=tramtrack-1.7.2
-#ImageUp2[6][0]=tramtrack-1.7.3
+ImageUp2[12][0]=tramtrack-1.7.0
+ImageUp2[9][0]=tramtrack-1.7.1
+ImageUp2[3][0]=tramtrack-1.7.2
+ImageUp2[6][0]=tramtrack-1.7.3
 
 Diagonal[SE][0]=tramtrack-1.8.0
 Diagonal[NE][0]=tramtrack-1.8.1
 Diagonal[NW][0]=tramtrack-1.8.2
 Diagonal[SW][0]=tramtrack-1.8.3
-
 ---
-Obj=way
-Name=wa-tramtrack-2
+obj=way
+name=wa-tramtrack-2
 copyright=wa
 waytype=tram_track
 cost=10000
@@ -88,10 +87,10 @@ ImageUp[9][0]=tramtrack-2.6.1
 ImageUp[3][0]=tramtrack-2.6.2
 ImageUp[6][0]=tramtrack-2.6.3
 
-#ImageUp2[12][0]=tramtrack-2.7.0
-#ImageUp2[9][0]=tramtrack-2.7.1
-#ImageUp2[3][0]=tramtrack-2.7.2
-#ImageUp2[6][0]=tramtrack-2.7.3
+ImageUp2[12][0]=tramtrack-2.7.0
+ImageUp2[9][0]=tramtrack-2.7.1
+ImageUp2[3][0]=tramtrack-2.7.2
+ImageUp2[6][0]=tramtrack-2.7.3
 
 Diagonal[SE][0]=tramtrack-2.8.0
 Diagonal[NE][0]=tramtrack-2.8.1

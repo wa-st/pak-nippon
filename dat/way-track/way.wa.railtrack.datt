@@ -1,8 +1,8 @@
 %require '..\common.datt'
 
 ---
-Obj=way
-Name=wa-sand-track
+obj=way
+name=wa-sand-track
 copyright=wa
 cost=3500
 maintenance=100
@@ -15,10 +15,9 @@ waytype=track
 %def :offset, ""
 %def :fn, "track-1"
 %include 'way-img'
-%undef /imageup2/
 ---
-Obj=way
-Name=wa-wooden-sleeper-track
+obj=way
+name=wa-wooden-sleeper-track
 copyright=wa
 cost=8000
 maintenance=500
@@ -31,11 +30,9 @@ waytype=track
 %def :offset, ""
 %def :fn, "track-2"
 %include 'way-img'
-%undef /imageup2/
-
 ---
-Obj=way
-Name=wa-concrete-sleeper-track
+obj=way
+name=wa-concrete-sleeper-track
 copyright=wa
 cost=12000
 maintenance=800
@@ -48,11 +45,9 @@ waytype=track
 %def :offset, ""
 %def :fn, "track-3"
 %include 'way-img'
-%undef /imageup2/
-
 ---
-Obj=way
-Name=wa-slab-track
+obj=way
+name=wa-slab-track
 copyright=wa
 waytype=track
 cost=40000
@@ -65,11 +60,9 @@ max_weight=110
 %def :offset, ""
 %def :fn, "track-4"
 %include 'way-img'
-%undef /imageup2/
-
 ---
-Obj=way
-Name=wa-concrete-sleeper-track-elv
+obj=way
+name=wa-concrete-sleeper-track-elv
 copyright=wa
 cost=24000
 maintenance=800
@@ -83,11 +76,9 @@ system_type=1
 %def :offset, ",0,16"
 %def :fn, "track-3-elv"
 %include 'way-img'
-%undef /imageup2/
-
 ---
-Obj=way
-Name=wa-slab-track-elv
+obj=way
+name=wa-slab-track-elv
 copyright=wa
 waytype=track
 cost=80000
@@ -101,4 +92,3 @@ system_type=1
 %def :offset, ",0,16"
 %def :fn, "track-4-elv"
 %include 'way-img'
-%undef /imageup2/

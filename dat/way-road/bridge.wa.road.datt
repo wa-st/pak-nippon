@@ -66,6 +66,7 @@ max_length=20
 #intro_month=7
 %def :fn, "road-100n-bridge"
 %include "old-bridge-image"
+%undef /(back|front)ramp2.*/
 --------------------------
 Obj=bridge
 name=wa-road-100r-bridge
@@ -83,6 +84,7 @@ cursor=road-100r-bridge.6.1
 icon=> road-100r-bridge.6.0
 %def :fn, "road-100r-bridge"
 %include "old-bridge-image"
+%undef /(back|front)ramp2.*/
 
 ---
 Obj=bridge
@@ -98,6 +100,7 @@ max_length=10
 %include 'bridge-image'
 %undef /^backpillar.+/
 %undef /^backpillar2.+/
+%undef /(back|front)ramp2.*/
 ---
 Obj=bridge
 name=wa-road-bridge-4
@@ -112,6 +115,7 @@ max_length=5
 %include 'bridge-image'
 %undef /^backpillar.+/
 %undef /^backpillar2.+/
+%undef /(back|front)ramp2.*/
 ---
 Obj=bridge
 name=wa-road-bridge-5
@@ -126,3 +130,4 @@ pillar_asymmetric=1
 
 %def :fn, "road-bridge-5"
 %include 'bridge-image'
+%undef /(back|front)ramp2.*/
