@@ -17,3 +17,17 @@ build_time=600
 %def :image, "firestation-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-library
+passengers=40
+build_time=700
+%def :image, "library-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-historical-museum
+passengers=40
+build_time=800
+%def :image, "historical-museum-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
