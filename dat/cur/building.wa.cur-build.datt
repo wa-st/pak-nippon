@@ -10,35 +10,8 @@ build_time=300
 %def :image, "o1-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
-----
-name=wa-cur-o02
-passengers=20
-build_time=400
-%def :image, "o2-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 1, 4, 2
 
-----
-name=wa-cur-l05
-passengers=40
-build_time=900
-%def :image, "l05-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-----
-name=wa-cur-l06
-passengers=40
-build_time=1000
-%def :image, "l06-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-----
-name=wa-cur-l07
-passengers=40
-build_time=1100
-%def :image, "l07-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
+
 ----
 name=wa-cur-l08
 passengers=40

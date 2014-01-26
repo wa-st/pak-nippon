@@ -52,3 +52,14 @@ chance=20
 
 %def :image, "university-tile.0.0"
 %buil_image 4, 4, 2, 4, 2
+---
+obj=building
+name=wa-cur-kindergarten
+copyright=wa
+type=cur
+passengers=20
+build_time=400
+chance=15
+
+%def :image, "kindergarten-tile.0.0"
+%buil_image 2, 2, 1, 4, 2

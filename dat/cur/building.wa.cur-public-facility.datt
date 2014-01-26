@@ -31,3 +31,25 @@ build_time=800
 %def :image, "historical-museum-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-health-and-welfare-center
+passengers=40
+build_time=900
+%def :image, "health-and-welfare-center-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+
+----
+name=wa-cur-tax-office
+passengers=40
+build_time=1000
+%def :image, "tax-office-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-employment-service-center
+passengers=40
+build_time=1100
+%def :image, "employment-service-center-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
