@@ -1,5 +1,5 @@
 ---
-name=wa-tank-1
+name=wa-miscext-tank-1
 level=8
 obj=building
 copyright=wa
@@ -11,13 +11,13 @@ cursor=tanks.0.5
 icon=> tanks.0.4
 dims=1,1,2
 
-BackImage[0][0][0][0][0][0]=tanks.0.0
-BackImage[1][0][0][0][0][0]=tanks.0.1
+backimage[0][0][0][0][0][0]=tanks.0.0
+backimage[1][0][0][0][0][0]=tanks.0.1
 
-BackImage[0][0][0][0][0][1]=tanks.1.0
-BackImage[1][0][0][0][0][1]=tanks.1.1
+backimage[0][0][0][0][0][1]=tanks.1.0
+backimage[1][0][0][0][0][1]=tanks.1.1
 ---
-name=wa-tank-2
+name=wa-miscext-tank-2
 level=9
 obj=building
 copyright=wa
@@ -29,11 +29,11 @@ cursor=tanks.2.5
 icon=> tanks.2.4
 dims=1,1,1
 
-BackImage[0][0][0][0][0][0]=tanks.2.0
+backimage[0][0][0][0][0][0]=tanks.2.0
 
-BackImage[0][0][0][0][0][1]=tanks.3.0
+backimage[0][0][0][0][0][1]=tanks.3.0
 ---
-name=wa-tank-3
+name=wa-miscext-tank-3
 level=10
 obj=building
 copyright=wa
@@ -45,12 +45,12 @@ cursor=tanks.4.5
 icon=> tanks.4.4
 dims=2,2,1
 
-BackImage[0][0][0][0][0][0]=tanks.4.0
-BackImage[0][0][1][0][0][0]=tanks.4.1
-BackImage[0][1][0][0][0][0]=tanks.5.0
-BackImage[0][1][1][0][0][0]=tanks.5.1
+backimage[0][0][0][0][0][0]=tanks.4.0
+backimage[0][0][1][0][0][0]=tanks.4.1
+backimage[0][1][0][0][0][0]=tanks.5.0
+backimage[0][1][1][0][0][0]=tanks.5.1
 
-BackImage[0][0][0][0][0][1]=tanks.6.0
-BackImage[0][0][1][0][0][1]=tanks.6.1
-BackImage[0][1][0][0][0][1]=tanks.7.0
-BackImage[0][1][1][0][0][1]=tanks.7.1
+backimage[0][0][0][0][0][1]=tanks.6.0
+backimage[0][0][1][0][0][1]=tanks.6.1
+backimage[0][1][0][0][0][1]=tanks.7.0
+backimage[0][1][1][0][0][1]=tanks.7.1

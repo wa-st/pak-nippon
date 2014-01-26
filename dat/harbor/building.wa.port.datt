@@ -1,5 +1,5 @@
 obj=building
-name=wa-port-1
+name=wa-habour-quay
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -12,7 +12,7 @@ cursor=#{img(1, 1)}
 %buil_image 1, 1, 1, 4, 1
 ---
 obj=building
-name=wa-port-2
+name=wa-habour-wharf
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -26,7 +26,7 @@ cursor=#{img(4, 1)}
 
 ---
 obj=building
-name=wa-port-3a
+name=wa-habour-left-breakwater
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -39,7 +39,7 @@ cursor=#{img(4, 1)}
 %buil_image 1, 4, 1, 4, 1
 ---
 obj=building
-name=wa-port-3b
+name=wa-habour-right-breakwater
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -52,7 +52,7 @@ cursor=#{img(4, 1)}
 %buil_image 1, 4, 1, 4, 1
 ---
 obj=building
-name=wa-port-4
+name=wa-habour-pier
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -66,7 +66,7 @@ cursor=#{img(2, 1)}
 %buil_image 1, 2, 1, 4, 1
 ---
 obj=building
-name=wa-port-5
+name=wa-habour-gantry-crane
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -80,7 +80,7 @@ cursor=#{img(4, 1)}
 %buil_image 1, 2, 2, 4, 1
 ---
 obj=building
-name=wa-canal-stop-1
+name=wa-waterstop
 copyright=wa
 noinfo=1
 noconstruction=1
@@ -97,7 +97,7 @@ backimage[0][0][0][0][0][0]=#{img(0, 0)}
 backimage[1][0][0][0][0][0]=#{img(0, 1)}
 ---
 obj=building
-name=wa-canal-stop-2
+name=wa-waterstop-freight
 copyright=wa
 noinfo=1
 noconstruction=1

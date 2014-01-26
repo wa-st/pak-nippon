@@ -9,83 +9,83 @@ enables_ware=1
 cursor=#{img(0, 5)}
 icon=> #{img(0, 4)}
 ---
-name=wa-containeryard-crane
+name=wa-miscext-transfer-crane
 level=7
 %def :image, 'containeryard.0.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-containeryard-m0
+name=wa-miscext-container-0
 level=7
 %def :image, 'containeryard.2.0'
 %include 'common'
 %buil_image 1, 1, 1, 2, 1
 ---
-name=wa-containeryard-m1
+name=wa-miscext-container-1
 level=7
 %def :image, 'containeryard.4.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-containeryard-m2
+name=wa-miscext-container-2
 level=7
 %def :image, 'containeryard.6.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-containeryard-r0
+name=wa-miscext-jr-container-0
 level=6
 %def :image, 'containeryard.8.0'
 %include 'common'
 %buil_image 1, 1, 1, 2, 1
 ---
-name=wa-containeryard-r1
+name=wa-miscext-jr-container-1
 level=6
 %def :image, 'containeryard.10.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-containeryard-r2
+name=wa-miscext-jr-container-2
 level=6
 %def :image, 'containeryard.12.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-containeryard-r3
+name=wa-miscext-jr-container-3
 level=6
 %def :image, 'containeryard.14.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-containeryard-light
+name=wa-miscext-light
 level=6
 %def :image, 'containeryard.16.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 1
 ---
 obj=building
-name=wa-containeryard-office-1
+name=wa-miscext-yard-office-1
 level=7
 %def :image, 'freight-station-office.0.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
 obj=building
-name=wa-containeryard-office-2
+name=wa-miscext-yard-office-2
 level=7
 %def :image, 'freight-station-office.2.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
 obj=building
-name=wa-containeryard-forklift
+name=wa-miscext-forklift
 level=7
 %def :image, 'freight-station-office.4.0'
 %include 'common'
 %buil_image 1, 1, 1, 4, 2
 ---
 obj=building
-name=wa-containeryard-tent
+name=wa-miscext-tent
 level=7
 %def :image, 'freight-station-office.6.0'
 %include 'common'

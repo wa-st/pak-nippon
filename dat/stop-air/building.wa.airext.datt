@@ -8,13 +8,13 @@ type=extension
 cursor=#{img(0, 5)}
 icon=> #{img(0, 4)}
 ---
-name=wa-airext-atct-1
+name=wa-airext-small-atct
 level=3
 %def :image, 'airstop.3.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-airext-atct-2
+name=wa-airext-atct
 level=5
 %def :image, 'airstop.5.0'
 %include 'air-ext-common'
@@ -26,31 +26,31 @@ level=1
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 1, 2
 ---
-name=wa-airext-terminal-1a
+name=wa-airext-new-terminal-1
 level=8
 %def :image, 'airext-terminal.0.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 2, 2
 ---
-name=wa-airext-terminal-1b
+name=wa-airext-new-terminal-2
 level=9
 %def :image, 'airext-terminal.2.0'
 %include 'air-ext-common'
 %buil_image 2, 2, 1, 2, 2
 ---
-name=wa-airext-terminal-2a
+name=wa-airext-terminal-1
 level=6
 %def :image, 'airext-terminal.6.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-airext-terminal-2b
+name=wa-airext-terminal-2
 level=7
 %def :image, 'airext-terminal.8.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-airext-terminal-2c
+name=wa-airext-terminal-3
 level=5
 %def :image, 'airext-terminal.10.0'
 %include 'air-ext-common'

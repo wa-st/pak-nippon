@@ -1,5 +1,5 @@
 ---
-name=wa-airext-atct-1
+name=wa-airext-small-atct
 level=3
 obj=building
 copyright=wa
@@ -11,17 +11,17 @@ cursor=airstop.3.5
 icon=> airstop.3.4
 dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=airstop.3.0
-BackImage[1][0][0][0][0][0]=airstop.3.1
-BackImage[2][0][0][0][0][0]=airstop.3.2
-BackImage[3][0][0][0][0][0]=airstop.3.3
+backimage[0][0][0][0][0][0]=airstop.3.0
+backimage[1][0][0][0][0][0]=airstop.3.1
+backimage[2][0][0][0][0][0]=airstop.3.2
+backimage[3][0][0][0][0][0]=airstop.3.3
 
-BackImage[0][0][0][0][0][1]=airstop.4.0
-BackImage[1][0][0][0][0][1]=airstop.4.1
-BackImage[2][0][0][0][0][1]=airstop.4.2
-BackImage[3][0][0][0][0][1]=airstop.4.3
+backimage[0][0][0][0][0][1]=airstop.4.0
+backimage[1][0][0][0][0][1]=airstop.4.1
+backimage[2][0][0][0][0][1]=airstop.4.2
+backimage[3][0][0][0][0][1]=airstop.4.3
 ---
-name=wa-airext-atct-2
+name=wa-airext-atct
 level=5
 obj=building
 copyright=wa
@@ -33,23 +33,23 @@ cursor=airstop.5.5
 icon=> airstop.5.4
 dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=airstop.6.0
-BackImage[0][0][0][1][0][0]=airstop.5.0
-BackImage[1][0][0][0][0][0]=airstop.6.1
-BackImage[1][0][0][1][0][0]=airstop.5.1
-BackImage[2][0][0][0][0][0]=airstop.6.2
-BackImage[2][0][0][1][0][0]=airstop.5.2
-BackImage[3][0][0][0][0][0]=airstop.6.3
-BackImage[3][0][0][1][0][0]=airstop.5.3
+backimage[0][0][0][0][0][0]=airstop.6.0
+backimage[0][0][0][1][0][0]=airstop.5.0
+backimage[1][0][0][0][0][0]=airstop.6.1
+backimage[1][0][0][1][0][0]=airstop.5.1
+backimage[2][0][0][0][0][0]=airstop.6.2
+backimage[2][0][0][1][0][0]=airstop.5.2
+backimage[3][0][0][0][0][0]=airstop.6.3
+backimage[3][0][0][1][0][0]=airstop.5.3
 
-BackImage[0][0][0][0][0][1]=airstop.8.0
-BackImage[0][0][0][1][0][1]=airstop.7.0
-BackImage[1][0][0][0][0][1]=airstop.8.1
-BackImage[1][0][0][1][0][1]=airstop.7.1
-BackImage[2][0][0][0][0][1]=airstop.8.2
-BackImage[2][0][0][1][0][1]=airstop.7.2
-BackImage[3][0][0][0][0][1]=airstop.8.3
-BackImage[3][0][0][1][0][1]=airstop.7.3
+backimage[0][0][0][0][0][1]=airstop.8.0
+backimage[0][0][0][1][0][1]=airstop.7.0
+backimage[1][0][0][0][0][1]=airstop.8.1
+backimage[1][0][0][1][0][1]=airstop.7.1
+backimage[2][0][0][0][0][1]=airstop.8.2
+backimage[2][0][0][1][0][1]=airstop.7.2
+backimage[3][0][0][0][0][1]=airstop.8.3
+backimage[3][0][0][1][0][1]=airstop.7.3
 ---
 name=wa-airext-vor-dme
 level=1
@@ -63,11 +63,11 @@ cursor=airstop.9.5
 icon=> airstop.9.4
 dims=1,1,1
 
-BackImage[0][0][0][0][0][0]=airstop.9.0
+backimage[0][0][0][0][0][0]=airstop.9.0
 
-BackImage[0][0][0][0][0][1]=airstop.10.0
+backimage[0][0][0][0][0][1]=airstop.10.0
 ---
-name=wa-airext-terminal-1a
+name=wa-airext-new-terminal-1
 level=8
 obj=building
 copyright=wa
@@ -79,13 +79,13 @@ cursor=airext-terminal.0.5
 icon=> airext-terminal.0.4
 dims=1,1,2
 
-BackImage[0][0][0][0][0][0]=airext-terminal.0.0
-BackImage[1][0][0][0][0][0]=airext-terminal.0.1
+backimage[0][0][0][0][0][0]=airext-terminal.0.0
+backimage[1][0][0][0][0][0]=airext-terminal.0.1
 
-BackImage[0][0][0][0][0][1]=airext-terminal.1.0
-BackImage[1][0][0][0][0][1]=airext-terminal.1.1
+backimage[0][0][0][0][0][1]=airext-terminal.1.0
+backimage[1][0][0][0][0][1]=airext-terminal.1.1
 ---
-name=wa-airext-terminal-1b
+name=wa-airext-new-terminal-2
 level=9
 obj=building
 copyright=wa
@@ -97,25 +97,25 @@ cursor=airext-terminal.2.5
 icon=> airext-terminal.2.4
 dims=2,2,2
 
-BackImage[0][0][0][0][0][0]=airext-terminal.2.0
-BackImage[0][0][1][0][0][0]=airext-terminal.2.1
-BackImage[0][1][0][0][0][0]=airext-terminal.3.0
-BackImage[0][1][1][0][0][0]=airext-terminal.3.1
-BackImage[1][0][0][0][0][0]=airext-terminal.2.2
-BackImage[1][0][1][0][0][0]=airext-terminal.2.3
-BackImage[1][1][0][0][0][0]=airext-terminal.3.2
-BackImage[1][1][1][0][0][0]=airext-terminal.3.3
+backimage[0][0][0][0][0][0]=airext-terminal.2.0
+backimage[0][0][1][0][0][0]=airext-terminal.2.1
+backimage[0][1][0][0][0][0]=airext-terminal.3.0
+backimage[0][1][1][0][0][0]=airext-terminal.3.1
+backimage[1][0][0][0][0][0]=airext-terminal.2.2
+backimage[1][0][1][0][0][0]=airext-terminal.2.3
+backimage[1][1][0][0][0][0]=airext-terminal.3.2
+backimage[1][1][1][0][0][0]=airext-terminal.3.3
 
-BackImage[0][0][0][0][0][1]=airext-terminal.4.0
-BackImage[0][0][1][0][0][1]=airext-terminal.4.1
-BackImage[0][1][0][0][0][1]=airext-terminal.5.0
-BackImage[0][1][1][0][0][1]=airext-terminal.5.1
-BackImage[1][0][0][0][0][1]=airext-terminal.4.2
-BackImage[1][0][1][0][0][1]=airext-terminal.4.3
-BackImage[1][1][0][0][0][1]=airext-terminal.5.2
-BackImage[1][1][1][0][0][1]=airext-terminal.5.3
+backimage[0][0][0][0][0][1]=airext-terminal.4.0
+backimage[0][0][1][0][0][1]=airext-terminal.4.1
+backimage[0][1][0][0][0][1]=airext-terminal.5.0
+backimage[0][1][1][0][0][1]=airext-terminal.5.1
+backimage[1][0][0][0][0][1]=airext-terminal.4.2
+backimage[1][0][1][0][0][1]=airext-terminal.4.3
+backimage[1][1][0][0][0][1]=airext-terminal.5.2
+backimage[1][1][1][0][0][1]=airext-terminal.5.3
 ---
-name=wa-airext-terminal-2a
+name=wa-airext-terminal-1
 level=6
 obj=building
 copyright=wa
@@ -127,17 +127,17 @@ cursor=airext-terminal.6.5
 icon=> airext-terminal.6.4
 dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=airext-terminal.6.0
-BackImage[1][0][0][0][0][0]=airext-terminal.6.1
-BackImage[2][0][0][0][0][0]=airext-terminal.6.2
-BackImage[3][0][0][0][0][0]=airext-terminal.6.3
+backimage[0][0][0][0][0][0]=airext-terminal.6.0
+backimage[1][0][0][0][0][0]=airext-terminal.6.1
+backimage[2][0][0][0][0][0]=airext-terminal.6.2
+backimage[3][0][0][0][0][0]=airext-terminal.6.3
 
-BackImage[0][0][0][0][0][1]=airext-terminal.7.0
-BackImage[1][0][0][0][0][1]=airext-terminal.7.1
-BackImage[2][0][0][0][0][1]=airext-terminal.7.2
-BackImage[3][0][0][0][0][1]=airext-terminal.7.3
+backimage[0][0][0][0][0][1]=airext-terminal.7.0
+backimage[1][0][0][0][0][1]=airext-terminal.7.1
+backimage[2][0][0][0][0][1]=airext-terminal.7.2
+backimage[3][0][0][0][0][1]=airext-terminal.7.3
 ---
-name=wa-airext-terminal-2b
+name=wa-airext-terminal-2
 level=7
 obj=building
 copyright=wa
@@ -149,17 +149,17 @@ cursor=airext-terminal.8.5
 icon=> airext-terminal.8.4
 dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=airext-terminal.8.0
-BackImage[1][0][0][0][0][0]=airext-terminal.8.1
-BackImage[2][0][0][0][0][0]=airext-terminal.8.2
-BackImage[3][0][0][0][0][0]=airext-terminal.8.3
+backimage[0][0][0][0][0][0]=airext-terminal.8.0
+backimage[1][0][0][0][0][0]=airext-terminal.8.1
+backimage[2][0][0][0][0][0]=airext-terminal.8.2
+backimage[3][0][0][0][0][0]=airext-terminal.8.3
 
-BackImage[0][0][0][0][0][1]=airext-terminal.9.0
-BackImage[1][0][0][0][0][1]=airext-terminal.9.1
-BackImage[2][0][0][0][0][1]=airext-terminal.9.2
-BackImage[3][0][0][0][0][1]=airext-terminal.9.3
+backimage[0][0][0][0][0][1]=airext-terminal.9.0
+backimage[1][0][0][0][0][1]=airext-terminal.9.1
+backimage[2][0][0][0][0][1]=airext-terminal.9.2
+backimage[3][0][0][0][0][1]=airext-terminal.9.3
 ---
-name=wa-airext-terminal-2c
+name=wa-airext-terminal-3
 level=5
 obj=building
 copyright=wa
@@ -171,8 +171,8 @@ cursor=airext-terminal.10.5
 icon=> airext-terminal.10.4
 dims=1,1,2
 
-BackImage[0][0][0][0][0][0]=airext-terminal.10.0
-BackImage[1][0][0][0][0][0]=airext-terminal.10.1
+backimage[0][0][0][0][0][0]=airext-terminal.10.0
+backimage[1][0][0][0][0][0]=airext-terminal.10.1
 
-BackImage[0][0][0][0][0][1]=airext-terminal.11.0
-BackImage[1][0][0][0][0][1]=airext-terminal.11.1
+backimage[0][0][0][0][0][1]=airext-terminal.11.0
+backimage[1][0][0][0][0][1]=airext-terminal.11.1

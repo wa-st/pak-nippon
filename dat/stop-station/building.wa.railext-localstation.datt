@@ -9,37 +9,37 @@ enables_pax=1
 cursor=#{img(0, 5)}
 icon=> #{img(0, 4)}
 ---
-name=wa-local-station-1
+name=wa-railext-local-station-1
 level=3
 %def :image, 'local-station.0.0'
 %include 'station-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-local-station-2
+name=wa-railext-local-station-2
 level=3
 %def :image, 'local-station.2.0'
 %include 'station-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-local-station-3
+name=wa-railext-local-station-3
 level=4
 %def :image, 'local-station.4.0'
 %include 'station-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-local-station-4
+name=wa-railext-local-station-4
 level=4
 %def :image, 'local-station.6.0'
 %include 'station-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-local-station-5
+name=wa-railext-local-station-5
 level=4
 %def :image, 'local-station.8.0'
 %include 'station-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-local-station-6
+name=wa-railext-local-station-6
 level=4
 %def :image, 'local-station.10.0'
 %include 'station-common'
