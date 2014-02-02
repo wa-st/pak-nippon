@@ -1,42 +1,43 @@
-Obj=way
-Name=wa-underground-powerline
+obj=way
+copyright=wa
+name=wa-underground-powerline
 waytype=power
 cost=800
 maintenance=50
 
-Image[S][0]=powerline-ug.0.0
-Image[E][0]=powerline-ug.0.1
-Image[N][0]=powerline-ug.0.2
-Image[W][0]=powerline-ug.0.3
+image[S][0]=powerline-ug.0.0
+image[E][0]=powerline-ug.0.1
+image[N][0]=powerline-ug.0.2
+image[W][0]=powerline-ug.0.3
 
-Image[SE][0]=powerline-ug.1.0
-Image[NE][0]=powerline-ug.1.1
-Image[NW][0]=powerline-ug.1.2
-Image[SW][0]=powerline-ug.1.3
+image[SE][0]=powerline-ug.1.0
+image[NE][0]=powerline-ug.1.1
+image[NW][0]=powerline-ug.1.2
+image[SW][0]=powerline-ug.1.3
 
-Image[NS][0]=powerline-ug.2.0
-Image[EW][0]=powerline-ug.2.1
+image[NS][0]=powerline-ug.2.0
+image[EW][0]=powerline-ug.2.1
 
-Image[NSEW][0]=powerline-ug.3.0
+image[NSEW][0]=powerline-ug.3.0
 
-Image[-][0]=powerline-ug.4.0
+image[-][0]=powerline-ug.4.0
 
-Image[NSE][0]=powerline-ug.5.0
-Image[NEW][0]=powerline-ug.5.1
-Image[NSW][0]=powerline-ug.5.2
-Image[SEW][0]=powerline-ug.5.3
+image[NSE][0]=powerline-ug.5.0
+image[NEW][0]=powerline-ug.5.1
+image[NSW][0]=powerline-ug.5.2
+image[SEW][0]=powerline-ug.5.3
 
-ImageUp[12][0]=powerline-ug.6.0
-ImageUp[9][0]=powerline-ug.6.1
-ImageUp[3][0]=powerline-ug.6.2
-ImageUp[6][0]=powerline-ug.6.3
+imageup[12][0]=powerline-ug.6.0
+imageup[9][0]=powerline-ug.6.1
+imageup[3][0]=powerline-ug.6.2
+imageup[6][0]=powerline-ug.6.3
 
-ImageUp2[12][0]=powerline-ug.7.0
-ImageUp2[9][0]=powerline-ug.7.1
-ImageUp2[3][0]=powerline-ug.7.2
-ImageUp2[6][0]=powerline-ug.7.3
+imageup2[12][0]=powerline-ug.7.0
+imageup2[9][0]=powerline-ug.7.1
+imageup2[3][0]=powerline-ug.7.2
+imageup2[6][0]=powerline-ug.7.3
 
-Diagonal[NE][0]=powerline-ug.8.2
-Diagonal[SE][0]=powerline-ug.8.3
-Diagonal[NW][0]=powerline-ug.8.0
-Diagonal[SW][0]=powerline-ug.8.1
+diagonal[NE][0]=powerline-ug.8.2
+diagonal[SE][0]=powerline-ug.8.3
+diagonal[NW][0]=powerline-ug.8.0
+diagonal[SW][0]=powerline-ug.8.1
