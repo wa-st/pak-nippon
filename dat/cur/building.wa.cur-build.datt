@@ -11,28 +11,6 @@ build_time=300
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 
-
-----
-name=wa-cur-l08
-passengers=40
-build_time=1200
-%def :image, "l08-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-----
-name=wa-cur-l09
-passengers=40
-build_time=1300
-%def :image, "l09-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-----
-name=wa-cur-l10
-passengers=40
-build_time=1400
-%def :image, "l10-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
 ----
 name=wa-cur-l11
 passengers=40

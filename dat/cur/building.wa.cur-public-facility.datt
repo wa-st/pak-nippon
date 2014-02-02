@@ -53,3 +53,10 @@ build_time=1100
 %def :image, "employment-service-center-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
+----
+name=wa-cur-museum
+passengers=40
+build_time=1400
+%def :image, "museum-tile.0.0"
+%include "cur"
+%buil_image 3, 3, 1, 4, 2

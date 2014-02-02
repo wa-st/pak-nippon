@@ -34,3 +34,24 @@ needs_ground=0
 
 %def :image, "soccer-stadium-tile.0.0"
 %buil_image 4, 4, 1, 2, 2
+----
+obj=building
+name=wa-cur-gymnasium
+copyright=wa
+type=cur
+passengers=40
+chance=15
+build_time=1200
+%def :image, "gymnasium-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+----
+obj=building
+name=wa-cur-swimming-pool
+copyright=wa
+type=cur
+passengers=40
+chance=15
+build_time=1300
+climates=desert,tropic,mediterran,temperate
+%def :image, "swimming-pool-tile.0.0"
+%buil_image 3, 3, 1, 4, 2

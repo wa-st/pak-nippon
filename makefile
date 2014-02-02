@@ -70,7 +70,7 @@ PAKS: building.wa.cur-build.pak \
 	way.wa.powerline.pak
 
 ########### .dat => .pak
-building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/o1-tile.png dat/cur/l08-tile.png dat/cur/l09-tile.png dat/cur/l10-tile.png dat/cur/l11-tile.png dat/cur/l12-tile.png dat/cur/l13-tile.png dat/cur/m2-tile.png dat/cur/m3-tile.png dat/cur/m4-tile.png
+building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/o1-tile.png dat/cur/l11-tile.png dat/cur/l12-tile.png dat/cur/l13-tile.png dat/cur/m2-tile.png dat/cur/m3-tile.png dat/cur/m4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-build.dat
 building.wa.cur-castle.pak: dat/cur/building.wa.cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-castle.dat
@@ -82,13 +82,13 @@ building.wa.cur-kofun.pak: dat/cur/building.wa.cur-kofun.dat dat/cur/kofun-1-til
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-kofun.dat
 building.wa.cur-park.pak: dat/cur/building.wa.cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-park.dat
-building.wa.cur-public-facility.pak: dat/cur/building.wa.cur-public-facility.dat dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png
+building.wa.cur-public-facility.pak: dat/cur/building.wa.cur-public-facility.dat dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png dat/cur/museum-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-public-facility.dat
 building.wa.cur-school.pak: dat/cur/building.wa.cur-school.dat dat/cur/school-1-tile.png dat/cur/school-2-tile.png dat/cur/school-3-tile.png dat/cur/school-4-tile.png dat/cur/university-tile.png dat/cur/kindergarten-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-school.dat
 building.wa.cur-shrine.pak: dat/cur/building.wa.cur-shrine.dat dat/cur/shrine-1-tile.png dat/cur/shrine-2-tile.png dat/cur/shrine-3-tile.png dat/cur/shrine-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-shrine.dat
-building.wa.cur-sport.pak: dat/cur/building.wa.cur-sport.dat dat/cur/tenniscourt-tile.png dat/cur/baseballfield-tile.png dat/cur/soccer-stadium-tile.png
+building.wa.cur-sport.pak: dat/cur/building.wa.cur-sport.dat dat/cur/tenniscourt-tile.png dat/cur/baseballfield-tile.png dat/cur/soccer-stadium-tile.png dat/cur/gymnasium-tile.png dat/cur/swimming-pool-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-sport.dat
 building.wa.cur-temple.pak: dat/cur/building.wa.cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-temple.dat
