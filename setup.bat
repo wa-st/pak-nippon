@@ -180,6 +180,13 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\tunnel.RailTunnel.pak
 @del %TARGET_DIR%\tunnel.RoadTunnel.pak
 @REM @del %TARGET_DIR%\vehicle.*.pak
+@del %TARGET_DIR%\vehicle.JumboCruiser.pak
+@del %TARGET_DIR%\vehicle.JumboCruiserBack1.pak
+@del %TARGET_DIR%\vehicle.JumboCruiserBack2.pak
+@del %TARGET_DIR%\vehicle.Turgot.pak
+@del %TARGET_DIR%\vehicle.Viggen.pak
+@del %TARGET_DIR%\vehicle.schooner.pak
+@del %TARGET_DIR%\vehicle.teaclipper.pak
 @del %TARGET_DIR%\way-object.HighSpeedOverheadpower.pak
 @del %TARGET_DIR%\way-object.SlowOverheadpower.pak
 @del %TARGET_DIR%\way.Kanal.pak
