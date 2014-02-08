@@ -7,10 +7,10 @@
 ###pak64に由来するファイルについて
 
 以下のファイルはpak64に由来するファイルです。
-利用条件はlicense\pak64_licence.txtを参照してください。
+利用条件はpak.nippon\license\pak64_licence.txtを参照してください。
 
-- config\cityrules.tab
-- config\simuconf.tab
+- pak.nippon\config\cityrules.tab
+- pak.nippon\config\simuconf.tab
 - dat\factory\factories.datt
 - dat\factory\factory_waste_factories.datt
 - dat\factory\power.datt
@@ -21,7 +21,7 @@
 ###713氏が作成されたファイルについて
 
 以下のファイルは713氏が作成された「Suburban stores/ 郊外店セット」に由来するファイルです。
-利用条件はlicense\suburbanstores_readme.txtを参照してください。
+利用条件はpak.nippon\license\suburbanstores_readme.txtを参照してください。
 
 - dat\factory\bookoff.png
 - dat\factory\matsukiyo.png
@@ -32,7 +32,7 @@
 ###りむ氏が作成されたファイルについて
 
 以下のファイルはりむ氏が作成された「日本風左側通行信号機セット」に由来するファイルです。
-利用条件はlicense\JpLeftSignais_readme.txtを参照してください。
+利用条件はpak.nippon\license\JpLeftSignais_readme.txtを参照してください。
 
 - dat\signal\Signals.png
 - dat\signal\roadsign.monorail-signals.dat
@@ -42,7 +42,7 @@
 
 ###市区町村一覧について
 
-text\citylist_ja.txtには、e-Statから取得した2013年8月1日時点での日本の市区町村一覧が含まれています。
+pak.nippon\text\citylist_ja.txtには、e-Statから取得した2013年8月1日時点での日本の市区町村一覧が含まれています。
 
 参照: [市区町村名・コード　政府統計の総合窓口　GA03000001](http://www.e-stat.go.jp/SG1/hyoujun/initialize.do)
 
@@ -52,7 +52,7 @@ text\citylist_ja.txtには、e-Statから取得した2013年8月1日時点での
 
 The MIT License (MIT)
 
-Copyright (c) 2013 wa
+Copyright (c) 2014 wa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
