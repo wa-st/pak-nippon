@@ -4,6 +4,13 @@ copyright=wa
 type=cur
 chance=15
 ----
+name=wa-cur-community-center
+passengers=20
+build_time=300
+%def :image, "community-center-tile.0.0"
+%include "cur"
+%buil_image 2, 2, 1, 4, 2
+----
 name=wa-cur-policestation
 passengers=40
 build_time=500
@@ -58,5 +65,12 @@ name=wa-cur-museum
 passengers=40
 build_time=1400
 %def :image, "museum-tile.0.0"
+%include "cur"
+%buil_image 3, 3, 1, 4, 2
+----
+name=wa-cur-civic-hall
+passengers=40
+build_time=1600
+%def :image, "civic-hall-tile.0.0"
 %include "cur"
 %buil_image 3, 3, 1, 4, 2

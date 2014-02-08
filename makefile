@@ -6,6 +6,7 @@ DATT = ruby $(SCRIPTS)datt.rb
 ########### .pak -> PAKS
 PAKS: building.wa.cur-build.pak \
 	building.wa.cur-castle.pak \
+	building.wa.cur-church.pak \
 	building.wa.cur-hospital.pak \
 	building.wa.cur-infrastructure.pak \
 	building.wa.cur-kofun.pak \
@@ -70,10 +71,12 @@ PAKS: building.wa.cur-build.pak \
 	way.wa.powerline.pak
 
 ########### .dat => .pak
-building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/o1-tile.png dat/cur/l11-tile.png dat/cur/l12-tile.png dat/cur/l13-tile.png dat/cur/m2-tile.png dat/cur/m3-tile.png dat/cur/m4-tile.png
+building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/l13-tile.png dat/cur/m2-tile.png dat/cur/m3-tile.png dat/cur/m4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-build.dat
 building.wa.cur-castle.pak: dat/cur/building.wa.cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-castle.dat
+building.wa.cur-church.pak: dat/cur/building.wa.cur-church.dat dat/cur/church-tile.png
+	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-church.dat
 building.wa.cur-hospital.pak: dat/cur/building.wa.cur-hospital.dat dat/cur/hospital-1-tile.png dat/cur/hospital-2-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-hospital.dat
 building.wa.cur-infrastructure.pak: dat/cur/building.wa.cur-infrastructure.dat dat/cur/switchyard-tile.png dat/cur/substation-tile.png dat/cur/lighthouse.png
@@ -82,7 +85,7 @@ building.wa.cur-kofun.pak: dat/cur/building.wa.cur-kofun.dat dat/cur/kofun-1-til
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-kofun.dat
 building.wa.cur-park.pak: dat/cur/building.wa.cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-park.dat
-building.wa.cur-public-facility.pak: dat/cur/building.wa.cur-public-facility.dat dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png dat/cur/museum-tile.png
+building.wa.cur-public-facility.pak: dat/cur/building.wa.cur-public-facility.dat dat/cur/community-center-tile.png dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png dat/cur/museum-tile.png dat/cur/civic-hall-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-public-facility.dat
 building.wa.cur-school.pak: dat/cur/building.wa.cur-school.dat dat/cur/school-1-tile.png dat/cur/school-2-tile.png dat/cur/school-3-tile.png dat/cur/school-4-tile.png dat/cur/university-tile.png dat/cur/kindergarten-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-school.dat
@@ -203,6 +206,8 @@ way.wa.powerline.pak: dat/way-powerline/way.wa.powerline.dat128 dat/way-powerlin
 dat/cur/building.wa.cur-build.dat: dat/cur/building.wa.cur-build.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-castle.dat: dat/cur/building.wa.cur-castle.datt
+	$(DATT) $** > $@
+dat/cur/building.wa.cur-church.dat: dat/cur/building.wa.cur-church.datt
 	$(DATT) $** > $@
 dat/cur/building.wa.cur-hospital.dat: dat/cur/building.wa.cur-hospital.datt
 	$(DATT) $** > $@

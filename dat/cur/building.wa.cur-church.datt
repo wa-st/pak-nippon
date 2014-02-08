@@ -1,0 +1,9 @@
+obj=building
+name=wa-cur-church
+copyright=wa
+type=cur
+chance=15
+passengers=40
+build_time=1500
+%def :image, "church-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
