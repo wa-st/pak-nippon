@@ -1,44 +1,44 @@
 %resource 'wide-tunnel'
 
-BackImage[N]=#{fn}.0.0
-BackImage[Nl]=#{fn}.0.1
-BackImage[Nm]=#{fn}.0.2
-BackImage[Nr]=#{fn}.0.3
+backImage[N]=#{fn}.0.0
+backImage[Nl]=#{fn}.0.1
+backImage[Nm]=#{fn}.0.2
+backImage[Nr]=#{fn}.0.3
 
-BackImage[W]=#{fn}.1.0
-BackImage[Wl]=#{fn}.1.1
-BackImage[Wm]=#{fn}.1.2
-BackImage[Wr]=#{fn}.1.3
+backImage[W]=#{fn}.1.0
+backImage[Wl]=#{fn}.1.1
+backImage[Wm]=#{fn}.1.2
+backImage[Wr]=#{fn}.1.3
 
-BackImage[S]=#{fn}.2.0
-BackImage[Sl]=#{fn}.2.1
-BackImage[Sm]=#{fn}.2.2
-BackImage[Sr]=#{fn}.2.3
+backImage[S]=#{fn}.2.0
+backImage[Sl]=#{fn}.2.1
+backImage[Sm]=#{fn}.2.2
+backImage[Sr]=#{fn}.2.3
 
-BackImage[E]=#{fn}.3.0
-BackImage[El]=#{fn}.3.1
-BackImage[Em]=#{fn}.3.2
-BackImage[Er]=#{fn}.3.3
+backImage[E]=#{fn}.3.0
+backImage[El]=#{fn}.3.1
+backImage[Em]=#{fn}.3.2
+backImage[Er]=#{fn}.3.3
 
-FrontImage[N]=#{fn}.4.0
-FrontImage[Nl]=#{fn}.4.1
-FrontImage[Nm]=#{fn}.4.2
-FrontImage[Nr]=#{fn}.4.3
+frontImage[N]=#{fn}.4.0
+frontImage[Nl]=#{fn}.4.1
+frontImage[Nm]=#{fn}.4.2
+frontImage[Nr]=#{fn}.4.3
 
-FrontImage[W]=#{fn}.5.0
-FrontImage[Wl]=#{fn}.5.1
-FrontImage[Wm]=#{fn}.5.2
-FrontImage[Wr]=#{fn}.5.3
+frontImage[W]=#{fn}.5.0
+frontImage[Wl]=#{fn}.5.1
+frontImage[Wm]=#{fn}.5.2
+frontImage[Wr]=#{fn}.5.3
 
-FrontImage[S]=#{fn}.6.0
-FrontImage[Sl]=#{fn}.6.1
-FrontImage[Sm]=#{fn}.6.2
-FrontImage[Sr]=#{fn}.6.3
+frontImage[S]=#{fn}.6.0
+frontImage[Sl]=#{fn}.6.1
+frontImage[Sm]=#{fn}.6.2
+frontImage[Sr]=#{fn}.6.3
 
-FrontImage[E]=#{fn}.7.0
-FrontImage[El]=#{fn}.7.1
-FrontImage[Em]=#{fn}.7.2
-FrontImage[Er]=#{fn}.7.3
+frontImage[E]=#{fn}.7.0
+frontImage[El]=#{fn}.7.1
+frontImage[Em]=#{fn}.7.2
+frontImage[Er]=#{fn}.7.3
 
 icon=> #{fn}.8.0
 cursor=#{fn}.8.1

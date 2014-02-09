@@ -1,7 +1,7 @@
 %require "factories.datt", addon: false
 ---
-Obj=factory
-name=713-moebelhaus
+obj=factory
+name=np-moebelhaus
 copyright=713
 
 %include "Moebelhaus", label: true, overwrite: false
@@ -27,8 +27,8 @@ BackImage[0][1][0][1][0]=nitori.4.0
 BackImage[0][2][0][1][0]=nitori.5.0
 #<<<
 ---
-Obj=factory
-name=713-buchgrosshandel
+obj=factory
+name=np-buchgrosshandel
 copyright=713
 
 %include "Buchgrosshandel", label: true, overwrite: false
@@ -44,8 +44,8 @@ BackImage[0][1][0][0][0]=bookoff.1.0
 BackImage[0][1][1][0][0]=bookoff.1.1
 #<<<
 ---
-Obj=factory
-name=713-chemist
+obj=factory
+name=np-chemist
 copyright=713
 
 %include "CHEMIST", label: true, overwrite: false

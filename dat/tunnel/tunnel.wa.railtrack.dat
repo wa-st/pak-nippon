@@ -1,177 +1,177 @@
 ---
 
-Obj=tunnel
-name=wa-tunnel-c1
+obj=tunnel
+name=np-tunnel-c1
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=wa-concrete-sleeper-track
+way=np-concrete-sleeper-track
 
-BackImage[N]=tunnel-c1.0.0
-BackImage[Nl]=tunnel-c1.0.1
-BackImage[Nm]=tunnel-c1.0.2
-BackImage[Nr]=tunnel-c1.0.3
+backImage[N]=tunnel-c1.0.0
+backImage[Nl]=tunnel-c1.0.1
+backImage[Nm]=tunnel-c1.0.2
+backImage[Nr]=tunnel-c1.0.3
 
-BackImage[W]=tunnel-c1.1.0
-BackImage[Wl]=tunnel-c1.1.1
-BackImage[Wm]=tunnel-c1.1.2
-BackImage[Wr]=tunnel-c1.1.3
+backImage[W]=tunnel-c1.1.0
+backImage[Wl]=tunnel-c1.1.1
+backImage[Wm]=tunnel-c1.1.2
+backImage[Wr]=tunnel-c1.1.3
 
-BackImage[S]=tunnel-c1.2.0
-BackImage[Sl]=tunnel-c1.2.1
-BackImage[Sm]=tunnel-c1.2.2
-BackImage[Sr]=tunnel-c1.2.3
+backImage[S]=tunnel-c1.2.0
+backImage[Sl]=tunnel-c1.2.1
+backImage[Sm]=tunnel-c1.2.2
+backImage[Sr]=tunnel-c1.2.3
 
-BackImage[E]=tunnel-c1.3.0
-BackImage[El]=tunnel-c1.3.1
-BackImage[Em]=tunnel-c1.3.2
-BackImage[Er]=tunnel-c1.3.3
+backImage[E]=tunnel-c1.3.0
+backImage[El]=tunnel-c1.3.1
+backImage[Em]=tunnel-c1.3.2
+backImage[Er]=tunnel-c1.3.3
 
-FrontImage[N]=tunnel-c1.4.0
-FrontImage[Nl]=tunnel-c1.4.1
-FrontImage[Nm]=tunnel-c1.4.2
-FrontImage[Nr]=tunnel-c1.4.3
+frontImage[N]=tunnel-c1.4.0
+frontImage[Nl]=tunnel-c1.4.1
+frontImage[Nm]=tunnel-c1.4.2
+frontImage[Nr]=tunnel-c1.4.3
 
-FrontImage[W]=tunnel-c1.5.0
-FrontImage[Wl]=tunnel-c1.5.1
-FrontImage[Wm]=tunnel-c1.5.2
-FrontImage[Wr]=tunnel-c1.5.3
+frontImage[W]=tunnel-c1.5.0
+frontImage[Wl]=tunnel-c1.5.1
+frontImage[Wm]=tunnel-c1.5.2
+frontImage[Wr]=tunnel-c1.5.3
 
-FrontImage[S]=tunnel-c1.6.0
-FrontImage[Sl]=tunnel-c1.6.1
-FrontImage[Sm]=tunnel-c1.6.2
-FrontImage[Sr]=tunnel-c1.6.3
+frontImage[S]=tunnel-c1.6.0
+frontImage[Sl]=tunnel-c1.6.1
+frontImage[Sm]=tunnel-c1.6.2
+frontImage[Sr]=tunnel-c1.6.3
 
-FrontImage[E]=tunnel-c1.7.0
-FrontImage[El]=tunnel-c1.7.1
-FrontImage[Em]=tunnel-c1.7.2
-FrontImage[Er]=tunnel-c1.7.3
+frontImage[E]=tunnel-c1.7.0
+frontImage[El]=tunnel-c1.7.1
+frontImage[Em]=tunnel-c1.7.2
+frontImage[Er]=tunnel-c1.7.3
 
 icon=> tunnel-c1.8.0
 cursor=tunnel-c1.8.1
 ---
-Obj=tunnel
-name=wa-tunnel-1
+obj=tunnel
+name=np-tunnel-1
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=wa-concrete-sleeper-track
+way=np-concrete-sleeper-track
 
-BackImage[N]=tunnel-1.0.0
-BackImage[Nl]=tunnel-1.0.1
-BackImage[Nm]=tunnel-1.0.2
-BackImage[Nr]=tunnel-1.0.3
+backImage[N]=tunnel-1.0.0
+backImage[Nl]=tunnel-1.0.1
+backImage[Nm]=tunnel-1.0.2
+backImage[Nr]=tunnel-1.0.3
 
-BackImage[W]=tunnel-1.1.0
-BackImage[Wl]=tunnel-1.1.1
-BackImage[Wm]=tunnel-1.1.2
-BackImage[Wr]=tunnel-1.1.3
+backImage[W]=tunnel-1.1.0
+backImage[Wl]=tunnel-1.1.1
+backImage[Wm]=tunnel-1.1.2
+backImage[Wr]=tunnel-1.1.3
 
-BackImage[S]=tunnel-1.2.0
-BackImage[Sl]=tunnel-1.2.1
-BackImage[Sm]=tunnel-1.2.2
-BackImage[Sr]=tunnel-1.2.3
+backImage[S]=tunnel-1.2.0
+backImage[Sl]=tunnel-1.2.1
+backImage[Sm]=tunnel-1.2.2
+backImage[Sr]=tunnel-1.2.3
 
-BackImage[E]=tunnel-1.3.0
-BackImage[El]=tunnel-1.3.1
-BackImage[Em]=tunnel-1.3.2
-BackImage[Er]=tunnel-1.3.3
+backImage[E]=tunnel-1.3.0
+backImage[El]=tunnel-1.3.1
+backImage[Em]=tunnel-1.3.2
+backImage[Er]=tunnel-1.3.3
 
-FrontImage[N]=tunnel-1.4.0
-FrontImage[Nl]=tunnel-1.4.1
-FrontImage[Nm]=tunnel-1.4.2
-FrontImage[Nr]=tunnel-1.4.3
+frontImage[N]=tunnel-1.4.0
+frontImage[Nl]=tunnel-1.4.1
+frontImage[Nm]=tunnel-1.4.2
+frontImage[Nr]=tunnel-1.4.3
 
-FrontImage[W]=tunnel-1.5.0
-FrontImage[Wl]=tunnel-1.5.1
-FrontImage[Wm]=tunnel-1.5.2
-FrontImage[Wr]=tunnel-1.5.3
+frontImage[W]=tunnel-1.5.0
+frontImage[Wl]=tunnel-1.5.1
+frontImage[Wm]=tunnel-1.5.2
+frontImage[Wr]=tunnel-1.5.3
 
-FrontImage[S]=tunnel-1.6.0
-FrontImage[Sl]=tunnel-1.6.1
-FrontImage[Sm]=tunnel-1.6.2
-FrontImage[Sr]=tunnel-1.6.3
+frontImage[S]=tunnel-1.6.0
+frontImage[Sl]=tunnel-1.6.1
+frontImage[Sm]=tunnel-1.6.2
+frontImage[Sr]=tunnel-1.6.3
 
-FrontImage[E]=tunnel-1.7.0
-FrontImage[El]=tunnel-1.7.1
-FrontImage[Em]=tunnel-1.7.2
-FrontImage[Er]=tunnel-1.7.3
+frontImage[E]=tunnel-1.7.0
+frontImage[El]=tunnel-1.7.1
+frontImage[Em]=tunnel-1.7.2
+frontImage[Er]=tunnel-1.7.3
 
 icon=> tunnel-1.8.0
 cursor=tunnel-1.8.1
 ---
-Obj=tunnel
-name=wa-tunnel-2
+obj=tunnel
+name=np-tunnel-2
 copyright=wa
 waytype=track
 cost=150000
 maintenance=15000
 topspeed=450
-way=wa-steel-sleeper-track
+way=np-steel-sleeper-track
 
-BackImage[N]=tunnel-2.0.0
-BackImage[Nl]=tunnel-2.0.1
-BackImage[Nm]=tunnel-2.0.2
-BackImage[Nr]=tunnel-2.0.3
+backImage[N]=tunnel-2.0.0
+backImage[Nl]=tunnel-2.0.1
+backImage[Nm]=tunnel-2.0.2
+backImage[Nr]=tunnel-2.0.3
 
-BackImage[W]=tunnel-2.1.0
-BackImage[Wl]=tunnel-2.1.1
-BackImage[Wm]=tunnel-2.1.2
-BackImage[Wr]=tunnel-2.1.3
+backImage[W]=tunnel-2.1.0
+backImage[Wl]=tunnel-2.1.1
+backImage[Wm]=tunnel-2.1.2
+backImage[Wr]=tunnel-2.1.3
 
-BackImage[S]=tunnel-2.2.0
-BackImage[Sl]=tunnel-2.2.1
-BackImage[Sm]=tunnel-2.2.2
-BackImage[Sr]=tunnel-2.2.3
+backImage[S]=tunnel-2.2.0
+backImage[Sl]=tunnel-2.2.1
+backImage[Sm]=tunnel-2.2.2
+backImage[Sr]=tunnel-2.2.3
 
-BackImage[E]=tunnel-2.3.0
-BackImage[El]=tunnel-2.3.1
-BackImage[Em]=tunnel-2.3.2
-BackImage[Er]=tunnel-2.3.3
+backImage[E]=tunnel-2.3.0
+backImage[El]=tunnel-2.3.1
+backImage[Em]=tunnel-2.3.2
+backImage[Er]=tunnel-2.3.3
 
-FrontImage[N]=tunnel-2.4.0
-FrontImage[Nl]=tunnel-2.4.1
-FrontImage[Nm]=tunnel-2.4.2
-FrontImage[Nr]=tunnel-2.4.3
+frontImage[N]=tunnel-2.4.0
+frontImage[Nl]=tunnel-2.4.1
+frontImage[Nm]=tunnel-2.4.2
+frontImage[Nr]=tunnel-2.4.3
 
-FrontImage[W]=tunnel-2.5.0
-FrontImage[Wl]=tunnel-2.5.1
-FrontImage[Wm]=tunnel-2.5.2
-FrontImage[Wr]=tunnel-2.5.3
+frontImage[W]=tunnel-2.5.0
+frontImage[Wl]=tunnel-2.5.1
+frontImage[Wm]=tunnel-2.5.2
+frontImage[Wr]=tunnel-2.5.3
 
-FrontImage[S]=tunnel-2.6.0
-FrontImage[Sl]=tunnel-2.6.1
-FrontImage[Sm]=tunnel-2.6.2
-FrontImage[Sr]=tunnel-2.6.3
+frontImage[S]=tunnel-2.6.0
+frontImage[Sl]=tunnel-2.6.1
+frontImage[Sm]=tunnel-2.6.2
+frontImage[Sr]=tunnel-2.6.3
 
-FrontImage[E]=tunnel-2.7.0
-FrontImage[El]=tunnel-2.7.1
-FrontImage[Em]=tunnel-2.7.2
-FrontImage[Er]=tunnel-2.7.3
+frontImage[E]=tunnel-2.7.0
+frontImage[El]=tunnel-2.7.1
+frontImage[Em]=tunnel-2.7.2
+frontImage[Er]=tunnel-2.7.3
 
 icon=> tunnel-2.8.0
 cursor=tunnel-2.8.1
 ---
-Obj=tunnel
-name=wa-stone-tunnel-track
+obj=tunnel
+name=np-stone-tunnel-track
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=120
-way=wa-wooden-sleeper-track
+way=np-wooden-sleeper-track
 
-BackImage[N]=stone-tunnel.3.0
-BackImage[W]=stone-tunnel.3.1
-BackImage[S]=stone-tunnel.3.2
-BackImage[E]=stone-tunnel.3.3
-FrontImage[N]=stone-tunnel.0.0
-FrontImage[W]=stone-tunnel.0.1
-FrontImage[S]=stone-tunnel.0.2
-FrontImage[E]=stone-tunnel.0.3
+backImage[N]=stone-tunnel.3.0
+backImage[W]=stone-tunnel.3.1
+backImage[S]=stone-tunnel.3.2
+backImage[E]=stone-tunnel.3.3
+frontImage[N]=stone-tunnel.0.0
+frontImage[W]=stone-tunnel.0.1
+frontImage[S]=stone-tunnel.0.2
+frontImage[E]=stone-tunnel.0.3
 icon=> stone-tunnel.3.5
 cursor=stone-tunnel.3.4

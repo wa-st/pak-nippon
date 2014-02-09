@@ -1,38 +1,38 @@
 %resource 'powerline-tunnel'
-Obj=tunnel
+obj=tunnel
 copyright=wa
 waytype=power
 cost=100000
 maintenance=5000
-way=wa-underground-powerline
+way=np-underground-powerline
 cursor=#{nm}.11.1
 icon=> #{nm}.11.0
-FrontImage[N]=#{nm}.10.0,0,-64
-FrontImage[W]=#{nm}.10.1,0,-64
-FrontImage[S]=#{nm}.10.2,0,-64
-FrontImage[E]=#{nm}.10.3,0,-64
+frontImage[N]=#{nm}.10.0,0,-64
+frontImage[W]=#{nm}.10.1,0,-64
+frontImage[S]=#{nm}.10.2,0,-64
+frontImage[E]=#{nm}.10.3,0,-64
 
 ---
 #%def :nm, 'powerline-1a'
-#name=wa-#{nm}-tunnel
+#name=np-#{nm}-tunnel
 #%include 'powerline-tunnel'
 ---
 #%def :nm, 'powerline-1b'
-#name=wa-#{nm}-tunnel
+#name=np-#{nm}-tunnel
 #%include 'powerline-tunnel'
 ---
 #%def :nm, 'powerline-2'
-#name=wa-#{nm}-tunnel
+#name=np-#{nm}-tunnel
 #%include 'powerline-tunnel'
 ---
 %def :nm, 'powerline-2hv'
-name=wa-#{nm}-tunnel
+name=np-#{nm}-tunnel
 %include 'powerline-tunnel'
 ---
 #%def :nm, 'powerline-2red'
-#name=wa-#{nm}-tunnel
+#name=np-#{nm}-tunnel
 #%include 'powerline-tunnel'
 ---
 #%def :nm, 'powerline-4'
-#name=wa-#{nm}-tunnel
+#name=np-#{nm}-tunnel
 #%include 'powerline-tunnel'

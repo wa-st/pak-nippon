@@ -1,6 +1,6 @@
 obj=way
 copyright=wa
-name=wa-underground-powerline
+name=np-underground-powerline
 waytype=power
 cost=800
 maintenance=50
@@ -27,15 +27,15 @@ image[NEW][0]=powerline-ug.5.1
 image[NSW][0]=powerline-ug.5.2
 image[SEW][0]=powerline-ug.5.3
 
-imageup[12][0]=powerline-ug.6.0
-imageup[9][0]=powerline-ug.6.1
-imageup[3][0]=powerline-ug.6.2
-imageup[6][0]=powerline-ug.6.3
+imageUp[12][0]=powerline-ug.6.0
+imageUp[9][0]=powerline-ug.6.1
+imageUp[3][0]=powerline-ug.6.2
+imageUp[6][0]=powerline-ug.6.3
 
-imageup2[12][0]=powerline-ug.7.0
-imageup2[9][0]=powerline-ug.7.1
-imageup2[3][0]=powerline-ug.7.2
-imageup2[6][0]=powerline-ug.7.3
+imageUp2[12][0]=powerline-ug.7.0
+imageUp2[9][0]=powerline-ug.7.1
+imageUp2[3][0]=powerline-ug.7.2
+imageUp2[6][0]=powerline-ug.7.3
 
 diagonal[NE][0]=powerline-ug.8.2
 diagonal[SE][0]=powerline-ug.8.3

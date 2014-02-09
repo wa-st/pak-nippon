@@ -1,7 +1,7 @@
 %require 'tunnel-common.datt'
 
-Obj=tunnel
-name=wa-tunnel-cr1
+obj=tunnel
+name=np-tunnel-cr1
 copyright=wa
 waytype=road
 cost=100000
@@ -12,8 +12,8 @@ way=city_road
 %def :fn, 'tunnel-cr1'
 %include 'wide-tunnel'
 ---
-Obj=tunnel
-name=wa-tunnel-road1
+obj=tunnel
+name=np-tunnel-road1
 copyright=wa
 waytype=road
 cost=100000
@@ -23,33 +23,33 @@ way=city_road
 %def :fn, 'tunnel-road1'
 %include 'wide-tunnel'
 ---
-Obj=tunnel
-name=wa-tunnel-road2
+obj=tunnel
+name=np-tunnel-road2
 copyright=wa
 waytype=road
 cost=150000
 maintenance=5000
 topspeed=200
-way=wa-road-100r
+way=np-road-100r
 %def :fn, 'tunnel-road2'
 %include 'wide-tunnel'
 ---
-Obj=tunnel
-name=wa-stone-tunnel-road
+obj=tunnel
+name=np-stone-tunnel-road
 copyright=wa
 waytype=road
 cost=75000
 maintenance=2500
 topspeed=80
-way=wa-road-40n
+way=np-road-40n
 
-BackImage[N]=stone-tunnel.2.0
-BackImage[W]=stone-tunnel.2.1
-BackImage[S]=stone-tunnel.2.2
-BackImage[E]=stone-tunnel.2.3
-FrontImage[N]=stone-tunnel.0.0
-FrontImage[W]=stone-tunnel.0.1
-FrontImage[S]=stone-tunnel.0.2
-FrontImage[E]=stone-tunnel.0.3
+backImage[N]=stone-tunnel.2.0
+backImage[W]=stone-tunnel.2.1
+backImage[S]=stone-tunnel.2.2
+backImage[E]=stone-tunnel.2.3
+frontImage[N]=stone-tunnel.0.0
+frontImage[W]=stone-tunnel.0.1
+frontImage[S]=stone-tunnel.0.2
+frontImage[E]=stone-tunnel.0.3
 icon=> stone-tunnel.2.5
 cursor=stone-tunnel.2.4

@@ -3,144 +3,144 @@
 %resource "summer-way"
 cursor=#{summer_img}.7.1
 icon=> #{summer_img}.7.0
-Image[S][0]=#{summer_img}.0.0#{offset}
-Image[W][0]=#{summer_img}.0.1#{offset}
-Image[N][0]=#{summer_img}.0.2#{offset}
-Image[E][0]=#{summer_img}.0.3#{offset}
+image[S][0]=#{summer_img}.0.0#{offset}
+image[W][0]=#{summer_img}.0.1#{offset}
+image[N][0]=#{summer_img}.0.2#{offset}
+image[E][0]=#{summer_img}.0.3#{offset}
 
-Image[SW][0]=#{summer_img}.1.0#{offset}
-Image[NW][0]=#{summer_img}.1.1#{offset}
-Image[NE][0]=#{summer_img}.1.2#{offset}
-Image[SE][0]=#{summer_img}.1.3#{offset}
+image[SW][0]=#{summer_img}.1.0#{offset}
+image[NW][0]=#{summer_img}.1.1#{offset}
+image[NE][0]=#{summer_img}.1.2#{offset}
+image[SE][0]=#{summer_img}.1.3#{offset}
 
-Image[NS][0]=#{summer_img}.2.0#{offset}
-Image[EW][0]=#{summer_img}.2.1#{offset}
-Image[NSEW][0]=#{summer_img}.2.2#{offset}
-Image[-][0]=#{summer_img}.2.3#{offset}
+image[NS][0]=#{summer_img}.2.0#{offset}
+image[EW][0]=#{summer_img}.2.1#{offset}
+image[NSEW][0]=#{summer_img}.2.2#{offset}
+image[-][0]=#{summer_img}.2.3#{offset}
 
-Image[NEW][0]=#{summer_img}.3.0#{offset}
-Image[NSE][0]=#{summer_img}.3.1#{offset}
-Image[SEW][0]=#{summer_img}.3.2#{offset}
-Image[NSW][0]=#{summer_img}.3.3#{offset}
+image[NEW][0]=#{summer_img}.3.0#{offset}
+image[NSE][0]=#{summer_img}.3.1#{offset}
+image[SEW][0]=#{summer_img}.3.2#{offset}
+image[NSW][0]=#{summer_img}.3.3#{offset}
 
-ImageUp[12][0]=#{summer_img}.4.0#{offset}
-ImageUp[9][0]=#{summer_img}.4.1#{offset}
-ImageUp[3][0]=#{summer_img}.4.2#{offset}
-ImageUp[6][0]=#{summer_img}.4.3#{offset}
+imageUp[12][0]=#{summer_img}.4.0#{offset}
+imageUp[9][0]=#{summer_img}.4.1#{offset}
+imageUp[3][0]=#{summer_img}.4.2#{offset}
+imageUp[6][0]=#{summer_img}.4.3#{offset}
 
-ImageUp2[12][0]=#{summer_img}.5.0#{offset}
-ImageUp2[9][0]=#{summer_img}.5.1#{offset}
-ImageUp2[3][0]=#{summer_img}.5.2#{offset}
-ImageUp2[6][0]=#{summer_img}.5.3#{offset}
+imageUp2[12][0]=#{summer_img}.5.0#{offset}
+imageUp2[9][0]=#{summer_img}.5.1#{offset}
+imageUp2[3][0]=#{summer_img}.5.2#{offset}
+imageUp2[6][0]=#{summer_img}.5.3#{offset}
 
-Diagonal[SW][0]=#{summer_img}.6.0#{offset}
-Diagonal[NW][0]=#{summer_img}.6.1#{offset}
-Diagonal[NE][0]=#{summer_img}.6.2#{offset}
-Diagonal[SE][0]=#{summer_img}.6.3#{offset}
+diagonal[SW][0]=#{summer_img}.6.0#{offset}
+diagonal[NW][0]=#{summer_img}.6.1#{offset}
+diagonal[NE][0]=#{summer_img}.6.2#{offset}
+diagonal[SE][0]=#{summer_img}.6.3#{offset}
 
 ---
 %resource "winter-way"
-Image[S][1]=#{winter_img}.0.0#{offset}
-Image[W][1]=#{winter_img}.0.1#{offset}
-Image[N][1]=#{winter_img}.0.2#{offset}
-Image[E][1]=#{winter_img}.0.3#{offset}
+image[S][1]=#{winter_img}.0.0#{offset}
+image[W][1]=#{winter_img}.0.1#{offset}
+image[N][1]=#{winter_img}.0.2#{offset}
+image[E][1]=#{winter_img}.0.3#{offset}
 
-Image[SW][1]=#{winter_img}.1.0#{offset}
-Image[NW][1]=#{winter_img}.1.1#{offset}
-Image[NE][1]=#{winter_img}.1.2#{offset}
-Image[SE][1]=#{winter_img}.1.3#{offset}
+image[SW][1]=#{winter_img}.1.0#{offset}
+image[NW][1]=#{winter_img}.1.1#{offset}
+image[NE][1]=#{winter_img}.1.2#{offset}
+image[SE][1]=#{winter_img}.1.3#{offset}
 
-Image[NS][1]=#{winter_img}.2.0#{offset}
-Image[EW][1]=#{winter_img}.2.1#{offset}
-Image[NSEW][1]=#{winter_img}.2.2#{offset}
-Image[-][1]=#{winter_img}.2.3#{offset}
+image[NS][1]=#{winter_img}.2.0#{offset}
+image[EW][1]=#{winter_img}.2.1#{offset}
+image[NSEW][1]=#{winter_img}.2.2#{offset}
+image[-][1]=#{winter_img}.2.3#{offset}
 
-Image[NEW][1]=#{winter_img}.3.0#{offset}
-Image[NSE][1]=#{winter_img}.3.1#{offset}
-Image[SEW][1]=#{winter_img}.3.2#{offset}
-Image[NSW][1]=#{winter_img}.3.3#{offset}
+image[NEW][1]=#{winter_img}.3.0#{offset}
+image[NSE][1]=#{winter_img}.3.1#{offset}
+image[SEW][1]=#{winter_img}.3.2#{offset}
+image[NSW][1]=#{winter_img}.3.3#{offset}
 
-ImageUp[12][1]=#{winter_img}.4.0#{offset}
-ImageUp[9][1]=#{winter_img}.4.1#{offset}
-ImageUp[3][1]=#{winter_img}.4.2#{offset}
-ImageUp[6][1]=#{winter_img}.4.3#{offset}
+imageUp[12][1]=#{winter_img}.4.0#{offset}
+imageUp[9][1]=#{winter_img}.4.1#{offset}
+imageUp[3][1]=#{winter_img}.4.2#{offset}
+imageUp[6][1]=#{winter_img}.4.3#{offset}
 
-ImageUp2[12][1]=#{winter_img}.5.0#{offset}
-ImageUp2[9][1]=#{winter_img}.5.1#{offset}
-ImageUp2[3][1]=#{winter_img}.5.2#{offset}
-ImageUp2[6][1]=#{winter_img}.5.3#{offset}
+imageUp2[12][1]=#{winter_img}.5.0#{offset}
+imageUp2[9][1]=#{winter_img}.5.1#{offset}
+imageUp2[3][1]=#{winter_img}.5.2#{offset}
+imageUp2[6][1]=#{winter_img}.5.3#{offset}
 
-Diagonal[SW][1]=#{winter_img}.6.0#{offset}
-Diagonal[NW][1]=#{winter_img}.6.1#{offset}
-Diagonal[NE][1]=#{winter_img}.6.2#{offset}
-Diagonal[SE][1]=#{winter_img}.6.3#{offset}
+diagonal[SW][1]=#{winter_img}.6.0#{offset}
+diagonal[NW][1]=#{winter_img}.6.1#{offset}
+diagonal[NE][1]=#{winter_img}.6.2#{offset}
+diagonal[SE][1]=#{winter_img}.6.3#{offset}
 ---
 %resource "summer-diagonal-way"
 cursor=#{summer_img}.7.1
 icon=> #{summer_img}.7.0
-Image[S][0]=#{summer_img}.0.0#{offset}
-Image[W][0]=#{summer_img}.0.1#{offset}
-Image[N][0]=#{summer_img}.0.2#{offset}
-Image[E][0]=#{summer_img}.0.3#{offset}
+image[S][0]=#{summer_img}.0.0#{offset}
+image[W][0]=#{summer_img}.0.1#{offset}
+image[N][0]=#{summer_img}.0.2#{offset}
+image[E][0]=#{summer_img}.0.3#{offset}
 
-Image[SW][0]=#{summer_img}.6.0#{offset}
-Image[NW][0]=#{summer_img}.6.1#{offset}
-Image[NE][0]=#{summer_img}.6.2#{offset}
-Image[SE][0]=#{summer_img}.6.3#{offset}
+image[SW][0]=#{summer_img}.6.0#{offset}
+image[NW][0]=#{summer_img}.6.1#{offset}
+image[NE][0]=#{summer_img}.6.2#{offset}
+image[SE][0]=#{summer_img}.6.3#{offset}
 
-Image[NS][0]=#{summer_img}.2.0#{offset}
-Image[EW][0]=#{summer_img}.2.1#{offset}
-Image[NSEW][0]=#{summer_img}.2.2#{offset}
-Image[-][0]=#{summer_img}.2.3#{offset}
+image[NS][0]=#{summer_img}.2.0#{offset}
+image[EW][0]=#{summer_img}.2.1#{offset}
+image[NSEW][0]=#{summer_img}.2.2#{offset}
+image[-][0]=#{summer_img}.2.3#{offset}
 
-Image[NEW][0]=#{summer_img}.3.0#{offset}
-Image[NSE][0]=#{summer_img}.3.1#{offset}
-Image[SEW][0]=#{summer_img}.3.2#{offset}
-Image[NSW][0]=#{summer_img}.3.3#{offset}
+image[NEW][0]=#{summer_img}.3.0#{offset}
+image[NSE][0]=#{summer_img}.3.1#{offset}
+image[SEW][0]=#{summer_img}.3.2#{offset}
+image[NSW][0]=#{summer_img}.3.3#{offset}
 
-ImageUp[12][0]=#{summer_img}.4.0#{offset}
-ImageUp[9][0]=#{summer_img}.4.1#{offset}
-ImageUp[3][0]=#{summer_img}.4.2#{offset}
-ImageUp[6][0]=#{summer_img}.4.3#{offset}
+imageUp[12][0]=#{summer_img}.4.0#{offset}
+imageUp[9][0]=#{summer_img}.4.1#{offset}
+imageUp[3][0]=#{summer_img}.4.2#{offset}
+imageUp[6][0]=#{summer_img}.4.3#{offset}
 
-ImageUp2[12][0]=#{summer_img}.5.0#{offset}
-ImageUp2[9][0]=#{summer_img}.5.1#{offset}
-ImageUp2[3][0]=#{summer_img}.5.2#{offset}
-ImageUp2[6][0]=#{summer_img}.5.3#{offset}
+imageUp2[12][0]=#{summer_img}.5.0#{offset}
+imageUp2[9][0]=#{summer_img}.5.1#{offset}
+imageUp2[3][0]=#{summer_img}.5.2#{offset}
+imageUp2[6][0]=#{summer_img}.5.3#{offset}
 ---
 %resource "winter-diagonal-way"
-Image[S][1]=#{winter_img}.0.0#{offset}
-Image[W][1]=#{winter_img}.0.1#{offset}
-Image[N][1]=#{winter_img}.0.2#{offset}
-Image[E][1]=#{winter_img}.0.3#{offset}
+image[S][1]=#{winter_img}.0.0#{offset}
+image[W][1]=#{winter_img}.0.1#{offset}
+image[N][1]=#{winter_img}.0.2#{offset}
+image[E][1]=#{winter_img}.0.3#{offset}
 
-Image[SW][1]=#{winter_img}.6.0#{offset}
-Image[NW][1]=#{winter_img}.6.1#{offset}
-Image[NE][1]=#{winter_img}.6.2#{offset}
-Image[SE][1]=#{winter_img}.6.3#{offset}
+image[SW][1]=#{winter_img}.6.0#{offset}
+image[NW][1]=#{winter_img}.6.1#{offset}
+image[NE][1]=#{winter_img}.6.2#{offset}
+image[SE][1]=#{winter_img}.6.3#{offset}
 
-Image[NS][1]=#{winter_img}.2.0#{offset}
-Image[EW][1]=#{winter_img}.2.1#{offset}
-Image[NSEW][1]=#{winter_img}.2.2#{offset}
-Image[-][1]=#{winter_img}.2.3#{offset}
+image[NS][1]=#{winter_img}.2.0#{offset}
+image[EW][1]=#{winter_img}.2.1#{offset}
+image[NSEW][1]=#{winter_img}.2.2#{offset}
+image[-][1]=#{winter_img}.2.3#{offset}
 
-Image[NEW][1]=#{winter_img}.3.0#{offset}
-Image[NSE][1]=#{winter_img}.3.1#{offset}
-Image[SEW][1]=#{winter_img}.3.2#{offset}
-Image[NSW][1]=#{winter_img}.3.3#{offset}
+image[NEW][1]=#{winter_img}.3.0#{offset}
+image[NSE][1]=#{winter_img}.3.1#{offset}
+image[SEW][1]=#{winter_img}.3.2#{offset}
+image[NSW][1]=#{winter_img}.3.3#{offset}
 
-ImageUp[12][1]=#{winter_img}.4.0#{offset}
-ImageUp[9][1]=#{winter_img}.4.1#{offset}
-ImageUp[3][1]=#{winter_img}.4.2#{offset}
-ImageUp[6][1]=#{winter_img}.4.3#{offset}
+imageUp[12][1]=#{winter_img}.4.0#{offset}
+imageUp[9][1]=#{winter_img}.4.1#{offset}
+imageUp[3][1]=#{winter_img}.4.2#{offset}
+imageUp[6][1]=#{winter_img}.4.3#{offset}
 
-ImageUp2[12][1]=#{winter_img}.5.0#{offset}
-ImageUp2[9][1]=#{winter_img}.5.1#{offset}
-ImageUp2[3][1]=#{winter_img}.5.2#{offset}
-ImageUp2[6][1]=#{winter_img}.5.3#{offset}
+imageUp2[12][1]=#{winter_img}.5.0#{offset}
+imageUp2[9][1]=#{winter_img}.5.1#{offset}
+imageUp2[3][1]=#{winter_img}.5.2#{offset}
+imageUp2[6][1]=#{winter_img}.5.3#{offset}
 ---
-Obj=way
-Name=city_road
+obj=way
+name=city_road
 cost=7500
 copyright=wa
 maintenance=300
@@ -154,8 +154,8 @@ waytype=road
 %include "summer-way"
 %include "winter-way"
 ---
-Obj=way
-Name=wa-road-40n
+obj=way
+name=np-road-40n
 copyright=wa
 cost=4000
 maintenance=200
@@ -170,8 +170,8 @@ waytype=road
 %include "winter-way"
 
 ---
-Obj=way
-Name=wa-road-70r
+obj=way
+name=np-road-70r
 copyright=wa
 cost=7500
 maintenance=300
@@ -186,8 +186,8 @@ waytype=road
 %include "winter-way"
 
 ---
-Obj=way
-Name=wa-road-100n
+obj=way
+name=np-road-100n
 copyright=wa
 cost=10000
 maintenance=500
@@ -203,8 +203,8 @@ draw_as_ding=1
 %include "winter-diagonal-way"
 
 ---
-Obj=way
-Name=wa-road-100n-elv
+obj=way
+name=np-road-100n-elv
 copyright=wa
 cost=20000
 maintenance=500
@@ -221,8 +221,8 @@ draw_as_ding=1
 %include "summer-diagonal-way"
 
 ---
-Obj=way
-Name=wa-road-100r
+obj=way
+name=np-road-100r
 copyright=wa
 cost=10000
 maintenance=500
@@ -238,8 +238,8 @@ draw_as_ding=1
 %include "winter-way"
 
 ---
-Obj=way
-Name=wa-road-100r-elv
+obj=way
+name=np-road-100r-elv
 copyright=wa
 cost=20000
 maintenance=500
@@ -254,8 +254,8 @@ draw_as_ding=1
 %include "summer-way"
 
 ---
-Obj=way
-Name=wa-dart-road
+obj=way
+name=np-dart-road
 copyright=wa
 cost=2000
 maintenance=100
@@ -267,8 +267,8 @@ waytype=road
 %def :fn, "dart-1"
 %include "way-img"
 ---
-Obj=way
-Name=wa-gavel-road
+obj=way
+name=np-gavel-road
 copyright=wa
 cost=4000
 maintenance=300

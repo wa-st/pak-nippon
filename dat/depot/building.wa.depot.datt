@@ -1,10 +1,10 @@
 obj=building
-name=wa-car-depot
+name=np-car-depot
 copyright=wa
 type=depot
 waytype=road
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 
 %def :image, 'car-depot.0.0'
 
@@ -13,12 +13,12 @@ cursor=car-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true
 ---
 obj=building
-name=wa-train-depot
+name=np-train-depot
 copyright=wa
 type=depot
 waytype=track
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 
 %def :image, 'train-depot.0.0'
 
@@ -27,12 +27,12 @@ cursor=train-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true
 ---
 obj=building
-name=wa-ship-depot
+name=np-ship-depot
 copyright=wa
 type=depot
 waytype=water
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 
 %def :image, 'ship-depot.0.0'
 
@@ -41,12 +41,12 @@ cursor=ship-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true
 ---
 obj=building
-name=wa-tram-depot
+name=np-tram-depot
 copyright=wa
 type=depot
 waytype=tram_track
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 
 %def :image, 'tram-depot.0.0'
 
@@ -55,12 +55,12 @@ cursor=tram-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true
 ---
 obj=building
-name=wa-air-depot
+name=np-air-depot
 copyright=wa
 type=depot
 waytype=air
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 
 %def :image, 'air-depot.0.0'
 

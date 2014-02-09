@@ -1,9 +1,9 @@
 ---
-Obj=factory
-name=713-moebelhaus
+obj=factory
+name=np-moebelhaus
 copyright=713
 
-#>>> factories.datt[775]
+#>>> factories.datt[776]
 #Obj=factory
 #name=Moebelhaus
 #copyright=Paul Szczepanek
@@ -80,11 +80,11 @@ BackImage[0][1][0][1][0]=nitori.4.0
 BackImage[0][2][0][1][0]=nitori.5.0
 #<<<
 ---
-Obj=factory
-name=713-buchgrosshandel
+obj=factory
+name=np-buchgrosshandel
 copyright=713
 
-#>>> factories.datt[577]
+#>>> factories.datt[578]
 #Obj=factory
 #name=Buchgrosshandel
 Location=City
@@ -124,11 +124,11 @@ BackImage[0][1][0][0][0]=bookoff.1.0
 BackImage[0][1][1][0][0]=bookoff.1.1
 #<<<
 ---
-Obj=factory
-name=713-chemist
+obj=factory
+name=np-chemist
 copyright=713
 
-#>>> factories.datt[485]
+#>>> factories.datt[486]
 #Obj=factory
 #name=CHEMIST
 Location=City

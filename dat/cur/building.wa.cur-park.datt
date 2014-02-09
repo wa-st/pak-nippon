@@ -1,6 +1,6 @@
 obj=building
 type=cur
-name=wa-cur-park-1
+name=np-cur-park-1
 copyright=wa
 passengers=20
 build_time=550
@@ -11,7 +11,7 @@ chance=50
 ----
 obj=building
 type=cur
-name=wa-cur-park-2
+name=np-cur-park-2
 copyright=wa
 passengers=20
 build_time=650
@@ -22,7 +22,7 @@ chance=40
 ----
 obj=building
 type=cur
-name=wa-cur-park-3
+name=np-cur-park-3
 copyright=wa
 passengers=20
 build_time=750
@@ -32,7 +32,7 @@ chance=30
 ----
 obj=building
 type=cur
-name=wa-cur-park-4
+name=np-cur-park-4
 copyright=wa
 passengers=20
 build_time=850

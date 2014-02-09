@@ -1,5 +1,5 @@
 obj=building
-name=wa-cur-temple-1
+name=np-cur-temple-1
 copyright=wa
 type=cur
 passengers=20
@@ -10,7 +10,7 @@ chance=70
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-cur-temple-2
+name=np-cur-temple-2
 copyright=wa
 type=cur
 passengers=30
@@ -22,7 +22,7 @@ chance=20
 
 ---
 obj=building
-name=wa-cur-temple-3
+name=np-cur-temple-3
 copyright=wa
 type=cur
 passengers=20
@@ -34,7 +34,7 @@ chance=30
 
 ---
 obj=building
-name=wa-cur-temple-4
+name=np-cur-temple-4
 copyright=wa
 type=cur
 passengers=30
@@ -46,7 +46,7 @@ chance=10
 
 ---
 obj=building
-name=wa-cur-temple-5
+name=np-cur-temple-5
 copyright=wa
 type=cur
 passengers=10

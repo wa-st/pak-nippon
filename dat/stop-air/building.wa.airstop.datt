@@ -1,26 +1,26 @@
 %resource 'airstop-common'
 obj=building
 copyright=wa
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 waytype=air
 type=stop
 cursor=#{img(0, 5)}
 icon=> #{img(0, 4)}
 ---
-name=wa-airstop-1
+name=np-airstop-1
 level=3
 %def :image, 'airstop.0.0'
 %include 'airstop-common'
 %buil_image 1, 1, 1, 4, 1
 ---
-name=wa-airstop-2
+name=np-airstop-2
 level=4
 %def :image, 'airstop.1.0'
 %include 'airstop-common'
 %buil_image 1, 1, 1, 4, 1
 ---
-name=wa-airstop-3
+name=np-airstop-3
 level=5
 %def :image, 'airstop.2.0'
 %include 'airstop-common'

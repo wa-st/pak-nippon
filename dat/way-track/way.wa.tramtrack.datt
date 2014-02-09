@@ -1,7 +1,7 @@
 %require '..\common.datt'
 ---
 obj=way
-name=wa-tramtrack-1
+name=np-tramtrack-1
 copyright=wa
 waytype=tram_track
 cost=10000
@@ -14,7 +14,7 @@ max_weight=180
 %include 'way-img-summer'
 ---
 obj=way
-name=wa-tramtrack-2
+name=np-tramtrack-2
 copyright=wa
 waytype=tram_track
 cost=10000

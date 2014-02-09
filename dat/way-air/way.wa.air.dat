@@ -1,7 +1,7 @@
 ---
 
 obj=way
-name=wa-taxiway
+name=np-taxiway
 copyright=wa
 cost=10000
 maintenance=800
@@ -15,45 +15,45 @@ system_type=0
 icon=> taxiway-1.9.0
 cursor=taxiway-1.9.1
 
-Image[S][0]=taxiway-1.0.0
-Image[E][0]=taxiway-1.0.1
-Image[N][0]=taxiway-1.0.2
-Image[W][0]=taxiway-1.0.3
+image[S][0]=taxiway-1.0.0
+image[E][0]=taxiway-1.0.1
+image[N][0]=taxiway-1.0.2
+image[W][0]=taxiway-1.0.3
 
-Image[SE][0]=taxiway-1.1.0
-Image[NE][0]=taxiway-1.1.1
-Image[NW][0]=taxiway-1.1.2
-Image[SW][0]=taxiway-1.1.3
+image[SE][0]=taxiway-1.1.0
+image[NE][0]=taxiway-1.1.1
+image[NW][0]=taxiway-1.1.2
+image[SW][0]=taxiway-1.1.3
 
-Image[NS][0]=taxiway-1.2.0
-Image[EW][0]=taxiway-1.2.1
+image[NS][0]=taxiway-1.2.0
+image[EW][0]=taxiway-1.2.1
 
-Image[NSEW][0]=taxiway-1.3.0
+image[NSEW][0]=taxiway-1.3.0
 
-Image[-][0]=taxiway-1.4.0
+image[-][0]=taxiway-1.4.0
 
-Image[NSE][0]=taxiway-1.5.0
-Image[NEW][0]=taxiway-1.5.1
-Image[NSW][0]=taxiway-1.5.2
-Image[SEW][0]=taxiway-1.5.3
+image[NSE][0]=taxiway-1.5.0
+image[NEW][0]=taxiway-1.5.1
+image[NSW][0]=taxiway-1.5.2
+image[SEW][0]=taxiway-1.5.3
 
-#ImageUp[12][0]=taxiway-1.6.0
-#ImageUp[9][0]=taxiway-1.6.1
-#ImageUp[3][0]=taxiway-1.6.2
-#ImageUp[6][0]=taxiway-1.6.3
+#imageUp[12][0]=taxiway-1.6.0
+#imageUp[9][0]=taxiway-1.6.1
+#imageUp[3][0]=taxiway-1.6.2
+#imageUp[6][0]=taxiway-1.6.3
 
-#ImageUp2[12][0]=taxiway-1.7.0
-#ImageUp2[9][0]=taxiway-1.7.1
-#ImageUp2[3][0]=taxiway-1.7.2
-#ImageUp2[6][0]=taxiway-1.7.3
+#imageUp2[12][0]=taxiway-1.7.0
+#imageUp2[9][0]=taxiway-1.7.1
+#imageUp2[3][0]=taxiway-1.7.2
+#imageUp2[6][0]=taxiway-1.7.3
 
-Diagonal[SE][0]=taxiway-1.8.0
-Diagonal[NE][0]=taxiway-1.8.1
-Diagonal[NW][0]=taxiway-1.8.2
-Diagonal[SW][0]=taxiway-1.8.3
+diagonal[SE][0]=taxiway-1.8.0
+diagonal[NE][0]=taxiway-1.8.1
+diagonal[NW][0]=taxiway-1.8.2
+diagonal[SW][0]=taxiway-1.8.3
 ---
 obj=way
-name=wa-apron
+name=np-apron
 copyright=wa
 cost=10000
 maintenance=800
@@ -67,45 +67,45 @@ system_type=0
 icon=> apron-1.9.0
 cursor=apron-1.9.1
 
-Image[S][0]=apron-1.0.0
-Image[E][0]=apron-1.0.1
-Image[N][0]=apron-1.0.2
-Image[W][0]=apron-1.0.3
+image[S][0]=apron-1.0.0
+image[E][0]=apron-1.0.1
+image[N][0]=apron-1.0.2
+image[W][0]=apron-1.0.3
 
-Image[SE][0]=apron-1.1.0
-Image[NE][0]=apron-1.1.1
-Image[NW][0]=apron-1.1.2
-Image[SW][0]=apron-1.1.3
+image[SE][0]=apron-1.1.0
+image[NE][0]=apron-1.1.1
+image[NW][0]=apron-1.1.2
+image[SW][0]=apron-1.1.3
 
-Image[NS][0]=apron-1.2.0
-Image[EW][0]=apron-1.2.1
+image[NS][0]=apron-1.2.0
+image[EW][0]=apron-1.2.1
 
-Image[NSEW][0]=apron-1.3.0
+image[NSEW][0]=apron-1.3.0
 
-Image[-][0]=apron-1.4.0
+image[-][0]=apron-1.4.0
 
-Image[NSE][0]=apron-1.5.0
-Image[NEW][0]=apron-1.5.1
-Image[NSW][0]=apron-1.5.2
-Image[SEW][0]=apron-1.5.3
+image[NSE][0]=apron-1.5.0
+image[NEW][0]=apron-1.5.1
+image[NSW][0]=apron-1.5.2
+image[SEW][0]=apron-1.5.3
 
-#ImageUp[12][0]=apron-1.6.0
-#ImageUp[9][0]=apron-1.6.1
-#ImageUp[3][0]=apron-1.6.2
-#ImageUp[6][0]=apron-1.6.3
+#imageUp[12][0]=apron-1.6.0
+#imageUp[9][0]=apron-1.6.1
+#imageUp[3][0]=apron-1.6.2
+#imageUp[6][0]=apron-1.6.3
 
-#ImageUp2[12][0]=apron-1.7.0
-#ImageUp2[9][0]=apron-1.7.1
-#ImageUp2[3][0]=apron-1.7.2
-#ImageUp2[6][0]=apron-1.7.3
+#imageUp2[12][0]=apron-1.7.0
+#imageUp2[9][0]=apron-1.7.1
+#imageUp2[3][0]=apron-1.7.2
+#imageUp2[6][0]=apron-1.7.3
 
-Diagonal[SE][0]=apron-1.8.0
-Diagonal[NE][0]=apron-1.8.1
-Diagonal[NW][0]=apron-1.8.2
-Diagonal[SW][0]=apron-1.8.3
+diagonal[SE][0]=apron-1.8.0
+diagonal[NE][0]=apron-1.8.1
+diagonal[NW][0]=apron-1.8.2
+diagonal[SW][0]=apron-1.8.3
 ---
 obj=way
-name=wa-runway
+name=np-runway
 copyright=wa
 cost=27500
 maintenance=6500
@@ -118,39 +118,39 @@ system_type=1
 icon=> runway-1.9.0
 cursor=runway-1.9.1
 
-Image[S][0]=runway-1.0.0
-Image[E][0]=runway-1.0.1
-Image[N][0]=runway-1.0.2
-Image[W][0]=runway-1.0.3
+image[S][0]=runway-1.0.0
+image[E][0]=runway-1.0.1
+image[N][0]=runway-1.0.2
+image[W][0]=runway-1.0.3
 
-Image[SE][0]=runway-1.1.0
-Image[NE][0]=runway-1.1.1
-Image[NW][0]=runway-1.1.2
-Image[SW][0]=runway-1.1.3
+image[SE][0]=runway-1.1.0
+image[NE][0]=runway-1.1.1
+image[NW][0]=runway-1.1.2
+image[SW][0]=runway-1.1.3
 
-Image[NS][0]=runway-1.2.0
-Image[EW][0]=runway-1.2.1
+image[NS][0]=runway-1.2.0
+image[EW][0]=runway-1.2.1
 
-Image[NSEW][0]=runway-1.3.0
+image[NSEW][0]=runway-1.3.0
 
-Image[-][0]=runway-1.4.0
+image[-][0]=runway-1.4.0
 
-Image[NSE][0]=runway-1.5.0
-Image[NEW][0]=runway-1.5.1
-Image[NSW][0]=runway-1.5.2
-Image[SEW][0]=runway-1.5.3
+image[NSE][0]=runway-1.5.0
+image[NEW][0]=runway-1.5.1
+image[NSW][0]=runway-1.5.2
+image[SEW][0]=runway-1.5.3
 
-#ImageUp[12][0]=runway-1.6.0
-#ImageUp[9][0]=runway-1.6.1
-#ImageUp[3][0]=runway-1.6.2
-#ImageUp[6][0]=runway-1.6.3
+#imageUp[12][0]=runway-1.6.0
+#imageUp[9][0]=runway-1.6.1
+#imageUp[3][0]=runway-1.6.2
+#imageUp[6][0]=runway-1.6.3
 
-#ImageUp2[12][0]=runway-1.7.0
-#ImageUp2[9][0]=runway-1.7.1
-#ImageUp2[3][0]=runway-1.7.2
-#ImageUp2[6][0]=runway-1.7.3
+#imageUp2[12][0]=runway-1.7.0
+#imageUp2[9][0]=runway-1.7.1
+#imageUp2[3][0]=runway-1.7.2
+#imageUp2[6][0]=runway-1.7.3
 
-#Diagonal[SE][0]=runway-1.8.0
-#Diagonal[NE][0]=runway-1.8.1
-#Diagonal[NW][0]=runway-1.8.2
-#Diagonal[SW][0]=runway-1.8.3
+#diagonal[SE][0]=runway-1.8.0
+#diagonal[NE][0]=runway-1.8.1
+#diagonal[NW][0]=runway-1.8.2
+#diagonal[SW][0]=runway-1.8.3

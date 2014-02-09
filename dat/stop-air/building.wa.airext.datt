@@ -1,56 +1,56 @@
 %resource 'air-ext-common'
 obj=building
 copyright=wa
-noinfo=1
-noconstruction=1
+noInfo=1
+noConstruction=1
 waytype=air
 type=extension
 cursor=#{img(0, 5)}
 icon=> #{img(0, 4)}
 ---
-name=wa-airext-small-atct
+name=np-airext-small-atct
 level=3
 %def :image, 'airstop.3.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-airext-atct
+name=np-airext-atct
 level=5
 %def :image, 'airstop.5.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 2, 4, 2
 ---
-name=wa-airext-vor-dme
+name=np-airext-vor-dme
 level=1
 %def :image, 'airstop.9.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 1, 2
 ---
-name=wa-airext-new-terminal-1
+name=np-airext-new-terminal-1
 level=8
 %def :image, 'airext-terminal.0.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 2, 2
 ---
-name=wa-airext-new-terminal-2
+name=np-airext-new-terminal-2
 level=9
 %def :image, 'airext-terminal.2.0'
 %include 'air-ext-common'
 %buil_image 2, 2, 1, 2, 2
 ---
-name=wa-airext-terminal-1
+name=np-airext-terminal-1
 level=6
 %def :image, 'airext-terminal.6.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-airext-terminal-2
+name=np-airext-terminal-2
 level=7
 %def :image, 'airext-terminal.8.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
-name=wa-airext-terminal-3
+name=np-airext-terminal-3
 level=5
 %def :image, 'airext-terminal.10.0'
 %include 'air-ext-common'

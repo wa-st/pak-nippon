@@ -1,6 +1,6 @@
 ---
 obj=way
-name=wa-sand-track
+name=np-sand-track
 copyright=wa
 cost=3500
 maintenance=100
@@ -13,82 +13,82 @@ waytype=track
 icon=> track-1.9.0
 cursor=track-1.9.1
 
-Image[S][0]=track-1.0.0
-Image[E][0]=track-1.0.1
-Image[N][0]=track-1.0.2
-Image[W][0]=track-1.0.3
+image[S][0]=track-1.0.0
+image[E][0]=track-1.0.1
+image[N][0]=track-1.0.2
+image[W][0]=track-1.0.3
 
-Image[SE][0]=track-1.1.0
-Image[NE][0]=track-1.1.1
-Image[NW][0]=track-1.1.2
-Image[SW][0]=track-1.1.3
+image[SE][0]=track-1.1.0
+image[NE][0]=track-1.1.1
+image[NW][0]=track-1.1.2
+image[SW][0]=track-1.1.3
 
-Image[NS][0]=track-1.2.0
-Image[EW][0]=track-1.2.1
+image[NS][0]=track-1.2.0
+image[EW][0]=track-1.2.1
 
-Image[NSEW][0]=track-1.3.0
+image[NSEW][0]=track-1.3.0
 
-Image[-][0]=track-1.4.0
+image[-][0]=track-1.4.0
 
-Image[NSE][0]=track-1.5.0
-Image[NEW][0]=track-1.5.1
-Image[NSW][0]=track-1.5.2
-Image[SEW][0]=track-1.5.3
+image[NSE][0]=track-1.5.0
+image[NEW][0]=track-1.5.1
+image[NSW][0]=track-1.5.2
+image[SEW][0]=track-1.5.3
 
-ImageUp[12][0]=track-1.6.0
-ImageUp[9][0]=track-1.6.1
-ImageUp[3][0]=track-1.6.2
-ImageUp[6][0]=track-1.6.3
+imageUp[12][0]=track-1.6.0
+imageUp[9][0]=track-1.6.1
+imageUp[3][0]=track-1.6.2
+imageUp[6][0]=track-1.6.3
 
-ImageUp2[12][0]=track-1.7.0
-ImageUp2[9][0]=track-1.7.1
-ImageUp2[3][0]=track-1.7.2
-ImageUp2[6][0]=track-1.7.3
+imageUp2[12][0]=track-1.7.0
+imageUp2[9][0]=track-1.7.1
+imageUp2[3][0]=track-1.7.2
+imageUp2[6][0]=track-1.7.3
 
-Diagonal[SE][0]=track-1.8.0
-Diagonal[NE][0]=track-1.8.1
-Diagonal[NW][0]=track-1.8.2
-Diagonal[SW][0]=track-1.8.3
+diagonal[SE][0]=track-1.8.0
+diagonal[NE][0]=track-1.8.1
+diagonal[NW][0]=track-1.8.2
+diagonal[SW][0]=track-1.8.3
 
-Image[S][1]=track-1-winter.0.0
-Image[E][1]=track-1-winter.0.1
-Image[N][1]=track-1-winter.0.2
-Image[W][1]=track-1-winter.0.3
+image[S][1]=track-1-winter.0.0
+image[E][1]=track-1-winter.0.1
+image[N][1]=track-1-winter.0.2
+image[W][1]=track-1-winter.0.3
 
-Image[SE][1]=track-1-winter.1.0
-Image[NE][1]=track-1-winter.1.1
-Image[NW][1]=track-1-winter.1.2
-Image[SW][1]=track-1-winter.1.3
+image[SE][1]=track-1-winter.1.0
+image[NE][1]=track-1-winter.1.1
+image[NW][1]=track-1-winter.1.2
+image[SW][1]=track-1-winter.1.3
 
-Image[NS][1]=track-1-winter.2.0
-Image[EW][1]=track-1-winter.2.1
+image[NS][1]=track-1-winter.2.0
+image[EW][1]=track-1-winter.2.1
 
-Image[NSEW][1]=track-1-winter.3.0
+image[NSEW][1]=track-1-winter.3.0
 
-Image[-][1]=track-1-winter.4.0
+image[-][1]=track-1-winter.4.0
 
-Image[NSE][1]=track-1-winter.5.0
-Image[NEW][1]=track-1-winter.5.1
-Image[NSW][1]=track-1-winter.5.2
-Image[SEW][1]=track-1-winter.5.3
+image[NSE][1]=track-1-winter.5.0
+image[NEW][1]=track-1-winter.5.1
+image[NSW][1]=track-1-winter.5.2
+image[SEW][1]=track-1-winter.5.3
 
-ImageUp[12][1]=track-1-winter.6.0
-ImageUp[9][1]=track-1-winter.6.1
-ImageUp[3][1]=track-1-winter.6.2
-ImageUp[6][1]=track-1-winter.6.3
+imageUp[12][1]=track-1-winter.6.0
+imageUp[9][1]=track-1-winter.6.1
+imageUp[3][1]=track-1-winter.6.2
+imageUp[6][1]=track-1-winter.6.3
 
-ImageUp2[12][1]=track-1-winter.7.0
-ImageUp2[9][1]=track-1-winter.7.1
-ImageUp2[3][1]=track-1-winter.7.2
-ImageUp2[6][1]=track-1-winter.7.3
+imageUp2[12][1]=track-1-winter.7.0
+imageUp2[9][1]=track-1-winter.7.1
+imageUp2[3][1]=track-1-winter.7.2
+imageUp2[6][1]=track-1-winter.7.3
 
-Diagonal[SE][1]=track-1-winter.8.0
-Diagonal[NE][1]=track-1-winter.8.1
-Diagonal[NW][1]=track-1-winter.8.2
-Diagonal[SW][1]=track-1-winter.8.3
+diagonal[SE][1]=track-1-winter.8.0
+diagonal[NE][1]=track-1-winter.8.1
+diagonal[NW][1]=track-1-winter.8.2
+diagonal[SW][1]=track-1-winter.8.3
 ---
 obj=way
-name=wa-wooden-sleeper-track
+name=np-wooden-sleeper-track
 copyright=wa
 cost=8000
 maintenance=500
@@ -101,82 +101,82 @@ waytype=track
 icon=> track-2.9.0
 cursor=track-2.9.1
 
-Image[S][0]=track-2.0.0
-Image[E][0]=track-2.0.1
-Image[N][0]=track-2.0.2
-Image[W][0]=track-2.0.3
+image[S][0]=track-2.0.0
+image[E][0]=track-2.0.1
+image[N][0]=track-2.0.2
+image[W][0]=track-2.0.3
 
-Image[SE][0]=track-2.1.0
-Image[NE][0]=track-2.1.1
-Image[NW][0]=track-2.1.2
-Image[SW][0]=track-2.1.3
+image[SE][0]=track-2.1.0
+image[NE][0]=track-2.1.1
+image[NW][0]=track-2.1.2
+image[SW][0]=track-2.1.3
 
-Image[NS][0]=track-2.2.0
-Image[EW][0]=track-2.2.1
+image[NS][0]=track-2.2.0
+image[EW][0]=track-2.2.1
 
-Image[NSEW][0]=track-2.3.0
+image[NSEW][0]=track-2.3.0
 
-Image[-][0]=track-2.4.0
+image[-][0]=track-2.4.0
 
-Image[NSE][0]=track-2.5.0
-Image[NEW][0]=track-2.5.1
-Image[NSW][0]=track-2.5.2
-Image[SEW][0]=track-2.5.3
+image[NSE][0]=track-2.5.0
+image[NEW][0]=track-2.5.1
+image[NSW][0]=track-2.5.2
+image[SEW][0]=track-2.5.3
 
-ImageUp[12][0]=track-2.6.0
-ImageUp[9][0]=track-2.6.1
-ImageUp[3][0]=track-2.6.2
-ImageUp[6][0]=track-2.6.3
+imageUp[12][0]=track-2.6.0
+imageUp[9][0]=track-2.6.1
+imageUp[3][0]=track-2.6.2
+imageUp[6][0]=track-2.6.3
 
-ImageUp2[12][0]=track-2.7.0
-ImageUp2[9][0]=track-2.7.1
-ImageUp2[3][0]=track-2.7.2
-ImageUp2[6][0]=track-2.7.3
+imageUp2[12][0]=track-2.7.0
+imageUp2[9][0]=track-2.7.1
+imageUp2[3][0]=track-2.7.2
+imageUp2[6][0]=track-2.7.3
 
-Diagonal[SE][0]=track-2.8.0
-Diagonal[NE][0]=track-2.8.1
-Diagonal[NW][0]=track-2.8.2
-Diagonal[SW][0]=track-2.8.3
+diagonal[SE][0]=track-2.8.0
+diagonal[NE][0]=track-2.8.1
+diagonal[NW][0]=track-2.8.2
+diagonal[SW][0]=track-2.8.3
 
-Image[S][1]=track-2-winter.0.0
-Image[E][1]=track-2-winter.0.1
-Image[N][1]=track-2-winter.0.2
-Image[W][1]=track-2-winter.0.3
+image[S][1]=track-2-winter.0.0
+image[E][1]=track-2-winter.0.1
+image[N][1]=track-2-winter.0.2
+image[W][1]=track-2-winter.0.3
 
-Image[SE][1]=track-2-winter.1.0
-Image[NE][1]=track-2-winter.1.1
-Image[NW][1]=track-2-winter.1.2
-Image[SW][1]=track-2-winter.1.3
+image[SE][1]=track-2-winter.1.0
+image[NE][1]=track-2-winter.1.1
+image[NW][1]=track-2-winter.1.2
+image[SW][1]=track-2-winter.1.3
 
-Image[NS][1]=track-2-winter.2.0
-Image[EW][1]=track-2-winter.2.1
+image[NS][1]=track-2-winter.2.0
+image[EW][1]=track-2-winter.2.1
 
-Image[NSEW][1]=track-2-winter.3.0
+image[NSEW][1]=track-2-winter.3.0
 
-Image[-][1]=track-2-winter.4.0
+image[-][1]=track-2-winter.4.0
 
-Image[NSE][1]=track-2-winter.5.0
-Image[NEW][1]=track-2-winter.5.1
-Image[NSW][1]=track-2-winter.5.2
-Image[SEW][1]=track-2-winter.5.3
+image[NSE][1]=track-2-winter.5.0
+image[NEW][1]=track-2-winter.5.1
+image[NSW][1]=track-2-winter.5.2
+image[SEW][1]=track-2-winter.5.3
 
-ImageUp[12][1]=track-2-winter.6.0
-ImageUp[9][1]=track-2-winter.6.1
-ImageUp[3][1]=track-2-winter.6.2
-ImageUp[6][1]=track-2-winter.6.3
+imageUp[12][1]=track-2-winter.6.0
+imageUp[9][1]=track-2-winter.6.1
+imageUp[3][1]=track-2-winter.6.2
+imageUp[6][1]=track-2-winter.6.3
 
-ImageUp2[12][1]=track-2-winter.7.0
-ImageUp2[9][1]=track-2-winter.7.1
-ImageUp2[3][1]=track-2-winter.7.2
-ImageUp2[6][1]=track-2-winter.7.3
+imageUp2[12][1]=track-2-winter.7.0
+imageUp2[9][1]=track-2-winter.7.1
+imageUp2[3][1]=track-2-winter.7.2
+imageUp2[6][1]=track-2-winter.7.3
 
-Diagonal[SE][1]=track-2-winter.8.0
-Diagonal[NE][1]=track-2-winter.8.1
-Diagonal[NW][1]=track-2-winter.8.2
-Diagonal[SW][1]=track-2-winter.8.3
+diagonal[SE][1]=track-2-winter.8.0
+diagonal[NE][1]=track-2-winter.8.1
+diagonal[NW][1]=track-2-winter.8.2
+diagonal[SW][1]=track-2-winter.8.3
 ---
 obj=way
-name=wa-concrete-sleeper-track
+name=np-concrete-sleeper-track
 copyright=wa
 cost=12000
 maintenance=800
@@ -189,82 +189,82 @@ waytype=track
 icon=> track-3.9.0
 cursor=track-3.9.1
 
-Image[S][0]=track-3.0.0
-Image[E][0]=track-3.0.1
-Image[N][0]=track-3.0.2
-Image[W][0]=track-3.0.3
+image[S][0]=track-3.0.0
+image[E][0]=track-3.0.1
+image[N][0]=track-3.0.2
+image[W][0]=track-3.0.3
 
-Image[SE][0]=track-3.1.0
-Image[NE][0]=track-3.1.1
-Image[NW][0]=track-3.1.2
-Image[SW][0]=track-3.1.3
+image[SE][0]=track-3.1.0
+image[NE][0]=track-3.1.1
+image[NW][0]=track-3.1.2
+image[SW][0]=track-3.1.3
 
-Image[NS][0]=track-3.2.0
-Image[EW][0]=track-3.2.1
+image[NS][0]=track-3.2.0
+image[EW][0]=track-3.2.1
 
-Image[NSEW][0]=track-3.3.0
+image[NSEW][0]=track-3.3.0
 
-Image[-][0]=track-3.4.0
+image[-][0]=track-3.4.0
 
-Image[NSE][0]=track-3.5.0
-Image[NEW][0]=track-3.5.1
-Image[NSW][0]=track-3.5.2
-Image[SEW][0]=track-3.5.3
+image[NSE][0]=track-3.5.0
+image[NEW][0]=track-3.5.1
+image[NSW][0]=track-3.5.2
+image[SEW][0]=track-3.5.3
 
-ImageUp[12][0]=track-3.6.0
-ImageUp[9][0]=track-3.6.1
-ImageUp[3][0]=track-3.6.2
-ImageUp[6][0]=track-3.6.3
+imageUp[12][0]=track-3.6.0
+imageUp[9][0]=track-3.6.1
+imageUp[3][0]=track-3.6.2
+imageUp[6][0]=track-3.6.3
 
-ImageUp2[12][0]=track-3.7.0
-ImageUp2[9][0]=track-3.7.1
-ImageUp2[3][0]=track-3.7.2
-ImageUp2[6][0]=track-3.7.3
+imageUp2[12][0]=track-3.7.0
+imageUp2[9][0]=track-3.7.1
+imageUp2[3][0]=track-3.7.2
+imageUp2[6][0]=track-3.7.3
 
-Diagonal[SE][0]=track-3.8.0
-Diagonal[NE][0]=track-3.8.1
-Diagonal[NW][0]=track-3.8.2
-Diagonal[SW][0]=track-3.8.3
+diagonal[SE][0]=track-3.8.0
+diagonal[NE][0]=track-3.8.1
+diagonal[NW][0]=track-3.8.2
+diagonal[SW][0]=track-3.8.3
 
-Image[S][1]=track-3-winter.0.0
-Image[E][1]=track-3-winter.0.1
-Image[N][1]=track-3-winter.0.2
-Image[W][1]=track-3-winter.0.3
+image[S][1]=track-3-winter.0.0
+image[E][1]=track-3-winter.0.1
+image[N][1]=track-3-winter.0.2
+image[W][1]=track-3-winter.0.3
 
-Image[SE][1]=track-3-winter.1.0
-Image[NE][1]=track-3-winter.1.1
-Image[NW][1]=track-3-winter.1.2
-Image[SW][1]=track-3-winter.1.3
+image[SE][1]=track-3-winter.1.0
+image[NE][1]=track-3-winter.1.1
+image[NW][1]=track-3-winter.1.2
+image[SW][1]=track-3-winter.1.3
 
-Image[NS][1]=track-3-winter.2.0
-Image[EW][1]=track-3-winter.2.1
+image[NS][1]=track-3-winter.2.0
+image[EW][1]=track-3-winter.2.1
 
-Image[NSEW][1]=track-3-winter.3.0
+image[NSEW][1]=track-3-winter.3.0
 
-Image[-][1]=track-3-winter.4.0
+image[-][1]=track-3-winter.4.0
 
-Image[NSE][1]=track-3-winter.5.0
-Image[NEW][1]=track-3-winter.5.1
-Image[NSW][1]=track-3-winter.5.2
-Image[SEW][1]=track-3-winter.5.3
+image[NSE][1]=track-3-winter.5.0
+image[NEW][1]=track-3-winter.5.1
+image[NSW][1]=track-3-winter.5.2
+image[SEW][1]=track-3-winter.5.3
 
-ImageUp[12][1]=track-3-winter.6.0
-ImageUp[9][1]=track-3-winter.6.1
-ImageUp[3][1]=track-3-winter.6.2
-ImageUp[6][1]=track-3-winter.6.3
+imageUp[12][1]=track-3-winter.6.0
+imageUp[9][1]=track-3-winter.6.1
+imageUp[3][1]=track-3-winter.6.2
+imageUp[6][1]=track-3-winter.6.3
 
-ImageUp2[12][1]=track-3-winter.7.0
-ImageUp2[9][1]=track-3-winter.7.1
-ImageUp2[3][1]=track-3-winter.7.2
-ImageUp2[6][1]=track-3-winter.7.3
+imageUp2[12][1]=track-3-winter.7.0
+imageUp2[9][1]=track-3-winter.7.1
+imageUp2[3][1]=track-3-winter.7.2
+imageUp2[6][1]=track-3-winter.7.3
 
-Diagonal[SE][1]=track-3-winter.8.0
-Diagonal[NE][1]=track-3-winter.8.1
-Diagonal[NW][1]=track-3-winter.8.2
-Diagonal[SW][1]=track-3-winter.8.3
+diagonal[SE][1]=track-3-winter.8.0
+diagonal[NE][1]=track-3-winter.8.1
+diagonal[NW][1]=track-3-winter.8.2
+diagonal[SW][1]=track-3-winter.8.3
 ---
 obj=way
-name=wa-slab-track
+name=np-slab-track
 copyright=wa
 waytype=track
 cost=40000
@@ -277,82 +277,82 @@ max_weight=110
 icon=> track-4.9.0
 cursor=track-4.9.1
 
-Image[S][0]=track-4.0.0
-Image[E][0]=track-4.0.1
-Image[N][0]=track-4.0.2
-Image[W][0]=track-4.0.3
+image[S][0]=track-4.0.0
+image[E][0]=track-4.0.1
+image[N][0]=track-4.0.2
+image[W][0]=track-4.0.3
 
-Image[SE][0]=track-4.1.0
-Image[NE][0]=track-4.1.1
-Image[NW][0]=track-4.1.2
-Image[SW][0]=track-4.1.3
+image[SE][0]=track-4.1.0
+image[NE][0]=track-4.1.1
+image[NW][0]=track-4.1.2
+image[SW][0]=track-4.1.3
 
-Image[NS][0]=track-4.2.0
-Image[EW][0]=track-4.2.1
+image[NS][0]=track-4.2.0
+image[EW][0]=track-4.2.1
 
-Image[NSEW][0]=track-4.3.0
+image[NSEW][0]=track-4.3.0
 
-Image[-][0]=track-4.4.0
+image[-][0]=track-4.4.0
 
-Image[NSE][0]=track-4.5.0
-Image[NEW][0]=track-4.5.1
-Image[NSW][0]=track-4.5.2
-Image[SEW][0]=track-4.5.3
+image[NSE][0]=track-4.5.0
+image[NEW][0]=track-4.5.1
+image[NSW][0]=track-4.5.2
+image[SEW][0]=track-4.5.3
 
-ImageUp[12][0]=track-4.6.0
-ImageUp[9][0]=track-4.6.1
-ImageUp[3][0]=track-4.6.2
-ImageUp[6][0]=track-4.6.3
+imageUp[12][0]=track-4.6.0
+imageUp[9][0]=track-4.6.1
+imageUp[3][0]=track-4.6.2
+imageUp[6][0]=track-4.6.3
 
-ImageUp2[12][0]=track-4.7.0
-ImageUp2[9][0]=track-4.7.1
-ImageUp2[3][0]=track-4.7.2
-ImageUp2[6][0]=track-4.7.3
+imageUp2[12][0]=track-4.7.0
+imageUp2[9][0]=track-4.7.1
+imageUp2[3][0]=track-4.7.2
+imageUp2[6][0]=track-4.7.3
 
-Diagonal[SE][0]=track-4.8.0
-Diagonal[NE][0]=track-4.8.1
-Diagonal[NW][0]=track-4.8.2
-Diagonal[SW][0]=track-4.8.3
+diagonal[SE][0]=track-4.8.0
+diagonal[NE][0]=track-4.8.1
+diagonal[NW][0]=track-4.8.2
+diagonal[SW][0]=track-4.8.3
 
-Image[S][1]=track-4-winter.0.0
-Image[E][1]=track-4-winter.0.1
-Image[N][1]=track-4-winter.0.2
-Image[W][1]=track-4-winter.0.3
+image[S][1]=track-4-winter.0.0
+image[E][1]=track-4-winter.0.1
+image[N][1]=track-4-winter.0.2
+image[W][1]=track-4-winter.0.3
 
-Image[SE][1]=track-4-winter.1.0
-Image[NE][1]=track-4-winter.1.1
-Image[NW][1]=track-4-winter.1.2
-Image[SW][1]=track-4-winter.1.3
+image[SE][1]=track-4-winter.1.0
+image[NE][1]=track-4-winter.1.1
+image[NW][1]=track-4-winter.1.2
+image[SW][1]=track-4-winter.1.3
 
-Image[NS][1]=track-4-winter.2.0
-Image[EW][1]=track-4-winter.2.1
+image[NS][1]=track-4-winter.2.0
+image[EW][1]=track-4-winter.2.1
 
-Image[NSEW][1]=track-4-winter.3.0
+image[NSEW][1]=track-4-winter.3.0
 
-Image[-][1]=track-4-winter.4.0
+image[-][1]=track-4-winter.4.0
 
-Image[NSE][1]=track-4-winter.5.0
-Image[NEW][1]=track-4-winter.5.1
-Image[NSW][1]=track-4-winter.5.2
-Image[SEW][1]=track-4-winter.5.3
+image[NSE][1]=track-4-winter.5.0
+image[NEW][1]=track-4-winter.5.1
+image[NSW][1]=track-4-winter.5.2
+image[SEW][1]=track-4-winter.5.3
 
-ImageUp[12][1]=track-4-winter.6.0
-ImageUp[9][1]=track-4-winter.6.1
-ImageUp[3][1]=track-4-winter.6.2
-ImageUp[6][1]=track-4-winter.6.3
+imageUp[12][1]=track-4-winter.6.0
+imageUp[9][1]=track-4-winter.6.1
+imageUp[3][1]=track-4-winter.6.2
+imageUp[6][1]=track-4-winter.6.3
 
-ImageUp2[12][1]=track-4-winter.7.0
-ImageUp2[9][1]=track-4-winter.7.1
-ImageUp2[3][1]=track-4-winter.7.2
-ImageUp2[6][1]=track-4-winter.7.3
+imageUp2[12][1]=track-4-winter.7.0
+imageUp2[9][1]=track-4-winter.7.1
+imageUp2[3][1]=track-4-winter.7.2
+imageUp2[6][1]=track-4-winter.7.3
 
-Diagonal[SE][1]=track-4-winter.8.0
-Diagonal[NE][1]=track-4-winter.8.1
-Diagonal[NW][1]=track-4-winter.8.2
-Diagonal[SW][1]=track-4-winter.8.3
+diagonal[SE][1]=track-4-winter.8.0
+diagonal[NE][1]=track-4-winter.8.1
+diagonal[NW][1]=track-4-winter.8.2
+diagonal[SW][1]=track-4-winter.8.3
 ---
 obj=way
-name=wa-concrete-sleeper-track-elv
+name=np-concrete-sleeper-track-elv
 copyright=wa
 cost=24000
 maintenance=800
@@ -366,82 +366,82 @@ system_type=1
 icon=> track-3-elv.9.0
 cursor=track-3-elv.9.1
 
-Image[S][0]=track-3-elv.0.0,0,16
-Image[E][0]=track-3-elv.0.1,0,16
-Image[N][0]=track-3-elv.0.2,0,16
-Image[W][0]=track-3-elv.0.3,0,16
+image[S][0]=track-3-elv.0.0,0,16
+image[E][0]=track-3-elv.0.1,0,16
+image[N][0]=track-3-elv.0.2,0,16
+image[W][0]=track-3-elv.0.3,0,16
 
-Image[SE][0]=track-3-elv.1.0,0,16
-Image[NE][0]=track-3-elv.1.1,0,16
-Image[NW][0]=track-3-elv.1.2,0,16
-Image[SW][0]=track-3-elv.1.3,0,16
+image[SE][0]=track-3-elv.1.0,0,16
+image[NE][0]=track-3-elv.1.1,0,16
+image[NW][0]=track-3-elv.1.2,0,16
+image[SW][0]=track-3-elv.1.3,0,16
 
-Image[NS][0]=track-3-elv.2.0,0,16
-Image[EW][0]=track-3-elv.2.1,0,16
+image[NS][0]=track-3-elv.2.0,0,16
+image[EW][0]=track-3-elv.2.1,0,16
 
-Image[NSEW][0]=track-3-elv.3.0,0,16
+image[NSEW][0]=track-3-elv.3.0,0,16
 
-Image[-][0]=track-3-elv.4.0,0,16
+image[-][0]=track-3-elv.4.0,0,16
 
-Image[NSE][0]=track-3-elv.5.0,0,16
-Image[NEW][0]=track-3-elv.5.1,0,16
-Image[NSW][0]=track-3-elv.5.2,0,16
-Image[SEW][0]=track-3-elv.5.3,0,16
+image[NSE][0]=track-3-elv.5.0,0,16
+image[NEW][0]=track-3-elv.5.1,0,16
+image[NSW][0]=track-3-elv.5.2,0,16
+image[SEW][0]=track-3-elv.5.3,0,16
 
-ImageUp[12][0]=track-3-elv.6.0,0,16
-ImageUp[9][0]=track-3-elv.6.1,0,16
-ImageUp[3][0]=track-3-elv.6.2,0,16
-ImageUp[6][0]=track-3-elv.6.3,0,16
+imageUp[12][0]=track-3-elv.6.0,0,16
+imageUp[9][0]=track-3-elv.6.1,0,16
+imageUp[3][0]=track-3-elv.6.2,0,16
+imageUp[6][0]=track-3-elv.6.3,0,16
 
-ImageUp2[12][0]=track-3-elv.7.0,0,16
-ImageUp2[9][0]=track-3-elv.7.1,0,16
-ImageUp2[3][0]=track-3-elv.7.2,0,16
-ImageUp2[6][0]=track-3-elv.7.3,0,16
+imageUp2[12][0]=track-3-elv.7.0,0,16
+imageUp2[9][0]=track-3-elv.7.1,0,16
+imageUp2[3][0]=track-3-elv.7.2,0,16
+imageUp2[6][0]=track-3-elv.7.3,0,16
 
-Diagonal[SE][0]=track-3-elv.8.0,0,16
-Diagonal[NE][0]=track-3-elv.8.1,0,16
-Diagonal[NW][0]=track-3-elv.8.2,0,16
-Diagonal[SW][0]=track-3-elv.8.3,0,16
+diagonal[SE][0]=track-3-elv.8.0,0,16
+diagonal[NE][0]=track-3-elv.8.1,0,16
+diagonal[NW][0]=track-3-elv.8.2,0,16
+diagonal[SW][0]=track-3-elv.8.3,0,16
 
-Image[S][1]=track-3-elv-winter.0.0,0,16
-Image[E][1]=track-3-elv-winter.0.1,0,16
-Image[N][1]=track-3-elv-winter.0.2,0,16
-Image[W][1]=track-3-elv-winter.0.3,0,16
+image[S][1]=track-3-elv-winter.0.0,0,16
+image[E][1]=track-3-elv-winter.0.1,0,16
+image[N][1]=track-3-elv-winter.0.2,0,16
+image[W][1]=track-3-elv-winter.0.3,0,16
 
-Image[SE][1]=track-3-elv-winter.1.0,0,16
-Image[NE][1]=track-3-elv-winter.1.1,0,16
-Image[NW][1]=track-3-elv-winter.1.2,0,16
-Image[SW][1]=track-3-elv-winter.1.3,0,16
+image[SE][1]=track-3-elv-winter.1.0,0,16
+image[NE][1]=track-3-elv-winter.1.1,0,16
+image[NW][1]=track-3-elv-winter.1.2,0,16
+image[SW][1]=track-3-elv-winter.1.3,0,16
 
-Image[NS][1]=track-3-elv-winter.2.0,0,16
-Image[EW][1]=track-3-elv-winter.2.1,0,16
+image[NS][1]=track-3-elv-winter.2.0,0,16
+image[EW][1]=track-3-elv-winter.2.1,0,16
 
-Image[NSEW][1]=track-3-elv-winter.3.0,0,16
+image[NSEW][1]=track-3-elv-winter.3.0,0,16
 
-Image[-][1]=track-3-elv-winter.4.0,0,16
+image[-][1]=track-3-elv-winter.4.0,0,16
 
-Image[NSE][1]=track-3-elv-winter.5.0,0,16
-Image[NEW][1]=track-3-elv-winter.5.1,0,16
-Image[NSW][1]=track-3-elv-winter.5.2,0,16
-Image[SEW][1]=track-3-elv-winter.5.3,0,16
+image[NSE][1]=track-3-elv-winter.5.0,0,16
+image[NEW][1]=track-3-elv-winter.5.1,0,16
+image[NSW][1]=track-3-elv-winter.5.2,0,16
+image[SEW][1]=track-3-elv-winter.5.3,0,16
 
-ImageUp[12][1]=track-3-elv-winter.6.0,0,16
-ImageUp[9][1]=track-3-elv-winter.6.1,0,16
-ImageUp[3][1]=track-3-elv-winter.6.2,0,16
-ImageUp[6][1]=track-3-elv-winter.6.3,0,16
+imageUp[12][1]=track-3-elv-winter.6.0,0,16
+imageUp[9][1]=track-3-elv-winter.6.1,0,16
+imageUp[3][1]=track-3-elv-winter.6.2,0,16
+imageUp[6][1]=track-3-elv-winter.6.3,0,16
 
-ImageUp2[12][1]=track-3-elv-winter.7.0,0,16
-ImageUp2[9][1]=track-3-elv-winter.7.1,0,16
-ImageUp2[3][1]=track-3-elv-winter.7.2,0,16
-ImageUp2[6][1]=track-3-elv-winter.7.3,0,16
+imageUp2[12][1]=track-3-elv-winter.7.0,0,16
+imageUp2[9][1]=track-3-elv-winter.7.1,0,16
+imageUp2[3][1]=track-3-elv-winter.7.2,0,16
+imageUp2[6][1]=track-3-elv-winter.7.3,0,16
 
-Diagonal[SE][1]=track-3-elv-winter.8.0,0,16
-Diagonal[NE][1]=track-3-elv-winter.8.1,0,16
-Diagonal[NW][1]=track-3-elv-winter.8.2,0,16
-Diagonal[SW][1]=track-3-elv-winter.8.3,0,16
+diagonal[SE][1]=track-3-elv-winter.8.0,0,16
+diagonal[NE][1]=track-3-elv-winter.8.1,0,16
+diagonal[NW][1]=track-3-elv-winter.8.2,0,16
+diagonal[SW][1]=track-3-elv-winter.8.3,0,16
 ---
 obj=way
-name=wa-slab-track-elv
+name=np-slab-track-elv
 copyright=wa
 waytype=track
 cost=80000
@@ -455,76 +455,76 @@ system_type=1
 icon=> track-4-elv.9.0
 cursor=track-4-elv.9.1
 
-Image[S][0]=track-4-elv.0.0,0,16
-Image[E][0]=track-4-elv.0.1,0,16
-Image[N][0]=track-4-elv.0.2,0,16
-Image[W][0]=track-4-elv.0.3,0,16
+image[S][0]=track-4-elv.0.0,0,16
+image[E][0]=track-4-elv.0.1,0,16
+image[N][0]=track-4-elv.0.2,0,16
+image[W][0]=track-4-elv.0.3,0,16
 
-Image[SE][0]=track-4-elv.1.0,0,16
-Image[NE][0]=track-4-elv.1.1,0,16
-Image[NW][0]=track-4-elv.1.2,0,16
-Image[SW][0]=track-4-elv.1.3,0,16
+image[SE][0]=track-4-elv.1.0,0,16
+image[NE][0]=track-4-elv.1.1,0,16
+image[NW][0]=track-4-elv.1.2,0,16
+image[SW][0]=track-4-elv.1.3,0,16
 
-Image[NS][0]=track-4-elv.2.0,0,16
-Image[EW][0]=track-4-elv.2.1,0,16
+image[NS][0]=track-4-elv.2.0,0,16
+image[EW][0]=track-4-elv.2.1,0,16
 
-Image[NSEW][0]=track-4-elv.3.0,0,16
+image[NSEW][0]=track-4-elv.3.0,0,16
 
-Image[-][0]=track-4-elv.4.0,0,16
+image[-][0]=track-4-elv.4.0,0,16
 
-Image[NSE][0]=track-4-elv.5.0,0,16
-Image[NEW][0]=track-4-elv.5.1,0,16
-Image[NSW][0]=track-4-elv.5.2,0,16
-Image[SEW][0]=track-4-elv.5.3,0,16
+image[NSE][0]=track-4-elv.5.0,0,16
+image[NEW][0]=track-4-elv.5.1,0,16
+image[NSW][0]=track-4-elv.5.2,0,16
+image[SEW][0]=track-4-elv.5.3,0,16
 
-ImageUp[12][0]=track-4-elv.6.0,0,16
-ImageUp[9][0]=track-4-elv.6.1,0,16
-ImageUp[3][0]=track-4-elv.6.2,0,16
-ImageUp[6][0]=track-4-elv.6.3,0,16
+imageUp[12][0]=track-4-elv.6.0,0,16
+imageUp[9][0]=track-4-elv.6.1,0,16
+imageUp[3][0]=track-4-elv.6.2,0,16
+imageUp[6][0]=track-4-elv.6.3,0,16
 
-ImageUp2[12][0]=track-4-elv.7.0,0,16
-ImageUp2[9][0]=track-4-elv.7.1,0,16
-ImageUp2[3][0]=track-4-elv.7.2,0,16
-ImageUp2[6][0]=track-4-elv.7.3,0,16
+imageUp2[12][0]=track-4-elv.7.0,0,16
+imageUp2[9][0]=track-4-elv.7.1,0,16
+imageUp2[3][0]=track-4-elv.7.2,0,16
+imageUp2[6][0]=track-4-elv.7.3,0,16
 
-Diagonal[SE][0]=track-4-elv.8.0,0,16
-Diagonal[NE][0]=track-4-elv.8.1,0,16
-Diagonal[NW][0]=track-4-elv.8.2,0,16
-Diagonal[SW][0]=track-4-elv.8.3,0,16
+diagonal[SE][0]=track-4-elv.8.0,0,16
+diagonal[NE][0]=track-4-elv.8.1,0,16
+diagonal[NW][0]=track-4-elv.8.2,0,16
+diagonal[SW][0]=track-4-elv.8.3,0,16
 
-Image[S][1]=track-4-elv-winter.0.0,0,16
-Image[E][1]=track-4-elv-winter.0.1,0,16
-Image[N][1]=track-4-elv-winter.0.2,0,16
-Image[W][1]=track-4-elv-winter.0.3,0,16
+image[S][1]=track-4-elv-winter.0.0,0,16
+image[E][1]=track-4-elv-winter.0.1,0,16
+image[N][1]=track-4-elv-winter.0.2,0,16
+image[W][1]=track-4-elv-winter.0.3,0,16
 
-Image[SE][1]=track-4-elv-winter.1.0,0,16
-Image[NE][1]=track-4-elv-winter.1.1,0,16
-Image[NW][1]=track-4-elv-winter.1.2,0,16
-Image[SW][1]=track-4-elv-winter.1.3,0,16
+image[SE][1]=track-4-elv-winter.1.0,0,16
+image[NE][1]=track-4-elv-winter.1.1,0,16
+image[NW][1]=track-4-elv-winter.1.2,0,16
+image[SW][1]=track-4-elv-winter.1.3,0,16
 
-Image[NS][1]=track-4-elv-winter.2.0,0,16
-Image[EW][1]=track-4-elv-winter.2.1,0,16
+image[NS][1]=track-4-elv-winter.2.0,0,16
+image[EW][1]=track-4-elv-winter.2.1,0,16
 
-Image[NSEW][1]=track-4-elv-winter.3.0,0,16
+image[NSEW][1]=track-4-elv-winter.3.0,0,16
 
-Image[-][1]=track-4-elv-winter.4.0,0,16
+image[-][1]=track-4-elv-winter.4.0,0,16
 
-Image[NSE][1]=track-4-elv-winter.5.0,0,16
-Image[NEW][1]=track-4-elv-winter.5.1,0,16
-Image[NSW][1]=track-4-elv-winter.5.2,0,16
-Image[SEW][1]=track-4-elv-winter.5.3,0,16
+image[NSE][1]=track-4-elv-winter.5.0,0,16
+image[NEW][1]=track-4-elv-winter.5.1,0,16
+image[NSW][1]=track-4-elv-winter.5.2,0,16
+image[SEW][1]=track-4-elv-winter.5.3,0,16
 
-ImageUp[12][1]=track-4-elv-winter.6.0,0,16
-ImageUp[9][1]=track-4-elv-winter.6.1,0,16
-ImageUp[3][1]=track-4-elv-winter.6.2,0,16
-ImageUp[6][1]=track-4-elv-winter.6.3,0,16
+imageUp[12][1]=track-4-elv-winter.6.0,0,16
+imageUp[9][1]=track-4-elv-winter.6.1,0,16
+imageUp[3][1]=track-4-elv-winter.6.2,0,16
+imageUp[6][1]=track-4-elv-winter.6.3,0,16
 
-ImageUp2[12][1]=track-4-elv-winter.7.0,0,16
-ImageUp2[9][1]=track-4-elv-winter.7.1,0,16
-ImageUp2[3][1]=track-4-elv-winter.7.2,0,16
-ImageUp2[6][1]=track-4-elv-winter.7.3,0,16
+imageUp2[12][1]=track-4-elv-winter.7.0,0,16
+imageUp2[9][1]=track-4-elv-winter.7.1,0,16
+imageUp2[3][1]=track-4-elv-winter.7.2,0,16
+imageUp2[6][1]=track-4-elv-winter.7.3,0,16
 
-Diagonal[SE][1]=track-4-elv-winter.8.0,0,16
-Diagonal[NE][1]=track-4-elv-winter.8.1,0,16
-Diagonal[NW][1]=track-4-elv-winter.8.2,0,16
-Diagonal[SW][1]=track-4-elv-winter.8.3,0,16
+diagonal[SE][1]=track-4-elv-winter.8.0,0,16
+diagonal[NE][1]=track-4-elv-winter.8.1,0,16
+diagonal[NW][1]=track-4-elv-winter.8.2,0,16
+diagonal[SW][1]=track-4-elv-winter.8.3,0,16

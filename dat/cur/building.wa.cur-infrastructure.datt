@@ -1,5 +1,5 @@
 obj=building
-name=wa-cur-switchyard
+name=np-cur-switchyard
 copyright=wa
 type=cur
 passengers=1
@@ -11,7 +11,7 @@ needs_ground=0
 %buil_image 3, 2, 2, 4, 2
 ---
 obj=building
-name=wa-cur-substation
+name=np-cur-substation
 copyright=wa
 type=cur
 passengers=1
@@ -23,7 +23,7 @@ needs_ground=0
 %buil_image 3, 3, 2, 4, 2
 ---
 obj=building
-name=wa-cur-lighthouse
+name=np-cur-lighthouse
 copyright=wa
 type=cur
 passengers=5
@@ -35,11 +35,11 @@ animation_time=500
 
 %def :image, "lighthouse.0.0"
 %buil_image 1, 1, 1, 1, 2
-FrontImage[0][0][0][0][0][0]=#{img(2, 0)}
-FrontImage[0][0][0][0][1][0]=#{img(2, 1)}
-FrontImage[0][0][0][0][2][0]=#{img(2, 2)}
-FrontImage[0][0][0][0][3][0]=#{img(2, 3)}
-FrontImage[0][0][0][0][0][1]=#{img(2, 0)}
-FrontImage[0][0][0][0][1][1]=#{img(2, 1)}
-FrontImage[0][0][0][0][2][1]=#{img(2, 2)}
-FrontImage[0][0][0][0][3][1]=#{img(2, 3)}
+frontImage[0][0][0][0][0][0]=#{img(2, 0)}
+frontImage[0][0][0][0][1][0]=#{img(2, 1)}
+frontImage[0][0][0][0][2][0]=#{img(2, 2)}
+frontImage[0][0][0][0][3][0]=#{img(2, 3)}
+frontImage[0][0][0][0][0][1]=#{img(2, 0)}
+frontImage[0][0][0][0][1][1]=#{img(2, 1)}
+frontImage[0][0][0][0][2][1]=#{img(2, 2)}
+frontImage[0][0][0][0][3][1]=#{img(2, 3)}

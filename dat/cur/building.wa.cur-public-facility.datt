@@ -4,42 +4,42 @@ copyright=wa
 type=cur
 chance=15
 ----
-name=wa-cur-community-center
+name=np-cur-community-center
 passengers=20
 build_time=300
 %def :image, "community-center-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-policestation
+name=np-cur-policestation
 passengers=40
 build_time=500
 %def :image, "policestation-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-firestation
+name=np-cur-firestation
 passengers=40
 build_time=600
 %def :image, "firestation-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-library
+name=np-cur-library
 passengers=40
 build_time=700
 %def :image, "library-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-historical-museum
+name=np-cur-historical-museum
 passengers=40
 build_time=800
 %def :image, "historical-museum-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-health-and-welfare-center
+name=np-cur-health-and-welfare-center
 passengers=40
 build_time=900
 %def :image, "health-and-welfare-center-tile.0.0"
@@ -47,28 +47,28 @@ build_time=900
 %buil_image 2, 2, 1, 4, 2
 
 ----
-name=wa-cur-tax-office
+name=np-cur-tax-office
 passengers=40
 build_time=1000
 %def :image, "tax-office-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-employment-service-center
+name=np-cur-employment-service-center
 passengers=40
 build_time=1100
 %def :image, "employment-service-center-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
-name=wa-cur-museum
+name=np-cur-museum
 passengers=40
 build_time=1400
 %def :image, "museum-tile.0.0"
 %include "cur"
 %buil_image 3, 3, 1, 4, 2
 ----
-name=wa-cur-civic-hall
+name=np-cur-civic-hall
 passengers=40
 build_time=1600
 %def :image, "civic-hall-tile.0.0"

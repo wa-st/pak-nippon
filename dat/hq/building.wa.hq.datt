@@ -1,8 +1,8 @@
 obj=building
 type=hq
-name=wa-headquarter-1
+name=np-headquarter-1
 copyright=wa
-noinfo=1
+noInfo=1
 hq_level=0
 passengers=20
 %def :image, "hq-1-tile.0.0"
@@ -10,9 +10,9 @@ passengers=20
 --------------------
 obj=building
 type=hq
-name=wa-headquarter-2
+name=np-headquarter-2
 copyright=wa
-noinfo=1
+noInfo=1
 hq_level=1
 passengers=80
 %def :image, "hq-2-tile.0.0"
@@ -21,9 +21,9 @@ passengers=80
 --------------------
 obj=building
 type=hq
-name=wa-headquarter-3
+name=np-headquarter-3
 copyright=wa
-noinfo=1
+noInfo=1
 hq_level=2
 passengers=150
 %def :image, "hq-3-tile.0.0"
@@ -31,9 +31,9 @@ passengers=150
 --------------------
 obj=building
 type=hq
-name=wa-headquarter-4
+name=np-headquarter-4
 copyright=wa
-noinfo=1
+noInfo=1
 hq_level=3
 passengers=100
 %def :image, "hq-4-tile.0.0"
@@ -41,9 +41,9 @@ passengers=100
 --------------------
 obj=building
 type=hq
-name=wa-headquarter-5
+name=np-headquarter-5
 copyright=wa
-noinfo=1
+noInfo=1
 hq_level=4
 passengers=300
 %def :image, "hq-5-tile.0.0"

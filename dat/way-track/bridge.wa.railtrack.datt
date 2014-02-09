@@ -1,7 +1,7 @@
 %require '..\common.datt'
 --------------------------
-Obj=bridge
-name=wa-concrete-sleeper-track-bridge
+obj=bridge
+name=np-concrete-sleeper-track-bridge
 copyright=wa
 waytype=track
 cost=24000
@@ -16,8 +16,8 @@ max_length=20
 %undef /(back|front)ramp2.*/
 
 --------------------------
-Obj=bridge
-name=wa-slab-track-bridge
+obj=bridge
+name=np-slab-track-bridge
 copyright=wa
 waytype=track
 cost=80000
@@ -31,8 +31,8 @@ max_length=20
 %include 'bridge-image'
 %undef /(back|front)ramp2.*/
 --------------------------
-Obj=bridge
-name=wa-girder-track-bridge
+obj=bridge
+name=np-girder-track-bridge
 copyright=wa
 waytype=track
 cost=10000
@@ -46,8 +46,8 @@ max_length=10
 %include 'bridge-image'
 %undef /(back|front)ramp2.*/
 --------------------------
-Obj=bridge
-name=wa-girder-track-bridge2
+obj=bridge
+name=np-girder-track-bridge2
 copyright=wa
 waytype=track
 cost=10000
@@ -61,8 +61,8 @@ max_length=10
 %include 'bridge-image'
 %undef /(back|front)ramp2.*/
 --------------------------
-Obj=bridge
-name=wa-truss-track-bridge
+obj=bridge
+name=np-truss-track-bridge
 copyright=wa
 waytype=track
 cost=10000

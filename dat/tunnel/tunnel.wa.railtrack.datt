@@ -1,57 +1,57 @@
 %require 'tunnel-common.datt'
 
-Obj=tunnel
-name=wa-tunnel-c1
+obj=tunnel
+name=np-tunnel-c1
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=wa-concrete-sleeper-track
+way=np-concrete-sleeper-track
 
 %def :fn, 'tunnel-c1'
 %include 'wide-tunnel'
 ---
-Obj=tunnel
-name=wa-tunnel-1
+obj=tunnel
+name=np-tunnel-1
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=wa-concrete-sleeper-track
+way=np-concrete-sleeper-track
 
 %def :fn, 'tunnel-1'
 %include 'wide-tunnel'
 ---
-Obj=tunnel
-name=wa-tunnel-2
+obj=tunnel
+name=np-tunnel-2
 copyright=wa
 waytype=track
 cost=150000
 maintenance=15000
 topspeed=450
-way=wa-steel-sleeper-track
+way=np-steel-sleeper-track
 
 %def :fn, 'tunnel-2'
 %include 'wide-tunnel'
 ---
-Obj=tunnel
-name=wa-stone-tunnel-track
+obj=tunnel
+name=np-stone-tunnel-track
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=120
-way=wa-wooden-sleeper-track
+way=np-wooden-sleeper-track
 
-BackImage[N]=stone-tunnel.3.0
-BackImage[W]=stone-tunnel.3.1
-BackImage[S]=stone-tunnel.3.2
-BackImage[E]=stone-tunnel.3.3
-FrontImage[N]=stone-tunnel.0.0
-FrontImage[W]=stone-tunnel.0.1
-FrontImage[S]=stone-tunnel.0.2
-FrontImage[E]=stone-tunnel.0.3
+backImage[N]=stone-tunnel.3.0
+backImage[W]=stone-tunnel.3.1
+backImage[S]=stone-tunnel.3.2
+backImage[E]=stone-tunnel.3.3
+frontImage[N]=stone-tunnel.0.0
+frontImage[W]=stone-tunnel.0.1
+frontImage[S]=stone-tunnel.0.2
+frontImage[E]=stone-tunnel.0.3
 icon=> stone-tunnel.3.5
 cursor=stone-tunnel.3.4

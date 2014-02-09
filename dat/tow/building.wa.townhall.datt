@@ -10,109 +10,109 @@
 # 8 30000 ____100  tow-9 --# ******************************
 ---
 obj=building
-name=wa-tow-1
+name=np-tow-1
 copyright=wa
 type=tow
 build_time=0
 passengers=20
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-1-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-tow-2
+name=np-tow-2
 copyright=wa
 type=tow
 build_time=2000
 passengers=40
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-2-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-tow-3
+name=np-tow-3
 copyright=wa
 type=tow
 build_time=4000
 passengers=50
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-3-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-tow-4
+name=np-tow-4
 copyright=wa
 type=tow
 build_time=1000
 passengers=30
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-4-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-tow-5
+name=np-tow-5
 copyright=wa
 type=tow
 build_time=8000
 passengers=60
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-5-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-tow-6
+name=np-tow-6
 copyright=wa
 type=tow
 build_time=18000
 passengers=80
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-6-tile.0.0"
 %buil_image 2, 2, 2, 4, 2
 ---
 obj=building
-name=wa-tow-7
+name=np-tow-7
 copyright=wa
 type=tow
 build_time=12000
 passengers=70
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-7-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-tow-8
+name=np-tow-8
 copyright=wa
 type=tow
 build_time=25000
 passengers=90
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-8-tile.0.0"
 %buil_image 2, 2, 2, 4, 2
 ---
 obj=building
-name=wa-tow-9
+name=np-tow-9
 copyright=wa
 type=tow
 build_time=30000
 passengers=100
 chance=100
 needs_ground=0
-NoConstruction=1
+noConstruction=1
 %def :image, "tow-9-tile.0.0"
 %buil_image 2, 2, 3, 4, 2

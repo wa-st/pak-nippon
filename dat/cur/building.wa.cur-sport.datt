@@ -1,6 +1,6 @@
 ---
 obj=building
-name=wa-cur-tenniscourt
+name=np-cur-tenniscourt
 copyright=wa
 type=cur
 passengers=25
@@ -12,7 +12,7 @@ needs_ground=0
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-cur-baseballfield
+name=np-cur-baseballfield
 copyright=wa
 type=cur
 passengers=5
@@ -24,7 +24,7 @@ needs_ground=0
 %buil_image 3, 3, 1, 4, 2
 ---
 obj=building
-name=wa-cur-soccer-stadium
+name=np-cur-soccer-stadium
 copyright=wa
 type=cur
 passengers=40
@@ -36,7 +36,7 @@ needs_ground=0
 %buil_image 4, 4, 1, 2, 2
 ----
 obj=building
-name=wa-cur-gymnasium
+name=np-cur-gymnasium
 copyright=wa
 type=cur
 passengers=40
@@ -46,7 +46,7 @@ build_time=1200
 %buil_image 3, 3, 1, 4, 2
 ----
 obj=building
-name=wa-cur-swimming-pool
+name=np-cur-swimming-pool
 copyright=wa
 type=cur
 passengers=40

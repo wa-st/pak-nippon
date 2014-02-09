@@ -3,215 +3,215 @@
 icon=> #{fn}.9.0
 cursor=#{fn}.9.1
 
-Image[S][0]=#{fn}.0.0#{offset}
-Image[E][0]=#{fn}.0.1#{offset}
-Image[N][0]=#{fn}.0.2#{offset}
-Image[W][0]=#{fn}.0.3#{offset}
+image[S][0]=#{fn}.0.0#{offset}
+image[E][0]=#{fn}.0.1#{offset}
+image[N][0]=#{fn}.0.2#{offset}
+image[W][0]=#{fn}.0.3#{offset}
 
-Image[SE][0]=#{fn}.1.0#{offset}
-Image[NE][0]=#{fn}.1.1#{offset}
-Image[NW][0]=#{fn}.1.2#{offset}
-Image[SW][0]=#{fn}.1.3#{offset}
+image[SE][0]=#{fn}.1.0#{offset}
+image[NE][0]=#{fn}.1.1#{offset}
+image[NW][0]=#{fn}.1.2#{offset}
+image[SW][0]=#{fn}.1.3#{offset}
 
-Image[NS][0]=#{fn}.2.0#{offset}
-Image[EW][0]=#{fn}.2.1#{offset}
+image[NS][0]=#{fn}.2.0#{offset}
+image[EW][0]=#{fn}.2.1#{offset}
 
-Image[NSEW][0]=#{fn}.3.0#{offset}
+image[NSEW][0]=#{fn}.3.0#{offset}
 
-Image[-][0]=#{fn}.4.0#{offset}
+image[-][0]=#{fn}.4.0#{offset}
 
-Image[NSE][0]=#{fn}.5.0#{offset}
-Image[NEW][0]=#{fn}.5.1#{offset}
-Image[NSW][0]=#{fn}.5.2#{offset}
-Image[SEW][0]=#{fn}.5.3#{offset}
+image[NSE][0]=#{fn}.5.0#{offset}
+image[NEW][0]=#{fn}.5.1#{offset}
+image[NSW][0]=#{fn}.5.2#{offset}
+image[SEW][0]=#{fn}.5.3#{offset}
 
-ImageUp[12][0]=#{fn}.6.0#{offset}
-ImageUp[9][0]=#{fn}.6.1#{offset}
-ImageUp[3][0]=#{fn}.6.2#{offset}
-ImageUp[6][0]=#{fn}.6.3#{offset}
+imageUp[12][0]=#{fn}.6.0#{offset}
+imageUp[9][0]=#{fn}.6.1#{offset}
+imageUp[3][0]=#{fn}.6.2#{offset}
+imageUp[6][0]=#{fn}.6.3#{offset}
 
-ImageUp2[12][0]=#{fn}.7.0#{offset}
-ImageUp2[9][0]=#{fn}.7.1#{offset}
-ImageUp2[3][0]=#{fn}.7.2#{offset}
-ImageUp2[6][0]=#{fn}.7.3#{offset}
+imageUp2[12][0]=#{fn}.7.0#{offset}
+imageUp2[9][0]=#{fn}.7.1#{offset}
+imageUp2[3][0]=#{fn}.7.2#{offset}
+imageUp2[6][0]=#{fn}.7.3#{offset}
 
-Diagonal[SE][0]=#{fn}.8.0#{offset}
-Diagonal[NE][0]=#{fn}.8.1#{offset}
-Diagonal[NW][0]=#{fn}.8.2#{offset}
-Diagonal[SW][0]=#{fn}.8.3#{offset}
+diagonal[SE][0]=#{fn}.8.0#{offset}
+diagonal[NE][0]=#{fn}.8.1#{offset}
+diagonal[NW][0]=#{fn}.8.2#{offset}
+diagonal[SW][0]=#{fn}.8.3#{offset}
 ---
 %resource "way-img"
 
 %include "way-img-summer"
 
-Image[S][1]=#{fn}-winter.0.0#{offset}
-Image[E][1]=#{fn}-winter.0.1#{offset}
-Image[N][1]=#{fn}-winter.0.2#{offset}
-Image[W][1]=#{fn}-winter.0.3#{offset}
+image[S][1]=#{fn}-winter.0.0#{offset}
+image[E][1]=#{fn}-winter.0.1#{offset}
+image[N][1]=#{fn}-winter.0.2#{offset}
+image[W][1]=#{fn}-winter.0.3#{offset}
 
-Image[SE][1]=#{fn}-winter.1.0#{offset}
-Image[NE][1]=#{fn}-winter.1.1#{offset}
-Image[NW][1]=#{fn}-winter.1.2#{offset}
-Image[SW][1]=#{fn}-winter.1.3#{offset}
+image[SE][1]=#{fn}-winter.1.0#{offset}
+image[NE][1]=#{fn}-winter.1.1#{offset}
+image[NW][1]=#{fn}-winter.1.2#{offset}
+image[SW][1]=#{fn}-winter.1.3#{offset}
 
-Image[NS][1]=#{fn}-winter.2.0#{offset}
-Image[EW][1]=#{fn}-winter.2.1#{offset}
+image[NS][1]=#{fn}-winter.2.0#{offset}
+image[EW][1]=#{fn}-winter.2.1#{offset}
 
-Image[NSEW][1]=#{fn}-winter.3.0#{offset}
+image[NSEW][1]=#{fn}-winter.3.0#{offset}
 
-Image[-][1]=#{fn}-winter.4.0#{offset}
+image[-][1]=#{fn}-winter.4.0#{offset}
 
-Image[NSE][1]=#{fn}-winter.5.0#{offset}
-Image[NEW][1]=#{fn}-winter.5.1#{offset}
-Image[NSW][1]=#{fn}-winter.5.2#{offset}
-Image[SEW][1]=#{fn}-winter.5.3#{offset}
+image[NSE][1]=#{fn}-winter.5.0#{offset}
+image[NEW][1]=#{fn}-winter.5.1#{offset}
+image[NSW][1]=#{fn}-winter.5.2#{offset}
+image[SEW][1]=#{fn}-winter.5.3#{offset}
 
-ImageUp[12][1]=#{fn}-winter.6.0#{offset}
-ImageUp[9][1]=#{fn}-winter.6.1#{offset}
-ImageUp[3][1]=#{fn}-winter.6.2#{offset}
-ImageUp[6][1]=#{fn}-winter.6.3#{offset}
+imageUp[12][1]=#{fn}-winter.6.0#{offset}
+imageUp[9][1]=#{fn}-winter.6.1#{offset}
+imageUp[3][1]=#{fn}-winter.6.2#{offset}
+imageUp[6][1]=#{fn}-winter.6.3#{offset}
 
-ImageUp2[12][1]=#{fn}-winter.7.0#{offset}
-ImageUp2[9][1]=#{fn}-winter.7.1#{offset}
-ImageUp2[3][1]=#{fn}-winter.7.2#{offset}
-ImageUp2[6][1]=#{fn}-winter.7.3#{offset}
+imageUp2[12][1]=#{fn}-winter.7.0#{offset}
+imageUp2[9][1]=#{fn}-winter.7.1#{offset}
+imageUp2[3][1]=#{fn}-winter.7.2#{offset}
+imageUp2[6][1]=#{fn}-winter.7.3#{offset}
 
-Diagonal[SE][1]=#{fn}-winter.8.0#{offset}
-Diagonal[NE][1]=#{fn}-winter.8.1#{offset}
-Diagonal[NW][1]=#{fn}-winter.8.2#{offset}
-Diagonal[SW][1]=#{fn}-winter.8.3#{offset}
+diagonal[SE][1]=#{fn}-winter.8.0#{offset}
+diagonal[NE][1]=#{fn}-winter.8.1#{offset}
+diagonal[NW][1]=#{fn}-winter.8.2#{offset}
+diagonal[SW][1]=#{fn}-winter.8.3#{offset}
 ---
 %resource "bridge-image"
 cursor=#{fn}.8.1
 icon=> #{fn}.8.0
 
-BackRamp[N][0]=#{fn}.0.0,0,0
-BackRamp[W][0]=#{fn}.0.1,0,0
-BackRamp[S][0]=#{fn}.0.2,0,0
-BackRamp[E][0]=#{fn}.0.3,0,0
+backRamp[N][0]=#{fn}.0.0,0,0
+backRamp[W][0]=#{fn}.0.1,0,0
+backRamp[S][0]=#{fn}.0.2,0,0
+backRamp[E][0]=#{fn}.0.3,0,0
 
-BackRamp2[N][0]=#{fn}.1.0,0,0
-BackRamp2[W][0]=#{fn}.1.1,0,0
-BackRamp2[S][0]=#{fn}.1.2,0,0
-BackRamp2[E][0]=#{fn}.1.3,0,0
+backRamp2[N][0]=#{fn}.1.0,0,0
+backRamp2[W][0]=#{fn}.1.1,0,0
+backRamp2[S][0]=#{fn}.1.2,0,0
+backRamp2[E][0]=#{fn}.1.3,0,0
 
-BackStart[N][0]=#{fn}.2.0,0,16
-BackStart[W][0]=#{fn}.2.1,0,16
-BackStart[S][0]=#{fn}.2.2,0,16
-BackStart[E][0]=#{fn}.2.3,0,16
+backStart[N][0]=#{fn}.2.0,0,16
+backStart[W][0]=#{fn}.2.1,0,16
+backStart[S][0]=#{fn}.2.2,0,16
+backStart[E][0]=#{fn}.2.3,0,16
 
-BackStart2[N][0]=#{fn}.3.0,0,16
-BackStart2[W][0]=#{fn}.3.1,0,16
-BackStart2[S][0]=#{fn}.3.2,0,16
-BackStart2[E][0]=#{fn}.3.3,0,16
+backStart2[N][0]=#{fn}.3.0,0,16
+backStart2[W][0]=#{fn}.3.1,0,16
+backStart2[S][0]=#{fn}.3.2,0,16
+backStart2[E][0]=#{fn}.3.3,0,16
 
-BackImage[NS][0]=#{fn}.4.0,0,16
-BackImage[EW][0]=#{fn}.4.1,0,16
+backImage[NS][0]=#{fn}.4.0,0,16
+backImage[EW][0]=#{fn}.4.1,0,16
 
-BackImage2[NS][0]=#{fn}.5.0,0,16
-BackImage2[EW][0]=#{fn}.5.1,0,16
+backImage2[NS][0]=#{fn}.5.0,0,16
+backImage2[EW][0]=#{fn}.5.1,0,16
 
-BackPillar[S][0]=#{fn}.6.0,0,16
-BackPillar[W][0]=#{fn}.6.1,0,16
+backPillar[S][0]=#{fn}.6.0,0,16
+backPillar[W][0]=#{fn}.6.1,0,16
 
-BackPillar2[S][0]=#{fn}.7.0,0,16
-BackPillar2[W][0]=#{fn}.7.1,0,16
+backPillar2[S][0]=#{fn}.7.0,0,16
+backPillar2[W][0]=#{fn}.7.1,0,16
 
-BackRamp[N][1]=#{fn}-winter.0.0,0,0
-BackRamp[W][1]=#{fn}-winter.0.1,0,0
-BackRamp[S][1]=#{fn}-winter.0.2,0,0
-BackRamp[E][1]=#{fn}-winter.0.3,0,0
+backRamp[N][1]=#{fn}-winter.0.0,0,0
+backRamp[W][1]=#{fn}-winter.0.1,0,0
+backRamp[S][1]=#{fn}-winter.0.2,0,0
+backRamp[E][1]=#{fn}-winter.0.3,0,0
 
-BackRamp2[N][1]=#{fn}-winter.1.0,0,0
-BackRamp2[W][1]=#{fn}-winter.1.1,0,0
-BackRamp2[S][1]=#{fn}-winter.1.2,0,0
-BackRamp2[E][1]=#{fn}-winter.1.3,0,0
+backRamp2[N][1]=#{fn}-winter.1.0,0,0
+backRamp2[W][1]=#{fn}-winter.1.1,0,0
+backRamp2[S][1]=#{fn}-winter.1.2,0,0
+backRamp2[E][1]=#{fn}-winter.1.3,0,0
 
-BackStart[N][1]=#{fn}-winter.2.0,0,16
-BackStart[W][1]=#{fn}-winter.2.1,0,16
-BackStart[S][1]=#{fn}-winter.2.2,0,16
-BackStart[E][1]=#{fn}-winter.2.3,0,16
+backStart[N][1]=#{fn}-winter.2.0,0,16
+backStart[W][1]=#{fn}-winter.2.1,0,16
+backStart[S][1]=#{fn}-winter.2.2,0,16
+backStart[E][1]=#{fn}-winter.2.3,0,16
 
-BackStart2[N][1]=#{fn}-winter.3.0,0,16
-BackStart2[W][1]=#{fn}-winter.3.1,0,16
-BackStart2[S][1]=#{fn}-winter.3.2,0,16
-BackStart2[E][1]=#{fn}-winter.3.3,0,16
+backStart2[N][1]=#{fn}-winter.3.0,0,16
+backStart2[W][1]=#{fn}-winter.3.1,0,16
+backStart2[S][1]=#{fn}-winter.3.2,0,16
+backStart2[E][1]=#{fn}-winter.3.3,0,16
 
-BackImage[NS][1]=#{fn}-winter.4.0,0,16
-BackImage[EW][1]=#{fn}-winter.4.1,0,16
+backImage[NS][1]=#{fn}-winter.4.0,0,16
+backImage[EW][1]=#{fn}-winter.4.1,0,16
 
-BackImage2[NS][1]=#{fn}-winter.5.0,0,16
-BackImage2[EW][1]=#{fn}-winter.5.1,0,16
+backImage2[NS][1]=#{fn}-winter.5.0,0,16
+backImage2[EW][1]=#{fn}-winter.5.1,0,16
 
-BackPillar[S][1]=#{fn}-winter.6.0,0,16
-BackPillar[W][1]=#{fn}-winter.6.1,0,16
+backPillar[S][1]=#{fn}-winter.6.0,0,16
+backPillar[W][1]=#{fn}-winter.6.1,0,16
 
-BackPillar2[S][1]=#{fn}-winter.7.0,0,16
-BackPillar2[W][1]=#{fn}-winter.7.1,0,16
+backPillar2[S][1]=#{fn}-winter.7.0,0,16
+backPillar2[W][1]=#{fn}-winter.7.1,0,16
 
 ---
 %resource "bridge-front-image"
 
-FrontRamp[N][0]=#{fn}.0.4,0,0
-FrontRamp[W][0]=#{fn}.0.5,0,0
-FrontRamp[S][0]=#{fn}.0.6,0,0
-FrontRamp[E][0]=#{fn}.0.7,0,0
+frontRamp[N][0]=#{fn}.0.4,0,0
+frontRamp[W][0]=#{fn}.0.5,0,0
+frontRamp[S][0]=#{fn}.0.6,0,0
+frontRamp[E][0]=#{fn}.0.7,0,0
 
-FrontRamp2[N][0]=#{fn}.1.4,0,0
-FrontRamp2[W][0]=#{fn}.1.5,0,0
-FrontRamp2[S][0]=#{fn}.1.6,0,0
-FrontRamp2[E][0]=#{fn}.1.7,0,0
+frontRamp2[N][0]=#{fn}.1.4,0,0
+frontRamp2[W][0]=#{fn}.1.5,0,0
+frontRamp2[S][0]=#{fn}.1.6,0,0
+frontRamp2[E][0]=#{fn}.1.7,0,0
 
-FrontStart[N][0]=#{fn}.2.4,0,16
-FrontStart[W][0]=#{fn}.2.5,0,16
-FrontStart[S][0]=#{fn}.2.6,0,16
-FrontStart[E][0]=#{fn}.2.7,0,16
+frontStart[N][0]=#{fn}.2.4,0,16
+frontStart[W][0]=#{fn}.2.5,0,16
+frontStart[S][0]=#{fn}.2.6,0,16
+frontStart[E][0]=#{fn}.2.7,0,16
 
-FrontStart2[N][0]=#{fn}.3.4,0,16
-FrontStart2[W][0]=#{fn}.3.5,0,16
-FrontStart2[S][0]=#{fn}.3.6,0,16
-FrontStart2[E][0]=#{fn}.3.7,0,16
+frontStart2[N][0]=#{fn}.3.4,0,16
+frontStart2[W][0]=#{fn}.3.5,0,16
+frontStart2[S][0]=#{fn}.3.6,0,16
+frontStart2[E][0]=#{fn}.3.7,0,16
 
-FrontImage[NS][0]=#{fn}.4.4,0,16
-FrontImage[EW][0]=#{fn}.4.5,0,16
+frontImage[NS][0]=#{fn}.4.4,0,16
+frontImage[EW][0]=#{fn}.4.5,0,16
 
-FrontImage2[NS][0]=#{fn}.5.4,0,16
-FrontImage2[EW][0]=#{fn}.5.5,0,16
+frontImage2[NS][0]=#{fn}.5.4,0,16
+frontImage2[EW][0]=#{fn}.5.5,0,16
 
-FrontPillar[S][0]=#{fn}.6.4,0,16
-FrontPillar[W][0]=#{fn}.6.5,0,16
+frontPillar[S][0]=#{fn}.6.4,0,16
+frontPillar[W][0]=#{fn}.6.5,0,16
 
-FrontPillar2[S][0]=#{fn}.7.4,0,16
-FrontPillar2[W][0]=#{fn}.7.5,0,16
+frontPillar2[S][0]=#{fn}.7.4,0,16
+frontPillar2[W][0]=#{fn}.7.5,0,16
 
-FrontRamp[N][1]=#{fn}-winter.0.4,0,0
-FrontRamp[W][1]=#{fn}-winter.0.5,0,0
-FrontRamp[S][1]=#{fn}-winter.0.6,0,0
-FrontRamp[E][1]=#{fn}-winter.0.7,0,0
+frontRamp[N][1]=#{fn}-winter.0.4,0,0
+frontRamp[W][1]=#{fn}-winter.0.5,0,0
+frontRamp[S][1]=#{fn}-winter.0.6,0,0
+frontRamp[E][1]=#{fn}-winter.0.7,0,0
 
-FrontRamp2[N][1]=#{fn}-winter.1.4,0,0
-FrontRamp2[W][1]=#{fn}-winter.1.5,0,0
-FrontRamp2[S][1]=#{fn}-winter.1.6,0,0
-FrontRamp2[E][1]=#{fn}-winter.1.7,0,0
+frontRamp2[N][1]=#{fn}-winter.1.4,0,0
+frontRamp2[W][1]=#{fn}-winter.1.5,0,0
+frontRamp2[S][1]=#{fn}-winter.1.6,0,0
+frontRamp2[E][1]=#{fn}-winter.1.7,0,0
 
-FrontStart[N][1]=#{fn}-winter.2.4,0,16
-FrontStart[W][1]=#{fn}-winter.2.5,0,16
-FrontStart[S][1]=#{fn}-winter.2.6,0,16
-FrontStart[E][1]=#{fn}-winter.2.7,0,16
+frontStart[N][1]=#{fn}-winter.2.4,0,16
+frontStart[W][1]=#{fn}-winter.2.5,0,16
+frontStart[S][1]=#{fn}-winter.2.6,0,16
+frontStart[E][1]=#{fn}-winter.2.7,0,16
 
-FrontStart2[N][1]=#{fn}-winter.3.4,0,16
-FrontStart2[W][1]=#{fn}-winter.3.5,0,16
-FrontStart2[S][1]=#{fn}-winter.3.6,0,16
-FrontStart2[E][1]=#{fn}-winter.3.7,0,16
+frontStart2[N][1]=#{fn}-winter.3.4,0,16
+frontStart2[W][1]=#{fn}-winter.3.5,0,16
+frontStart2[S][1]=#{fn}-winter.3.6,0,16
+frontStart2[E][1]=#{fn}-winter.3.7,0,16
 
-FrontImage[NS][1]=#{fn}-winter.4.4,0,16
-FrontImage[EW][1]=#{fn}-winter.4.5,0,16
+frontImage[NS][1]=#{fn}-winter.4.4,0,16
+frontImage[EW][1]=#{fn}-winter.4.5,0,16
 
-FrontImage2[NS][1]=#{fn}-winter.5.4,0,16
-FrontImage2[EW][1]=#{fn}-winter.5.5,0,16
+frontImage2[NS][1]=#{fn}-winter.5.4,0,16
+frontImage2[EW][1]=#{fn}-winter.5.5,0,16
 
-#FrontPillar[S][1]=#{fn}-winter.6.4,0,16
-#FrontPillar[W][1]=#{fn}-winter.6.5,0,16
+#frontPillar[S][1]=#{fn}-winter.6.4,0,16
+#frontPillar[W][1]=#{fn}-winter.6.5,0,16
 
-#FrontPillar2[S][1]=#{fn}-winter.7.4,0,16
-#FrontPillar2[W][1]=#{fn}-winter.7.5,0,16
+#frontPillar2[S][1]=#{fn}-winter.7.4,0,16
+#frontPillar2[W][1]=#{fn}-winter.7.5,0,16

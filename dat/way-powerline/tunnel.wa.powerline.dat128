@@ -1,15 +1,15 @@
 ---
-name=wa-powerline-2hv-tunnel
-Obj=tunnel
+name=np-powerline-2hv-tunnel
+obj=tunnel
 copyright=wa
 waytype=power
 cost=100000
 maintenance=5000
-way=wa-underground-powerline
+way=np-underground-powerline
 cursor=powerline-2hv.11.1
 icon=> powerline-2hv.11.0
-FrontImage[N]=powerline-2hv.10.0,0,-64
-FrontImage[W]=powerline-2hv.10.1,0,-64
-FrontImage[S]=powerline-2hv.10.2,0,-64
-FrontImage[E]=powerline-2hv.10.3,0,-64
+frontImage[N]=powerline-2hv.10.0,0,-64
+frontImage[W]=powerline-2hv.10.1,0,-64
+frontImage[S]=powerline-2hv.10.2,0,-64
+frontImage[E]=powerline-2hv.10.3,0,-64
 

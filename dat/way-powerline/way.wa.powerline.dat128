@@ -1,7 +1,7 @@
 ---
-name=wa-powerline-1a
+name=np-powerline-1a
 copyright=wa
-Obj=way
+obj=way
 waytype=power
 cost=800
 maintenance=50
@@ -9,51 +9,51 @@ maintenance=50
 icon=> powerline-1a.9.0
 cursor=powerline-1a.9.1
 
-Image[S][0]=powerline-1a.0.0,0,-64
-Image[E][0]=powerline-1a.0.1,0,-64
-Image[N][0]=powerline-1a.0.2,0,-64
-Image[W][0]=powerline-1a.0.3,0,-64
+image[S][0]=powerline-1a.0.0,0,-64
+image[E][0]=powerline-1a.0.1,0,-64
+image[N][0]=powerline-1a.0.2,0,-64
+image[W][0]=powerline-1a.0.3,0,-64
 
-Image[SE][0]=powerline-1a.1.0,0,-64
-Image[NE][0]=powerline-1a.1.1,0,-64
-Image[NW][0]=powerline-1a.1.2,0,-64
-Image[SW][0]=powerline-1a.1.3,0,-64
+image[SE][0]=powerline-1a.1.0,0,-64
+image[NE][0]=powerline-1a.1.1,0,-64
+image[NW][0]=powerline-1a.1.2,0,-64
+image[SW][0]=powerline-1a.1.3,0,-64
 
-Image[NS][0]=powerline-1a.2.0,0,-64
-Image[EW][0]=powerline-1a.2.1,0,-64
+image[NS][0]=powerline-1a.2.0,0,-64
+image[EW][0]=powerline-1a.2.1,0,-64
 
-Image[NSEW][0]=powerline-1a.3.0,0,-64
+image[NSEW][0]=powerline-1a.3.0,0,-64
 
-Image[-][0]=powerline-1a.4.0,0,-64
+image[-][0]=powerline-1a.4.0,0,-64
 
-Image[NSE][0]=powerline-1a.5.0,0,-64
-Image[NEW][0]=powerline-1a.5.1,0,-64
-Image[NSW][0]=powerline-1a.5.2,0,-64
-Image[SEW][0]=powerline-1a.5.3,0,-64
+image[NSE][0]=powerline-1a.5.0,0,-64
+image[NEW][0]=powerline-1a.5.1,0,-64
+image[NSW][0]=powerline-1a.5.2,0,-64
+image[SEW][0]=powerline-1a.5.3,0,-64
 
-ImageUp[12][0]=powerline-1a.6.0,0,-64
-ImageUp[9][0]=powerline-1a.6.1,0,-64
-ImageUp[3][0]=powerline-1a.6.2,0,-64
-ImageUp[6][0]=powerline-1a.6.3,0,-64
+imageUp[12][0]=powerline-1a.6.0,0,-64
+imageUp[9][0]=powerline-1a.6.1,0,-64
+imageUp[3][0]=powerline-1a.6.2,0,-64
+imageUp[6][0]=powerline-1a.6.3,0,-64
 
-ImageUp2[12][0]=powerline-1a.7.0,0,-64
-ImageUp2[9][0]=powerline-1a.7.1,0,-64
-ImageUp2[3][0]=powerline-1a.7.2,0,-64
-ImageUp2[6][0]=powerline-1a.7.3,0,-64
+imageUp2[12][0]=powerline-1a.7.0,0,-64
+imageUp2[9][0]=powerline-1a.7.1,0,-64
+imageUp2[3][0]=powerline-1a.7.2,0,-64
+imageUp2[6][0]=powerline-1a.7.3,0,-64
 
-#Diagonal[SE][0]=powerline-1a.8.0,0,-64
-#Diagonal[NE][0]=powerline-1a.8.1,0,-64
-#Diagonal[NW][0]=powerline-1a.8.2,0,-64
-#Diagonal[SW][0]=powerline-1a.8.3,0,-64
+#diagonal[SE][0]=powerline-1a.8.0,0,-64
+#diagonal[NE][0]=powerline-1a.8.1,0,-64
+#diagonal[NW][0]=powerline-1a.8.2,0,-64
+#diagonal[SW][0]=powerline-1a.8.3,0,-64
 
-Diagonal[NE][0]=powerline-1a.8.0,0,-64
-Diagonal[SE][0]=powerline-1a.8.1,0,-64
-Diagonal[NW][0]=powerline-1a.8.0,0,-64
-Diagonal[SW][0]=powerline-1a.8.1,0,-64
+diagonal[NE][0]=powerline-1a.8.0,0,-64
+diagonal[SE][0]=powerline-1a.8.1,0,-64
+diagonal[NW][0]=powerline-1a.8.0,0,-64
+diagonal[SW][0]=powerline-1a.8.1,0,-64
 ---
-name=wa-powerline-1b
+name=np-powerline-1b
 copyright=wa
-Obj=way
+obj=way
 waytype=power
 cost=800
 maintenance=50
@@ -61,51 +61,51 @@ maintenance=50
 icon=> powerline-1b.9.0
 cursor=powerline-1b.9.1
 
-Image[S][0]=powerline-1b.0.0,0,-64
-Image[E][0]=powerline-1b.0.1,0,-64
-Image[N][0]=powerline-1b.0.2,0,-64
-Image[W][0]=powerline-1b.0.3,0,-64
+image[S][0]=powerline-1b.0.0,0,-64
+image[E][0]=powerline-1b.0.1,0,-64
+image[N][0]=powerline-1b.0.2,0,-64
+image[W][0]=powerline-1b.0.3,0,-64
 
-Image[SE][0]=powerline-1b.1.0,0,-64
-Image[NE][0]=powerline-1b.1.1,0,-64
-Image[NW][0]=powerline-1b.1.2,0,-64
-Image[SW][0]=powerline-1b.1.3,0,-64
+image[SE][0]=powerline-1b.1.0,0,-64
+image[NE][0]=powerline-1b.1.1,0,-64
+image[NW][0]=powerline-1b.1.2,0,-64
+image[SW][0]=powerline-1b.1.3,0,-64
 
-Image[NS][0]=powerline-1b.2.0,0,-64
-Image[EW][0]=powerline-1b.2.1,0,-64
+image[NS][0]=powerline-1b.2.0,0,-64
+image[EW][0]=powerline-1b.2.1,0,-64
 
-Image[NSEW][0]=powerline-1b.3.0,0,-64
+image[NSEW][0]=powerline-1b.3.0,0,-64
 
-Image[-][0]=powerline-1b.4.0,0,-64
+image[-][0]=powerline-1b.4.0,0,-64
 
-Image[NSE][0]=powerline-1b.5.0,0,-64
-Image[NEW][0]=powerline-1b.5.1,0,-64
-Image[NSW][0]=powerline-1b.5.2,0,-64
-Image[SEW][0]=powerline-1b.5.3,0,-64
+image[NSE][0]=powerline-1b.5.0,0,-64
+image[NEW][0]=powerline-1b.5.1,0,-64
+image[NSW][0]=powerline-1b.5.2,0,-64
+image[SEW][0]=powerline-1b.5.3,0,-64
 
-ImageUp[12][0]=powerline-1b.6.0,0,-64
-ImageUp[9][0]=powerline-1b.6.1,0,-64
-ImageUp[3][0]=powerline-1b.6.2,0,-64
-ImageUp[6][0]=powerline-1b.6.3,0,-64
+imageUp[12][0]=powerline-1b.6.0,0,-64
+imageUp[9][0]=powerline-1b.6.1,0,-64
+imageUp[3][0]=powerline-1b.6.2,0,-64
+imageUp[6][0]=powerline-1b.6.3,0,-64
 
-ImageUp2[12][0]=powerline-1b.7.0,0,-64
-ImageUp2[9][0]=powerline-1b.7.1,0,-64
-ImageUp2[3][0]=powerline-1b.7.2,0,-64
-ImageUp2[6][0]=powerline-1b.7.3,0,-64
+imageUp2[12][0]=powerline-1b.7.0,0,-64
+imageUp2[9][0]=powerline-1b.7.1,0,-64
+imageUp2[3][0]=powerline-1b.7.2,0,-64
+imageUp2[6][0]=powerline-1b.7.3,0,-64
 
-#Diagonal[SE][0]=powerline-1b.8.0,0,-64
-#Diagonal[NE][0]=powerline-1b.8.1,0,-64
-#Diagonal[NW][0]=powerline-1b.8.2,0,-64
-#Diagonal[SW][0]=powerline-1b.8.3,0,-64
+#diagonal[SE][0]=powerline-1b.8.0,0,-64
+#diagonal[NE][0]=powerline-1b.8.1,0,-64
+#diagonal[NW][0]=powerline-1b.8.2,0,-64
+#diagonal[SW][0]=powerline-1b.8.3,0,-64
 
-Diagonal[NE][0]=powerline-1b.8.0,0,-64
-Diagonal[SE][0]=powerline-1b.8.1,0,-64
-Diagonal[NW][0]=powerline-1b.8.0,0,-64
-Diagonal[SW][0]=powerline-1b.8.1,0,-64
+diagonal[NE][0]=powerline-1b.8.0,0,-64
+diagonal[SE][0]=powerline-1b.8.1,0,-64
+diagonal[NW][0]=powerline-1b.8.0,0,-64
+diagonal[SW][0]=powerline-1b.8.1,0,-64
 ---
-name=wa-powerline-2
+name=np-powerline-2
 copyright=wa
-Obj=way
+obj=way
 waytype=power
 cost=800
 maintenance=50
@@ -113,51 +113,51 @@ maintenance=50
 icon=> powerline-2.9.0
 cursor=powerline-2.9.1
 
-Image[S][0]=powerline-2.0.0,0,-64
-Image[E][0]=powerline-2.0.1,0,-64
-Image[N][0]=powerline-2.0.2,0,-64
-Image[W][0]=powerline-2.0.3,0,-64
+image[S][0]=powerline-2.0.0,0,-64
+image[E][0]=powerline-2.0.1,0,-64
+image[N][0]=powerline-2.0.2,0,-64
+image[W][0]=powerline-2.0.3,0,-64
 
-Image[SE][0]=powerline-2.1.0,0,-64
-Image[NE][0]=powerline-2.1.1,0,-64
-Image[NW][0]=powerline-2.1.2,0,-64
-Image[SW][0]=powerline-2.1.3,0,-64
+image[SE][0]=powerline-2.1.0,0,-64
+image[NE][0]=powerline-2.1.1,0,-64
+image[NW][0]=powerline-2.1.2,0,-64
+image[SW][0]=powerline-2.1.3,0,-64
 
-Image[NS][0]=powerline-2.2.0,0,-64
-Image[EW][0]=powerline-2.2.1,0,-64
+image[NS][0]=powerline-2.2.0,0,-64
+image[EW][0]=powerline-2.2.1,0,-64
 
-Image[NSEW][0]=powerline-2.3.0,0,-64
+image[NSEW][0]=powerline-2.3.0,0,-64
 
-Image[-][0]=powerline-2.4.0,0,-64
+image[-][0]=powerline-2.4.0,0,-64
 
-Image[NSE][0]=powerline-2.5.0,0,-64
-Image[NEW][0]=powerline-2.5.1,0,-64
-Image[NSW][0]=powerline-2.5.2,0,-64
-Image[SEW][0]=powerline-2.5.3,0,-64
+image[NSE][0]=powerline-2.5.0,0,-64
+image[NEW][0]=powerline-2.5.1,0,-64
+image[NSW][0]=powerline-2.5.2,0,-64
+image[SEW][0]=powerline-2.5.3,0,-64
 
-ImageUp[12][0]=powerline-2.6.0,0,-64
-ImageUp[9][0]=powerline-2.6.1,0,-64
-ImageUp[3][0]=powerline-2.6.2,0,-64
-ImageUp[6][0]=powerline-2.6.3,0,-64
+imageUp[12][0]=powerline-2.6.0,0,-64
+imageUp[9][0]=powerline-2.6.1,0,-64
+imageUp[3][0]=powerline-2.6.2,0,-64
+imageUp[6][0]=powerline-2.6.3,0,-64
 
-ImageUp2[12][0]=powerline-2.7.0,0,-64
-ImageUp2[9][0]=powerline-2.7.1,0,-64
-ImageUp2[3][0]=powerline-2.7.2,0,-64
-ImageUp2[6][0]=powerline-2.7.3,0,-64
+imageUp2[12][0]=powerline-2.7.0,0,-64
+imageUp2[9][0]=powerline-2.7.1,0,-64
+imageUp2[3][0]=powerline-2.7.2,0,-64
+imageUp2[6][0]=powerline-2.7.3,0,-64
 
-#Diagonal[SE][0]=powerline-2.8.0,0,-64
-#Diagonal[NE][0]=powerline-2.8.1,0,-64
-#Diagonal[NW][0]=powerline-2.8.2,0,-64
-#Diagonal[SW][0]=powerline-2.8.3,0,-64
+#diagonal[SE][0]=powerline-2.8.0,0,-64
+#diagonal[NE][0]=powerline-2.8.1,0,-64
+#diagonal[NW][0]=powerline-2.8.2,0,-64
+#diagonal[SW][0]=powerline-2.8.3,0,-64
 
-Diagonal[NE][0]=powerline-2.8.0,0,-64
-Diagonal[SE][0]=powerline-2.8.1,0,-64
-Diagonal[NW][0]=powerline-2.8.0,0,-64
-Diagonal[SW][0]=powerline-2.8.1,0,-64
+diagonal[NE][0]=powerline-2.8.0,0,-64
+diagonal[SE][0]=powerline-2.8.1,0,-64
+diagonal[NW][0]=powerline-2.8.0,0,-64
+diagonal[SW][0]=powerline-2.8.1,0,-64
 ---
-name=wa-powerline-2hv
+name=np-powerline-2hv
 copyright=wa
-Obj=way
+obj=way
 waytype=power
 cost=800
 maintenance=50
@@ -165,51 +165,51 @@ maintenance=50
 icon=> powerline-2hv.9.0
 cursor=powerline-2hv.9.1
 
-Image[S][0]=powerline-2hv.0.0,0,-64
-Image[E][0]=powerline-2hv.0.1,0,-64
-Image[N][0]=powerline-2hv.0.2,0,-64
-Image[W][0]=powerline-2hv.0.3,0,-64
+image[S][0]=powerline-2hv.0.0,0,-64
+image[E][0]=powerline-2hv.0.1,0,-64
+image[N][0]=powerline-2hv.0.2,0,-64
+image[W][0]=powerline-2hv.0.3,0,-64
 
-Image[SE][0]=powerline-2hv.1.0,0,-64
-Image[NE][0]=powerline-2hv.1.1,0,-64
-Image[NW][0]=powerline-2hv.1.2,0,-64
-Image[SW][0]=powerline-2hv.1.3,0,-64
+image[SE][0]=powerline-2hv.1.0,0,-64
+image[NE][0]=powerline-2hv.1.1,0,-64
+image[NW][0]=powerline-2hv.1.2,0,-64
+image[SW][0]=powerline-2hv.1.3,0,-64
 
-Image[NS][0]=powerline-2hv.2.0,0,-64
-Image[EW][0]=powerline-2hv.2.1,0,-64
+image[NS][0]=powerline-2hv.2.0,0,-64
+image[EW][0]=powerline-2hv.2.1,0,-64
 
-Image[NSEW][0]=powerline-2hv.3.0,0,-64
+image[NSEW][0]=powerline-2hv.3.0,0,-64
 
-Image[-][0]=powerline-2hv.4.0,0,-64
+image[-][0]=powerline-2hv.4.0,0,-64
 
-Image[NSE][0]=powerline-2hv.5.0,0,-64
-Image[NEW][0]=powerline-2hv.5.1,0,-64
-Image[NSW][0]=powerline-2hv.5.2,0,-64
-Image[SEW][0]=powerline-2hv.5.3,0,-64
+image[NSE][0]=powerline-2hv.5.0,0,-64
+image[NEW][0]=powerline-2hv.5.1,0,-64
+image[NSW][0]=powerline-2hv.5.2,0,-64
+image[SEW][0]=powerline-2hv.5.3,0,-64
 
-ImageUp[12][0]=powerline-2hv.6.0,0,-64
-ImageUp[9][0]=powerline-2hv.6.1,0,-64
-ImageUp[3][0]=powerline-2hv.6.2,0,-64
-ImageUp[6][0]=powerline-2hv.6.3,0,-64
+imageUp[12][0]=powerline-2hv.6.0,0,-64
+imageUp[9][0]=powerline-2hv.6.1,0,-64
+imageUp[3][0]=powerline-2hv.6.2,0,-64
+imageUp[6][0]=powerline-2hv.6.3,0,-64
 
-ImageUp2[12][0]=powerline-2hv.7.0,0,-64
-ImageUp2[9][0]=powerline-2hv.7.1,0,-64
-ImageUp2[3][0]=powerline-2hv.7.2,0,-64
-ImageUp2[6][0]=powerline-2hv.7.3,0,-64
+imageUp2[12][0]=powerline-2hv.7.0,0,-64
+imageUp2[9][0]=powerline-2hv.7.1,0,-64
+imageUp2[3][0]=powerline-2hv.7.2,0,-64
+imageUp2[6][0]=powerline-2hv.7.3,0,-64
 
-#Diagonal[SE][0]=powerline-2hv.8.0,0,-64
-#Diagonal[NE][0]=powerline-2hv.8.1,0,-64
-#Diagonal[NW][0]=powerline-2hv.8.2,0,-64
-#Diagonal[SW][0]=powerline-2hv.8.3,0,-64
+#diagonal[SE][0]=powerline-2hv.8.0,0,-64
+#diagonal[NE][0]=powerline-2hv.8.1,0,-64
+#diagonal[NW][0]=powerline-2hv.8.2,0,-64
+#diagonal[SW][0]=powerline-2hv.8.3,0,-64
 
-Diagonal[NE][0]=powerline-2hv.8.0,0,-64
-Diagonal[SE][0]=powerline-2hv.8.1,0,-64
-Diagonal[NW][0]=powerline-2hv.8.0,0,-64
-Diagonal[SW][0]=powerline-2hv.8.1,0,-64
+diagonal[NE][0]=powerline-2hv.8.0,0,-64
+diagonal[SE][0]=powerline-2hv.8.1,0,-64
+diagonal[NW][0]=powerline-2hv.8.0,0,-64
+diagonal[SW][0]=powerline-2hv.8.1,0,-64
 ---
-name=wa-powerline-4
+name=np-powerline-4
 copyright=wa
-Obj=way
+obj=way
 waytype=power
 cost=800
 maintenance=50
@@ -217,44 +217,44 @@ maintenance=50
 icon=> powerline-4.9.0
 cursor=powerline-4.9.1
 
-Image[S][0]=powerline-4.0.0,0,-64
-Image[E][0]=powerline-4.0.1,0,-64
-Image[N][0]=powerline-4.0.2,0,-64
-Image[W][0]=powerline-4.0.3,0,-64
+image[S][0]=powerline-4.0.0,0,-64
+image[E][0]=powerline-4.0.1,0,-64
+image[N][0]=powerline-4.0.2,0,-64
+image[W][0]=powerline-4.0.3,0,-64
 
-Image[SE][0]=powerline-4.1.0,0,-64
-Image[NE][0]=powerline-4.1.1,0,-64
-Image[NW][0]=powerline-4.1.2,0,-64
-Image[SW][0]=powerline-4.1.3,0,-64
+image[SE][0]=powerline-4.1.0,0,-64
+image[NE][0]=powerline-4.1.1,0,-64
+image[NW][0]=powerline-4.1.2,0,-64
+image[SW][0]=powerline-4.1.3,0,-64
 
-Image[NS][0]=powerline-4.2.0,0,-64
-Image[EW][0]=powerline-4.2.1,0,-64
+image[NS][0]=powerline-4.2.0,0,-64
+image[EW][0]=powerline-4.2.1,0,-64
 
-Image[NSEW][0]=powerline-4.3.0,0,-64
+image[NSEW][0]=powerline-4.3.0,0,-64
 
-Image[-][0]=powerline-4.4.0,0,-64
+image[-][0]=powerline-4.4.0,0,-64
 
-Image[NSE][0]=powerline-4.5.0,0,-64
-Image[NEW][0]=powerline-4.5.1,0,-64
-Image[NSW][0]=powerline-4.5.2,0,-64
-Image[SEW][0]=powerline-4.5.3,0,-64
+image[NSE][0]=powerline-4.5.0,0,-64
+image[NEW][0]=powerline-4.5.1,0,-64
+image[NSW][0]=powerline-4.5.2,0,-64
+image[SEW][0]=powerline-4.5.3,0,-64
 
-ImageUp[12][0]=powerline-4.6.0,0,-64
-ImageUp[9][0]=powerline-4.6.1,0,-64
-ImageUp[3][0]=powerline-4.6.2,0,-64
-ImageUp[6][0]=powerline-4.6.3,0,-64
+imageUp[12][0]=powerline-4.6.0,0,-64
+imageUp[9][0]=powerline-4.6.1,0,-64
+imageUp[3][0]=powerline-4.6.2,0,-64
+imageUp[6][0]=powerline-4.6.3,0,-64
 
-ImageUp2[12][0]=powerline-4.7.0,0,-64
-ImageUp2[9][0]=powerline-4.7.1,0,-64
-ImageUp2[3][0]=powerline-4.7.2,0,-64
-ImageUp2[6][0]=powerline-4.7.3,0,-64
+imageUp2[12][0]=powerline-4.7.0,0,-64
+imageUp2[9][0]=powerline-4.7.1,0,-64
+imageUp2[3][0]=powerline-4.7.2,0,-64
+imageUp2[6][0]=powerline-4.7.3,0,-64
 
-#Diagonal[SE][0]=powerline-4.8.0,0,-64
-#Diagonal[NE][0]=powerline-4.8.1,0,-64
-#Diagonal[NW][0]=powerline-4.8.2,0,-64
-#Diagonal[SW][0]=powerline-4.8.3,0,-64
+#diagonal[SE][0]=powerline-4.8.0,0,-64
+#diagonal[NE][0]=powerline-4.8.1,0,-64
+#diagonal[NW][0]=powerline-4.8.2,0,-64
+#diagonal[SW][0]=powerline-4.8.3,0,-64
 
-Diagonal[NE][0]=powerline-4.8.0,0,-64
-Diagonal[SE][0]=powerline-4.8.1,0,-64
-Diagonal[NW][0]=powerline-4.8.0,0,-64
-Diagonal[SW][0]=powerline-4.8.1,0,-64
+diagonal[NE][0]=powerline-4.8.0,0,-64
+diagonal[SE][0]=powerline-4.8.1,0,-64
+diagonal[NW][0]=powerline-4.8.0,0,-64
+diagonal[SW][0]=powerline-4.8.1,0,-64

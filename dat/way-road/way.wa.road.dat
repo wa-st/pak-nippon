@@ -1,6 +1,6 @@
 ---
-Obj=way
-Name=city_road
+obj=way
+name=city_road
 cost=7500
 copyright=wa
 maintenance=300
@@ -10,78 +10,78 @@ waytype=road
 
 cursor=cityroad.7.1
 icon=> cityroad.7.0
-Image[S][0]=cityroad.0.0
-Image[W][0]=cityroad.0.1
-Image[N][0]=cityroad.0.2
-Image[E][0]=cityroad.0.3
+image[S][0]=cityroad.0.0
+image[W][0]=cityroad.0.1
+image[N][0]=cityroad.0.2
+image[E][0]=cityroad.0.3
 
-Image[SW][0]=cityroad.1.0
-Image[NW][0]=cityroad.1.1
-Image[NE][0]=cityroad.1.2
-Image[SE][0]=cityroad.1.3
+image[SW][0]=cityroad.1.0
+image[NW][0]=cityroad.1.1
+image[NE][0]=cityroad.1.2
+image[SE][0]=cityroad.1.3
 
-Image[NS][0]=cityroad.2.0
-Image[EW][0]=cityroad.2.1
-Image[NSEW][0]=cityroad.2.2
-Image[-][0]=cityroad.2.3
+image[NS][0]=cityroad.2.0
+image[EW][0]=cityroad.2.1
+image[NSEW][0]=cityroad.2.2
+image[-][0]=cityroad.2.3
 
-Image[NEW][0]=cityroad.3.0
-Image[NSE][0]=cityroad.3.1
-Image[SEW][0]=cityroad.3.2
-Image[NSW][0]=cityroad.3.3
+image[NEW][0]=cityroad.3.0
+image[NSE][0]=cityroad.3.1
+image[SEW][0]=cityroad.3.2
+image[NSW][0]=cityroad.3.3
 
-ImageUp[12][0]=cityroad.4.0
-ImageUp[9][0]=cityroad.4.1
-ImageUp[3][0]=cityroad.4.2
-ImageUp[6][0]=cityroad.4.3
+imageUp[12][0]=cityroad.4.0
+imageUp[9][0]=cityroad.4.1
+imageUp[3][0]=cityroad.4.2
+imageUp[6][0]=cityroad.4.3
 
-ImageUp2[12][0]=cityroad.5.0
-ImageUp2[9][0]=cityroad.5.1
-ImageUp2[3][0]=cityroad.5.2
-ImageUp2[6][0]=cityroad.5.3
+imageUp2[12][0]=cityroad.5.0
+imageUp2[9][0]=cityroad.5.1
+imageUp2[3][0]=cityroad.5.2
+imageUp2[6][0]=cityroad.5.3
 
-Diagonal[SW][0]=cityroad.6.0
-Diagonal[NW][0]=cityroad.6.1
-Diagonal[NE][0]=cityroad.6.2
-Diagonal[SE][0]=cityroad.6.3
+diagonal[SW][0]=cityroad.6.0
+diagonal[NW][0]=cityroad.6.1
+diagonal[NE][0]=cityroad.6.2
+diagonal[SE][0]=cityroad.6.3
 
-Image[S][1]=cityroad-winter.0.0
-Image[W][1]=cityroad-winter.0.1
-Image[N][1]=cityroad-winter.0.2
-Image[E][1]=cityroad-winter.0.3
+image[S][1]=cityroad-winter.0.0
+image[W][1]=cityroad-winter.0.1
+image[N][1]=cityroad-winter.0.2
+image[E][1]=cityroad-winter.0.3
 
-Image[SW][1]=cityroad-winter.1.0
-Image[NW][1]=cityroad-winter.1.1
-Image[NE][1]=cityroad-winter.1.2
-Image[SE][1]=cityroad-winter.1.3
+image[SW][1]=cityroad-winter.1.0
+image[NW][1]=cityroad-winter.1.1
+image[NE][1]=cityroad-winter.1.2
+image[SE][1]=cityroad-winter.1.3
 
-Image[NS][1]=cityroad-winter.2.0
-Image[EW][1]=cityroad-winter.2.1
-Image[NSEW][1]=cityroad-winter.2.2
-Image[-][1]=cityroad-winter.2.3
+image[NS][1]=cityroad-winter.2.0
+image[EW][1]=cityroad-winter.2.1
+image[NSEW][1]=cityroad-winter.2.2
+image[-][1]=cityroad-winter.2.3
 
-Image[NEW][1]=cityroad-winter.3.0
-Image[NSE][1]=cityroad-winter.3.1
-Image[SEW][1]=cityroad-winter.3.2
-Image[NSW][1]=cityroad-winter.3.3
+image[NEW][1]=cityroad-winter.3.0
+image[NSE][1]=cityroad-winter.3.1
+image[SEW][1]=cityroad-winter.3.2
+image[NSW][1]=cityroad-winter.3.3
 
-ImageUp[12][1]=cityroad-winter.4.0
-ImageUp[9][1]=cityroad-winter.4.1
-ImageUp[3][1]=cityroad-winter.4.2
-ImageUp[6][1]=cityroad-winter.4.3
+imageUp[12][1]=cityroad-winter.4.0
+imageUp[9][1]=cityroad-winter.4.1
+imageUp[3][1]=cityroad-winter.4.2
+imageUp[6][1]=cityroad-winter.4.3
 
-ImageUp2[12][1]=cityroad-winter.5.0
-ImageUp2[9][1]=cityroad-winter.5.1
-ImageUp2[3][1]=cityroad-winter.5.2
-ImageUp2[6][1]=cityroad-winter.5.3
+imageUp2[12][1]=cityroad-winter.5.0
+imageUp2[9][1]=cityroad-winter.5.1
+imageUp2[3][1]=cityroad-winter.5.2
+imageUp2[6][1]=cityroad-winter.5.3
 
-Diagonal[SW][1]=cityroad-winter.6.0
-Diagonal[NW][1]=cityroad-winter.6.1
-Diagonal[NE][1]=cityroad-winter.6.2
-Diagonal[SE][1]=cityroad-winter.6.3
+diagonal[SW][1]=cityroad-winter.6.0
+diagonal[NW][1]=cityroad-winter.6.1
+diagonal[NE][1]=cityroad-winter.6.2
+diagonal[SE][1]=cityroad-winter.6.3
 ---
-Obj=way
-Name=wa-road-40n
+obj=way
+name=np-road-40n
 copyright=wa
 cost=4000
 maintenance=200
@@ -91,79 +91,79 @@ waytype=road
 
 cursor=road-40n.7.1
 icon=> road-40n.7.0
-Image[S][0]=road-40n.0.0
-Image[W][0]=road-40n.0.1
-Image[N][0]=road-40n.0.2
-Image[E][0]=road-40n.0.3
+image[S][0]=road-40n.0.0
+image[W][0]=road-40n.0.1
+image[N][0]=road-40n.0.2
+image[E][0]=road-40n.0.3
 
-Image[SW][0]=road-40n.1.0
-Image[NW][0]=road-40n.1.1
-Image[NE][0]=road-40n.1.2
-Image[SE][0]=road-40n.1.3
+image[SW][0]=road-40n.1.0
+image[NW][0]=road-40n.1.1
+image[NE][0]=road-40n.1.2
+image[SE][0]=road-40n.1.3
 
-Image[NS][0]=road-40n.2.0
-Image[EW][0]=road-40n.2.1
-Image[NSEW][0]=road-40n.2.2
-Image[-][0]=road-40n.2.3
+image[NS][0]=road-40n.2.0
+image[EW][0]=road-40n.2.1
+image[NSEW][0]=road-40n.2.2
+image[-][0]=road-40n.2.3
 
-Image[NEW][0]=road-40n.3.0
-Image[NSE][0]=road-40n.3.1
-Image[SEW][0]=road-40n.3.2
-Image[NSW][0]=road-40n.3.3
+image[NEW][0]=road-40n.3.0
+image[NSE][0]=road-40n.3.1
+image[SEW][0]=road-40n.3.2
+image[NSW][0]=road-40n.3.3
 
-ImageUp[12][0]=road-40n.4.0
-ImageUp[9][0]=road-40n.4.1
-ImageUp[3][0]=road-40n.4.2
-ImageUp[6][0]=road-40n.4.3
+imageUp[12][0]=road-40n.4.0
+imageUp[9][0]=road-40n.4.1
+imageUp[3][0]=road-40n.4.2
+imageUp[6][0]=road-40n.4.3
 
-ImageUp2[12][0]=road-40n.5.0
-ImageUp2[9][0]=road-40n.5.1
-ImageUp2[3][0]=road-40n.5.2
-ImageUp2[6][0]=road-40n.5.3
+imageUp2[12][0]=road-40n.5.0
+imageUp2[9][0]=road-40n.5.1
+imageUp2[3][0]=road-40n.5.2
+imageUp2[6][0]=road-40n.5.3
 
-Diagonal[SW][0]=road-40n.6.0
-Diagonal[NW][0]=road-40n.6.1
-Diagonal[NE][0]=road-40n.6.2
-Diagonal[SE][0]=road-40n.6.3
+diagonal[SW][0]=road-40n.6.0
+diagonal[NW][0]=road-40n.6.1
+diagonal[NE][0]=road-40n.6.2
+diagonal[SE][0]=road-40n.6.3
 
-Image[S][1]=road-40n-winter.0.0
-Image[W][1]=road-40n-winter.0.1
-Image[N][1]=road-40n-winter.0.2
-Image[E][1]=road-40n-winter.0.3
+image[S][1]=road-40n-winter.0.0
+image[W][1]=road-40n-winter.0.1
+image[N][1]=road-40n-winter.0.2
+image[E][1]=road-40n-winter.0.3
 
-Image[SW][1]=road-40n-winter.1.0
-Image[NW][1]=road-40n-winter.1.1
-Image[NE][1]=road-40n-winter.1.2
-Image[SE][1]=road-40n-winter.1.3
+image[SW][1]=road-40n-winter.1.0
+image[NW][1]=road-40n-winter.1.1
+image[NE][1]=road-40n-winter.1.2
+image[SE][1]=road-40n-winter.1.3
 
-Image[NS][1]=road-40n-winter.2.0
-Image[EW][1]=road-40n-winter.2.1
-Image[NSEW][1]=road-40n-winter.2.2
-Image[-][1]=road-40n-winter.2.3
+image[NS][1]=road-40n-winter.2.0
+image[EW][1]=road-40n-winter.2.1
+image[NSEW][1]=road-40n-winter.2.2
+image[-][1]=road-40n-winter.2.3
 
-Image[NEW][1]=road-40n-winter.3.0
-Image[NSE][1]=road-40n-winter.3.1
-Image[SEW][1]=road-40n-winter.3.2
-Image[NSW][1]=road-40n-winter.3.3
+image[NEW][1]=road-40n-winter.3.0
+image[NSE][1]=road-40n-winter.3.1
+image[SEW][1]=road-40n-winter.3.2
+image[NSW][1]=road-40n-winter.3.3
 
-ImageUp[12][1]=road-40n-winter.4.0
-ImageUp[9][1]=road-40n-winter.4.1
-ImageUp[3][1]=road-40n-winter.4.2
-ImageUp[6][1]=road-40n-winter.4.3
+imageUp[12][1]=road-40n-winter.4.0
+imageUp[9][1]=road-40n-winter.4.1
+imageUp[3][1]=road-40n-winter.4.2
+imageUp[6][1]=road-40n-winter.4.3
 
-ImageUp2[12][1]=road-40n-winter.5.0
-ImageUp2[9][1]=road-40n-winter.5.1
-ImageUp2[3][1]=road-40n-winter.5.2
-ImageUp2[6][1]=road-40n-winter.5.3
+imageUp2[12][1]=road-40n-winter.5.0
+imageUp2[9][1]=road-40n-winter.5.1
+imageUp2[3][1]=road-40n-winter.5.2
+imageUp2[6][1]=road-40n-winter.5.3
 
-Diagonal[SW][1]=road-40n-winter.6.0
-Diagonal[NW][1]=road-40n-winter.6.1
-Diagonal[NE][1]=road-40n-winter.6.2
-Diagonal[SE][1]=road-40n-winter.6.3
+diagonal[SW][1]=road-40n-winter.6.0
+diagonal[NW][1]=road-40n-winter.6.1
+diagonal[NE][1]=road-40n-winter.6.2
+diagonal[SE][1]=road-40n-winter.6.3
 
 ---
-Obj=way
-Name=wa-road-70r
+obj=way
+name=np-road-70r
 copyright=wa
 cost=7500
 maintenance=300
@@ -173,79 +173,79 @@ waytype=road
 
 cursor=road-70r.7.1
 icon=> road-70r.7.0
-Image[S][0]=road-70r.0.0
-Image[W][0]=road-70r.0.1
-Image[N][0]=road-70r.0.2
-Image[E][0]=road-70r.0.3
+image[S][0]=road-70r.0.0
+image[W][0]=road-70r.0.1
+image[N][0]=road-70r.0.2
+image[E][0]=road-70r.0.3
 
-Image[SW][0]=road-70r.1.0
-Image[NW][0]=road-70r.1.1
-Image[NE][0]=road-70r.1.2
-Image[SE][0]=road-70r.1.3
+image[SW][0]=road-70r.1.0
+image[NW][0]=road-70r.1.1
+image[NE][0]=road-70r.1.2
+image[SE][0]=road-70r.1.3
 
-Image[NS][0]=road-70r.2.0
-Image[EW][0]=road-70r.2.1
-Image[NSEW][0]=road-70r.2.2
-Image[-][0]=road-70r.2.3
+image[NS][0]=road-70r.2.0
+image[EW][0]=road-70r.2.1
+image[NSEW][0]=road-70r.2.2
+image[-][0]=road-70r.2.3
 
-Image[NEW][0]=road-70r.3.0
-Image[NSE][0]=road-70r.3.1
-Image[SEW][0]=road-70r.3.2
-Image[NSW][0]=road-70r.3.3
+image[NEW][0]=road-70r.3.0
+image[NSE][0]=road-70r.3.1
+image[SEW][0]=road-70r.3.2
+image[NSW][0]=road-70r.3.3
 
-ImageUp[12][0]=road-70r.4.0
-ImageUp[9][0]=road-70r.4.1
-ImageUp[3][0]=road-70r.4.2
-ImageUp[6][0]=road-70r.4.3
+imageUp[12][0]=road-70r.4.0
+imageUp[9][0]=road-70r.4.1
+imageUp[3][0]=road-70r.4.2
+imageUp[6][0]=road-70r.4.3
 
-ImageUp2[12][0]=road-70r.5.0
-ImageUp2[9][0]=road-70r.5.1
-ImageUp2[3][0]=road-70r.5.2
-ImageUp2[6][0]=road-70r.5.3
+imageUp2[12][0]=road-70r.5.0
+imageUp2[9][0]=road-70r.5.1
+imageUp2[3][0]=road-70r.5.2
+imageUp2[6][0]=road-70r.5.3
 
-Diagonal[SW][0]=road-70r.6.0
-Diagonal[NW][0]=road-70r.6.1
-Diagonal[NE][0]=road-70r.6.2
-Diagonal[SE][0]=road-70r.6.3
+diagonal[SW][0]=road-70r.6.0
+diagonal[NW][0]=road-70r.6.1
+diagonal[NE][0]=road-70r.6.2
+diagonal[SE][0]=road-70r.6.3
 
-Image[S][1]=road-70r-winter.0.0
-Image[W][1]=road-70r-winter.0.1
-Image[N][1]=road-70r-winter.0.2
-Image[E][1]=road-70r-winter.0.3
+image[S][1]=road-70r-winter.0.0
+image[W][1]=road-70r-winter.0.1
+image[N][1]=road-70r-winter.0.2
+image[E][1]=road-70r-winter.0.3
 
-Image[SW][1]=road-70r-winter.1.0
-Image[NW][1]=road-70r-winter.1.1
-Image[NE][1]=road-70r-winter.1.2
-Image[SE][1]=road-70r-winter.1.3
+image[SW][1]=road-70r-winter.1.0
+image[NW][1]=road-70r-winter.1.1
+image[NE][1]=road-70r-winter.1.2
+image[SE][1]=road-70r-winter.1.3
 
-Image[NS][1]=road-70r-winter.2.0
-Image[EW][1]=road-70r-winter.2.1
-Image[NSEW][1]=road-70r-winter.2.2
-Image[-][1]=road-70r-winter.2.3
+image[NS][1]=road-70r-winter.2.0
+image[EW][1]=road-70r-winter.2.1
+image[NSEW][1]=road-70r-winter.2.2
+image[-][1]=road-70r-winter.2.3
 
-Image[NEW][1]=road-70r-winter.3.0
-Image[NSE][1]=road-70r-winter.3.1
-Image[SEW][1]=road-70r-winter.3.2
-Image[NSW][1]=road-70r-winter.3.3
+image[NEW][1]=road-70r-winter.3.0
+image[NSE][1]=road-70r-winter.3.1
+image[SEW][1]=road-70r-winter.3.2
+image[NSW][1]=road-70r-winter.3.3
 
-ImageUp[12][1]=road-70r-winter.4.0
-ImageUp[9][1]=road-70r-winter.4.1
-ImageUp[3][1]=road-70r-winter.4.2
-ImageUp[6][1]=road-70r-winter.4.3
+imageUp[12][1]=road-70r-winter.4.0
+imageUp[9][1]=road-70r-winter.4.1
+imageUp[3][1]=road-70r-winter.4.2
+imageUp[6][1]=road-70r-winter.4.3
 
-ImageUp2[12][1]=road-70r-winter.5.0
-ImageUp2[9][1]=road-70r-winter.5.1
-ImageUp2[3][1]=road-70r-winter.5.2
-ImageUp2[6][1]=road-70r-winter.5.3
+imageUp2[12][1]=road-70r-winter.5.0
+imageUp2[9][1]=road-70r-winter.5.1
+imageUp2[3][1]=road-70r-winter.5.2
+imageUp2[6][1]=road-70r-winter.5.3
 
-Diagonal[SW][1]=road-70r-winter.6.0
-Diagonal[NW][1]=road-70r-winter.6.1
-Diagonal[NE][1]=road-70r-winter.6.2
-Diagonal[SE][1]=road-70r-winter.6.3
+diagonal[SW][1]=road-70r-winter.6.0
+diagonal[NW][1]=road-70r-winter.6.1
+diagonal[NE][1]=road-70r-winter.6.2
+diagonal[SE][1]=road-70r-winter.6.3
 
 ---
-Obj=way
-Name=wa-road-100n
+obj=way
+name=np-road-100n
 copyright=wa
 cost=10000
 maintenance=500
@@ -256,68 +256,68 @@ draw_as_ding=1
 
 cursor=road-100n.7.1
 icon=> road-100n.7.0
-Image[S][0]=road-100n.0.0
-Image[W][0]=road-100n.0.1
-Image[N][0]=road-100n.0.2
-Image[E][0]=road-100n.0.3
+image[S][0]=road-100n.0.0
+image[W][0]=road-100n.0.1
+image[N][0]=road-100n.0.2
+image[E][0]=road-100n.0.3
 
-Image[SW][0]=road-100n.6.0
-Image[NW][0]=road-100n.6.1
-Image[NE][0]=road-100n.6.2
-Image[SE][0]=road-100n.6.3
+image[SW][0]=road-100n.6.0
+image[NW][0]=road-100n.6.1
+image[NE][0]=road-100n.6.2
+image[SE][0]=road-100n.6.3
 
-Image[NS][0]=road-100n.2.0
-Image[EW][0]=road-100n.2.1
-Image[NSEW][0]=road-100n.2.2
-Image[-][0]=road-100n.2.3
+image[NS][0]=road-100n.2.0
+image[EW][0]=road-100n.2.1
+image[NSEW][0]=road-100n.2.2
+image[-][0]=road-100n.2.3
 
-Image[NEW][0]=road-100n.3.0
-Image[NSE][0]=road-100n.3.1
-Image[SEW][0]=road-100n.3.2
-Image[NSW][0]=road-100n.3.3
+image[NEW][0]=road-100n.3.0
+image[NSE][0]=road-100n.3.1
+image[SEW][0]=road-100n.3.2
+image[NSW][0]=road-100n.3.3
 
-ImageUp[12][0]=road-100n.4.0
-ImageUp[9][0]=road-100n.4.1
-ImageUp[3][0]=road-100n.4.2
-ImageUp[6][0]=road-100n.4.3
+imageUp[12][0]=road-100n.4.0
+imageUp[9][0]=road-100n.4.1
+imageUp[3][0]=road-100n.4.2
+imageUp[6][0]=road-100n.4.3
 
-ImageUp2[12][0]=road-100n.5.0
-ImageUp2[9][0]=road-100n.5.1
-ImageUp2[3][0]=road-100n.5.2
-ImageUp2[6][0]=road-100n.5.3
-Image[S][1]=road-100n-winter.0.0
-Image[W][1]=road-100n-winter.0.1
-Image[N][1]=road-100n-winter.0.2
-Image[E][1]=road-100n-winter.0.3
+imageUp2[12][0]=road-100n.5.0
+imageUp2[9][0]=road-100n.5.1
+imageUp2[3][0]=road-100n.5.2
+imageUp2[6][0]=road-100n.5.3
+image[S][1]=road-100n-winter.0.0
+image[W][1]=road-100n-winter.0.1
+image[N][1]=road-100n-winter.0.2
+image[E][1]=road-100n-winter.0.3
 
-Image[SW][1]=road-100n-winter.6.0
-Image[NW][1]=road-100n-winter.6.1
-Image[NE][1]=road-100n-winter.6.2
-Image[SE][1]=road-100n-winter.6.3
+image[SW][1]=road-100n-winter.6.0
+image[NW][1]=road-100n-winter.6.1
+image[NE][1]=road-100n-winter.6.2
+image[SE][1]=road-100n-winter.6.3
 
-Image[NS][1]=road-100n-winter.2.0
-Image[EW][1]=road-100n-winter.2.1
-Image[NSEW][1]=road-100n-winter.2.2
-Image[-][1]=road-100n-winter.2.3
+image[NS][1]=road-100n-winter.2.0
+image[EW][1]=road-100n-winter.2.1
+image[NSEW][1]=road-100n-winter.2.2
+image[-][1]=road-100n-winter.2.3
 
-Image[NEW][1]=road-100n-winter.3.0
-Image[NSE][1]=road-100n-winter.3.1
-Image[SEW][1]=road-100n-winter.3.2
-Image[NSW][1]=road-100n-winter.3.3
+image[NEW][1]=road-100n-winter.3.0
+image[NSE][1]=road-100n-winter.3.1
+image[SEW][1]=road-100n-winter.3.2
+image[NSW][1]=road-100n-winter.3.3
 
-ImageUp[12][1]=road-100n-winter.4.0
-ImageUp[9][1]=road-100n-winter.4.1
-ImageUp[3][1]=road-100n-winter.4.2
-ImageUp[6][1]=road-100n-winter.4.3
+imageUp[12][1]=road-100n-winter.4.0
+imageUp[9][1]=road-100n-winter.4.1
+imageUp[3][1]=road-100n-winter.4.2
+imageUp[6][1]=road-100n-winter.4.3
 
-ImageUp2[12][1]=road-100n-winter.5.0
-ImageUp2[9][1]=road-100n-winter.5.1
-ImageUp2[3][1]=road-100n-winter.5.2
-ImageUp2[6][1]=road-100n-winter.5.3
+imageUp2[12][1]=road-100n-winter.5.0
+imageUp2[9][1]=road-100n-winter.5.1
+imageUp2[3][1]=road-100n-winter.5.2
+imageUp2[6][1]=road-100n-winter.5.3
 
 ---
-Obj=way
-Name=wa-road-100n-elv
+obj=way
+name=np-road-100n-elv
 copyright=wa
 cost=20000
 maintenance=500
@@ -331,39 +331,39 @@ draw_as_ding=1
 
 cursor=road-100n-elv.7.1
 icon=> road-100n-elv.7.0
-Image[S][0]=road-100n-elv.0.0,0,16
-Image[W][0]=road-100n-elv.0.1,0,16
-Image[N][0]=road-100n-elv.0.2,0,16
-Image[E][0]=road-100n-elv.0.3,0,16
+image[S][0]=road-100n-elv.0.0,0,16
+image[W][0]=road-100n-elv.0.1,0,16
+image[N][0]=road-100n-elv.0.2,0,16
+image[E][0]=road-100n-elv.0.3,0,16
 
-Image[SW][0]=road-100n-elv.6.0,0,16
-Image[NW][0]=road-100n-elv.6.1,0,16
-Image[NE][0]=road-100n-elv.6.2,0,16
-Image[SE][0]=road-100n-elv.6.3,0,16
+image[SW][0]=road-100n-elv.6.0,0,16
+image[NW][0]=road-100n-elv.6.1,0,16
+image[NE][0]=road-100n-elv.6.2,0,16
+image[SE][0]=road-100n-elv.6.3,0,16
 
-Image[NS][0]=road-100n-elv.2.0,0,16
-Image[EW][0]=road-100n-elv.2.1,0,16
-Image[NSEW][0]=road-100n-elv.2.2,0,16
-Image[-][0]=road-100n-elv.2.3,0,16
+image[NS][0]=road-100n-elv.2.0,0,16
+image[EW][0]=road-100n-elv.2.1,0,16
+image[NSEW][0]=road-100n-elv.2.2,0,16
+image[-][0]=road-100n-elv.2.3,0,16
 
-Image[NEW][0]=road-100n-elv.3.0,0,16
-Image[NSE][0]=road-100n-elv.3.1,0,16
-Image[SEW][0]=road-100n-elv.3.2,0,16
-Image[NSW][0]=road-100n-elv.3.3,0,16
+image[NEW][0]=road-100n-elv.3.0,0,16
+image[NSE][0]=road-100n-elv.3.1,0,16
+image[SEW][0]=road-100n-elv.3.2,0,16
+image[NSW][0]=road-100n-elv.3.3,0,16
 
-ImageUp[12][0]=road-100n-elv.4.0,0,16
-ImageUp[9][0]=road-100n-elv.4.1,0,16
-ImageUp[3][0]=road-100n-elv.4.2,0,16
-ImageUp[6][0]=road-100n-elv.4.3,0,16
+imageUp[12][0]=road-100n-elv.4.0,0,16
+imageUp[9][0]=road-100n-elv.4.1,0,16
+imageUp[3][0]=road-100n-elv.4.2,0,16
+imageUp[6][0]=road-100n-elv.4.3,0,16
 
-ImageUp2[12][0]=road-100n-elv.5.0,0,16
-ImageUp2[9][0]=road-100n-elv.5.1,0,16
-ImageUp2[3][0]=road-100n-elv.5.2,0,16
-ImageUp2[6][0]=road-100n-elv.5.3,0,16
+imageUp2[12][0]=road-100n-elv.5.0,0,16
+imageUp2[9][0]=road-100n-elv.5.1,0,16
+imageUp2[3][0]=road-100n-elv.5.2,0,16
+imageUp2[6][0]=road-100n-elv.5.3,0,16
 
 ---
-Obj=way
-Name=wa-road-100r
+obj=way
+name=np-road-100r
 copyright=wa
 cost=10000
 maintenance=500
@@ -374,79 +374,79 @@ draw_as_ding=1
 
 cursor=road-100r.7.1
 icon=> road-100r.7.0
-Image[S][0]=road-100r.0.0
-Image[W][0]=road-100r.0.1
-Image[N][0]=road-100r.0.2
-Image[E][0]=road-100r.0.3
+image[S][0]=road-100r.0.0
+image[W][0]=road-100r.0.1
+image[N][0]=road-100r.0.2
+image[E][0]=road-100r.0.3
 
-Image[SW][0]=road-100r.1.0
-Image[NW][0]=road-100r.1.1
-Image[NE][0]=road-100r.1.2
-Image[SE][0]=road-100r.1.3
+image[SW][0]=road-100r.1.0
+image[NW][0]=road-100r.1.1
+image[NE][0]=road-100r.1.2
+image[SE][0]=road-100r.1.3
 
-Image[NS][0]=road-100r.2.0
-Image[EW][0]=road-100r.2.1
-Image[NSEW][0]=road-100r.2.2
-Image[-][0]=road-100r.2.3
+image[NS][0]=road-100r.2.0
+image[EW][0]=road-100r.2.1
+image[NSEW][0]=road-100r.2.2
+image[-][0]=road-100r.2.3
 
-Image[NEW][0]=road-100r.3.0
-Image[NSE][0]=road-100r.3.1
-Image[SEW][0]=road-100r.3.2
-Image[NSW][0]=road-100r.3.3
+image[NEW][0]=road-100r.3.0
+image[NSE][0]=road-100r.3.1
+image[SEW][0]=road-100r.3.2
+image[NSW][0]=road-100r.3.3
 
-ImageUp[12][0]=road-100r.4.0
-ImageUp[9][0]=road-100r.4.1
-ImageUp[3][0]=road-100r.4.2
-ImageUp[6][0]=road-100r.4.3
+imageUp[12][0]=road-100r.4.0
+imageUp[9][0]=road-100r.4.1
+imageUp[3][0]=road-100r.4.2
+imageUp[6][0]=road-100r.4.3
 
-ImageUp2[12][0]=road-100r.5.0
-ImageUp2[9][0]=road-100r.5.1
-ImageUp2[3][0]=road-100r.5.2
-ImageUp2[6][0]=road-100r.5.3
+imageUp2[12][0]=road-100r.5.0
+imageUp2[9][0]=road-100r.5.1
+imageUp2[3][0]=road-100r.5.2
+imageUp2[6][0]=road-100r.5.3
 
-Diagonal[SW][0]=road-100r.6.0
-Diagonal[NW][0]=road-100r.6.1
-Diagonal[NE][0]=road-100r.6.2
-Diagonal[SE][0]=road-100r.6.3
+diagonal[SW][0]=road-100r.6.0
+diagonal[NW][0]=road-100r.6.1
+diagonal[NE][0]=road-100r.6.2
+diagonal[SE][0]=road-100r.6.3
 
-Image[S][1]=road-100r-winter.0.0
-Image[W][1]=road-100r-winter.0.1
-Image[N][1]=road-100r-winter.0.2
-Image[E][1]=road-100r-winter.0.3
+image[S][1]=road-100r-winter.0.0
+image[W][1]=road-100r-winter.0.1
+image[N][1]=road-100r-winter.0.2
+image[E][1]=road-100r-winter.0.3
 
-Image[SW][1]=road-100r-winter.1.0
-Image[NW][1]=road-100r-winter.1.1
-Image[NE][1]=road-100r-winter.1.2
-Image[SE][1]=road-100r-winter.1.3
+image[SW][1]=road-100r-winter.1.0
+image[NW][1]=road-100r-winter.1.1
+image[NE][1]=road-100r-winter.1.2
+image[SE][1]=road-100r-winter.1.3
 
-Image[NS][1]=road-100r-winter.2.0
-Image[EW][1]=road-100r-winter.2.1
-Image[NSEW][1]=road-100r-winter.2.2
-Image[-][1]=road-100r-winter.2.3
+image[NS][1]=road-100r-winter.2.0
+image[EW][1]=road-100r-winter.2.1
+image[NSEW][1]=road-100r-winter.2.2
+image[-][1]=road-100r-winter.2.3
 
-Image[NEW][1]=road-100r-winter.3.0
-Image[NSE][1]=road-100r-winter.3.1
-Image[SEW][1]=road-100r-winter.3.2
-Image[NSW][1]=road-100r-winter.3.3
+image[NEW][1]=road-100r-winter.3.0
+image[NSE][1]=road-100r-winter.3.1
+image[SEW][1]=road-100r-winter.3.2
+image[NSW][1]=road-100r-winter.3.3
 
-ImageUp[12][1]=road-100r-winter.4.0
-ImageUp[9][1]=road-100r-winter.4.1
-ImageUp[3][1]=road-100r-winter.4.2
-ImageUp[6][1]=road-100r-winter.4.3
+imageUp[12][1]=road-100r-winter.4.0
+imageUp[9][1]=road-100r-winter.4.1
+imageUp[3][1]=road-100r-winter.4.2
+imageUp[6][1]=road-100r-winter.4.3
 
-ImageUp2[12][1]=road-100r-winter.5.0
-ImageUp2[9][1]=road-100r-winter.5.1
-ImageUp2[3][1]=road-100r-winter.5.2
-ImageUp2[6][1]=road-100r-winter.5.3
+imageUp2[12][1]=road-100r-winter.5.0
+imageUp2[9][1]=road-100r-winter.5.1
+imageUp2[3][1]=road-100r-winter.5.2
+imageUp2[6][1]=road-100r-winter.5.3
 
-Diagonal[SW][1]=road-100r-winter.6.0
-Diagonal[NW][1]=road-100r-winter.6.1
-Diagonal[NE][1]=road-100r-winter.6.2
-Diagonal[SE][1]=road-100r-winter.6.3
+diagonal[SW][1]=road-100r-winter.6.0
+diagonal[NW][1]=road-100r-winter.6.1
+diagonal[NE][1]=road-100r-winter.6.2
+diagonal[SE][1]=road-100r-winter.6.3
 
 ---
-Obj=way
-Name=wa-road-100r-elv
+obj=way
+name=np-road-100r-elv
 copyright=wa
 cost=20000
 maintenance=500
@@ -458,44 +458,44 @@ draw_as_ding=1
 
 cursor=road-100r-elv.7.1
 icon=> road-100r-elv.7.0
-Image[S][0]=road-100r-elv.0.0,0,16
-Image[W][0]=road-100r-elv.0.1,0,16
-Image[N][0]=road-100r-elv.0.2,0,16
-Image[E][0]=road-100r-elv.0.3,0,16
+image[S][0]=road-100r-elv.0.0,0,16
+image[W][0]=road-100r-elv.0.1,0,16
+image[N][0]=road-100r-elv.0.2,0,16
+image[E][0]=road-100r-elv.0.3,0,16
 
-Image[SW][0]=road-100r-elv.1.0,0,16
-Image[NW][0]=road-100r-elv.1.1,0,16
-Image[NE][0]=road-100r-elv.1.2,0,16
-Image[SE][0]=road-100r-elv.1.3,0,16
+image[SW][0]=road-100r-elv.1.0,0,16
+image[NW][0]=road-100r-elv.1.1,0,16
+image[NE][0]=road-100r-elv.1.2,0,16
+image[SE][0]=road-100r-elv.1.3,0,16
 
-Image[NS][0]=road-100r-elv.2.0,0,16
-Image[EW][0]=road-100r-elv.2.1,0,16
-Image[NSEW][0]=road-100r-elv.2.2,0,16
-Image[-][0]=road-100r-elv.2.3,0,16
+image[NS][0]=road-100r-elv.2.0,0,16
+image[EW][0]=road-100r-elv.2.1,0,16
+image[NSEW][0]=road-100r-elv.2.2,0,16
+image[-][0]=road-100r-elv.2.3,0,16
 
-Image[NEW][0]=road-100r-elv.3.0,0,16
-Image[NSE][0]=road-100r-elv.3.1,0,16
-Image[SEW][0]=road-100r-elv.3.2,0,16
-Image[NSW][0]=road-100r-elv.3.3,0,16
+image[NEW][0]=road-100r-elv.3.0,0,16
+image[NSE][0]=road-100r-elv.3.1,0,16
+image[SEW][0]=road-100r-elv.3.2,0,16
+image[NSW][0]=road-100r-elv.3.3,0,16
 
-ImageUp[12][0]=road-100r-elv.4.0,0,16
-ImageUp[9][0]=road-100r-elv.4.1,0,16
-ImageUp[3][0]=road-100r-elv.4.2,0,16
-ImageUp[6][0]=road-100r-elv.4.3,0,16
+imageUp[12][0]=road-100r-elv.4.0,0,16
+imageUp[9][0]=road-100r-elv.4.1,0,16
+imageUp[3][0]=road-100r-elv.4.2,0,16
+imageUp[6][0]=road-100r-elv.4.3,0,16
 
-ImageUp2[12][0]=road-100r-elv.5.0,0,16
-ImageUp2[9][0]=road-100r-elv.5.1,0,16
-ImageUp2[3][0]=road-100r-elv.5.2,0,16
-ImageUp2[6][0]=road-100r-elv.5.3,0,16
+imageUp2[12][0]=road-100r-elv.5.0,0,16
+imageUp2[9][0]=road-100r-elv.5.1,0,16
+imageUp2[3][0]=road-100r-elv.5.2,0,16
+imageUp2[6][0]=road-100r-elv.5.3,0,16
 
-Diagonal[SW][0]=road-100r-elv.6.0,0,16
-Diagonal[NW][0]=road-100r-elv.6.1,0,16
-Diagonal[NE][0]=road-100r-elv.6.2,0,16
-Diagonal[SE][0]=road-100r-elv.6.3,0,16
+diagonal[SW][0]=road-100r-elv.6.0,0,16
+diagonal[NW][0]=road-100r-elv.6.1,0,16
+diagonal[NE][0]=road-100r-elv.6.2,0,16
+diagonal[SE][0]=road-100r-elv.6.3,0,16
 
 ---
-Obj=way
-Name=wa-dart-road
+obj=way
+name=np-dart-road
 copyright=wa
 cost=2000
 maintenance=100
@@ -506,82 +506,82 @@ waytype=road
 icon=> dart-1.9.0
 cursor=dart-1.9.1
 
-Image[S][0]=dart-1.0.0
-Image[E][0]=dart-1.0.1
-Image[N][0]=dart-1.0.2
-Image[W][0]=dart-1.0.3
+image[S][0]=dart-1.0.0
+image[E][0]=dart-1.0.1
+image[N][0]=dart-1.0.2
+image[W][0]=dart-1.0.3
 
-Image[SE][0]=dart-1.1.0
-Image[NE][0]=dart-1.1.1
-Image[NW][0]=dart-1.1.2
-Image[SW][0]=dart-1.1.3
+image[SE][0]=dart-1.1.0
+image[NE][0]=dart-1.1.1
+image[NW][0]=dart-1.1.2
+image[SW][0]=dart-1.1.3
 
-Image[NS][0]=dart-1.2.0
-Image[EW][0]=dart-1.2.1
+image[NS][0]=dart-1.2.0
+image[EW][0]=dart-1.2.1
 
-Image[NSEW][0]=dart-1.3.0
+image[NSEW][0]=dart-1.3.0
 
-Image[-][0]=dart-1.4.0
+image[-][0]=dart-1.4.0
 
-Image[NSE][0]=dart-1.5.0
-Image[NEW][0]=dart-1.5.1
-Image[NSW][0]=dart-1.5.2
-Image[SEW][0]=dart-1.5.3
+image[NSE][0]=dart-1.5.0
+image[NEW][0]=dart-1.5.1
+image[NSW][0]=dart-1.5.2
+image[SEW][0]=dart-1.5.3
 
-ImageUp[12][0]=dart-1.6.0
-ImageUp[9][0]=dart-1.6.1
-ImageUp[3][0]=dart-1.6.2
-ImageUp[6][0]=dart-1.6.3
+imageUp[12][0]=dart-1.6.0
+imageUp[9][0]=dart-1.6.1
+imageUp[3][0]=dart-1.6.2
+imageUp[6][0]=dart-1.6.3
 
-ImageUp2[12][0]=dart-1.7.0
-ImageUp2[9][0]=dart-1.7.1
-ImageUp2[3][0]=dart-1.7.2
-ImageUp2[6][0]=dart-1.7.3
+imageUp2[12][0]=dart-1.7.0
+imageUp2[9][0]=dart-1.7.1
+imageUp2[3][0]=dart-1.7.2
+imageUp2[6][0]=dart-1.7.3
 
-Diagonal[SE][0]=dart-1.8.0
-Diagonal[NE][0]=dart-1.8.1
-Diagonal[NW][0]=dart-1.8.2
-Diagonal[SW][0]=dart-1.8.3
+diagonal[SE][0]=dart-1.8.0
+diagonal[NE][0]=dart-1.8.1
+diagonal[NW][0]=dart-1.8.2
+diagonal[SW][0]=dart-1.8.3
 
-Image[S][1]=dart-1-winter.0.0
-Image[E][1]=dart-1-winter.0.1
-Image[N][1]=dart-1-winter.0.2
-Image[W][1]=dart-1-winter.0.3
+image[S][1]=dart-1-winter.0.0
+image[E][1]=dart-1-winter.0.1
+image[N][1]=dart-1-winter.0.2
+image[W][1]=dart-1-winter.0.3
 
-Image[SE][1]=dart-1-winter.1.0
-Image[NE][1]=dart-1-winter.1.1
-Image[NW][1]=dart-1-winter.1.2
-Image[SW][1]=dart-1-winter.1.3
+image[SE][1]=dart-1-winter.1.0
+image[NE][1]=dart-1-winter.1.1
+image[NW][1]=dart-1-winter.1.2
+image[SW][1]=dart-1-winter.1.3
 
-Image[NS][1]=dart-1-winter.2.0
-Image[EW][1]=dart-1-winter.2.1
+image[NS][1]=dart-1-winter.2.0
+image[EW][1]=dart-1-winter.2.1
 
-Image[NSEW][1]=dart-1-winter.3.0
+image[NSEW][1]=dart-1-winter.3.0
 
-Image[-][1]=dart-1-winter.4.0
+image[-][1]=dart-1-winter.4.0
 
-Image[NSE][1]=dart-1-winter.5.0
-Image[NEW][1]=dart-1-winter.5.1
-Image[NSW][1]=dart-1-winter.5.2
-Image[SEW][1]=dart-1-winter.5.3
+image[NSE][1]=dart-1-winter.5.0
+image[NEW][1]=dart-1-winter.5.1
+image[NSW][1]=dart-1-winter.5.2
+image[SEW][1]=dart-1-winter.5.3
 
-ImageUp[12][1]=dart-1-winter.6.0
-ImageUp[9][1]=dart-1-winter.6.1
-ImageUp[3][1]=dart-1-winter.6.2
-ImageUp[6][1]=dart-1-winter.6.3
+imageUp[12][1]=dart-1-winter.6.0
+imageUp[9][1]=dart-1-winter.6.1
+imageUp[3][1]=dart-1-winter.6.2
+imageUp[6][1]=dart-1-winter.6.3
 
-ImageUp2[12][1]=dart-1-winter.7.0
-ImageUp2[9][1]=dart-1-winter.7.1
-ImageUp2[3][1]=dart-1-winter.7.2
-ImageUp2[6][1]=dart-1-winter.7.3
+imageUp2[12][1]=dart-1-winter.7.0
+imageUp2[9][1]=dart-1-winter.7.1
+imageUp2[3][1]=dart-1-winter.7.2
+imageUp2[6][1]=dart-1-winter.7.3
 
-Diagonal[SE][1]=dart-1-winter.8.0
-Diagonal[NE][1]=dart-1-winter.8.1
-Diagonal[NW][1]=dart-1-winter.8.2
-Diagonal[SW][1]=dart-1-winter.8.3
+diagonal[SE][1]=dart-1-winter.8.0
+diagonal[NE][1]=dart-1-winter.8.1
+diagonal[NW][1]=dart-1-winter.8.2
+diagonal[SW][1]=dart-1-winter.8.3
 ---
-Obj=way
-Name=wa-gavel-road
+obj=way
+name=np-gavel-road
 copyright=wa
 cost=4000
 maintenance=300
@@ -592,76 +592,76 @@ waytype=road
 icon=> dart-2.9.0
 cursor=dart-2.9.1
 
-Image[S][0]=dart-2.0.0
-Image[E][0]=dart-2.0.1
-Image[N][0]=dart-2.0.2
-Image[W][0]=dart-2.0.3
+image[S][0]=dart-2.0.0
+image[E][0]=dart-2.0.1
+image[N][0]=dart-2.0.2
+image[W][0]=dart-2.0.3
 
-Image[SE][0]=dart-2.1.0
-Image[NE][0]=dart-2.1.1
-Image[NW][0]=dart-2.1.2
-Image[SW][0]=dart-2.1.3
+image[SE][0]=dart-2.1.0
+image[NE][0]=dart-2.1.1
+image[NW][0]=dart-2.1.2
+image[SW][0]=dart-2.1.3
 
-Image[NS][0]=dart-2.2.0
-Image[EW][0]=dart-2.2.1
+image[NS][0]=dart-2.2.0
+image[EW][0]=dart-2.2.1
 
-Image[NSEW][0]=dart-2.3.0
+image[NSEW][0]=dart-2.3.0
 
-Image[-][0]=dart-2.4.0
+image[-][0]=dart-2.4.0
 
-Image[NSE][0]=dart-2.5.0
-Image[NEW][0]=dart-2.5.1
-Image[NSW][0]=dart-2.5.2
-Image[SEW][0]=dart-2.5.3
+image[NSE][0]=dart-2.5.0
+image[NEW][0]=dart-2.5.1
+image[NSW][0]=dart-2.5.2
+image[SEW][0]=dart-2.5.3
 
-ImageUp[12][0]=dart-2.6.0
-ImageUp[9][0]=dart-2.6.1
-ImageUp[3][0]=dart-2.6.2
-ImageUp[6][0]=dart-2.6.3
+imageUp[12][0]=dart-2.6.0
+imageUp[9][0]=dart-2.6.1
+imageUp[3][0]=dart-2.6.2
+imageUp[6][0]=dart-2.6.3
 
-ImageUp2[12][0]=dart-2.7.0
-ImageUp2[9][0]=dart-2.7.1
-ImageUp2[3][0]=dart-2.7.2
-ImageUp2[6][0]=dart-2.7.3
+imageUp2[12][0]=dart-2.7.0
+imageUp2[9][0]=dart-2.7.1
+imageUp2[3][0]=dart-2.7.2
+imageUp2[6][0]=dart-2.7.3
 
-Diagonal[SE][0]=dart-2.8.0
-Diagonal[NE][0]=dart-2.8.1
-Diagonal[NW][0]=dart-2.8.2
-Diagonal[SW][0]=dart-2.8.3
+diagonal[SE][0]=dart-2.8.0
+diagonal[NE][0]=dart-2.8.1
+diagonal[NW][0]=dart-2.8.2
+diagonal[SW][0]=dart-2.8.3
 
-Image[S][1]=dart-2-winter.0.0
-Image[E][1]=dart-2-winter.0.1
-Image[N][1]=dart-2-winter.0.2
-Image[W][1]=dart-2-winter.0.3
+image[S][1]=dart-2-winter.0.0
+image[E][1]=dart-2-winter.0.1
+image[N][1]=dart-2-winter.0.2
+image[W][1]=dart-2-winter.0.3
 
-Image[SE][1]=dart-2-winter.1.0
-Image[NE][1]=dart-2-winter.1.1
-Image[NW][1]=dart-2-winter.1.2
-Image[SW][1]=dart-2-winter.1.3
+image[SE][1]=dart-2-winter.1.0
+image[NE][1]=dart-2-winter.1.1
+image[NW][1]=dart-2-winter.1.2
+image[SW][1]=dart-2-winter.1.3
 
-Image[NS][1]=dart-2-winter.2.0
-Image[EW][1]=dart-2-winter.2.1
+image[NS][1]=dart-2-winter.2.0
+image[EW][1]=dart-2-winter.2.1
 
-Image[NSEW][1]=dart-2-winter.3.0
+image[NSEW][1]=dart-2-winter.3.0
 
-Image[-][1]=dart-2-winter.4.0
+image[-][1]=dart-2-winter.4.0
 
-Image[NSE][1]=dart-2-winter.5.0
-Image[NEW][1]=dart-2-winter.5.1
-Image[NSW][1]=dart-2-winter.5.2
-Image[SEW][1]=dart-2-winter.5.3
+image[NSE][1]=dart-2-winter.5.0
+image[NEW][1]=dart-2-winter.5.1
+image[NSW][1]=dart-2-winter.5.2
+image[SEW][1]=dart-2-winter.5.3
 
-ImageUp[12][1]=dart-2-winter.6.0
-ImageUp[9][1]=dart-2-winter.6.1
-ImageUp[3][1]=dart-2-winter.6.2
-ImageUp[6][1]=dart-2-winter.6.3
+imageUp[12][1]=dart-2-winter.6.0
+imageUp[9][1]=dart-2-winter.6.1
+imageUp[3][1]=dart-2-winter.6.2
+imageUp[6][1]=dart-2-winter.6.3
 
-ImageUp2[12][1]=dart-2-winter.7.0
-ImageUp2[9][1]=dart-2-winter.7.1
-ImageUp2[3][1]=dart-2-winter.7.2
-ImageUp2[6][1]=dart-2-winter.7.3
+imageUp2[12][1]=dart-2-winter.7.0
+imageUp2[9][1]=dart-2-winter.7.1
+imageUp2[3][1]=dart-2-winter.7.2
+imageUp2[6][1]=dart-2-winter.7.3
 
-Diagonal[SE][1]=dart-2-winter.8.0
-Diagonal[NE][1]=dart-2-winter.8.1
-Diagonal[NW][1]=dart-2-winter.8.2
-Diagonal[SW][1]=dart-2-winter.8.3
+diagonal[SE][1]=dart-2-winter.8.0
+diagonal[NE][1]=dart-2-winter.8.1
+diagonal[NW][1]=dart-2-winter.8.2
+diagonal[SW][1]=dart-2-winter.8.3

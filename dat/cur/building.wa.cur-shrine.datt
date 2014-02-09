@@ -1,5 +1,5 @@
 obj=building
-name=wa-cur-shrine-1
+name=np-cur-shrine-1
 copyright=wa
 type=cur
 passengers=20
@@ -10,7 +10,7 @@ chance=50
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=building
-name=wa-cur-shrine-2
+name=np-cur-shrine-2
 copyright=wa
 type=cur
 passengers=30
@@ -21,7 +21,7 @@ chance=20
 %buil_image 4, 4, 1, 4, 2
 ---
 obj=building
-name=wa-cur-shrine-3
+name=np-cur-shrine-3
 copyright=wa
 type=cur
 passengers=10
@@ -32,7 +32,7 @@ chance=20
 %buil_image 4, 4, 1, 4, 2
 ---
 obj=building
-name=wa-cur-shrine-4
+name=np-cur-shrine-4
 copyright=wa
 type=cur
 passengers=20

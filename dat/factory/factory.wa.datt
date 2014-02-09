@@ -3,7 +3,7 @@
 %require "power.datt", addon: false
 ---
 obj=factory
-name=wa-stahlwerk
+name=np-stahlwerk
 copyright=wa
 
 %include "Stahlwerk", label: true, overwrite: false
@@ -12,8 +12,8 @@ copyright=wa
 %def :image, "steelmill-tile.0.0"
 %buil_image 4, 4, 2, 4, 2
 ---
-Obj=factory
-name=wa-erzbergwerk
+obj=factory
+name=np-erzbergwerk
 copyright=wa
 
 %include "Erzbergwerk", label: true, overwrite: false
@@ -22,8 +22,8 @@ copyright=wa
 %def :image, "ironore-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ---
-Obj=factory
-name=wa-sandquarry
+obj=factory
+name=np-sandquarry
 copyright=wa
 
 %include "Sandquarry", label: true, overwrite: false
@@ -32,8 +32,8 @@ copyright=wa
 %def :image, "sand-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----
-Obj=factory
-name=wa-stonequarry
+obj=factory
+name=np-stonequarry
 copyright=wa
 
 %include "Stonequarry", label: true, overwrite: false
@@ -42,8 +42,8 @@ copyright=wa
 %def :image, "stone-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----
-Obj=factory
-name=wa-oil-storage
+obj=factory
+name=np-oil-storage
 copyright=wa
 Location=Land
 climates=desert,tropic,mediterran,temperate,tundra,rocky
@@ -55,8 +55,8 @@ climates=desert,tropic,mediterran,temperate,tundra,rocky
 %def :image, "oil-storage-tile.0.0"
 %buil_image 4, 4, 1, 2, 2
 ---
-Obj=factory
-name=wa-cementmill
+obj=factory
+name=np-cementmill
 copyright=wa
 
 %include "Cementmill", label: true, overwrite: false
@@ -65,18 +65,18 @@ copyright=wa
 %def :image, "cementmill-tile.0.0"
 %buil_image 3, 2, 2, 4, 2
 ---
-Obj=factory
-name=wa-nutzwald
+obj=factory
+name=np-nutzwald
 copyright=wa
 needs_ground=0
 
 %include "Nutzwald", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
 
-fields[0]=wa-nutzwald-field-1
-fields[1]=wa-nutzwald-field-2
-fields[2]=wa-nutzwald-field-3
-fields[3]=wa-nutzwald-field-4
+fields[0]=np-nutzwald-field-1
+fields[1]=np-nutzwald-field-2
+fields[2]=np-nutzwald-field-3
+fields[3]=np-nutzwald-field-4
 spawn_weight[0]=1000
 spawn_weight[1]=1000
 spawn_weight[2]=1000
@@ -86,32 +86,32 @@ spawn_weight[3]=200
 %buil_image 2, 2, 1, 4, 2
 ---
 obj=field
-name=wa-nutzwald-field-1
+name=np-nutzwald-field-1
 copyright=wa
 image[0]=forestry-tile.4.0
 image[1]=forestry-tile.5.0
 ---
 obj=field
-name=wa-nutzwald-field-2
+name=np-nutzwald-field-2
 copyright=wa
 image[0]=forestry-tile.4.1
 image[1]=forestry-tile.5.1
 ---
 obj=field
-name=wa-nutzwald-field-3
+name=np-nutzwald-field-3
 copyright=wa
 image[0]=forestry-tile.4.2
 image[1]=forestry-tile.5.2
 ---
 obj=field
-name=wa-nutzwald-field-4
+name=np-nutzwald-field-4
 copyright=wa
 image[0]=forestry-tile.4.3
 image[1]=forestry-tile.5.3
 
 ---
-Obj=factory
-name=wa-kohlegrube
+obj=factory
+name=np-kohlegrube
 copyright=wa
 
 %include "Kohlegrube", label: true, overwrite: false
@@ -120,8 +120,8 @@ copyright=wa
 %def :image, "coalmine-tile.0.0"
 %buil_image 4, 3, 2, 4, 2
 ---
-Obj=factory
-name=wa-autohaus
+obj=factory
+name=np-autohaus
 copyright=wa
 
 %include "Autohaus", label: true, overwrite: false
@@ -130,8 +130,8 @@ copyright=wa
 %def :image, "cardealer-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
-Obj=factory
-name=wa-tanke
+obj=factory
+name=np-tanke
 copyright=wa
 
 %include "TANKE", label: true, overwrite: false
@@ -140,8 +140,8 @@ copyright=wa
 %def :image, "gasstaion-tile.0.0"
 %buil_image 2, 1, 1, 4, 2
 ---
-Obj=factory
-name=wa-incinerator
+obj=factory
+name=np-incinerator
 copyright=wa
 
 %include "Incinerator", label: true, overwrite: false
@@ -150,8 +150,8 @@ copyright=wa
 %def :image, "incinerator-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
-Obj=factory
-name=wa-muellkraftwerk
+obj=factory
+name=np-muellkraftwerk
 copyright=wa
 
 %include "Muellkraftwerk", label: true, overwrite: false
@@ -160,8 +160,8 @@ copyright=wa
 %def :image, "incinerator-power-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
 ---
-Obj=factory
-name=wa-oelkraftwerk
+obj=factory
+name=np-oelkraftwerk
 copyright=wa
 
 %include "Oelkraftwerk", label: true, overwrite: false
@@ -170,8 +170,8 @@ copyright=wa
 %def :image, "oil-powerplant-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
 ----------------
-Obj=factory
-name=wa-kohlekraftwerk
+obj=factory
+name=np-kohlekraftwerk
 copyright=wa
 
 %include "Kohlekraftwerk", label: true, overwrite: false
@@ -181,8 +181,8 @@ copyright=wa
 %buil_image 3, 3, 2, 4, 2
 
 ----------------
-Obj=factory
-name=wa-geokraftwerk
+obj=factory
+name=np-geokraftwerk
 copyright=wa
 climates=desert,tropic,mediterran,temperate,tundra
 
@@ -193,8 +193,8 @@ climates=desert,tropic,mediterran,temperate,tundra
 %buil_image 2, 2, 1, 4, 2
 
 ----------------
-Obj=factory
-name=wa-solar-kraftwerk
+obj=factory
+name=np-solar-kraftwerk
 copyright=wa
 climates=desert,tropic,mediterran,temperate,tundra
 productivity=150
@@ -206,8 +206,8 @@ productivity=150
 %buil_image 4, 4, 1, 1, 2
 
 ----------------
-Obj=factory
-name=wa-raffinerie
+obj=factory
+name=np-raffinerie
 copyright=wa
 
 %include "3Raffinerie", label: true, overwrite: false
@@ -216,8 +216,8 @@ copyright=wa
 %def :image, "refinery-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-chemical-plant
+obj=factory
+name=np-chemical-plant
 copyright=wa
 
 %include "ChemicalPlant", label: true, overwrite: false
@@ -226,8 +226,8 @@ copyright=wa
 %def :image, "chemical-plant-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-saegewerk
+obj=factory
+name=np-saegewerk
 copyright=wa
 
 %include "Saegewerk", label: true, overwrite: false
@@ -236,8 +236,8 @@ copyright=wa
 %def :image, "sawmill-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-pharmaceutics
+obj=factory
+name=np-pharmaceutics
 copyright=wa
 
 %include "Pharmaceutics", label: true, overwrite: false
@@ -246,8 +246,8 @@ copyright=wa
 %def :image, "pharmaceutics-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-material-storage
+obj=factory
+name=np-material-storage
 copyright=wa
 
 %include "Materialswholesale", label: true, overwrite: false
@@ -256,8 +256,8 @@ copyright=wa
 %def :image, "material-storage-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-scrap-yard
+obj=factory
+name=np-scrap-yard
 copyright=wa
 
 %include "scrap_yard", label: true, overwrite: false
@@ -266,8 +266,8 @@ copyright=wa
 %def :image, "garbage.0.0"
 %buil_image 1, 1, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-druckerei
+obj=factory
+name=np-druckerei
 copyright=wa
 
 %include "Druckerei", label: true, overwrite: false
@@ -276,8 +276,8 @@ copyright=wa
 %def :image, "printing-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-papierfabrik
+obj=factory
+name=np-papierfabrik
 copyright=wa
 
 %include "Papierfabrik", label: true, overwrite: false
@@ -287,8 +287,8 @@ copyright=wa
 %buil_image 3, 3, 1, 4, 2
 
 ----------------
-Obj=factory
-name=wa-autohersteller
+obj=factory
+name=np-autohersteller
 copyright=wa
 
 %include "Autohersteller", label: true, overwrite: false
@@ -297,8 +297,8 @@ copyright=wa
 %def :image, "carfactory-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-moebelfabrik
+obj=factory
+name=np-moebelfabrik
 copyright=wa
 
 %include "Moebelfabrik", label: true, overwrite: false
@@ -307,8 +307,8 @@ copyright=wa
 %def :image, "furniture-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-concrete-factory
+obj=factory
+name=np-concrete-factory
 copyright=wa
 
 %include "Concretefactory", label: true, overwrite: false
@@ -317,77 +317,77 @@ copyright=wa
 %def :image, "concrete-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ----------------
-Obj=factory
-name=wa-windkraftwerk
+obj=factory
+name=np-windkraftwerk
 copyright=wa
 productivity=150
 
 %include "Windkraftwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
 
-Dims=5,1,2
-BackImage[0][0][0][0][0]=windkraftwerk.1.0
-BackImage[0][0][0][0][1]=windkraftwerk.3.0
-BackImage[0][0][0][0][2]=windkraftwerk.5.0
-BackImage[0][0][0][0][3]=windkraftwerk.7.0
-BackImage[0][0][0][0][4]=windkraftwerk.9.0
-BackImage[0][0][0][1][0]=windkraftwerk.0.0
-BackImage[0][0][0][1][1]=windkraftwerk.2.0
-BackImage[0][0][0][1][2]=windkraftwerk.4.0
-BackImage[0][0][0][1][3]=windkraftwerk.6.0
-BackImage[0][0][0][1][4]=windkraftwerk.8.0
+dims=5,1,2
+backImage[0][0][0][0][0]=windkraftwerk.1.0
+backImage[0][0][0][0][1]=windkraftwerk.3.0
+backImage[0][0][0][0][2]=windkraftwerk.5.0
+backImage[0][0][0][0][3]=windkraftwerk.7.0
+backImage[0][0][0][0][4]=windkraftwerk.9.0
+backImage[0][0][0][1][0]=windkraftwerk.0.0
+backImage[0][0][0][1][1]=windkraftwerk.2.0
+backImage[0][0][0][1][2]=windkraftwerk.4.0
+backImage[0][0][0][1][3]=windkraftwerk.6.0
+backImage[0][0][0][1][4]=windkraftwerk.8.0
 
-BackImage[0][0][2][0][0]=windkraftwerk.1.0
-BackImage[0][0][2][0][1]=windkraftwerk.3.0
-BackImage[0][0][2][0][2]=windkraftwerk.5.0
-BackImage[0][0][2][0][3]=windkraftwerk.7.0
-BackImage[0][0][2][0][4]=windkraftwerk.9.0
-BackImage[0][0][2][1][0]=windkraftwerk.0.0
-BackImage[0][0][2][1][1]=windkraftwerk.2.0
-BackImage[0][0][2][1][2]=windkraftwerk.4.0
-BackImage[0][0][2][1][3]=windkraftwerk.6.0
-BackImage[0][0][2][1][4]=windkraftwerk.8.0
+backImage[0][0][2][0][0]=windkraftwerk.1.0
+backImage[0][0][2][0][1]=windkraftwerk.3.0
+backImage[0][0][2][0][2]=windkraftwerk.5.0
+backImage[0][0][2][0][3]=windkraftwerk.7.0
+backImage[0][0][2][0][4]=windkraftwerk.9.0
+backImage[0][0][2][1][0]=windkraftwerk.0.0
+backImage[0][0][2][1][1]=windkraftwerk.2.0
+backImage[0][0][2][1][2]=windkraftwerk.4.0
+backImage[0][0][2][1][3]=windkraftwerk.6.0
+backImage[0][0][2][1][4]=windkraftwerk.8.0
 
-BackImage[0][0][4][0][0]=windkraftwerk.1.0
-BackImage[0][0][4][0][1]=windkraftwerk.3.0
-BackImage[0][0][4][0][2]=windkraftwerk.5.0
-BackImage[0][0][4][0][3]=windkraftwerk.7.0
-BackImage[0][0][4][0][4]=windkraftwerk.9.0
-BackImage[0][0][4][1][0]=windkraftwerk.0.0
-BackImage[0][0][4][1][1]=windkraftwerk.2.0
-BackImage[0][0][4][1][2]=windkraftwerk.4.0
-BackImage[0][0][4][1][3]=windkraftwerk.6.0
-BackImage[0][0][4][1][4]=windkraftwerk.8.0
+backImage[0][0][4][0][0]=windkraftwerk.1.0
+backImage[0][0][4][0][1]=windkraftwerk.3.0
+backImage[0][0][4][0][2]=windkraftwerk.5.0
+backImage[0][0][4][0][3]=windkraftwerk.7.0
+backImage[0][0][4][0][4]=windkraftwerk.9.0
+backImage[0][0][4][1][0]=windkraftwerk.0.0
+backImage[0][0][4][1][1]=windkraftwerk.2.0
+backImage[0][0][4][1][2]=windkraftwerk.4.0
+backImage[0][0][4][1][3]=windkraftwerk.6.0
+backImage[0][0][4][1][4]=windkraftwerk.8.0
 
-BackImage[1][0][0][0][0]=windkraftwerk.1.1
-BackImage[1][0][0][0][1]=windkraftwerk.3.1
-BackImage[1][0][0][0][2]=windkraftwerk.5.1
-BackImage[1][0][0][0][3]=windkraftwerk.7.1
-BackImage[1][0][0][0][4]=windkraftwerk.9.1
-BackImage[1][0][0][1][0]=windkraftwerk.0.1
-BackImage[1][0][0][1][1]=windkraftwerk.2.1
-BackImage[1][0][0][1][2]=windkraftwerk.4.1
-BackImage[1][0][0][1][3]=windkraftwerk.6.1
-BackImage[1][0][0][1][4]=windkraftwerk.8.1
+backImage[1][0][0][0][0]=windkraftwerk.1.1
+backImage[1][0][0][0][1]=windkraftwerk.3.1
+backImage[1][0][0][0][2]=windkraftwerk.5.1
+backImage[1][0][0][0][3]=windkraftwerk.7.1
+backImage[1][0][0][0][4]=windkraftwerk.9.1
+backImage[1][0][0][1][0]=windkraftwerk.0.1
+backImage[1][0][0][1][1]=windkraftwerk.2.1
+backImage[1][0][0][1][2]=windkraftwerk.4.1
+backImage[1][0][0][1][3]=windkraftwerk.6.1
+backImage[1][0][0][1][4]=windkraftwerk.8.1
 
-BackImage[1][2][0][0][0]=windkraftwerk.1.1
-BackImage[1][2][0][0][1]=windkraftwerk.3.1
-BackImage[1][2][0][0][2]=windkraftwerk.5.1
-BackImage[1][2][0][0][3]=windkraftwerk.7.1
-BackImage[1][2][0][0][4]=windkraftwerk.9.1
-BackImage[1][2][0][1][0]=windkraftwerk.0.1
-BackImage[1][2][0][1][1]=windkraftwerk.2.1
-BackImage[1][2][0][1][2]=windkraftwerk.4.1
-BackImage[1][2][0][1][3]=windkraftwerk.6.1
-BackImage[1][2][0][1][4]=windkraftwerk.8.1
+backImage[1][2][0][0][0]=windkraftwerk.1.1
+backImage[1][2][0][0][1]=windkraftwerk.3.1
+backImage[1][2][0][0][2]=windkraftwerk.5.1
+backImage[1][2][0][0][3]=windkraftwerk.7.1
+backImage[1][2][0][0][4]=windkraftwerk.9.1
+backImage[1][2][0][1][0]=windkraftwerk.0.1
+backImage[1][2][0][1][1]=windkraftwerk.2.1
+backImage[1][2][0][1][2]=windkraftwerk.4.1
+backImage[1][2][0][1][3]=windkraftwerk.6.1
+backImage[1][2][0][1][4]=windkraftwerk.8.1
 
-BackImage[1][4][0][0][0]=windkraftwerk.1.1
-BackImage[1][4][0][0][1]=windkraftwerk.3.1
-BackImage[1][4][0][0][2]=windkraftwerk.5.1
-BackImage[1][4][0][0][3]=windkraftwerk.7.1
-BackImage[1][4][0][0][4]=windkraftwerk.9.1
-BackImage[1][4][0][1][0]=windkraftwerk.0.1
-BackImage[1][4][0][1][1]=windkraftwerk.2.1
-BackImage[1][4][0][1][2]=windkraftwerk.4.1
-BackImage[1][4][0][1][3]=windkraftwerk.6.1
-BackImage[1][4][0][1][4]=windkraftwerk.8.1
+backImage[1][4][0][0][0]=windkraftwerk.1.1
+backImage[1][4][0][0][1]=windkraftwerk.3.1
+backImage[1][4][0][0][2]=windkraftwerk.5.1
+backImage[1][4][0][0][3]=windkraftwerk.7.1
+backImage[1][4][0][0][4]=windkraftwerk.9.1
+backImage[1][4][0][1][0]=windkraftwerk.0.1
+backImage[1][4][0][1][1]=windkraftwerk.2.1
+backImage[1][4][0][1][2]=windkraftwerk.4.1
+backImage[1][4][0][1][3]=windkraftwerk.6.1
+backImage[1][4][0][1][4]=windkraftwerk.8.1

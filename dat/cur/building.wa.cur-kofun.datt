@@ -1,5 +1,5 @@
 obj=building
-name=wa-cur-kofun-1
+name=np-cur-kofun-1
 copyright=wa
 type=cur
 passengers=10
@@ -10,7 +10,7 @@ chance=20
 %buil_image 4, 3, 1, 4, 2
 ---
 obj=building
-name=wa-cur-kofun-2
+name=np-cur-kofun-2
 copyright=wa
 type=cur
 passengers=20

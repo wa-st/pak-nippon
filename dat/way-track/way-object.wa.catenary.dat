@@ -1,6 +1,6 @@
 ---
 obj=way-object
-name=wa-slow-overheadpower
+name=np-slow-overheadpower
 copyright=wa
 cost=1500
 maintenance=50
@@ -12,45 +12,45 @@ own_waytype=electrified_track
 icon=> catenary-1.9.0
 cursor=catenary-1.9.1
 
-frontimage[S]=catenary-1.0.0
-frontimage[E]=catenary-1.0.1
-frontimage[N]=catenary-1.0.2
-frontimage[W]=catenary-1.0.3
+frontImage[S]=catenary-1.0.0
+frontImage[E]=catenary-1.0.1
+frontImage[N]=catenary-1.0.2
+frontImage[W]=catenary-1.0.3
 
-frontimage[SE]=catenary-1.1.0
-frontimage[NE]=catenary-1.1.1
-frontimage[NW]=catenary-1.1.2
-frontimage[SW]=catenary-1.1.3
+frontImage[SE]=catenary-1.1.0
+frontImage[NE]=catenary-1.1.1
+frontImage[NW]=catenary-1.1.2
+frontImage[SW]=catenary-1.1.3
 
-frontimage[NS]=catenary-1.2.0
-frontimage[EW]=catenary-1.2.1
+frontImage[NS]=catenary-1.2.0
+frontImage[EW]=catenary-1.2.1
 
-frontimage[NSEW]=catenary-1.3.0
+frontImage[NSEW]=catenary-1.3.0
 
-frontimage[-]=catenary-1.4.0
+frontImage[-]=catenary-1.4.0
 
-frontimage[NSE]=catenary-1.5.0
-frontimage[NEW]=catenary-1.5.1
-frontimage[NSW]=catenary-1.5.2
-frontimage[SEW]=catenary-1.5.3
+frontImage[NSE]=catenary-1.5.0
+frontImage[NEW]=catenary-1.5.1
+frontImage[NSW]=catenary-1.5.2
+frontImage[SEW]=catenary-1.5.3
 
-frontimageup[12]=catenary-1.6.0
-frontimageup[9]=catenary-1.6.1
-frontimageup[3]=catenary-1.6.2
-frontimageup[6]=catenary-1.6.3
+frontImageUp[12]=catenary-1.6.0
+frontImageUp[9]=catenary-1.6.1
+frontImageUp[3]=catenary-1.6.2
+frontImageUp[6]=catenary-1.6.3
 
-frontimageup2[12]=catenary-1.7.0
-frontimageup2[9]=catenary-1.7.1
-frontimageup2[3]=catenary-1.7.2
-frontimageup2[6]=catenary-1.7.3
+frontImageUp2[12]=catenary-1.7.0
+frontImageUp2[9]=catenary-1.7.1
+frontImageUp2[3]=catenary-1.7.2
+frontImageUp2[6]=catenary-1.7.3
 
-Frontdiagonal[SE]=catenary-1.8.0
-Frontdiagonal[NE]=catenary-1.8.1
-Frontdiagonal[NW]=catenary-1.8.2
-Frontdiagonal[SW]=catenary-1.8.3
+frontDiagonal[SE]=catenary-1.8.0
+frontDiagonal[NE]=catenary-1.8.1
+frontDiagonal[NW]=catenary-1.8.2
+frontDiagonal[SW]=catenary-1.8.3
 ---
 obj=way-object
-name=wa-high-speed-overheadpower
+name=np-high-speed-overheadpower
 copyright=wa
 cost=1500
 maintenance=150
@@ -62,39 +62,39 @@ own_waytype=electrified_track
 icon=> catenary-2.9.0
 cursor=catenary-2.9.1
 
-frontimage[S]=catenary-2.0.0
-frontimage[E]=catenary-2.0.1
-frontimage[N]=catenary-2.0.2
-frontimage[W]=catenary-2.0.3
+frontImage[S]=catenary-2.0.0
+frontImage[E]=catenary-2.0.1
+frontImage[N]=catenary-2.0.2
+frontImage[W]=catenary-2.0.3
 
-frontimage[SE]=catenary-2.1.0
-frontimage[NE]=catenary-2.1.1
-frontimage[NW]=catenary-2.1.2
-frontimage[SW]=catenary-2.1.3
+frontImage[SE]=catenary-2.1.0
+frontImage[NE]=catenary-2.1.1
+frontImage[NW]=catenary-2.1.2
+frontImage[SW]=catenary-2.1.3
 
-frontimage[NS]=catenary-2.2.0
-frontimage[EW]=catenary-2.2.1
+frontImage[NS]=catenary-2.2.0
+frontImage[EW]=catenary-2.2.1
 
-frontimage[NSEW]=catenary-2.3.0
+frontImage[NSEW]=catenary-2.3.0
 
-frontimage[-]=catenary-2.4.0
+frontImage[-]=catenary-2.4.0
 
-frontimage[NSE]=catenary-2.5.0
-frontimage[NEW]=catenary-2.5.1
-frontimage[NSW]=catenary-2.5.2
-frontimage[SEW]=catenary-2.5.3
+frontImage[NSE]=catenary-2.5.0
+frontImage[NEW]=catenary-2.5.1
+frontImage[NSW]=catenary-2.5.2
+frontImage[SEW]=catenary-2.5.3
 
-frontimageup[12]=catenary-2.6.0
-frontimageup[9]=catenary-2.6.1
-frontimageup[3]=catenary-2.6.2
-frontimageup[6]=catenary-2.6.3
+frontImageUp[12]=catenary-2.6.0
+frontImageUp[9]=catenary-2.6.1
+frontImageUp[3]=catenary-2.6.2
+frontImageUp[6]=catenary-2.6.3
 
-frontimageup2[12]=catenary-2.7.0
-frontimageup2[9]=catenary-2.7.1
-frontimageup2[3]=catenary-2.7.2
-frontimageup2[6]=catenary-2.7.3
+frontImageUp2[12]=catenary-2.7.0
+frontImageUp2[9]=catenary-2.7.1
+frontImageUp2[3]=catenary-2.7.2
+frontImageUp2[6]=catenary-2.7.3
 
-Frontdiagonal[SE]=catenary-2.8.0
-Frontdiagonal[NE]=catenary-2.8.1
-Frontdiagonal[NW]=catenary-2.8.2
-Frontdiagonal[SW]=catenary-2.8.3
+frontDiagonal[SE]=catenary-2.8.0
+frontDiagonal[NE]=catenary-2.8.1
+frontDiagonal[NW]=catenary-2.8.2
+frontDiagonal[SW]=catenary-2.8.3
