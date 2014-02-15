@@ -5,7 +5,8 @@ MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
 DATT = ruby $(SCRIPTS)datt.rb
 
 ########### .pak -> PAKS
-PAKS: $(RELEASE)building.wa.cur-build.pak \
+PAKS: $(RELEASE)crossing.wa.rail-road-crossing.pak \
+	$(RELEASE)building.wa.cur-build.pak \
 	$(RELEASE)building.wa.cur-castle.pak \
 	$(RELEASE)building.wa.cur-church.pak \
 	$(RELEASE)building.wa.cur-hospital.pak \
@@ -60,7 +61,6 @@ PAKS: $(RELEASE)building.wa.cur-build.pak \
 	$(RELEASE)way.wa.misc.pak \
 	$(RELEASE)way.wa.underground-powerline.pak \
 	$(RELEASE)bridge.wa.road.pak \
-	$(RELEASE)crossing.wa.rail-road-crossing.pak \
 	$(RELEASE)way.wa.road.pak \
 	$(RELEASE)bridge.wa.railtrack.pak \
 	$(RELEASE)way-object.wa.catenary.pak \
@@ -72,7 +72,9 @@ PAKS: $(RELEASE)building.wa.cur-build.pak \
 	$(RELEASE)way.wa.powerline.pak
 
 ########### .dat => .pak
-$(RELEASE)building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/l13-tile.png dat/cur/m2-tile.png dat/cur/m3-tile.png dat/cur/m4-tile.png
+$(RELEASE)crossing.wa.rail-road-crossing.pak: dat/crossing/crossing.wa.rail-road-crossing.dat dat/crossing/crossing.png dat/crossing/crossing-2.png
+	$(MAKEOBJ64) $@ dat/crossing/crossing.wa.rail-road-crossing.dat
+$(RELEASE)building.wa.cur-build.pak: dat/cur/building.wa.cur-build.dat dat/cur/m3-tile.png dat/cur/m4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-build.dat
 $(RELEASE)building.wa.cur-castle.pak: dat/cur/building.wa.cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-castle.dat
@@ -84,9 +86,9 @@ $(RELEASE)building.wa.cur-infrastructure.pak: dat/cur/building.wa.cur-infrastruc
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-infrastructure.dat
 $(RELEASE)building.wa.cur-kofun.pak: dat/cur/building.wa.cur-kofun.dat dat/cur/kofun-1-tile.png dat/cur/kofun-2-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-kofun.dat
-$(RELEASE)building.wa.cur-park.pak: dat/cur/building.wa.cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png
+$(RELEASE)building.wa.cur-park.pak: dat/cur/building.wa.cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png dat/cur/zoo-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-park.dat
-$(RELEASE)building.wa.cur-public-facility.pak: dat/cur/building.wa.cur-public-facility.dat dat/cur/community-center-tile.png dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png dat/cur/museum-tile.png dat/cur/civic-hall-tile.png
+$(RELEASE)building.wa.cur-public-facility.pak: dat/cur/building.wa.cur-public-facility.dat dat/cur/community-center-tile.png dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png dat/cur/museum-tile.png dat/cur/civic-hall-tile.png dat/cur/jgsdf-camp-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-public-facility.dat
 $(RELEASE)building.wa.cur-school.pak: dat/cur/building.wa.cur-school.dat dat/cur/school-1-tile.png dat/cur/school-2-tile.png dat/cur/school-3-tile.png dat/cur/school-4-tile.png dat/cur/university-tile.png dat/cur/kindergarten-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.wa.cur-school.dat
@@ -182,8 +184,6 @@ $(RELEASE)way.wa.underground-powerline.pak: dat/way-powerline/way.wa.underground
 	$(MAKEOBJ64) $@ dat/way-powerline/way.wa.underground-powerline.dat
 $(RELEASE)bridge.wa.road.pak: dat/way-road/bridge.wa.road.dat dat/way-road/road-100n-bridge.png dat/way-road/road-100r-bridge.png dat/way-road/road-bridge-3.png dat/way-road/road-bridge-3-winter.png dat/way-road/road-bridge-4.png dat/way-road/road-bridge-4-winter.png dat/way-road/road-bridge-5.png dat/way-road/road-bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/bridge.wa.road.dat
-$(RELEASE)crossing.wa.rail-road-crossing.pak: dat/way-road/crossing.wa.rail-road-crossing.dat dat/way-road/crossing.png dat/way-road/crossing-2.png
-	$(MAKEOBJ64) $@ dat/way-road/crossing.wa.rail-road-crossing.dat
 $(RELEASE)way.wa.road.pak: dat/way-road/way.wa.road.dat dat/way-road/cityroad.png dat/way-road/cityroad-winter.png dat/way-road/road-40n.png dat/way-road/road-40n-winter.png dat/way-road/road-70r.png dat/way-road/road-70r-winter.png dat/way-road/road-100n.png dat/way-road/road-100n-winter.png dat/way-road/road-100n-elv.png dat/way-road/road-100r.png dat/way-road/road-100r-winter.png dat/way-road/road-100r-elv.png dat/way-road/dart-1.png dat/way-road/dart-1-winter.png dat/way-road/dart-2.png dat/way-road/dart-2-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/way.wa.road.dat
 $(RELEASE)bridge.wa.railtrack.pak: dat/way-track/bridge.wa.railtrack.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png

@@ -106,6 +106,8 @@ np-cur-hospital-1
 大学病院
 np-cur-hospital-2
 市民病院
+np-cur-jgsdf-camp
+駐屯地
 np-cur-kindergarten
 幼稚園
 np-cur-kofun-1
@@ -168,6 +170,8 @@ np-cur-tenniscourt
 テニスコート
 np-cur-university-1
 大学
+np-cur-zoo
+動物園
 #___________________________________building(depot)_____________________________
 #___________________________________building(depot)_____________________________
 np-air-depot

@@ -40,3 +40,13 @@ chance=20
 
 %def :image, "park-4-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
+----
+obj=building
+type=cur
+name=np-cur-zoo
+copyright=wa
+passengers=40
+build_time=1900
+chance=15
+%def :image, "zoo-tile.0.0"
+%buil_image 4, 4, 1, 4, 2

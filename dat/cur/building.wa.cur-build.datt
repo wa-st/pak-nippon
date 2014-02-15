@@ -3,22 +3,6 @@ obj=building
 copyright=wa
 type=cur
 chance=15
-
-----
-name=np-cur-l13
-passengers=40
-build_time=1700
-%def :image, "l13-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
-
-----
-name=np-cur-m02
-passengers=40
-build_time=1900
-%def :image, "m2-tile.0.0"
-%include "cur"
-%buil_image 2, 2, 2, 4, 2
 ----
 name=np-cur-m03
 passengers=40
