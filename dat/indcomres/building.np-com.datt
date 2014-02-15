@@ -48,7 +48,7 @@ level=2
 ---
 level=3
 %def :image, "com-a.0.0"
-%autoname 2
+%autoname 3
 %include "com"
 %buil_image 1, 1, 1, 4, 2
 ---
