@@ -392,7 +392,7 @@ backImage[3][2][1][0][0][1]=school-4-tile.5.10
 backImage[3][2][2][0][0][1]=school-4-tile.5.11
 ---
 obj=building
-name=np-cur-university-1
+name=np-cur-university
 copyright=wa
 type=cur
 passengers=50

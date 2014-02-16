@@ -1,7 +1,7 @@
 ---
 
 obj=tunnel
-name=np-tunnel-c1
+name=np-railtunnel-1
 copyright=wa
 waytype=track
 cost=100000
@@ -53,7 +53,7 @@ icon=> tunnel-c1.8.0
 cursor=tunnel-c1.8.1
 ---
 obj=tunnel
-name=np-tunnel-1
+name=np-railtunnel-box-1
 copyright=wa
 waytype=track
 cost=100000
@@ -105,7 +105,7 @@ icon=> tunnel-1.8.0
 cursor=tunnel-1.8.1
 ---
 obj=tunnel
-name=np-tunnel-2
+name=np-railtunnel-box-2
 copyright=wa
 waytype=track
 cost=150000
@@ -157,7 +157,7 @@ icon=> tunnel-2.8.0
 cursor=tunnel-2.8.1
 ---
 obj=tunnel
-name=np-stone-tunnel-track
+name=np-railtunnel-stone
 copyright=wa
 waytype=track
 cost=100000

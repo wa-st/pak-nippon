@@ -1,7 +1,7 @@
 %require 'tunnel-common.datt'
 
 obj=tunnel
-name=np-tunnel-cr1
+name=np-roadtunnel-1
 copyright=wa
 waytype=road
 cost=100000
@@ -13,7 +13,7 @@ way=city_road
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-tunnel-road1
+name=np-roadtunnel-box-1
 copyright=wa
 waytype=road
 cost=100000
@@ -24,7 +24,7 @@ way=city_road
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-tunnel-road2
+name=np-roadtunnel-box-2
 copyright=wa
 waytype=road
 cost=150000
@@ -35,7 +35,7 @@ way=np-road-100r
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-stone-tunnel-road
+name=np-roadtunnel-stone
 copyright=wa
 waytype=road
 cost=75000

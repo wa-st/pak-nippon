@@ -1,5 +1,5 @@
 obj=building
-name=np-platform-1f
+name=np-railext-platform-1
 copyright=wa
 noInfo=1
 noConstruction=1
@@ -17,7 +17,7 @@ backImage[0][0][0][0][0][1]=platform-f-winter.0.0
 backImage[1][0][0][0][0][1]=platform-f-winter.0.1
 ---
 obj=building
-name=np-platform-2f
+name=np-railext-platform-2
 copyright=wa
 noInfo=1
 noConstruction=1
@@ -35,7 +35,7 @@ backImage[0][0][0][0][0][1]=platform-f-winter.1.0
 backImage[1][0][0][0][0][1]=platform-f-winter.1.1
 ---
 obj=building
-name=np-platform-3f
+name=np-railext-platform-3
 copyright=wa
 noInfo=1
 noConstruction=1

@@ -35,8 +35,8 @@
 利用条件はpak.nippon\license\JpLeftSignais_readme.txtを参照してください。
 
 - dat\signal\Signals.png
-- dat\signal\roadsign.monorail-signals.dat
-- dat\signal\roadsign.railsignals.dat
+- dat\signal\roadsign.np-monorail.dat (roadsign.monorail-signals.datより改変)
+- dat\signal\roadsign.np-rail.dat (roadsign.railsignals.datより改変)
 
 参照: [アドオン/railtool - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?%A5%A2%A5%C9%A5%AA%A5%F3%2Frailtool)
 

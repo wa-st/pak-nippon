@@ -1,5 +1,5 @@
 ---
-name=np-platform-0
+name=np-railstop-platform-0
 level=1
 obj=building
 copyright=wa
@@ -48,7 +48,7 @@ frontImage[13][0][0][0][0][1]=platform-0-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-0-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-0-winter.3.3
 ---
-name=np-platform-1
+name=np-railstop-platform-1
 level=3
 obj=building
 copyright=wa
@@ -97,7 +97,7 @@ frontImage[13][0][0][0][0][1]=platform-1-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-1-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-1-winter.3.3
 ---
-name=np-platform-1s
+name=np-railstop-platform-1s
 level=3
 obj=building
 copyright=wa
@@ -146,7 +146,7 @@ frontImage[13][0][0][0][0][1]=platform-1s-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-1s-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-1s-winter.3.3
 ---
-name=np-platform-1b
+name=np-railstop-platform-1b
 level=3
 obj=building
 copyright=wa
@@ -195,7 +195,7 @@ frontImage[13][0][0][0][0][1]=platform-1b-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-1b-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-1b-winter.3.3
 ---
-name=np-platform-1u
+name=np-railstop-platform-1u
 level=3
 obj=building
 copyright=wa
@@ -260,7 +260,7 @@ backImage[13][0][0][0][0][1]=platform-1u-winter.2.7
 backImage[14][0][0][0][0][1]=platform-1u-winter.3.6
 backImage[15][0][0][0][0][1]=platform-1u-winter.3.7
 ---
-name=np-platform-2
+name=np-railstop-platform-2
 level=3
 obj=building
 copyright=wa
@@ -309,7 +309,7 @@ frontImage[13][0][0][0][0][1]=platform-2-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-2-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-2-winter.3.3
 ---
-name=np-platform-2s
+name=np-railstop-platform-2s
 level=3
 obj=building
 copyright=wa
@@ -358,7 +358,7 @@ frontImage[13][0][0][0][0][1]=platform-2s-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-2s-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-2s-winter.3.3
 ---
-name=np-platform-2u
+name=np-railstop-platform-2u
 level=3
 obj=building
 copyright=wa
@@ -407,7 +407,7 @@ frontImage[13][0][0][0][0][1]=platform-2u-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-2u-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-2u-winter.3.3
 ---
-name=np-platform-2b
+name=np-railstop-platform-2b
 level=3
 obj=building
 copyright=wa
@@ -456,7 +456,7 @@ frontImage[13][0][0][0][0][1]=platform-2b-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-2b-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-2b-winter.3.3
 ---
-name=np-platform-3
+name=np-railstop-platform-3
 level=3
 obj=building
 copyright=wa
@@ -505,7 +505,7 @@ frontImage[13][0][0][0][0][1]=platform-3-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-3-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-3-winter.3.3
 ---
-name=np-platform-3s
+name=np-railstop-platform-3s
 level=3
 obj=building
 copyright=wa
@@ -554,7 +554,7 @@ frontImage[13][0][0][0][0][1]=platform-3s-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-3s-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-3s-winter.3.3
 ---
-name=np-platform-3u
+name=np-railstop-platform-3u
 level=3
 obj=building
 copyright=wa
@@ -603,7 +603,7 @@ frontImage[13][0][0][0][0][1]=platform-3u-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-3u-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-3u-winter.3.3
 ---
-name=np-platform-4
+name=np-railstop-platform-4
 level=3
 obj=building
 copyright=wa
@@ -652,7 +652,7 @@ frontImage[13][0][0][0][0][1]=platform-4-winter.2.3
 frontImage[14][0][0][0][0][1]=platform-4-winter.3.2
 frontImage[15][0][0][0][0][1]=platform-4-winter.3.3
 ---
-name=np-platform-1d
+name=np-railstop-platform-1d
 level=3
 obj=building
 copyright=wa
@@ -702,7 +702,7 @@ frontImage[6][0][0][0][0][1]=platform-1-winter.3.2
 frontImage[7][0][0][0][0][1]=platform-1-winter.3.3
 
 ---
-name=np-platform-2d
+name=np-railstop-platform-2d
 level=3
 obj=building
 copyright=wa
@@ -752,7 +752,7 @@ frontImage[6][0][0][0][0][1]=platform-2-winter.3.2
 frontImage[7][0][0][0][0][1]=platform-2-winter.3.3
 
 ---
-name=np-platform-3d
+name=np-railstop-platform-3d
 level=3
 obj=building
 copyright=wa

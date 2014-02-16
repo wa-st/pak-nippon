@@ -1,6 +1,6 @@
 ---
 obj=bridge
-name=np-concrete-sleeper-track-bridge
+name=np-railbridge-concrete-sleeper-track
 copyright=wa
 waytype=track
 cost=24000
@@ -79,7 +79,7 @@ backPillar2[W][1]=bridge-1-winter.7.1,0,16
 
 ---
 obj=bridge
-name=np-slab-track-bridge
+name=np-railbridge-slab-track
 copyright=wa
 waytype=track
 cost=80000
@@ -158,7 +158,7 @@ backPillar2[W][1]=bridge-2-winter.7.1,0,16
 
 ---
 obj=bridge
-name=np-girder-track-bridge
+name=np-railbridge-girder-1
 copyright=wa
 waytype=track
 cost=10000
@@ -237,7 +237,7 @@ backPillar2[W][1]=bridge-3-winter.7.1,0,16
 
 ---
 obj=bridge
-name=np-girder-track-bridge2
+name=np-railbridge-girder-2
 copyright=wa
 waytype=track
 cost=10000
@@ -316,7 +316,7 @@ backPillar2[W][1]=bridge-4-winter.7.1,0,16
 
 ---
 obj=bridge
-name=np-truss-track-bridge
+name=np-railbridge-truss
 copyright=wa
 waytype=track
 cost=10000

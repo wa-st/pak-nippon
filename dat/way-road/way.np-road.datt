@@ -255,7 +255,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-dart-road
+name=np-road-dart
 copyright=wa
 cost=2000
 maintenance=100
@@ -268,7 +268,7 @@ waytype=road
 %include "way-img"
 ---
 obj=way
-name=np-gavel-road
+name=np-road-gavel
 copyright=wa
 cost=4000
 maintenance=300

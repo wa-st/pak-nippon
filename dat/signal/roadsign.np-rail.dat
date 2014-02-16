@@ -1,5 +1,5 @@
 obj=roadsign
-name=Signals
+name=np-rail-signals
 copyright=rimu
 waytype=track
 is_signal=1
@@ -15,7 +15,7 @@ icon=> Signals.0.8
 cursor=Signals.0.9
 -------------------------------------------------------------------------------
 obj=roadsign
-name=preSignals
+name=np-rail-presignals
 copyright=rimu
 waytype=track
 is_presignal=1
@@ -35,7 +35,7 @@ icon=> Signals.1.8
 cursor=Signals.1.9
 -------------------------------------------------------------------------------
 obj=roadsign
-name=LongBlockSignals
+name=np-rail-long-block-signals
 copyright=rimu
 waytype=track
 is_signal=1
@@ -52,7 +52,7 @@ icon=> Signals.2.8
 cursor=Signals.2.9
 -------------------------------------------------------------------------------
 obj=roadsign
-name=ChooseSignals
+name=np-rail-choose-signals
 copyright=rimu
 waytype=track
 free_route=1

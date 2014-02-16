@@ -1,5 +1,5 @@
 obj=roadsign
-name=SignalsMonorail
+name=np-monorail-signals
 copyright=rimu
 waytype=monorail_track
 is_signal=1
@@ -15,7 +15,7 @@ icon=> Signals.0.8
 cursor=Signals.0.9
 -------------------------------------------------------------------------------
 obj=roadsign
-name=preSignalsMonorail
+name=np-monorail-presignals
 copyright=rimu
 waytype=monorail_track
 is_presignal=1
@@ -35,7 +35,7 @@ icon=> Signals.1.8
 cursor=Signals.1.9
 -------------------------------------------------------------------------------
 obj=roadsign
-name=LongBlockSignalsMonorail
+name=np-monorail-long-block-signals
 copyright=rimu
 waytype=monorail_track
 is_signal=1
@@ -52,7 +52,7 @@ icon=> Signals.2.8
 cursor=Signals.2.9
 -------------------------------------------------------------------------------
 obj=roadsign
-name=ChooseSignalsMonorail
+name=np-monorail-choose-signals
 copyright=rimu
 waytype=monorail_track
 free_route=1

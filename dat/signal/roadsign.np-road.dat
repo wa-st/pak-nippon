@@ -1,6 +1,6 @@
 obj=roadsign
 copyright=wa
-name=np-traffic-light
+name=np-road-traffic-light
 waytype=road
 min_speed=0
 single_way=0

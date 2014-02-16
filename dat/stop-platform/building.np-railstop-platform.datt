@@ -89,31 +89,31 @@ frontImage[6][0][0][0][0][1]=#{fn}-winter.3.2
 frontImage[7][0][0][0][0][1]=#{fn}-winter.3.3
 
 ---
-name=np-platform-0
+name=np-railstop-platform-0
 level=1
 %include "platform-cfg"
 %def :fn, "platform-0"
 %include "one-side-imgdef"
 ---
-name=np-platform-1
+name=np-railstop-platform-1
 level=3
 %include "platform-cfg"
 %def :fn, "platform-1"
 %include "one-side-imgdef"
 -----
-name=np-platform-1s
+name=np-railstop-platform-1s
 level=3
 %include "platform-cfg"
 %def :fn, "platform-1s"
 %include "one-side-imgdef"
 --------
-name=np-platform-1b
+name=np-railstop-platform-1b
 level=3
 %include "platform-cfg"
 %def :fn, "platform-1b"
 %include "one-side-imgdef"
 ---
-name=np-platform-1u
+name=np-railstop-platform-1u
 level=3
 %include "platform-cfg"
 dims=1,1,16
@@ -171,67 +171,67 @@ backImage[13][0][0][0][0][1]=platform-1u-winter.2.7
 backImage[14][0][0][0][0][1]=platform-1u-winter.3.6
 backImage[15][0][0][0][0][1]=platform-1u-winter.3.7
 ---
-name=np-platform-2
+name=np-railstop-platform-2
 level=3
 %include "platform-cfg"
 %def :fn, "platform-2"
 %include "one-side-imgdef"
 -----
-name=np-platform-2s
+name=np-railstop-platform-2s
 level=3
 %include "platform-cfg"
 %def :fn, "platform-2s"
 %include "one-side-imgdef"
 -----
-name=np-platform-2u
+name=np-railstop-platform-2u
 level=3
 %include "platform-cfg"
 %def :fn, "platform-2u"
 %include "one-side-imgdef"
 --------
-name=np-platform-2b
+name=np-railstop-platform-2b
 level=3
 %include "platform-cfg"
 %def :fn, "platform-2b"
 %include "one-side-imgdef"
 ---
-name=np-platform-3
+name=np-railstop-platform-3
 level=3
 %include "platform-cfg"
 %def :fn, "platform-3"
 %include "one-side-imgdef"
 ---
-name=np-platform-3s
+name=np-railstop-platform-3s
 level=3
 %include "platform-cfg"
 %def :fn, "platform-3s"
 %include "one-side-imgdef"
 -----
-name=np-platform-3u
+name=np-railstop-platform-3u
 level=3
 %include "platform-cfg"
 %def :fn, "platform-3u"
 %include "one-side-imgdef"
 ---
-name=np-platform-4
+name=np-railstop-platform-4
 level=3
 %include "platform-cfg"
 %def :fn, "platform-4"
 %include "one-side-imgdef"
 ---
-name=np-platform-1d
+name=np-railstop-platform-1d
 level=3
 %include "platform-cfg"
 %def :fn, "platform-1"
 %include "two-side-imgdef"
 -----
-name=np-platform-2d
+name=np-railstop-platform-2d
 level=3
 %include "platform-cfg"
 %def :fn, "platform-2"
 %include "two-side-imgdef"
 -----
-name=np-platform-3d
+name=np-railstop-platform-3d
 level=3
 %include "platform-cfg"
 %def :fn, "platform-3"

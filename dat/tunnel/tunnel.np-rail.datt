@@ -1,7 +1,7 @@
 %require 'tunnel-common.datt'
 
 obj=tunnel
-name=np-tunnel-c1
+name=np-railtunnel-1
 copyright=wa
 waytype=track
 cost=100000
@@ -13,7 +13,7 @@ way=np-concrete-sleeper-track
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-tunnel-1
+name=np-railtunnel-box-1
 copyright=wa
 waytype=track
 cost=100000
@@ -25,7 +25,7 @@ way=np-concrete-sleeper-track
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-tunnel-2
+name=np-railtunnel-box-2
 copyright=wa
 waytype=track
 cost=150000
@@ -37,7 +37,7 @@ way=np-steel-sleeper-track
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-stone-tunnel-track
+name=np-railtunnel-stone
 copyright=wa
 waytype=track
 cost=100000

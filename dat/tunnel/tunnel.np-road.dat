@@ -1,7 +1,7 @@
 ---
 
 obj=tunnel
-name=np-tunnel-cr1
+name=np-roadtunnel-1
 copyright=wa
 waytype=road
 cost=100000
@@ -53,7 +53,7 @@ icon=> tunnel-cr1.8.0
 cursor=tunnel-cr1.8.1
 ---
 obj=tunnel
-name=np-tunnel-road1
+name=np-roadtunnel-box-1
 copyright=wa
 waytype=road
 cost=100000
@@ -105,7 +105,7 @@ icon=> tunnel-road1.8.0
 cursor=tunnel-road1.8.1
 ---
 obj=tunnel
-name=np-tunnel-road2
+name=np-roadtunnel-box-2
 copyright=wa
 waytype=road
 cost=150000
@@ -157,7 +157,7 @@ icon=> tunnel-road2.8.0
 cursor=tunnel-road2.8.1
 ---
 obj=tunnel
-name=np-stone-tunnel-road
+name=np-roadtunnel-stone
 copyright=wa
 waytype=road
 cost=75000

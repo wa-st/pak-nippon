@@ -1,5 +1,5 @@
 obj=building
-name=np-footbridge-1
+name=np-railstop-footbridge-1
 copyright=wa
 noInfo=1
 noConstruction=1
@@ -84,7 +84,7 @@ backImage[15][0][0][0][0][1]=footbridge-1-winter.1.1
 
 ---
 obj=building
-name=np-footbridge-1n
+name=np-railstop-footbridge-1n
 copyright=wa
 noInfo=1
 noConstruction=1

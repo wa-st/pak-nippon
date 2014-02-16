@@ -3,7 +3,7 @@
 ---
 
 obj=way
-name=np-taxiway
+name=np-airway-taxiway
 copyright=wa
 cost=10000
 maintenance=800
@@ -20,7 +20,7 @@ system_type=0
 %undef /imageup/
 ---
 obj=way
-name=np-apron
+name=np-airway-apron
 copyright=wa
 cost=10000
 maintenance=800
@@ -37,7 +37,7 @@ system_type=0
 %undef /imageup/
 ---
 obj=way
-name=np-runway
+name=np-airway-runway
 copyright=wa
 cost=27500
 maintenance=6500

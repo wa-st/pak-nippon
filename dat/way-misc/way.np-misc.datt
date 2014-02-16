@@ -15,28 +15,28 @@ draw_as_ding=1
 %include 'way-img'
 %undef /^diagonal.+/
 ---
-name=np-miscway-1
+name=np-miscway-fence
 %def :fn, "miscway-1"
 %include 'waymisc'
 ---
-name=np-miscway-2
+name=np-miscway-construction-fence
 %def :fn, "miscway-2"
 %include 'waymisc'
 ---
-name=np-miscway-3
+name=np-miscway-trees
 %def :fn, "miscway-3"
 %include 'waymisc'
 ---
-name=np-miscway-4
+name=np-miscway-square-tree
 %def :fn, "miscway-4"
 %include 'waymisc'
 ---
-name=np-miscway-5
+name=np-miscway-square
 %def :fn, "miscway-5"
 %include 'waymisc'
 ---
 obj=way
-name=np-wall
+name=np-miscway-barrier
 copyright=wa
 cost=1000
 maintenance=1

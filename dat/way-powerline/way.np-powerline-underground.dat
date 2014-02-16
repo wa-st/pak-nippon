@@ -1,6 +1,6 @@
 obj=way
 copyright=wa
-name=np-underground-powerline
+name=np-powerline-underground
 waytype=power
 cost=800
 maintenance=50

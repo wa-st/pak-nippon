@@ -43,7 +43,7 @@ chance=30
 %buil_image 3, 3, 1, 4, 2
 ---
 obj=building
-name=np-cur-university-1
+name=np-cur-university
 copyright=wa
 type=cur
 passengers=50

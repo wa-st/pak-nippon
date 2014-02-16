@@ -1,5 +1,5 @@
 ---
-name=np-powerline-2hv-tunnel
+name=np-powerlinetunnel-2hv
 obj=tunnel
 copyright=wa
 waytype=power

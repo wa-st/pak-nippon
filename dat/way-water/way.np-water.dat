@@ -1,6 +1,6 @@
 ---
 obj=way
-name=np-river-1
+name=np-waterway-river-1
 copyright=wa
 cost=1000000
 maintenance=100
@@ -52,7 +52,7 @@ imageUp2[6][0]=waterway-1.7.3
 
 ---
 obj=way
-name=np-river-2
+name=np-waterway-river-2
 copyright=wa
 cost=1000000
 maintenance=100
@@ -103,7 +103,7 @@ imageUp2[6][0]=waterway-2.7.3
 #diagonal[SW][0]=waterway-2.8.3
 ---
 obj=way
-name=np-river-3
+name=np-waterway-river-3
 copyright=wa
 cost=1000000
 maintenance=100
@@ -154,7 +154,7 @@ imageUp2[6][0]=waterway-3.7.3
 #diagonal[SW][0]=waterway-3.8.3
 ---
 obj=way
-name=np-canal
+name=np-waterway-canal
 copyright=wa
 cost=1000000
 maintenance=100

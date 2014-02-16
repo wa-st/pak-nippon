@@ -1,6 +1,6 @@
 ---
 obj=bridge
-name=np-road-100n-bridge
+name=np-roadbridge-100n
 copyright=wa
 waytype=road
 cost=10000
@@ -63,7 +63,7 @@ frontStart[W][0]=road-100n-bridge.5.5,0,16
 
 ---
 obj=bridge
-name=np-road-100r-bridge
+name=np-roadbridge-100r
 copyright=wa
 waytype=road
 cost=10000
@@ -128,7 +128,7 @@ frontStart[W][0]=road-100r-bridge.5.5,0,16
 
 ---
 obj=bridge
-name=np-road-bridge-3
+name=np-roadbridge-3
 copyright=wa
 waytype=road
 cost=7500
@@ -205,7 +205,7 @@ backImage2[EW][1]=road-bridge-3-winter.5.1,0,16
 
 ---
 obj=bridge
-name=np-road-bridge-4
+name=np-roadbridge-4
 copyright=wa
 waytype=road
 cost=4000
@@ -282,7 +282,7 @@ backImage2[EW][1]=road-bridge-4-winter.5.1,0,16
 
 ---
 obj=bridge
-name=np-road-bridge-5
+name=np-roadbridge-5
 copyright=wa
 waytype=road
 cost=2000

@@ -495,7 +495,7 @@ diagonal[SE][0]=road-100r-elv.6.3,0,16
 
 ---
 obj=way
-name=np-dart-road
+name=np-road-dart
 copyright=wa
 cost=2000
 maintenance=100
@@ -581,7 +581,7 @@ diagonal[NW][1]=dart-1-winter.8.2
 diagonal[SW][1]=dart-1-winter.8.3
 ---
 obj=way
-name=np-gavel-road
+name=np-road-gavel
 copyright=wa
 cost=4000
 maintenance=300
