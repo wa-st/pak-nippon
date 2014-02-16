@@ -6,7 +6,7 @@ DATT = ruby $(SCRIPT_DIR)datt.rb
 
 ########### .pak -> PAKS
 PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
-	$(RELEASE_DIR)bridge.np-railtrack.pak \
+	$(RELEASE_DIR)bridge.np-rail.pak \
 	$(RELEASE_DIR)bridge.np-road.pak \
 	$(RELEASE_DIR)building.np-airext.pak \
 	$(RELEASE_DIR)building.np-airstop.pak \
@@ -24,58 +24,51 @@ PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
 	$(RELEASE_DIR)building.np-cur-sport.pak \
 	$(RELEASE_DIR)building.np-cur-temple.pak \
 	$(RELEASE_DIR)building.np-depot.pak \
-	$(RELEASE_DIR)building.np-footbridge-1.pak \
-	$(RELEASE_DIR)building.np-freight-station-misc.pak \
-	$(RELEASE_DIR)building.np-freight-station-roof.pak \
-	$(RELEASE_DIR)building.np-freight-station.pak \
+	$(RELEASE_DIR)building.np-habour.pak \
 	$(RELEASE_DIR)building.np-hq.pak \
 	$(RELEASE_DIR)building.np-ind.pak \
 	$(RELEASE_DIR)building.np-miscext-containeryard.pak \
 	$(RELEASE_DIR)building.np-miscext-post-office.pak \
 	$(RELEASE_DIR)building.np-miscext-tank.pak \
-	$(RELEASE_DIR)building.np-platform-0.pak \
-	$(RELEASE_DIR)building.np-platform-1.pak \
-	$(RELEASE_DIR)building.np-platform-2.pak \
-	$(RELEASE_DIR)building.np-platform-3.pak \
-	$(RELEASE_DIR)building.np-platform-4.pak \
-	$(RELEASE_DIR)building.np-platform-d.pak \
-	$(RELEASE_DIR)building.np-platform-f.pak \
-	$(RELEASE_DIR)building.np-port.pak \
-	$(RELEASE_DIR)building.np-railext-localstation.pak \
+	$(RELEASE_DIR)building.np-railext-local-station.pak \
+	$(RELEASE_DIR)building.np-railext-platform.pak \
+	$(RELEASE_DIR)building.np-railstop-footbridge.pak \
+	$(RELEASE_DIR)building.np-railstop-freight-station.pak \
+	$(RELEASE_DIR)building.np-railstop-platform.pak \
 	$(RELEASE_DIR)building.np-res.pak \
 	$(RELEASE_DIR)building.np-roadstop-freight.pak \
 	$(RELEASE_DIR)building.np-roadstop.pak \
 	$(RELEASE_DIR)building.np-townhall.pak \
-	$(RELEASE_DIR)crossing.np-rail-road-crossing.pak \
+	$(RELEASE_DIR)building.np-waterstop.pak \
+	$(RELEASE_DIR)crossing.np-rail-road.pak \
 	$(RELEASE_DIR)factory.np.pak \
-	$(RELEASE_DIR)factory.suburbanstores.pak \
 	$(RELEASE_DIR)ground.Outside.pak \
 	$(RELEASE_DIR)ground.np.pak \
 	$(RELEASE_DIR)misc.np.pak \
 	$(RELEASE_DIR)pedestrian.np.pak \
-	$(RELEASE_DIR)roadsign.monorail-signals.pak \
-	$(RELEASE_DIR)roadsign.np-roadsignals.pak \
-	$(RELEASE_DIR)roadsign.railsignals.pak \
+	$(RELEASE_DIR)roadsign.np-monorail.pak \
+	$(RELEASE_DIR)roadsign.np-rail.pak \
+	$(RELEASE_DIR)roadsign.np-road.pak \
 	$(RELEASE_DIR)tree.np.pak \
 	$(RELEASE_DIR)tunnel.np-powerline.pak \
-	$(RELEASE_DIR)tunnel.np-railtrack.pak \
+	$(RELEASE_DIR)tunnel.np-rail.pak \
 	$(RELEASE_DIR)tunnel.np-road.pak \
 	$(RELEASE_DIR)tunnel.np-water.pak \
 	$(RELEASE_DIR)way-object.np-catenary.pak \
 	$(RELEASE_DIR)way.np-air.pak \
 	$(RELEASE_DIR)way.np-misc.pak \
+	$(RELEASE_DIR)way.np-powerline-underground.pak \
 	$(RELEASE_DIR)way.np-powerline.pak \
-	$(RELEASE_DIR)way.np-railtrack.pak \
+	$(RELEASE_DIR)way.np-rail.pak \
 	$(RELEASE_DIR)way.np-road.pak \
-	$(RELEASE_DIR)way.np-tramtrack.pak \
-	$(RELEASE_DIR)way.np-underground-powerline.pak \
+	$(RELEASE_DIR)way.np-tram.pak \
 	$(RELEASE_DIR)way.np-water.pak
 
 ########### .dat => .pak
 $(RELEASE_DIR)bridge.np-powerline.pak: dat/way-powerline/bridge.np-powerline.dat128 dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-2red.png dat/way-powerline/powerline-4.png
 	$(MAKEOBJ128) $@ dat/way-powerline/bridge.np-powerline.dat128
-$(RELEASE_DIR)bridge.np-railtrack.pak: dat/way-track/bridge.np-railtrack.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png
-	$(MAKEOBJ64) $@ dat/way-track/bridge.np-railtrack.dat
+$(RELEASE_DIR)bridge.np-rail.pak: dat/way-track/bridge.np-rail.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png
+	$(MAKEOBJ64) $@ dat/way-track/bridge.np-rail.dat
 $(RELEASE_DIR)bridge.np-road.pak: dat/way-road/bridge.np-road.dat dat/way-road/road-100n-bridge.png dat/way-road/road-100r-bridge.png dat/way-road/road-bridge-3.png dat/way-road/road-bridge-3-winter.png dat/way-road/road-bridge-4.png dat/way-road/road-bridge-4-winter.png dat/way-road/road-bridge-5.png dat/way-road/road-bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/bridge.np-road.dat
 $(RELEASE_DIR)building.np-airext.pak: dat/stop-air/building.np-airext.dat dat/stop-air/airstop.png dat/stop-air/airext-terminal.png
@@ -110,42 +103,28 @@ $(RELEASE_DIR)building.np-cur-temple.pak: dat/cur/building.np-cur-temple.dat dat
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-temple.dat
 $(RELEASE_DIR)building.np-depot.pak: dat/depot/building.np-depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png
 	$(MAKEOBJ64) $@ dat/depot/building.np-depot.dat
-$(RELEASE_DIR)building.np-footbridge-1.pak: dat/stop-platform/building.np-footbridge-1.dat dat/stop-platform/footbridge-1.png dat/stop-platform/footbridge-1-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-footbridge-1.dat
-$(RELEASE_DIR)building.np-freight-station-misc.pak: dat/stop-freight-station/building.np-freight-station-misc.dat dat/stop-freight-station/freight-platform-misc.png
-	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-freight-station-misc.dat
-$(RELEASE_DIR)building.np-freight-station-roof.pak: dat/stop-freight-station/building.np-freight-station-roof.dat dat/stop-freight-station/fplatform-2.png dat/stop-freight-station/fplatform-1.png
-	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-freight-station-roof.dat
-$(RELEASE_DIR)building.np-freight-station.pak: dat/stop-freight-station/building.np-freight-station.dat dat/stop-freight-station/fplatform-1.png dat/stop-freight-station/freight-platform-3.png
-	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-freight-station.dat
+$(RELEASE_DIR)building.np-habour.pak: dat/harbor/building.np-habour.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png
+	$(MAKEOBJ64) $@ dat/harbor/building.np-habour.dat
 $(RELEASE_DIR)building.np-hq.pak: dat/hq/building.np-hq.dat dat/hq/hq-1-tile.png dat/hq/hq-2-tile.png dat/hq/hq-3-tile.png dat/hq/hq-4-tile.png dat/hq/hq-5-tile.png
 	$(MAKEOBJ64) $@ dat/hq/building.np-hq.dat
 $(RELEASE_DIR)building.np-ind.pak: dat/indcomres/building.np-ind.dat dat/indcomres/ind-a.png dat/indcomres/ind-l.png dat/indcomres/ind-m1.png dat/indcomres/ind-m2.png dat/indcomres/ind-h1.png dat/indcomres/ind-h2.png dat/indcomres/ind-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-ind.dat
-$(RELEASE_DIR)building.np-miscext-containeryard.pak: dat/stop-freight-station/building.np-miscext-containeryard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png
+$(RELEASE_DIR)building.np-miscext-containeryard.pak: dat/stop-freight-station/building.np-miscext-containeryard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png dat/stop-freight-station/fplatform-2.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-miscext-containeryard.dat
 $(RELEASE_DIR)building.np-miscext-post-office.pak: dat/stop-post/building.np-miscext-post-office.dat dat/stop-post/post-office.png
 	$(MAKEOBJ64) $@ dat/stop-post/building.np-miscext-post-office.dat
 $(RELEASE_DIR)building.np-miscext-tank.pak: dat/stop-freight-station/building.np-miscext-tank.dat dat/stop-freight-station/tanks.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-miscext-tank.dat
-$(RELEASE_DIR)building.np-platform-0.pak: dat/stop-platform/building.np-platform-0.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-0.dat
-$(RELEASE_DIR)building.np-platform-1.pak: dat/stop-platform/building.np-platform-1.dat dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-1s.png dat/stop-platform/platform-1s-winter.png dat/stop-platform/platform-1b.png dat/stop-platform/platform-1b-winter.png dat/stop-platform/platform-1u.png dat/stop-platform/platform-1u-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-1.dat
-$(RELEASE_DIR)building.np-platform-2.pak: dat/stop-platform/building.np-platform-2.dat dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-2s.png dat/stop-platform/platform-2s-winter.png dat/stop-platform/platform-2u.png dat/stop-platform/platform-2u-winter.png dat/stop-platform/platform-2b.png dat/stop-platform/platform-2b-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-2.dat
-$(RELEASE_DIR)building.np-platform-3.pak: dat/stop-platform/building.np-platform-3.dat dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png dat/stop-platform/platform-3s.png dat/stop-platform/platform-3s-winter.png dat/stop-platform/platform-3u.png dat/stop-platform/platform-3u-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-3.dat
-$(RELEASE_DIR)building.np-platform-4.pak: dat/stop-platform/building.np-platform-4.dat dat/stop-platform/platform-4.png dat/stop-platform/platform-4-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-4.dat
-$(RELEASE_DIR)building.np-platform-d.pak: dat/stop-platform/building.np-platform-d.dat dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-d.dat
-$(RELEASE_DIR)building.np-platform-f.pak: dat/stop-platform/building.np-platform-f.dat dat/stop-platform/platform-f.png dat/stop-platform/platform-f-winter.png
-	$(MAKEOBJ64) $@ dat/stop-platform/building.np-platform-f.dat
-$(RELEASE_DIR)building.np-port.pak: dat/harbor/building.np-port.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png dat/harbor/canal-stop.png
-	$(MAKEOBJ64) $@ dat/harbor/building.np-port.dat
-$(RELEASE_DIR)building.np-railext-localstation.pak: dat/stop-station/building.np-railext-localstation.dat dat/stop-station/local-station.png
-	$(MAKEOBJ64) $@ dat/stop-station/building.np-railext-localstation.dat
+$(RELEASE_DIR)building.np-railext-local-station.pak: dat/stop-station/building.np-railext-local-station.dat dat/stop-station/local-station.png
+	$(MAKEOBJ64) $@ dat/stop-station/building.np-railext-local-station.dat
+$(RELEASE_DIR)building.np-railext-platform.pak: dat/stop-platform/building.np-railext-platform.dat dat/stop-platform/platform-f.png dat/stop-platform/platform-f-winter.png
+	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railext-platform.dat
+$(RELEASE_DIR)building.np-railstop-footbridge.pak: dat/stop-platform/building.np-railstop-footbridge.dat dat/stop-platform/footbridge-1.png dat/stop-platform/footbridge-1-winter.png
+	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-footbridge.dat
+$(RELEASE_DIR)building.np-railstop-freight-station.pak: dat/stop-freight-station/building.np-railstop-freight-station.dat dat/stop-freight-station/fplatform-1.png dat/stop-freight-station/freight-platform-3.png dat/stop-freight-station/fplatform-2.png dat/stop-freight-station/freight-platform-misc.png
+	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-railstop-freight-station.dat
+$(RELEASE_DIR)building.np-railstop-platform.pak: dat/stop-platform/building.np-railstop-platform.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-1s.png dat/stop-platform/platform-1s-winter.png dat/stop-platform/platform-1b.png dat/stop-platform/platform-1b-winter.png dat/stop-platform/platform-1u.png dat/stop-platform/platform-1u-winter.png dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-2s.png dat/stop-platform/platform-2s-winter.png dat/stop-platform/platform-2u.png dat/stop-platform/platform-2u-winter.png dat/stop-platform/platform-2b.png dat/stop-platform/platform-2b-winter.png dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png dat/stop-platform/platform-3s.png dat/stop-platform/platform-3s-winter.png dat/stop-platform/platform-3u.png dat/stop-platform/platform-3u-winter.png dat/stop-platform/platform-4.png dat/stop-platform/platform-4-winter.png
+	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-platform.dat
 $(RELEASE_DIR)building.np-res.pak: dat/indcomres/building.np-res.dat dat/indcomres/res-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-p.png dat/indcomres/res-m.png dat/indcomres/res-h.png dat/indcomres/res-parking.png dat/indcomres/res-empty.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-res.dat
 $(RELEASE_DIR)building.np-roadstop-freight.pak: dat/stop-road/building.np-roadstop-freight.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
@@ -154,12 +133,12 @@ $(RELEASE_DIR)building.np-roadstop.pak: dat/stop-road/building.np-roadstop.dat d
 	$(MAKEOBJ64) $@ dat/stop-road/building.np-roadstop.dat
 $(RELEASE_DIR)building.np-townhall.pak: dat/tow/building.np-townhall.dat dat/tow/tow-1-tile.png dat/tow/tow-2-tile.png dat/tow/tow-3-tile.png dat/tow/tow-4-tile.png dat/tow/tow-5-tile.png dat/tow/tow-6-tile.png dat/tow/tow-7-tile.png dat/tow/tow-8-tile.png dat/tow/tow-9-tile.png
 	$(MAKEOBJ64) $@ dat/tow/building.np-townhall.dat
-$(RELEASE_DIR)crossing.np-rail-road-crossing.pak: dat/crossing/crossing.np-rail-road-crossing.dat dat/crossing/crossing.png dat/crossing/crossing-2.png
-	$(MAKEOBJ64) $@ dat/crossing/crossing.np-rail-road-crossing.dat
-$(RELEASE_DIR)factory.np.pak: dat/factory/factory.np.dat dat/factory/steelmill-tile.png dat/factory/ironore-tile.png dat/factory/sand-tile.png dat/factory/stone-tile.png dat/factory/oil-storage-tile.png dat/factory/cementmill-tile.png dat/factory/forestry-tile.png dat/factory/coalmine-tile.png dat/factory/cardealer-tile.png dat/factory/gasstaion-tile.png dat/factory/incinerator-tile.png dat/factory/incinerator-power-tile.png dat/factory/oil-powerplant-tile.png dat/factory/coal-powerplant-tile.png dat/factory/geothermal-powerplant-tile.png dat/factory/solar-powerplant-tile.png dat/factory/refinery-tile.png dat/factory/chemical-plant-tile.png dat/factory/sawmill-tile.png dat/factory/pharmaceutics-tile.png dat/factory/material-storage-tile.png dat/factory/garbage.png dat/factory/printing-tile.png dat/factory/paper-tile.png dat/factory/carfactory-tile.png dat/factory/furniture-tile.png dat/factory/concrete-tile.png dat/factory/windkraftwerk.png
+$(RELEASE_DIR)building.np-waterstop.pak: dat/harbor/building.np-waterstop.dat dat/harbor/canal-stop.png
+	$(MAKEOBJ64) $@ dat/harbor/building.np-waterstop.dat
+$(RELEASE_DIR)crossing.np-rail-road.pak: dat/crossing/crossing.np-rail-road.dat dat/crossing/crossing.png dat/crossing/crossing-2.png
+	$(MAKEOBJ64) $@ dat/crossing/crossing.np-rail-road.dat
+$(RELEASE_DIR)factory.np.pak: dat/factory/factory.np.dat dat/factory/steelmill-tile.png dat/factory/ironore-tile.png dat/factory/sand-tile.png dat/factory/stone-tile.png dat/factory/oil-storage-tile.png dat/factory/cementmill-tile.png dat/factory/forestry-tile.png dat/factory/coalmine-tile.png dat/factory/cardealer-tile.png dat/factory/gasstaion-tile.png dat/factory/incinerator-tile.png dat/factory/incinerator-power-tile.png dat/factory/oil-powerplant-tile.png dat/factory/coal-powerplant-tile.png dat/factory/geothermal-powerplant-tile.png dat/factory/solar-powerplant-tile.png dat/factory/refinery-tile.png dat/factory/chemical-plant-tile.png dat/factory/sawmill-tile.png dat/factory/pharmaceutics-tile.png dat/factory/material-storage-tile.png dat/factory/garbage.png dat/factory/printing-tile.png dat/factory/paper-tile.png dat/factory/carfactory-tile.png dat/factory/furniture-tile.png dat/factory/concrete-tile.png dat/factory/windkraftwerk.png dat/factory/nitori.png dat/factory/bookoff.png dat/factory/matsukiyo.png
 	$(MAKEOBJ64) $@ dat/factory/factory.np.dat
-$(RELEASE_DIR)factory.suburbanstores.pak: dat/factory/factory.suburbanstores.dat dat/factory/nitori.png dat/factory/bookoff.png dat/factory/matsukiyo.png
-	$(MAKEOBJ64) $@ dat/factory/factory.suburbanstores.dat
 $(RELEASE_DIR)ground.Outside.pak: dat/ground/ground.Outside.dat dat/ground/water.png
 	$(MAKEOBJ64) $@ dat/ground/ground.Outside.dat
 $(RELEASE_DIR)ground.np.pak: dat/ground/ground.np.dat dat/ground/basement.png dat/ground/slopes.png dat/ground/water.png dat/ground/texture-climate.png dat/ground/texture-slope.png dat/ground/texture-shore.png dat/ground/texture-lightmap.png dat/ground/borders.png dat/ground/marker.png dat/ground/fence.png
@@ -168,18 +147,18 @@ $(RELEASE_DIR)misc.np.pak: dat/misc/misc.np.dat dat/misc/power-trans.png dat/mis
 	$(MAKEOBJ64) $@ dat/misc/misc.np.dat
 $(RELEASE_DIR)pedestrian.np.pak: dat/pedestrian/pedestrian.np.dat dat/pedestrian/pedestrian.png
 	$(MAKEOBJ64) $@ dat/pedestrian/pedestrian.np.dat
-$(RELEASE_DIR)roadsign.monorail-signals.pak: dat/signal/roadsign.monorail-signals.dat dat/signal/Signals.png
-	$(MAKEOBJ64) $@ dat/signal/roadsign.monorail-signals.dat
-$(RELEASE_DIR)roadsign.np-roadsignals.pak: dat/signal/roadsign.np-roadsignals.dat dat/signal/traffic-light.png
-	$(MAKEOBJ64) $@ dat/signal/roadsign.np-roadsignals.dat
-$(RELEASE_DIR)roadsign.railsignals.pak: dat/signal/roadsign.railsignals.dat dat/signal/Signals.png
-	$(MAKEOBJ64) $@ dat/signal/roadsign.railsignals.dat
+$(RELEASE_DIR)roadsign.np-monorail.pak: dat/signal/roadsign.np-monorail.dat dat/signal/Signals.png
+	$(MAKEOBJ64) $@ dat/signal/roadsign.np-monorail.dat
+$(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/Signals.png
+	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat
+$(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png
+	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
 $(RELEASE_DIR)tree.np.pak: dat/tree/tree.np.dat dat/tree/trees.png
 	$(MAKEOBJ64) $@ dat/tree/tree.np.dat
 $(RELEASE_DIR)tunnel.np-powerline.pak: dat/way-powerline/tunnel.np-powerline.dat128 dat/way-powerline/powerline-2hv.png
 	$(MAKEOBJ128) $@ dat/way-powerline/tunnel.np-powerline.dat128
-$(RELEASE_DIR)tunnel.np-railtrack.pak: dat/tunnel/tunnel.np-railtrack.dat dat/tunnel/tunnel-c1.png dat/tunnel/tunnel-1.png dat/tunnel/tunnel-2.png dat/tunnel/stone-tunnel.png
-	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-railtrack.dat
+$(RELEASE_DIR)tunnel.np-rail.pak: dat/tunnel/tunnel.np-rail.dat dat/tunnel/tunnel-c1.png dat/tunnel/tunnel-1.png dat/tunnel/tunnel-2.png dat/tunnel/stone-tunnel.png
+	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-rail.dat
 $(RELEASE_DIR)tunnel.np-road.pak: dat/tunnel/tunnel.np-road.dat dat/tunnel/tunnel-cr1.png dat/tunnel/tunnel-road1.png dat/tunnel/tunnel-road2.png dat/tunnel/stone-tunnel.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-road.dat
 $(RELEASE_DIR)tunnel.np-water.pak: dat/tunnel/tunnel.np-water.dat dat/tunnel/tunnel-water.png dat/tunnel/stone-tunnel.png
@@ -190,16 +169,16 @@ $(RELEASE_DIR)way.np-air.pak: dat/way-air/way.np-air.dat dat/way-air/taxiway-1.p
 	$(MAKEOBJ64) $@ dat/way-air/way.np-air.dat
 $(RELEASE_DIR)way.np-misc.pak: dat/way-misc/way.np-misc.dat dat/way-misc/miscway-1.png dat/way-misc/miscway-1-winter.png dat/way-misc/miscway-2.png dat/way-misc/miscway-2-winter.png dat/way-misc/miscway-3.png dat/way-misc/miscway-3-winter.png dat/way-misc/miscway-4.png dat/way-misc/miscway-4-winter.png dat/way-misc/miscway-5.png dat/way-misc/miscway-5-winter.png dat/way-misc/wall.png dat/way-misc/wall-winter.png
 	$(MAKEOBJ64) $@ dat/way-misc/way.np-misc.dat
+$(RELEASE_DIR)way.np-powerline-underground.pak: dat/way-powerline/way.np-powerline-underground.dat dat/way-powerline/powerline-ug.png
+	$(MAKEOBJ64) $@ dat/way-powerline/way.np-powerline-underground.dat
 $(RELEASE_DIR)way.np-powerline.pak: dat/way-powerline/way.np-powerline.dat128 dat/way-powerline/powerline-1a.png dat/way-powerline/powerline-1b.png dat/way-powerline/powerline-2.png dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-4.png
 	$(MAKEOBJ128) $@ dat/way-powerline/way.np-powerline.dat128
-$(RELEASE_DIR)way.np-railtrack.pak: dat/way-track/way.np-railtrack.dat dat/way-track/track-1.png dat/way-track/track-1-winter.png dat/way-track/track-2.png dat/way-track/track-2-winter.png dat/way-track/track-3.png dat/way-track/track-3-winter.png dat/way-track/track-4.png dat/way-track/track-4-winter.png dat/way-track/track-3-elv.png dat/way-track/track-3-elv-winter.png dat/way-track/track-4-elv.png dat/way-track/track-4-elv-winter.png
-	$(MAKEOBJ64) $@ dat/way-track/way.np-railtrack.dat
+$(RELEASE_DIR)way.np-rail.pak: dat/way-track/way.np-rail.dat dat/way-track/track-1.png dat/way-track/track-1-winter.png dat/way-track/track-2.png dat/way-track/track-2-winter.png dat/way-track/track-3.png dat/way-track/track-3-winter.png dat/way-track/track-4.png dat/way-track/track-4-winter.png dat/way-track/track-3-elv.png dat/way-track/track-3-elv-winter.png dat/way-track/track-4-elv.png dat/way-track/track-4-elv-winter.png
+	$(MAKEOBJ64) $@ dat/way-track/way.np-rail.dat
 $(RELEASE_DIR)way.np-road.pak: dat/way-road/way.np-road.dat dat/way-road/cityroad.png dat/way-road/cityroad-winter.png dat/way-road/road-40n.png dat/way-road/road-40n-winter.png dat/way-road/road-70r.png dat/way-road/road-70r-winter.png dat/way-road/road-100n.png dat/way-road/road-100n-winter.png dat/way-road/road-100n-elv.png dat/way-road/road-100r.png dat/way-road/road-100r-winter.png dat/way-road/road-100r-elv.png dat/way-road/dart-1.png dat/way-road/dart-1-winter.png dat/way-road/dart-2.png dat/way-road/dart-2-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/way.np-road.dat
-$(RELEASE_DIR)way.np-tramtrack.pak: dat/way-track/way.np-tramtrack.dat dat/way-track/tramtrack-1.png dat/way-track/tramtrack-2.png
-	$(MAKEOBJ64) $@ dat/way-track/way.np-tramtrack.dat
-$(RELEASE_DIR)way.np-underground-powerline.pak: dat/way-powerline/way.np-underground-powerline.dat dat/way-powerline/powerline-ug.png
-	$(MAKEOBJ64) $@ dat/way-powerline/way.np-underground-powerline.dat
+$(RELEASE_DIR)way.np-tram.pak: dat/way-track/way.np-tram.dat dat/way-track/tramtrack-1.png dat/way-track/tramtrack-2.png
+	$(MAKEOBJ64) $@ dat/way-track/way.np-tram.dat
 $(RELEASE_DIR)way.np-water.pak: dat/way-water/way.np-water.dat dat/way-water/waterway-1.png dat/way-water/waterway-2.png dat/way-water/waterway-3.png dat/way-water/waterway-4.png
 	$(MAKEOBJ64) $@ dat/way-water/way.np-water.dat
 
@@ -232,9 +211,7 @@ dat/depot/building.np-depot.dat: dat/depot/building.np-depot.datt
 	$(DATT) $** > $@
 dat/factory/factory.np.dat: dat/factory/factory.np.datt
 	$(DATT) $** > $@
-dat/factory/factory.suburbanstores.dat: dat/factory/factory.suburbanstores.datt
-	$(DATT) $** > $@
-dat/harbor/building.np-port.dat: dat/harbor/building.np-port.datt
+dat/harbor/building.np-habour.dat: dat/harbor/building.np-habour.datt
 	$(DATT) $** > $@
 dat/hq/building.np-hq.dat: dat/hq/building.np-hq.datt
 	$(DATT) $** > $@
@@ -254,13 +231,15 @@ dat/stop-freight-station/building.np-miscext-containeryard.dat: dat/stop-freight
 	$(DATT) $** > $@
 dat/stop-freight-station/building.np-miscext-tank.dat: dat/stop-freight-station/building.np-miscext-tank.datt
 	$(DATT) $** > $@
+dat/stop-platform/building.np-railstop-platform.dat: dat/stop-platform/building.np-railstop-platform.datt
+	$(DATT) $** > $@
 dat/stop-post/building.np-miscext-post-office.dat: dat/stop-post/building.np-miscext-post-office.datt
 	$(DATT) $** > $@
-dat/stop-station/building.np-railext-localstation.dat: dat/stop-station/building.np-railext-localstation.datt
+dat/stop-station/building.np-railext-local-station.dat: dat/stop-station/building.np-railext-local-station.datt
 	$(DATT) $** > $@
 dat/tow/building.np-townhall.dat: dat/tow/building.np-townhall.datt
 	$(DATT) $** > $@
-dat/tunnel/tunnel.np-railtrack.dat: dat/tunnel/tunnel.np-railtrack.datt
+dat/tunnel/tunnel.np-rail.dat: dat/tunnel/tunnel.np-rail.datt
 	$(DATT) $** > $@
 dat/tunnel/tunnel.np-road.dat: dat/tunnel/tunnel.np-road.datt
 	$(DATT) $** > $@
@@ -280,13 +259,13 @@ dat/way-road/bridge.np-road.dat: dat/way-road/bridge.np-road.datt
 	$(DATT) $** > $@
 dat/way-road/way.np-road.dat: dat/way-road/way.np-road.datt
 	$(DATT) $** > $@
-dat/way-track/bridge.np-railtrack.dat: dat/way-track/bridge.np-railtrack.datt
+dat/way-track/bridge.np-rail.dat: dat/way-track/bridge.np-rail.datt
 	$(DATT) $** > $@
 dat/way-track/way-object.np-catenary.dat: dat/way-track/way-object.np-catenary.datt
 	$(DATT) $** > $@
-dat/way-track/way.np-railtrack.dat: dat/way-track/way.np-railtrack.datt
+dat/way-track/way.np-rail.dat: dat/way-track/way.np-rail.datt
 	$(DATT) $** > $@
-dat/way-track/way.np-tramtrack.dat: dat/way-track/way.np-tramtrack.datt
+dat/way-track/way.np-tram.dat: dat/way-track/way.np-tram.datt
 	$(DATT) $** > $@
 dat/way-water/way.np-water.dat: dat/way-water/way.np-water.datt
 	$(DATT) $** > $@
