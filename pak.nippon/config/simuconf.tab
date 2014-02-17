@@ -294,7 +294,7 @@ intercity_road_length = 70
 
 # Type of initial intercity roads - must be available
 # as PAK file. Fallback (if PAK is not found) is "asphalt_road"
-intercity_road[0] = wa-road-70r, 0
+intercity_road[0] = np-road-70r, 0
 
 # Type of city roads - must be available as PAK file.
 # order is random
@@ -304,9 +304,9 @@ city_road[0] = city_road, 0
 
 # rivers:
 # The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
-river_type[0] = wa-river-1
-river_type[1] = wa-river-2
-river_type[2] = wa-river-3
+river_type[0] = np-waterway-river-1
+river_type[1] = np-waterway-river-2
+river_type[2] = np-waterway-river-3
 
 # start with 16 (looks nice on not too large maps)
 river_number = 16
