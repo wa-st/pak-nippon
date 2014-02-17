@@ -55,3 +55,13 @@ chance=30
 
 %def :image, "temple-5-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
+---
+obj=building
+name=np-cur-cemetery
+copyright=wa
+type=cur
+passengers=40
+build_time=2000
+chance=15
+%def :image, "cemetery-tile.0.0"
+%buil_image 4, 4, 1, 2, 2

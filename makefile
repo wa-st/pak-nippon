@@ -11,7 +11,6 @@ PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
 	$(RELEASE_DIR)building.np-airext.pak \
 	$(RELEASE_DIR)building.np-airstop.pak \
 	$(RELEASE_DIR)building.np-com.pak \
-	$(RELEASE_DIR)building.np-cur-build.pak \
 	$(RELEASE_DIR)building.np-cur-castle.pak \
 	$(RELEASE_DIR)building.np-cur-church.pak \
 	$(RELEASE_DIR)building.np-cur-hospital.pak \
@@ -77,8 +76,6 @@ $(RELEASE_DIR)building.np-airstop.pak: dat/stop-air/building.np-airstop.dat dat/
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airstop.dat
 $(RELEASE_DIR)building.np-com.pak: dat/indcomres/building.np-com.dat dat/indcomres/com-a.png dat/indcomres/com-l1.png dat/indcomres/com-t.png dat/indcomres/com-l2.png dat/indcomres/com-s.png dat/indcomres/com-m1.png dat/indcomres/com-m2.png dat/indcomres/com-h1.png dat/indcomres/com-h2.png dat/indcomres/com-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-com.dat
-$(RELEASE_DIR)building.np-cur-build.pak: dat/cur/building.np-cur-build.dat dat/cur/m3-tile.png dat/cur/m4-tile.png
-	$(MAKEOBJ64) $@ dat/cur/building.np-cur-build.dat
 $(RELEASE_DIR)building.np-cur-castle.pak: dat/cur/building.np-cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-castle.dat
 $(RELEASE_DIR)building.np-cur-church.pak: dat/cur/building.np-cur-church.dat dat/cur/church-tile.png
@@ -99,7 +96,7 @@ $(RELEASE_DIR)building.np-cur-shrine.pak: dat/cur/building.np-cur-shrine.dat dat
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-shrine.dat
 $(RELEASE_DIR)building.np-cur-sport.pak: dat/cur/building.np-cur-sport.dat dat/cur/tenniscourt-tile.png dat/cur/baseballfield-tile.png dat/cur/soccer-stadium-tile.png dat/cur/gymnasium-tile.png dat/cur/swimming-pool-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-sport.dat
-$(RELEASE_DIR)building.np-cur-temple.pak: dat/cur/building.np-cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png
+$(RELEASE_DIR)building.np-cur-temple.pak: dat/cur/building.np-cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png dat/cur/cemetery-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-temple.dat
 $(RELEASE_DIR)building.np-depot.pak: dat/depot/building.np-depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png
 	$(MAKEOBJ64) $@ dat/depot/building.np-depot.dat
@@ -183,8 +180,6 @@ $(RELEASE_DIR)way.np-water.pak: dat/way-water/way.np-water.dat dat/way-water/wat
 	$(MAKEOBJ64) $@ dat/way-water/way.np-water.dat
 
 ########### .datt => .dat
-dat/cur/building.np-cur-build.dat: dat/cur/building.np-cur-build.datt
-	$(DATT) $** > $@
 dat/cur/building.np-cur-castle.dat: dat/cur/building.np-cur-castle.datt
 	$(DATT) $** > $@
 dat/cur/building.np-cur-church.dat: dat/cur/building.np-cur-church.datt
