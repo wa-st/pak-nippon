@@ -2,8 +2,8 @@ obj=building
 name=np-cur-school-1
 copyright=wa
 type=cur
-passengers=20
-build_time=430
+passengers=10
+build_time=1250
 chance=50
 
 %def :image, "school-1-tile.0.0"
@@ -13,8 +13,8 @@ obj=building
 name=np-cur-school-2
 copyright=wa
 type=cur
-passengers=40
-build_time=930
+passengers=20
+build_time=2250
 chance=50
 
 %def :image, "school-2-tile.0.0"
@@ -25,7 +25,7 @@ name=np-cur-school-3
 copyright=wa
 type=cur
 passengers=30
-build_time=1430
+build_time=4000
 chance=50
 
 %def :image, "school-3-tile.0.0"
@@ -36,7 +36,7 @@ name=np-cur-school-4
 copyright=wa
 type=cur
 passengers=10
-build_time=630
+build_time=7750
 chance=30
 
 %def :image, "school-4-tile.0.0"
@@ -46,8 +46,8 @@ obj=building
 name=np-cur-university
 copyright=wa
 type=cur
-passengers=50
-build_time=2030
+passengers=30
+build_time=8500
 chance=20
 
 %def :image, "university-tile.0.0"
@@ -57,8 +57,8 @@ obj=building
 name=np-cur-kindergarten
 copyright=wa
 type=cur
-passengers=20
-build_time=400
+passengers=30
+build_time=5750
 chance=15
 
 %def :image, "kindergarten-tile.0.0"

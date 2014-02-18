@@ -13,7 +13,7 @@ obj=building
 name=np-cur-kofun-2
 copyright=wa
 type=cur
-passengers=20
+passengers=10
 build_time=0
 chance=20
 

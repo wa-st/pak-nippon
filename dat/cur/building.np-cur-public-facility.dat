@@ -1,7 +1,7 @@
 ---
 name=np-cur-community-center
-passengers=20
-build_time=300
+passengers=30
+build_time=500
 obj=building
 copyright=wa
 type=cur
@@ -43,8 +43,8 @@ backImage[3][1][0][0][0][1]=community-center-tile.3.6
 backImage[3][1][1][0][0][1]=community-center-tile.3.7
 ---
 name=np-cur-policestation
-passengers=40
-build_time=500
+passengers=60
+build_time=2000
 obj=building
 copyright=wa
 type=cur
@@ -86,8 +86,8 @@ backImage[3][1][0][0][0][1]=policestation-tile.3.6
 backImage[3][1][1][0][0][1]=policestation-tile.3.7
 ---
 name=np-cur-firestation
-passengers=40
-build_time=600
+passengers=30
+build_time=3750
 obj=building
 copyright=wa
 type=cur
@@ -129,8 +129,8 @@ backImage[3][1][0][0][0][1]=firestation-tile.3.6
 backImage[3][1][1][0][0][1]=firestation-tile.3.7
 ---
 name=np-cur-library
-passengers=40
-build_time=700
+passengers=60
+build_time=3250
 obj=building
 copyright=wa
 type=cur
@@ -172,8 +172,8 @@ backImage[3][1][0][0][0][1]=library-tile.3.6
 backImage[3][1][1][0][0][1]=library-tile.3.7
 ---
 name=np-cur-historical-museum
-passengers=40
-build_time=800
+passengers=60
+build_time=5250
 obj=building
 copyright=wa
 type=cur
@@ -215,8 +215,8 @@ backImage[3][1][0][0][0][1]=historical-museum-tile.3.6
 backImage[3][1][1][0][0][1]=historical-museum-tile.3.7
 ---
 name=np-cur-health-and-welfare-center
-passengers=40
-build_time=900
+passengers=60
+build_time=4750
 obj=building
 copyright=wa
 type=cur
@@ -259,8 +259,8 @@ backImage[3][1][1][0][0][1]=health-and-welfare-center-tile.3.7
 
 ---
 name=np-cur-tax-office
-passengers=40
-build_time=1000
+passengers=60
+build_time=6750
 obj=building
 copyright=wa
 type=cur
@@ -302,8 +302,8 @@ backImage[3][1][0][0][0][1]=tax-office-tile.3.6
 backImage[3][1][1][0][0][1]=tax-office-tile.3.7
 ---
 name=np-cur-employment-service-center
-passengers=40
-build_time=1100
+passengers=60
+build_time=10000
 obj=building
 copyright=wa
 type=cur
@@ -345,8 +345,8 @@ backImage[3][1][0][0][0][1]=employment-service-center-tile.3.6
 backImage[3][1][1][0][0][1]=employment-service-center-tile.3.7
 ---
 name=np-cur-museum
-passengers=40
-build_time=1400
+passengers=60
+build_time=9250
 obj=building
 copyright=wa
 type=cur
@@ -428,8 +428,8 @@ backImage[3][2][1][0][0][1]=museum-tile.5.10
 backImage[3][2][2][0][0][1]=museum-tile.5.11
 ---
 name=np-cur-civic-hall
-passengers=40
-build_time=1600
+passengers=30
+build_time=7250
 obj=building
 copyright=wa
 type=cur
@@ -511,8 +511,8 @@ backImage[3][2][1][0][0][1]=civic-hall-tile.5.10
 backImage[3][2][2][0][0][1]=civic-hall-tile.5.11
 ---
 name=np-cur-jgsdf-camp
-passengers=40
-build_time=1700
+passengers=10
+build_time=7500
 obj=building
 copyright=wa
 type=cur

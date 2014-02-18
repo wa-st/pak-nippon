@@ -4,8 +4,8 @@ name=np-cur-church
 copyright=wa
 type=cur
 chance=15
-passengers=40
-build_time=1500
+passengers=30
+build_time=4500
 dims=2,2,4
 
 backImage[0][0][0][0][0][0]=church-tile.0.0

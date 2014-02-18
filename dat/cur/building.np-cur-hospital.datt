@@ -5,15 +5,15 @@ type=cur
 chance=15
 ----
 name=np-cur-hospital-1
-passengers=40
-build_time=2200
+passengers=30
+build_time=5500
 %def :image, "hospital-1-tile.0.0"
 %include "cur"
 %buil_image 4, 4, 2, 4, 2
 ----
 name=np-cur-hospital-2
-passengers=40
-build_time=1800
+passengers=30
+build_time=9500
 %def :image, "hospital-2-tile.0.0"
 %include "cur"
 %buil_image 3, 3, 2, 4, 2

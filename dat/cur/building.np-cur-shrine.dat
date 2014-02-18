@@ -3,8 +3,8 @@ obj=building
 name=np-cur-shrine-1
 copyright=wa
 type=cur
-passengers=20
-build_time=820
+passengers=30
+build_time=250
 chance=50
 
 dims=2,2,4
@@ -47,8 +47,8 @@ obj=building
 name=np-cur-shrine-2
 copyright=wa
 type=cur
-passengers=30
-build_time=1620
+passengers=40
+build_time=6500
 chance=20
 
 dims=4,4,4
@@ -187,8 +187,8 @@ obj=building
 name=np-cur-shrine-3
 copyright=wa
 type=cur
-passengers=10
-build_time=1220
+passengers=20
+build_time=4100
 chance=20
 
 dims=4,4,4
@@ -327,8 +327,8 @@ obj=building
 name=np-cur-shrine-4
 copyright=wa
 type=cur
-passengers=20
-build_time=420
+passengers=30
+build_time=2500
 chance=50
 
 dims=3,1,4

@@ -3,8 +3,8 @@ obj=building
 name=np-cur-tenniscourt
 copyright=wa
 type=cur
-passengers=25
-build_time=1040
+passengers=30
+build_time=3000
 chance=20
 needs_ground=0
 
@@ -15,8 +15,8 @@ obj=building
 name=np-cur-baseballfield
 copyright=wa
 type=cur
-passengers=5
-build_time=1540
+passengers=10
+build_time=1750
 chance=20
 needs_ground=0
 
@@ -27,8 +27,8 @@ obj=building
 name=np-cur-soccer-stadium
 copyright=wa
 type=cur
-passengers=40
-build_time=3040
+passengers=50
+build_time=9000
 chance=15
 needs_ground=0
 
@@ -39,9 +39,9 @@ obj=building
 name=np-cur-gymnasium
 copyright=wa
 type=cur
-passengers=40
+passengers=30
 chance=15
-build_time=1200
+build_time=5000
 %def :image, "gymnasium-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----
@@ -49,9 +49,9 @@ obj=building
 name=np-cur-swimming-pool
 copyright=wa
 type=cur
-passengers=40
+passengers=30
 chance=15
-build_time=1300
+build_time=7000
 climates=desert,tropic,mediterran,temperate
 %def :image, "swimming-pool-tile.0.0"
 %buil_image 3, 3, 1, 4, 2

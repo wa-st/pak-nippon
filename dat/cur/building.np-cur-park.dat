@@ -3,8 +3,8 @@ obj=building
 type=cur
 name=np-cur-park-1
 copyright=wa
-passengers=20
-build_time=550
+passengers=30
+build_time=1000
 chance=50
 
 dims=2,2,4
@@ -47,8 +47,8 @@ obj=building
 type=cur
 name=np-cur-park-2
 copyright=wa
-passengers=20
-build_time=650
+passengers=30
+build_time=4250
 chance=40
 
 dims=2,2,4
@@ -91,8 +91,8 @@ obj=building
 type=cur
 name=np-cur-park-3
 copyright=wa
-passengers=20
-build_time=750
+passengers=10
+build_time=6000
 chance=30
 dims=3,3,4
 
@@ -175,7 +175,7 @@ type=cur
 name=np-cur-park-4
 copyright=wa
 passengers=20
-build_time=850
+build_time=8000
 chance=20
 
 dims=4,4,4
@@ -314,8 +314,8 @@ obj=building
 type=cur
 name=np-cur-zoo
 copyright=wa
-passengers=40
-build_time=1900
+passengers=50
+build_time=9750
 chance=15
 dims=4,4,4
 

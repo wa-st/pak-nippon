@@ -3,8 +3,8 @@ obj=building
 name=np-cur-school-1
 copyright=wa
 type=cur
-passengers=20
-build_time=430
+passengers=10
+build_time=1250
 chance=50
 
 dims=3,3,4
@@ -87,8 +87,8 @@ obj=building
 name=np-cur-school-2
 copyright=wa
 type=cur
-passengers=40
-build_time=930
+passengers=20
+build_time=2250
 chance=50
 
 dims=4,4,4
@@ -228,7 +228,7 @@ name=np-cur-school-3
 copyright=wa
 type=cur
 passengers=30
-build_time=1430
+build_time=4000
 chance=50
 
 dims=3,3,4
@@ -312,7 +312,7 @@ name=np-cur-school-4
 copyright=wa
 type=cur
 passengers=10
-build_time=630
+build_time=7750
 chance=30
 
 dims=3,3,4
@@ -395,8 +395,8 @@ obj=building
 name=np-cur-university
 copyright=wa
 type=cur
-passengers=50
-build_time=2030
+passengers=30
+build_time=8500
 chance=20
 
 dims=4,4,4
@@ -663,8 +663,8 @@ obj=building
 name=np-cur-kindergarten
 copyright=wa
 type=cur
-passengers=20
-build_time=400
+passengers=30
+build_time=5750
 chance=15
 
 dims=2,2,4

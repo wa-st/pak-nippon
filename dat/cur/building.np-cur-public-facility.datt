@@ -5,79 +5,79 @@ type=cur
 chance=15
 ----
 name=np-cur-community-center
-passengers=20
-build_time=300
+passengers=30
+build_time=500
 %def :image, "community-center-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-policestation
-passengers=40
-build_time=500
+passengers=60
+build_time=2000
 %def :image, "policestation-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-firestation
-passengers=40
-build_time=600
+passengers=30
+build_time=3750
 %def :image, "firestation-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-library
-passengers=40
-build_time=700
+passengers=60
+build_time=3250
 %def :image, "library-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-historical-museum
-passengers=40
-build_time=800
+passengers=60
+build_time=5250
 %def :image, "historical-museum-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-health-and-welfare-center
-passengers=40
-build_time=900
+passengers=60
+build_time=4750
 %def :image, "health-and-welfare-center-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 
 ----
 name=np-cur-tax-office
-passengers=40
-build_time=1000
+passengers=60
+build_time=6750
 %def :image, "tax-office-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-employment-service-center
-passengers=40
-build_time=1100
+passengers=60
+build_time=10000
 %def :image, "employment-service-center-tile.0.0"
 %include "cur"
 %buil_image 2, 2, 1, 4, 2
 ----
 name=np-cur-museum
-passengers=40
-build_time=1400
+passengers=60
+build_time=9250
 %def :image, "museum-tile.0.0"
 %include "cur"
 %buil_image 3, 3, 1, 4, 2
 ----
 name=np-cur-civic-hall
-passengers=40
-build_time=1600
+passengers=30
+build_time=7250
 %def :image, "civic-hall-tile.0.0"
 %include "cur"
 %buil_image 3, 3, 1, 4, 2
 ----
 name=np-cur-jgsdf-camp
-passengers=40
-build_time=1700
+passengers=10
+build_time=7500
 %def :image, "jgsdf-camp-tile.0.0"
 %include "cur"
 %buil_image 4, 4, 1, 4, 2

@@ -3,9 +3,9 @@ obj=building
 name=np-cur-temple-1
 copyright=wa
 type=cur
-passengers=20
-build_time=220
-chance=70
+passengers=30
+build_time=750
+chance=50
 
 dims=2,2,4
 
@@ -47,7 +47,7 @@ obj=building
 name=np-cur-temple-2
 copyright=wa
 type=cur
-passengers=30
+passengers=40
 build_time=0
 chance=20
 
@@ -188,7 +188,7 @@ obj=building
 name=np-cur-temple-3
 copyright=wa
 type=cur
-passengers=20
+passengers=30
 build_time=0
 chance=30
 
@@ -273,8 +273,8 @@ obj=building
 name=np-cur-temple-4
 copyright=wa
 type=cur
-passengers=30
-build_time=1020
+passengers=20
+build_time=8750
 chance=10
 
 dims=4,4,4
@@ -415,7 +415,7 @@ name=np-cur-temple-5
 copyright=wa
 type=cur
 passengers=10
-build_time=620
+build_time=3500
 chance=30
 
 dims=3,3,4
@@ -498,8 +498,8 @@ obj=building
 name=np-cur-cemetery
 copyright=wa
 type=cur
-passengers=40
-build_time=2000
+passengers=10
+build_time=1500
 chance=15
 dims=4,4,2
 

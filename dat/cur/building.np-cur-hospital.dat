@@ -1,7 +1,7 @@
 ---
 name=np-cur-hospital-1
-passengers=40
-build_time=2200
+passengers=30
+build_time=5500
 obj=building
 copyright=wa
 type=cur
@@ -267,8 +267,8 @@ backImage[3][3][3][0][0][1]=hospital-1-tile.15.15
 #backImage[3][3][3][1][0][1]=hospital-1-tile.14.15
 ---
 name=np-cur-hospital-2
-passengers=40
-build_time=1800
+passengers=30
+build_time=9500
 obj=building
 copyright=wa
 type=cur

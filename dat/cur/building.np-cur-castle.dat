@@ -3,8 +3,8 @@ obj=building
 name=np-cur-castle-1
 copyright=wa
 type=cur
-passengers=20
-build_time=310
+passengers=10
+build_time=2750
 chance=10
 
 dims=3,3,4
@@ -87,7 +87,7 @@ obj=building
 name=np-cur-castle-2
 copyright=wa
 type=cur
-passengers=10
+passengers=20
 build_time=0
 chance=10
 
@@ -227,8 +227,8 @@ obj=building
 name=np-cur-castle-3
 copyright=wa
 type=cur
-passengers=30
-build_time=510
+passengers=50
+build_time=6250
 chance=10
 
 dims=4,4,4
@@ -368,8 +368,8 @@ obj=building
 name=np-cur-castle-4
 copyright=wa
 type=cur
-passengers=30
-build_time=1010
+passengers=50
+build_time=8250
 chance=10
 
 dims=4,4,4
