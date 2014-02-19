@@ -69,6 +69,7 @@ backImage[0][0][0][0][0][1]=airstop.10.0
 ---
 name=np-airext-new-terminal-1
 level=8
+enables_pax=1
 obj=building
 copyright=wa
 noInfo=1
@@ -87,6 +88,7 @@ backImage[1][0][0][0][0][1]=airext-terminal.1.1
 ---
 name=np-airext-new-terminal-2
 level=9
+enables_pax=1
 obj=building
 copyright=wa
 noInfo=1
@@ -117,6 +119,7 @@ backImage[1][1][1][0][0][1]=airext-terminal.5.3
 ---
 name=np-airext-terminal-1
 level=6
+enables_pax=1
 obj=building
 copyright=wa
 noInfo=1
@@ -139,6 +142,7 @@ backImage[3][0][0][0][0][1]=airext-terminal.7.3
 ---
 name=np-airext-terminal-2
 level=7
+enables_pax=1
 obj=building
 copyright=wa
 noInfo=1
@@ -161,6 +165,7 @@ backImage[3][0][0][0][0][1]=airext-terminal.9.3
 ---
 name=np-airext-terminal-3
 level=5
+enables_pax=1
 obj=building
 copyright=wa
 noInfo=1

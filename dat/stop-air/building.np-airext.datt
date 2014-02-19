@@ -28,30 +28,35 @@ level=1
 ---
 name=np-airext-new-terminal-1
 level=8
+enables_pax=1
 %def :image, 'airext-terminal.0.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 2, 2
 ---
 name=np-airext-new-terminal-2
 level=9
+enables_pax=1
 %def :image, 'airext-terminal.2.0'
 %include 'air-ext-common'
 %buil_image 2, 2, 1, 2, 2
 ---
 name=np-airext-terminal-1
 level=6
+enables_pax=1
 %def :image, 'airext-terminal.6.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
 name=np-airext-terminal-2
 level=7
+enables_pax=1
 %def :image, 'airext-terminal.8.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 4, 2
 ---
 name=np-airext-terminal-3
 level=5
+enables_pax=1
 %def :image, 'airext-terminal.10.0'
 %include 'air-ext-common'
 %buil_image 1, 1, 1, 2, 2

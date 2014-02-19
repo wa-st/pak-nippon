@@ -12,7 +12,6 @@ max_weight=100
 #intro_year = 1901
 #intro_month = 7
 waytype=air
-system_type=0
 
 %def :offset, ""
 %def :fn, "taxiway-1"
@@ -29,7 +28,6 @@ max_weight=100
 #intro_year = 1901
 #intro_month = 7
 waytype=air
-system_type=0
 
 %def :offset, ""
 %def :fn, "apron-1"

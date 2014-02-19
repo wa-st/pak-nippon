@@ -7,7 +7,7 @@ waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=np-concrete-sleeper-track
+way=np-railway-concrete-sleeper-track
 
 backImage[N]=tunnel-c1.0.0
 backImage[Nl]=tunnel-c1.0.1
@@ -59,7 +59,7 @@ waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=np-concrete-sleeper-track
+way=np-railway-concrete-sleeper-track
 
 backImage[N]=tunnel-1.0.0
 backImage[Nl]=tunnel-1.0.1
@@ -111,7 +111,7 @@ waytype=track
 cost=150000
 maintenance=15000
 topspeed=450
-way=np-steel-sleeper-track
+way=np-railway-slab-track
 
 backImage[N]=tunnel-2.0.0
 backImage[Nl]=tunnel-2.0.1
@@ -163,7 +163,7 @@ waytype=track
 cost=100000
 maintenance=5000
 topspeed=120
-way=np-wooden-sleeper-track
+way=np-railway-wooden-sleeper-track
 
 backImage[N]=stone-tunnel.3.0
 backImage[W]=stone-tunnel.3.1

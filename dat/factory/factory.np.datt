@@ -7,7 +7,7 @@ name=np-stahlwerk
 copyright=wa
 
 %include "Stahlwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "steelmill-tile.0.0"
 %buil_image 4, 4, 2, 4, 2
@@ -17,7 +17,7 @@ name=np-erzbergwerk
 copyright=wa
 
 %include "Erzbergwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "ironore-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -27,7 +27,7 @@ name=np-sandquarry
 copyright=wa
 
 %include "Sandquarry", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "sand-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -37,7 +37,7 @@ name=np-stonequarry
 copyright=wa
 
 %include "Stonequarry", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "stone-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -49,7 +49,7 @@ Location=Land
 climates=desert,tropic,mediterran,temperate,tundra,rocky
 
 %include "Oelbohrinsel", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 %undef /^(enables_pax|enables_post|level)$/
 
 %def :image, "oil-storage-tile.0.0"
@@ -60,7 +60,7 @@ name=np-cementmill
 copyright=wa
 
 %include "Cementmill", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "cementmill-tile.0.0"
 %buil_image 3, 2, 2, 4, 2
@@ -71,7 +71,7 @@ copyright=wa
 needs_ground=0
 
 %include "Nutzwald", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 fields[0]=np-nutzwald-field-1
 fields[1]=np-nutzwald-field-2
@@ -115,7 +115,7 @@ name=np-kohlegrube
 copyright=wa
 
 %include "Kohlegrube", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "coalmine-tile.0.0"
 %buil_image 4, 3, 2, 4, 2
@@ -125,7 +125,7 @@ name=np-autohaus
 copyright=wa
 
 %include "Autohaus", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "cardealer-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -135,7 +135,7 @@ name=np-tanke
 copyright=wa
 
 %include "TANKE", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "gasstaion-tile.0.0"
 %buil_image 2, 1, 1, 4, 2
@@ -145,7 +145,7 @@ name=np-incinerator
 copyright=wa
 
 %include "Incinerator", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "incinerator-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -155,7 +155,7 @@ name=np-muellkraftwerk
 copyright=wa
 
 %include "Muellkraftwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "incinerator-power-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -165,7 +165,7 @@ name=np-oelkraftwerk
 copyright=wa
 
 %include "Oelkraftwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "oil-powerplant-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -175,7 +175,7 @@ name=np-kohlekraftwerk
 copyright=wa
 
 %include "Kohlekraftwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "coal-powerplant-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -187,7 +187,7 @@ copyright=wa
 climates=desert,tropic,mediterran,temperate,tundra
 
 %include "Geokraftwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "geothermal-powerplant-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -200,7 +200,7 @@ climates=desert,tropic,mediterran,temperate,tundra
 productivity=150
 
 %include "thermisches_Solarkraftwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "solar-powerplant-tile.0.0"
 %buil_image 4, 4, 1, 1, 2
@@ -211,7 +211,7 @@ name=np-raffinerie
 copyright=wa
 
 %include "3Raffinerie", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "refinery-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
@@ -221,7 +221,7 @@ name=np-chemical-plant
 copyright=wa
 
 %include "ChemicalPlant", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "chemical-plant-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -231,7 +231,7 @@ name=np-saegewerk
 copyright=wa
 
 %include "Saegewerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "sawmill-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -241,7 +241,7 @@ name=np-pharmaceutics
 copyright=wa
 
 %include "Pharmaceutics", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "pharmaceutics-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -251,7 +251,7 @@ name=np-material-storage
 copyright=wa
 
 %include "Materialswholesale", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "material-storage-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -261,7 +261,7 @@ name=np-scrap-yard
 copyright=wa
 
 %include "scrap_yard", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "garbage.0.0"
 %buil_image 1, 1, 1, 4, 2
@@ -271,7 +271,7 @@ name=np-druckerei
 copyright=wa
 
 %include "Druckerei", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "printing-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -281,7 +281,7 @@ name=np-papierfabrik
 copyright=wa
 
 %include "Papierfabrik", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "paper-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
@@ -292,7 +292,7 @@ name=np-autohersteller
 copyright=wa
 
 %include "Autohersteller", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "carfactory-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
@@ -302,7 +302,7 @@ name=np-moebelfabrik
 copyright=wa
 
 %include "Moebelfabrik", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "furniture-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -312,7 +312,7 @@ name=np-concrete-factory
 copyright=wa
 
 %include "Concretefactory", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 %def :image, "concrete-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -323,8 +323,9 @@ copyright=wa
 productivity=150
 
 %include "Windkraftwerk", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+needs_ground=1
 dims=5,1,2
 backImage[0][0][0][0][0]=windkraftwerk.1.0
 backImage[0][0][0][0][1]=windkraftwerk.3.0
@@ -397,7 +398,7 @@ name=np-moebelhaus
 copyright=713
 
 %include "Moebelhaus", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 # >>> suburbanstores.zip: nitori.dat
 #intro_year=1967
@@ -424,7 +425,7 @@ name=np-buchgrosshandel
 copyright=713
 
 %include "Buchgrosshandel", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 # >>> suburbanstores.zip: bookoff.dat
 #intro_year=1991
@@ -441,7 +442,7 @@ name=np-chemist
 copyright=713
 
 %include "CHEMIST", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage).*$/
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
 # >>> suburbanstores.zip: matsukiyo.dat
 #intro_year=1954

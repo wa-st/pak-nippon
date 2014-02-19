@@ -5,7 +5,6 @@ type=cur
 passengers=1
 build_time=0
 chance=20
-needs_ground=0
 
 %def :image, "switchyard-tile.0.0"
 %buil_image 3, 2, 2, 4, 2
@@ -17,7 +16,6 @@ type=cur
 passengers=1
 build_time=0
 chance=20
-needs_ground=0
 
 %def :image, "substation-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -29,7 +27,6 @@ type=cur
 passengers=10
 build_time=0
 chance=20
-needs_ground=0
 climates=water
 animation_time=500
 

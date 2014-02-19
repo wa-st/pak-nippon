@@ -6,7 +6,6 @@ type=cur
 passengers=1
 build_time=0
 chance=20
-needs_ground=0
 
 dims=3,2,4
 
@@ -115,7 +114,6 @@ type=cur
 passengers=1
 build_time=0
 chance=20
-needs_ground=0
 
 dims=3,3,4
 
@@ -272,7 +270,6 @@ type=cur
 passengers=10
 build_time=0
 chance=20
-needs_ground=0
 climates=water
 animation_time=500
 

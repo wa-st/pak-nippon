@@ -10,7 +10,6 @@ max_weight=100
 #intro_year = 1901
 #intro_month = 7
 waytype=air
-system_type=0
 
 icon=> taxiway-1.9.0
 cursor=taxiway-1.9.1
@@ -62,7 +61,6 @@ max_weight=100
 #intro_year = 1901
 #intro_month = 7
 waytype=air
-system_type=0
 
 icon=> apron-1.9.0
 cursor=apron-1.9.1

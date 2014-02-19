@@ -6,7 +6,6 @@ type=cur
 passengers=30
 build_time=3000
 chance=20
-needs_ground=0
 
 dims=2,2,4
 
@@ -51,7 +50,6 @@ type=cur
 passengers=10
 build_time=1750
 chance=20
-needs_ground=0
 
 dims=3,3,4
 
@@ -136,7 +134,6 @@ type=cur
 passengers=50
 build_time=9000
 chance=15
-needs_ground=0
 
 dims=4,4,2
 
