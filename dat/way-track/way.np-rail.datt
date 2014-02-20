@@ -2,7 +2,7 @@
 
 ---
 obj=way
-name=np-railway-sand-track
+name=np-sand-track
 copyright=wa
 cost=3500
 maintenance=100
@@ -17,7 +17,7 @@ waytype=track
 %include 'way-img'
 ---
 obj=way
-name=np-railway-wooden-sleeper-track
+name=np-wooden-sleeper-track
 copyright=wa
 cost=8000
 maintenance=500
@@ -32,7 +32,7 @@ waytype=track
 %include 'way-img'
 ---
 obj=way
-name=np-railway-concrete-sleeper-track
+name=np-concrete-sleeper-track
 copyright=wa
 cost=12000
 maintenance=800
@@ -47,7 +47,7 @@ waytype=track
 %include 'way-img'
 ---
 obj=way
-name=np-railway-slab-track
+name=np-slab-track
 copyright=wa
 waytype=track
 cost=40000
@@ -62,7 +62,7 @@ max_weight=110
 %include 'way-img'
 ---
 obj=way
-name=np-railway-concrete-sleeper-track-elv
+name=np-elevated-concrete-sleeper-track
 copyright=wa
 cost=24000
 maintenance=800
@@ -78,7 +78,7 @@ system_type=1
 %include 'way-img'
 ---
 obj=way
-name=np-railway-slab-track-elv
+name=np-elevated-slab-track
 copyright=wa
 waytype=track
 cost=80000

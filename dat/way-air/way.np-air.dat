@@ -1,7 +1,7 @@
 ---
 
 obj=way
-name=np-airway-taxiway
+name=np-taxiway
 copyright=wa
 cost=10000
 maintenance=800
@@ -52,7 +52,7 @@ diagonal[NW][0]=taxiway-1.8.2
 diagonal[SW][0]=taxiway-1.8.3
 ---
 obj=way
-name=np-airway-apron
+name=np-apron
 copyright=wa
 cost=10000
 maintenance=800
@@ -103,7 +103,7 @@ diagonal[NW][0]=apron-1.8.2
 diagonal[SW][0]=apron-1.8.3
 ---
 obj=way
-name=np-airway-runway
+name=np-runway
 copyright=wa
 cost=27500
 maintenance=6500

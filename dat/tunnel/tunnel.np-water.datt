@@ -1,7 +1,7 @@
 %require 'tunnel-common.datt'
 ---
 obj=tunnel
-name=np-watertunnel-box-1
+name=np-concrete-water-tunnel
 copyright=wa
 waytype=water
 cost=200000
@@ -13,7 +13,7 @@ topspeed=30
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-watertunnel-stone
+name=np-stone-water-tunnel
 copyright=wa
 waytype=water
 cost=200000

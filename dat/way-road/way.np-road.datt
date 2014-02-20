@@ -155,7 +155,7 @@ waytype=road
 %include "winter-way"
 ---
 obj=way
-name=np-road-40n
+name=np-one-lane-road
 copyright=wa
 cost=4000
 maintenance=200
@@ -171,7 +171,7 @@ waytype=road
 
 ---
 obj=way
-name=np-road-70r
+name=np-arterial-road
 copyright=wa
 cost=7500
 maintenance=300
@@ -187,7 +187,7 @@ waytype=road
 
 ---
 obj=way
-name=np-road-100n
+name=np-highway
 copyright=wa
 cost=10000
 maintenance=500
@@ -204,7 +204,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-road-100n-elv
+name=np-elevated-highway
 copyright=wa
 cost=20000
 maintenance=500
@@ -222,7 +222,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-road-100r
+name=np-two-lane-highway
 copyright=wa
 cost=10000
 maintenance=500
@@ -239,7 +239,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-road-100r-elv
+name=np-elevated-two-lane-highway
 copyright=wa
 cost=20000
 maintenance=500
@@ -255,7 +255,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-road-dart
+name=np-dart-road
 copyright=wa
 cost=2000
 maintenance=100
@@ -268,7 +268,7 @@ waytype=road
 %include "way-img"
 ---
 obj=way
-name=np-road-gavel
+name=np-gavel-road
 copyright=wa
 cost=4000
 maintenance=300

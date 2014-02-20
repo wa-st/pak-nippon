@@ -61,13 +61,13 @@ frontStart2[E]=#{nm}.15.1,0,-48
 #%include 'powerline-bridge'
 ---
 %def :nm, 'powerline-2hv'
-name=np-powerlinebridge-2hv
+name=np-powerline-bridge-2hv
 %include 'powerline-bridge'
 ---
 %def :nm, 'powerline-2red'
-name=np-powerlinebridge-2red
+name=np-powerline-bridge-2red
 %include 'powerline-bridge'
 ---
 %def :nm, 'powerline-4'
-name=np-powerlinebridge-4
+name=np-powerline-bridge-4
 %include 'powerline-bridge'

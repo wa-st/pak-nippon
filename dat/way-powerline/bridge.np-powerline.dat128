@@ -1,5 +1,5 @@
 ---
-name=np-powerlinebridge-2hv
+name=np-powerline-bridge-2hv
 obj=bridge
 copyright=wa
 waytype=power
@@ -49,7 +49,7 @@ frontStart2[W]=powerline-2hv.15.3,0,-48
 frontStart2[S]=powerline-2hv.15.0,0,-48
 frontStart2[E]=powerline-2hv.15.1,0,-48
 ---
-name=np-powerlinebridge-2red
+name=np-powerline-bridge-2red
 obj=bridge
 copyright=wa
 waytype=power
@@ -99,7 +99,7 @@ frontStart2[W]=powerline-2red.15.3,0,-48
 frontStart2[S]=powerline-2red.15.0,0,-48
 frontStart2[E]=powerline-2red.15.1,0,-48
 ---
-name=np-powerlinebridge-4
+name=np-powerline-bridge-4
 obj=bridge
 copyright=wa
 waytype=power

@@ -1,6 +1,6 @@
 ---
 obj=way
-name=np-railway-sand-track
+name=np-sand-track
 copyright=wa
 cost=3500
 maintenance=100
@@ -88,7 +88,7 @@ diagonal[NW][1]=track-1-winter.8.2
 diagonal[SW][1]=track-1-winter.8.3
 ---
 obj=way
-name=np-railway-wooden-sleeper-track
+name=np-wooden-sleeper-track
 copyright=wa
 cost=8000
 maintenance=500
@@ -176,7 +176,7 @@ diagonal[NW][1]=track-2-winter.8.2
 diagonal[SW][1]=track-2-winter.8.3
 ---
 obj=way
-name=np-railway-concrete-sleeper-track
+name=np-concrete-sleeper-track
 copyright=wa
 cost=12000
 maintenance=800
@@ -264,7 +264,7 @@ diagonal[NW][1]=track-3-winter.8.2
 diagonal[SW][1]=track-3-winter.8.3
 ---
 obj=way
-name=np-railway-slab-track
+name=np-slab-track
 copyright=wa
 waytype=track
 cost=40000
@@ -352,7 +352,7 @@ diagonal[NW][1]=track-4-winter.8.2
 diagonal[SW][1]=track-4-winter.8.3
 ---
 obj=way
-name=np-railway-concrete-sleeper-track-elv
+name=np-elevated-concrete-sleeper-track
 copyright=wa
 cost=24000
 maintenance=800
@@ -441,7 +441,7 @@ diagonal[NW][1]=track-3-elv-winter.8.2,0,16
 diagonal[SW][1]=track-3-elv-winter.8.3,0,16
 ---
 obj=way
-name=np-railway-slab-track-elv
+name=np-elevated-slab-track
 copyright=wa
 waytype=track
 cost=80000

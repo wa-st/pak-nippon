@@ -53,7 +53,7 @@ frontStart[W][0]=#{fn}.5.5,0,16
 
 --------------------------
 obj=bridge
-name=np-roadbridge-100n
+name=np-highway-bridge
 copyright=wa
 waytype=road
 cost=10000
@@ -69,7 +69,7 @@ max_length=20
 %undef /(back|front)ramp2.*/
 --------------------------
 obj=bridge
-name=np-roadbridge-100r
+name=np-two-lane-highway-bridge
 copyright=wa
 waytype=road
 cost=10000
@@ -88,7 +88,7 @@ icon=> road-100r-bridge.6.0
 
 ---
 obj=bridge
-name=np-roadbridge-3
+name=np-arterial-road-bridge
 copyright=wa
 waytype=road
 cost=7500
@@ -103,7 +103,7 @@ max_length=10
 %undef /(back|front)ramp2.*/
 ---
 obj=bridge
-name=np-roadbridge-4
+name=np-road-bridge
 copyright=wa
 waytype=road
 cost=4000
@@ -118,7 +118,7 @@ max_length=5
 %undef /(back|front)ramp2.*/
 ---
 obj=bridge
-name=np-roadbridge-5
+name=np-timber-road-bridge
 copyright=wa
 waytype=road
 cost=2000

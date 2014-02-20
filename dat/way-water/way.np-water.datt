@@ -1,7 +1,7 @@
 %require '..\common.datt'
 ---
 obj=way
-name=np-waterway-river-1
+name=np-river-1
 copyright=wa
 cost=1000000
 maintenance=100
@@ -18,7 +18,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-waterway-river-2
+name=np-river-2
 copyright=wa
 cost=1000000
 maintenance=100
@@ -34,7 +34,7 @@ draw_as_ding=1
 %undef /diagonal.+/
 ---
 obj=way
-name=np-waterway-river-3
+name=np-river-3
 copyright=wa
 cost=1000000
 maintenance=100
@@ -50,7 +50,7 @@ draw_as_ding=1
 %undef /diagonal.+/
 ---
 obj=way
-name=np-waterway-canal
+name=np-canal
 copyright=wa
 cost=1000000
 maintenance=100

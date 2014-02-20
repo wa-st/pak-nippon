@@ -1,49 +1,49 @@
 %require 'tunnel-common.datt'
 
 obj=tunnel
-name=np-railtunnel-1
+name=np-rail-tunnel-1
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=np-railway-concrete-sleeper-track
+way=np-concrete-sleeper-track
 
 %def :fn, 'tunnel-c1'
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-railtunnel-box-1
+name=np-concrete-rail-tunnel-1
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=200
-way=np-railway-concrete-sleeper-track
+way=np-concrete-sleeper-track
 
 %def :fn, 'tunnel-1'
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-railtunnel-box-2
+name=np-concrete-rail-tunnel-2
 copyright=wa
 waytype=track
 cost=150000
 maintenance=15000
 topspeed=450
-way=np-railway-slab-track
+way=np-slab-track
 
 %def :fn, 'tunnel-2'
 %include 'wide-tunnel'
 ---
 obj=tunnel
-name=np-railtunnel-stone
+name=np-stone-rail-tunnel
 copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
 topspeed=120
-way=np-railway-wooden-sleeper-track
+way=np-wooden-sleeper-track
 
 backImage[N]=stone-tunnel.3.0
 backImage[W]=stone-tunnel.3.1

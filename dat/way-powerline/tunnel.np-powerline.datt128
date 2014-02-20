@@ -26,7 +26,7 @@ frontImage[E]=#{nm}.10.3,0,-64
 #%include 'powerline-tunnel'
 ---
 %def :nm, 'powerline-2hv'
-name=np-powerlinetunnel-2hv
+name=np-powerline-tunnel-2hv
 %include 'powerline-tunnel'
 ---
 #%def :nm, 'powerline-2red'

@@ -1,6 +1,6 @@
 ---
 obj=tunnel
-name=np-watertunnel-box-1
+name=np-concrete-water-tunnel
 copyright=wa
 waytype=water
 cost=200000
@@ -51,7 +51,7 @@ icon=> tunnel-water.8.0
 cursor=tunnel-water.8.1
 ---
 obj=tunnel
-name=np-watertunnel-stone
+name=np-stone-water-tunnel
 copyright=wa
 waytype=water
 cost=200000

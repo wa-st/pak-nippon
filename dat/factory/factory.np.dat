@@ -1,6 +1,6 @@
 ---
 obj=factory
-name=np-stahlwerk
+name=np-fact-stahlwerk
 copyright=wa
 
 #>>> factories.datt[140]
@@ -310,7 +310,7 @@ backImage[3][3][3][0][0][1]=steelmill-tile.15.15
 #backImage[3][3][3][1][0][1]=steelmill-tile.14.15
 ---
 obj=factory
-name=np-erzbergwerk
+name=np-fact-erzbergwerk
 copyright=wa
 
 #>>> factories.datt[67]
@@ -465,7 +465,7 @@ backImage[3][2][1][0][0][1]=ironore-tile.5.10
 backImage[3][2][2][0][0][1]=ironore-tile.5.11
 ---
 obj=factory
-name=np-sandquarry
+name=np-fact-sandquarry
 copyright=wa
 
 #>>> factories.datt[928]
@@ -569,7 +569,7 @@ backImage[3][2][1][0][0][1]=sand-tile.5.10
 backImage[3][2][2][0][0][1]=sand-tile.5.11
 ---
 obj=factory
-name=np-stonequarry
+name=np-fact-stonequarry
 copyright=wa
 
 #>>> factories.datt[902]
@@ -677,7 +677,7 @@ backImage[3][2][1][0][0][1]=stone-tile.5.10
 backImage[3][2][2][0][0][1]=stone-tile.5.11
 ---
 obj=factory
-name=np-oil-storage
+name=np-fact-oil-storage
 copyright=wa
 Location=Land
 climates=desert,tropic,mediterran,temperate,tundra,rocky
@@ -800,7 +800,7 @@ backImage[1][3][2][0][0][1]=oil-storage-tile.7.6
 backImage[1][3][3][0][0][1]=oil-storage-tile.7.7
 ---
 obj=factory
-name=np-cementmill
+name=np-fact-cementmill
 copyright=wa
 
 #>>> factories.datt[950]
@@ -950,7 +950,7 @@ backImage[3][2][1][0][0][1]=cementmill-tile.11.10
 #backImage[3][2][1][1][0][1]=cementmill-tile.10.10
 ---
 obj=factory
-name=np-nutzwald
+name=np-fact-nutzwald
 copyright=wa
 #needs_ground=0
 
@@ -986,10 +986,10 @@ passenger_demand=5
 #BackImage[0][2][2][0][0]=./forest.2.0
 #<<<
 
-fields[0]=np-nutzwald-field-1
-fields[1]=np-nutzwald-field-2
-fields[2]=np-nutzwald-field-3
-fields[3]=np-nutzwald-field-4
+fields[0]=np-field-nutzwald-1
+fields[1]=np-field-nutzwald-2
+fields[2]=np-field-nutzwald-3
+fields[3]=np-field-nutzwald-4
 spawn_weight[0]=1000
 spawn_weight[1]=1000
 spawn_weight[2]=1000
@@ -1032,32 +1032,32 @@ backImage[3][1][0][0][0][1]=forestry-tile.3.6
 backImage[3][1][1][0][0][1]=forestry-tile.3.7
 ---
 obj=field
-name=np-nutzwald-field-1
+name=np-field-nutzwald-1
 copyright=wa
 image[0]=forestry-tile.4.0
 image[1]=forestry-tile.5.0
 ---
 obj=field
-name=np-nutzwald-field-2
+name=np-field-nutzwald-2
 copyright=wa
 image[0]=forestry-tile.4.1
 image[1]=forestry-tile.5.1
 ---
 obj=field
-name=np-nutzwald-field-3
+name=np-field-nutzwald-3
 copyright=wa
 image[0]=forestry-tile.4.2
 image[1]=forestry-tile.5.2
 ---
 obj=field
-name=np-nutzwald-field-4
+name=np-field-nutzwald-4
 copyright=wa
 image[0]=forestry-tile.4.3
 image[1]=forestry-tile.5.3
 
 ---
 obj=factory
-name=np-kohlegrube
+name=np-fact-kohlegrube
 copyright=wa
 
 #>>> factories.datt[30]
@@ -1296,7 +1296,7 @@ backImage[3][3][2][0][0][1]=coalmine-tile.15.14
 #backImage[3][3][2][1][0][1]=coalmine-tile.14.14
 ---
 obj=factory
-name=np-autohaus
+name=np-fact-autohaus
 copyright=wa
 
 #>>> factories.datt[216]
@@ -1365,7 +1365,7 @@ backImage[3][1][0][0][0][1]=cardealer-tile.3.6
 backImage[3][1][1][0][0][1]=cardealer-tile.3.7
 ---
 obj=factory
-name=np-tanke
+name=np-fact-tanke
 copyright=wa
 
 #>>> factories.datt[243]
@@ -1419,7 +1419,7 @@ backImage[3][0][0][0][0][1]=gasstaion-tile.2.6
 backImage[3][1][0][0][0][1]=gasstaion-tile.3.6
 ---
 obj=factory
-name=np-incinerator
+name=np-fact-incinerator
 copyright=wa
 
 #>>> factory_waste_factories.datt[36]
@@ -1501,7 +1501,7 @@ backImage[3][1][0][0][0][1]=incinerator-tile.3.6
 backImage[3][1][1][0][0][1]=incinerator-tile.3.7
 ---
 obj=factory
-name=np-muellkraftwerk
+name=np-fact-muellkraftwerk
 copyright=wa
 
 #>>> factory_waste_factories.datt[76]
@@ -1686,7 +1686,7 @@ backImage[3][2][2][0][0][1]=incinerator-power-tile.11.11
 #backImage[3][2][2][1][0][1]=incinerator-power-tile.10.11
 ---
 obj=factory
-name=np-oelkraftwerk
+name=np-fact-oelkraftwerk
 copyright=wa
 
 #>>> power.datt[242]
@@ -1888,7 +1888,7 @@ backImage[3][2][2][0][0][1]=oil-powerplant-tile.11.11
 #backImage[3][2][2][1][0][1]=oil-powerplant-tile.10.11
 ---
 obj=factory
-name=np-kohlekraftwerk
+name=np-fact-kohlekraftwerk
 copyright=wa
 
 #>>> power.datt[290]
@@ -2073,7 +2073,7 @@ backImage[3][2][2][0][0][1]=coal-powerplant-tile.11.11
 
 ---
 obj=factory
-name=np-geokraftwerk
+name=np-fact-geokraftwerk
 copyright=wa
 climates=desert,tropic,mediterran,temperate,tundra
 
@@ -2209,7 +2209,7 @@ backImage[3][1][1][0][0][1]=geothermal-powerplant-tile.3.7
 
 ---
 obj=factory
-name=np-solar-kraftwerk
+name=np-fact-solar-kraftwerk
 copyright=wa
 climates=desert,tropic,mediterran,temperate,tundra
 productivity=150
@@ -2277,7 +2277,7 @@ backImage[0][3][3][0][0][1]=solar-powerplant-tile.7.3
 
 ---
 obj=factory
-name=np-raffinerie
+name=np-fact-raffinerie
 copyright=wa
 
 #>>> factories.datt[271]
@@ -2453,7 +2453,7 @@ backImage[3][3][2][0][0][1]=refinery-tile.7.14
 backImage[3][3][3][0][0][1]=refinery-tile.7.15
 ---
 obj=factory
-name=np-chemical-plant
+name=np-fact-chemical-plant
 copyright=wa
 
 #>>> factories.datt[417]
@@ -2573,7 +2573,7 @@ backImage[3][2][1][0][0][1]=chemical-plant-tile.5.10
 backImage[3][2][2][0][0][1]=chemical-plant-tile.5.11
 ---
 obj=factory
-name=np-saegewerk
+name=np-fact-saegewerk
 copyright=wa
 
 #>>> factories.datt[636]
@@ -2654,7 +2654,7 @@ backImage[3][1][0][0][0][1]=sawmill-tile.3.6
 backImage[3][1][1][0][0][1]=sawmill-tile.3.7
 ---
 obj=factory
-name=np-pharmaceutics
+name=np-fact-pharmaceutics
 copyright=wa
 
 #>>> factories.datt[455]
@@ -2767,7 +2767,7 @@ backImage[3][2][1][0][0][1]=pharmaceutics-tile.5.10
 backImage[3][2][2][0][0][1]=pharmaceutics-tile.5.11
 ---
 obj=factory
-name=np-material-storage
+name=np-fact-material-storage
 copyright=wa
 
 #>>> factories.datt[1049]
@@ -2865,7 +2865,7 @@ backImage[3][1][0][0][0][1]=material-storage-tile.3.6
 backImage[3][1][1][0][0][1]=material-storage-tile.3.7
 ---
 obj=factory
-name=np-scrap-yard
+name=np-fact-scrap-yard
 copyright=wa
 
 #>>> factory_waste_factories.datt[13]
@@ -2906,7 +2906,7 @@ backImage[2][0][0][0][0][1]=garbage.1.2
 backImage[3][0][0][0][0][1]=garbage.1.3
 ---
 obj=factory
-name=np-druckerei
+name=np-fact-druckerei
 copyright=wa
 
 #>>> factories.datt[543]
@@ -3023,7 +3023,7 @@ backImage[3][2][1][0][0][1]=printing-tile.5.10
 backImage[3][2][2][0][0][1]=printing-tile.5.11
 ---
 obj=factory
-name=np-papierfabrik
+name=np-fact-papierfabrik
 copyright=wa
 
 #>>> factories.datt[513]
@@ -3136,7 +3136,7 @@ backImage[3][2][2][0][0][1]=paper-tile.5.11
 
 ---
 obj=factory
-name=np-autohersteller
+name=np-fact-autohersteller
 copyright=wa
 
 #>>> factories.datt[184]
@@ -3306,7 +3306,7 @@ backImage[3][3][2][0][0][1]=carfactory-tile.7.14
 backImage[3][3][3][0][0][1]=carfactory-tile.7.15
 ---
 obj=factory
-name=np-moebelfabrik
+name=np-fact-moebelfabrik
 copyright=wa
 
 #>>> factories.datt[705]
@@ -3419,7 +3419,7 @@ backImage[3][1][0][0][0][1]=furniture-tile.3.6
 backImage[3][1][1][0][0][1]=furniture-tile.3.7
 ---
 obj=factory
-name=np-concrete-factory
+name=np-fact-concrete-factory
 copyright=wa
 
 #>>> factories.datt[994]
@@ -3516,7 +3516,7 @@ backImage[3][1][0][0][0][1]=concrete-tile.3.6
 backImage[3][1][1][0][0][1]=concrete-tile.3.7
 ---
 obj=factory
-name=np-windkraftwerk
+name=np-fact-windkraftwerk
 copyright=wa
 productivity=150
 
@@ -3628,7 +3628,7 @@ backImage[1][4][0][1][3]=windkraftwerk.6.1
 backImage[1][4][0][1][4]=windkraftwerk.8.1
 ---
 obj=factory
-name=np-moebelhaus
+name=np-fact-moebelhaus
 copyright=713
 
 #>>> factories.datt[776]
@@ -3709,7 +3709,7 @@ BackImage[0][2][0][1][0]=nitori.5.0
 #<<<
 ---
 obj=factory
-name=np-buchgrosshandel
+name=np-fact-buchgrosshandel
 copyright=713
 
 #>>> factories.datt[578]
@@ -3753,7 +3753,7 @@ BackImage[0][1][1][0][0]=bookoff.1.1
 #<<<
 ---
 obj=factory
-name=np-chemist
+name=np-fact-chemist
 copyright=713
 
 #>>> factories.datt[486]

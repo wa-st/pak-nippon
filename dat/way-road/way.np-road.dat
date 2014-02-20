@@ -81,7 +81,7 @@ diagonal[NE][1]=cityroad-winter.6.2
 diagonal[SE][1]=cityroad-winter.6.3
 ---
 obj=way
-name=np-road-40n
+name=np-one-lane-road
 copyright=wa
 cost=4000
 maintenance=200
@@ -163,7 +163,7 @@ diagonal[SE][1]=road-40n-winter.6.3
 
 ---
 obj=way
-name=np-road-70r
+name=np-arterial-road
 copyright=wa
 cost=7500
 maintenance=300
@@ -245,7 +245,7 @@ diagonal[SE][1]=road-70r-winter.6.3
 
 ---
 obj=way
-name=np-road-100n
+name=np-highway
 copyright=wa
 cost=10000
 maintenance=500
@@ -317,7 +317,7 @@ imageUp2[6][1]=road-100n-winter.5.3
 
 ---
 obj=way
-name=np-road-100n-elv
+name=np-elevated-highway
 copyright=wa
 cost=20000
 maintenance=500
@@ -363,7 +363,7 @@ imageUp2[6][0]=road-100n-elv.5.3,0,16
 
 ---
 obj=way
-name=np-road-100r
+name=np-two-lane-highway
 copyright=wa
 cost=10000
 maintenance=500
@@ -446,7 +446,7 @@ diagonal[SE][1]=road-100r-winter.6.3
 
 ---
 obj=way
-name=np-road-100r-elv
+name=np-elevated-two-lane-highway
 copyright=wa
 cost=20000
 maintenance=500
@@ -495,7 +495,7 @@ diagonal[SE][0]=road-100r-elv.6.3,0,16
 
 ---
 obj=way
-name=np-road-dart
+name=np-dart-road
 copyright=wa
 cost=2000
 maintenance=100
@@ -581,7 +581,7 @@ diagonal[NW][1]=dart-1-winter.8.2
 diagonal[SW][1]=dart-1-winter.8.3
 ---
 obj=way
-name=np-road-gavel
+name=np-gavel-road
 copyright=wa
 cost=4000
 maintenance=300

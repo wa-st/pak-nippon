@@ -1,5 +1,5 @@
 ---
-name=np-miscway-fence
+name=np-fence-miscway
 obj=way
 copyright=wa
 cost=1000
@@ -87,7 +87,7 @@ imageUp2[6][1]=miscway-1-winter.7.3
 #diagonal[NW][1]=miscway-1-winter.8.2
 #diagonal[SW][1]=miscway-1-winter.8.3
 ---
-name=np-miscway-construction-fence
+name=np-construction-fence-miscway
 obj=way
 copyright=wa
 cost=1000
@@ -175,7 +175,7 @@ imageUp2[6][1]=miscway-2-winter.7.3
 #diagonal[NW][1]=miscway-2-winter.8.2
 #diagonal[SW][1]=miscway-2-winter.8.3
 ---
-name=np-miscway-trees
+name=np-tree-miscway
 obj=way
 copyright=wa
 cost=1000
@@ -263,7 +263,7 @@ imageUp2[6][1]=miscway-3-winter.7.3
 #diagonal[NW][1]=miscway-3-winter.8.2
 #diagonal[SW][1]=miscway-3-winter.8.3
 ---
-name=np-miscway-square-tree
+name=np-square-tree-miscway
 obj=way
 copyright=wa
 cost=1000
@@ -351,7 +351,7 @@ imageUp2[6][1]=miscway-4-winter.7.3
 #diagonal[NW][1]=miscway-4-winter.8.2
 #diagonal[SW][1]=miscway-4-winter.8.3
 ---
-name=np-miscway-square
+name=np-square-miscway
 obj=way
 copyright=wa
 cost=1000
@@ -440,7 +440,7 @@ imageUp2[6][1]=miscway-5-winter.7.3
 #diagonal[SW][1]=miscway-5-winter.8.3
 ---
 obj=way
-name=np-miscway-barrier
+name=np-barrier-miscway
 copyright=wa
 cost=1000
 maintenance=1

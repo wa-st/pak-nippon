@@ -1,6 +1,6 @@
 ---
 obj=way
-name=np-tramway-track-1
+name=np-tramtrack-1
 copyright=wa
 waytype=tram_track
 cost=10000
@@ -49,7 +49,7 @@ diagonal[NW][0]=tramtrack-1.8.2
 diagonal[SW][0]=tramtrack-1.8.3
 ---
 obj=way
-name=np-tramway-track-2
+name=np-tramtrack-2
 copyright=wa
 waytype=tram_track
 cost=10000
