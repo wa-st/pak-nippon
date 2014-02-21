@@ -1,4 +1,4 @@
-SCRIPT_DIR = ..\k\ 
+SCRIPT_DIR = .\scripts\ 
 RELEASE_DIR = .\pak.nippon\ 
 MAKEOBJ64 = ..\..\makeobj\makeobjxx.exe pak
 MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
