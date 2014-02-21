@@ -219,3 +219,7 @@ copy .\*.pak %TARGET_DIR%
 copy .\compat.tab %TARGET_DIR%
 copy .\config %TARGET_DIR%\config
 copy .\text %TARGET_DIR%\text
+mkdir %TARGET_DIR%\license
+copy .\license %TARGET_DIR%\license
+
+ren %TARGET_DIR% pak.nippon
