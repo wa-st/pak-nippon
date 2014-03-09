@@ -40,7 +40,7 @@ np-monorail-bridge
 モノレール橋
 np-monorail-ramp
 モノレールランプ
-np-plate-girder-raill-bridge
+np-plate-girder-rail-bridge
 上路ガーダー橋
 np-powerline-bridge-2hv
 送電線オーバーパス
@@ -52,7 +52,7 @@ np-road-bridge
 道路橋
 np-slab-track-bridge
 スラブ線路橋
-np-through-plate-girder-raill-bridge
+np-through-plate-girder-rail-bridge
 下路ガーダー橋
 np-timber-road-bridge
 木橋

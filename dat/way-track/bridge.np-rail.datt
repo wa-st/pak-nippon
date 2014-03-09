@@ -32,7 +32,7 @@ max_length=20
 %undef /(back|front)ramp2.*/
 --------------------------
 obj=bridge
-name=np-plate-girder-raill-bridge
+name=np-plate-girder-rail-bridge
 copyright=wa
 waytype=track
 cost=10000
@@ -47,7 +47,7 @@ max_length=10
 %undef /(back|front)ramp2.*/
 --------------------------
 obj=bridge
-name=np-through-plate-girder-raill-bridge
+name=np-through-plate-girder-rail-bridge
 copyright=wa
 waytype=track
 cost=10000
