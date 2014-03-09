@@ -19,6 +19,7 @@ copyright=wa
 %include "Erzbergwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+needs_ground=1
 %def :image, "ironore-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ---
@@ -39,6 +40,7 @@ copyright=wa
 %include "Stonequarry", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+needs_ground=1
 %def :image, "stone-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ----
