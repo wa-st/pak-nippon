@@ -5,7 +5,8 @@ MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
 DATT = ruby $(SCRIPT_DIR)datt.rb
 
 ########### .pak -> PAKS
-PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
+PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
+	$(RELEASE_DIR)bridge.np-powerline.pak \
 	$(RELEASE_DIR)bridge.np-rail.pak \
 	$(RELEASE_DIR)bridge.np-road.pak \
 	$(RELEASE_DIR)building.np-airext.pak \
@@ -49,6 +50,7 @@ PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
 	$(RELEASE_DIR)roadsign.np-rail.pak \
 	$(RELEASE_DIR)roadsign.np-road.pak \
 	$(RELEASE_DIR)tree.np.pak \
+	$(RELEASE_DIR)tunnel.np-monorail.pak \
 	$(RELEASE_DIR)tunnel.np-powerline.pak \
 	$(RELEASE_DIR)tunnel.np-rail.pak \
 	$(RELEASE_DIR)tunnel.np-road.pak \
@@ -56,6 +58,7 @@ PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
 	$(RELEASE_DIR)way-object.np-catenary.pak \
 	$(RELEASE_DIR)way.np-air.pak \
 	$(RELEASE_DIR)way.np-misc.pak \
+	$(RELEASE_DIR)way.np-monorail.pak \
 	$(RELEASE_DIR)way.np-powerline-underground.pak \
 	$(RELEASE_DIR)way.np-powerline.pak \
 	$(RELEASE_DIR)way.np-rail.pak \
@@ -64,6 +67,8 @@ PAKS: $(RELEASE_DIR)bridge.np-powerline.pak \
 	$(RELEASE_DIR)way.np-water.pak
 
 ########### .dat => .pak
+$(RELEASE_DIR)bridge.np-monorail.pak: dat/way-monorail/bridge.np-monorail.dat dat/way-monorail/monorail-ramp.png dat/way-monorail/monorail-ramp-winter.png dat/way-monorail/monorail-bridge.png dat/way-monorail/monorail-bridge-winter.png
+	$(MAKEOBJ64) $@ dat/way-monorail/bridge.np-monorail.dat
 $(RELEASE_DIR)bridge.np-powerline.pak: dat/way-powerline/bridge.np-powerline.dat128 dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-2red.png dat/way-powerline/powerline-4.png
 	$(MAKEOBJ128) $@ dat/way-powerline/bridge.np-powerline.dat128
 $(RELEASE_DIR)bridge.np-rail.pak: dat/way-track/bridge.np-rail.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png
@@ -152,6 +157,8 @@ $(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/t
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
 $(RELEASE_DIR)tree.np.pak: dat/tree/tree.np.dat dat/tree/trees.png
 	$(MAKEOBJ64) $@ dat/tree/tree.np.dat
+$(RELEASE_DIR)tunnel.np-monorail.pak: dat/tunnel/tunnel.np-monorail.dat dat/tunnel/tunnel-monorail.png
+	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-monorail.dat
 $(RELEASE_DIR)tunnel.np-powerline.pak: dat/way-powerline/tunnel.np-powerline.dat128 dat/way-powerline/powerline-2hv.png
 	$(MAKEOBJ128) $@ dat/way-powerline/tunnel.np-powerline.dat128
 $(RELEASE_DIR)tunnel.np-rail.pak: dat/tunnel/tunnel.np-rail.dat dat/tunnel/tunnel-c1.png dat/tunnel/tunnel-1.png dat/tunnel/tunnel-2.png dat/tunnel/stone-tunnel.png
@@ -166,6 +173,8 @@ $(RELEASE_DIR)way.np-air.pak: dat/way-air/way.np-air.dat dat/way-air/taxiway-1.p
 	$(MAKEOBJ64) $@ dat/way-air/way.np-air.dat
 $(RELEASE_DIR)way.np-misc.pak: dat/way-misc/way.np-misc.dat dat/way-misc/miscway-1.png dat/way-misc/miscway-1-winter.png dat/way-misc/miscway-2.png dat/way-misc/miscway-2-winter.png dat/way-misc/miscway-3.png dat/way-misc/miscway-3-winter.png dat/way-misc/miscway-4.png dat/way-misc/miscway-4-winter.png dat/way-misc/miscway-5.png dat/way-misc/miscway-5-winter.png dat/way-misc/wall.png dat/way-misc/wall-winter.png
 	$(MAKEOBJ64) $@ dat/way-misc/way.np-misc.dat
+$(RELEASE_DIR)way.np-monorail.pak: dat/way-monorail/way.np-monorail.dat dat/way-monorail/monorail-elv.png dat/way-monorail/monorail-ground.png dat/way-monorail/monorail-ground-winter.png
+	$(MAKEOBJ64) $@ dat/way-monorail/way.np-monorail.dat
 $(RELEASE_DIR)way.np-powerline-underground.pak: dat/way-powerline/way.np-powerline-underground.dat dat/way-powerline/powerline-ug.png
 	$(MAKEOBJ64) $@ dat/way-powerline/way.np-powerline-underground.dat
 $(RELEASE_DIR)way.np-powerline.pak: dat/way-powerline/way.np-powerline.dat128 dat/way-powerline/powerline-1a.png dat/way-powerline/powerline-1b.png dat/way-powerline/powerline-2.png dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-4.png
@@ -234,6 +243,8 @@ dat/stop-station/building.np-railext-local-station.dat: dat/stop-station/buildin
 	$(DATT) $** > $@
 dat/tow/building.np-townhall.dat: dat/tow/building.np-townhall.datt
 	$(DATT) $** > $@
+dat/tunnel/tunnel.np-monorail.dat: dat/tunnel/tunnel.np-monorail.datt
+	$(DATT) $** > $@
 dat/tunnel/tunnel.np-rail.dat: dat/tunnel/tunnel.np-rail.datt
 	$(DATT) $** > $@
 dat/tunnel/tunnel.np-road.dat: dat/tunnel/tunnel.np-road.datt
@@ -243,6 +254,10 @@ dat/tunnel/tunnel.np-water.dat: dat/tunnel/tunnel.np-water.datt
 dat/way-air/way.np-air.dat: dat/way-air/way.np-air.datt
 	$(DATT) $** > $@
 dat/way-misc/way.np-misc.dat: dat/way-misc/way.np-misc.datt
+	$(DATT) $** > $@
+dat/way-monorail/bridge.np-monorail.dat: dat/way-monorail/bridge.np-monorail.datt
+	$(DATT) $** > $@
+dat/way-monorail/way.np-monorail.dat: dat/way-monorail/way.np-monorail.datt
 	$(DATT) $** > $@
 dat/way-powerline/bridge.np-powerline.dat128: dat/way-powerline/bridge.np-powerline.datt128
 	$(DATT) $** > $@

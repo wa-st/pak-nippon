@@ -1,0 +1,13 @@
+%require 'tunnel-common.datt'
+
+obj=tunnel
+name=np-concrete-monorail-tunnel
+copyright=wa
+waytype=monorail_track
+cost=100000
+maintenance=5000
+topspeed=80
+way=np-monorail
+
+%def :fn, 'tunnel-monorail'
+%include 'wide-tunnel'

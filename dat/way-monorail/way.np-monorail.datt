@@ -1,0 +1,73 @@
+%require '..\common.datt'
+
+---
+obj=way
+name=np-elevated-monorail
+copyright=wa
+cost=16000
+maintenance=500
+topspeed=80
+max_weight=110
+#intro_year=1810
+#intro_month=9
+waytype=monorail_track
+system_type=1
+
+%def :offset, ",0,16"
+%def :fn, "monorail-elv"
+%include 'way-img-summer'
+
+#image[NSEW1][0]=#{fn}.3.1#{offset}
+#image[NSEW2][0]=#{fn}.3.2#{offset}
+
+#image[NSE1][0]=#{fn}.10.0#{offset}
+#image[NEW1][0]=#{fn}.10.1#{offset}
+#image[NSW1][0]=#{fn}.10.2#{offset}
+#image[SEW1][0]=#{fn}.10.3#{offset}
+
+#image[NSE2][0]=#{fn}.11.0#{offset}
+#image[NEW2][0]=#{fn}.11.1#{offset}
+#image[NSW2][0]=#{fn}.11.2#{offset}
+#image[SEW2][0]=#{fn}.11.3#{offset}
+---
+obj=way
+name=np-monorail
+copyright=wa
+cost=8000
+maintenance=500
+topspeed=80
+max_weight=110
+#intro_year=1810
+#intro_month=9
+waytype=monorail_track
+system_type=0
+
+%def :offset, ",0,16"
+%def :fn, "monorail-ground"
+%include 'way-img'
+
+#image[NSEW1][0]=#{fn}.3.1#{offset}
+#image[NSEW2][0]=#{fn}.3.2#{offset}
+
+#image[NSE1][0]=#{fn}.10.0#{offset}
+#image[NEW1][0]=#{fn}.10.1#{offset}
+#image[NSW1][0]=#{fn}.10.2#{offset}
+#image[SEW1][0]=#{fn}.10.3#{offset}
+
+#image[NSE2][0]=#{fn}.11.0#{offset}
+#image[NEW2][0]=#{fn}.11.1#{offset}
+#image[NSW2][0]=#{fn}.11.2#{offset}
+#image[SEW2][0]=#{fn}.11.3#{offset}
+
+#image[NSEW1][1]=#{fn}-winter.3.1#{offset}
+#image[NSEW2][1]=#{fn}-winter.3.2#{offset}
+
+#image[NSE1][1]=#{fn}-winter.10.0#{offset}
+#image[NEW1][1]=#{fn}-winter.10.1#{offset}
+#image[NSW1][1]=#{fn}-winter.10.2#{offset}
+#image[SEW1][1]=#{fn}-winter.10.3#{offset}
+
+#image[NSE2][1]=#{fn}-winter.11.0#{offset}
+#image[NEW2][1]=#{fn}-winter.11.1#{offset}
+#image[NSW2][1]a=#{fn}-winter.11.2#{offset}
+#image[SEW2][1]=#{fn}-winter.11.3#{offset}

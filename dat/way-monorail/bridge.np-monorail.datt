@@ -1,0 +1,39 @@
+%require '..\common.datt'
+--------------------------
+obj=bridge
+name=np-monorail-ramp
+copyright=wa
+waytype=monorail_track
+cost=16000
+maintenance=500
+topspeed=80
+max_length=3
+
+%def :fn, "monorail-ramp"
+%include 'bridge-image'
+%undef /(back|front)ramp2.*/
+%undef /pillar/
+--------------------------
+obj=bridge
+name=np-monorail-bridge
+copyright=wa
+waytype=monorail_track
+cost=16000
+maintenance=500
+topspeed=80
+max_length=20
+pillar_distance=1
+pillar_asymmetric=1
+
+%def :fn, "monorail-bridge"
+%include 'bridge-image'
+%undef /(back|front)ramp2.*/
+frontImage[NS][0]=#{fn}.4.4,0,16
+frontImage[EW][0]=#{fn}.4.5,0,16
+frontImage2[NS][0]=#{fn}.5.4,0,16
+frontImage2[EW][0]=#{fn}.5.5,0,16
+
+frontImage[NS][1]=#{fn}-winter.4.4,0,16
+frontImage[EW][1]=#{fn}-winter.4.5,0,16
+frontImage2[NS][1]=#{fn}-winter.5.4,0,16
+frontImage2[EW][1]=#{fn}-winter.5.5,0,16

@@ -30,18 +30,16 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-MaglevBridge
-リニア軌道 橋梁部
-MonorailRamp
-モノレール ランプ
-mlm_concrete_bridge
-リニア コンクリート橋
 np-arterial-road-bridge
 幹線道路橋
 np-concrete-sleeper-track-bridge
 高規格線路橋
 np-highway-bridge
 高速道路橋
+np-monorail-bridge
+モノレール橋
+np-monorail-ramp
+モノレールランプ
 np-plate-girder-raill-bridge
 上路ガーダー橋
 np-powerline-bridge-2hv
@@ -942,6 +940,8 @@ np-tree-20
 広葉樹
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
+np-concrete-monorail-tunnel
+開削モノレールトンネル
 np-concrete-rail-tunnel-1
 開削鉄道トンネル
 np-concrete-rail-tunnel-2
@@ -1382,16 +1382,8 @@ Zeppelin
 ツェッペリン飛行船
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-MaglevTrack
-リニア軌道
-MaglevTrackElevated
-リニア軌道 高架部
 city_road
 市道
-elevated_monorail
-高架式モノレール
-monorail
-モノレール軌道
 np-apron
 エプロン
 np-arterial-road
@@ -1410,6 +1402,8 @@ np-elevated-concrete-sleeper-track
 高規格高架線路
 np-elevated-highway
 高速高架道路
+np-elevated-monorail
+モノレール高架軌道
 np-elevated-slab-track
 スラブ高架線路
 np-elevated-two-lane-highway
@@ -1420,6 +1414,8 @@ np-gavel-road
 砂利道
 np-highway
 高速道路
+np-monorail
+モノレール軌道
 np-one-lane-road
 １車線道路
 np-powerline-1a

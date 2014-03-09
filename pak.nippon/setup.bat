@@ -3,13 +3,16 @@ set TARGET_DIR=R:\simutrans\pak
 
 @del %TARGET_DIR%\bridge.ClassicRail.pak
 @del %TARGET_DIR%\bridge.ClassicRoad.pak
+@del %TARGET_DIR%\bridge.MaglevBridge.pak
 @del %TARGET_DIR%\bridge.ModernRoad.pak
+@del %TARGET_DIR%\bridge.MonorailRamp.pak
 @del %TARGET_DIR%\bridge.PowerBridge.pak
 @del %TARGET_DIR%\bridge.Schiffhebewerk.pak
 @del %TARGET_DIR%\bridge.SteelRail.pak
 @del %TARGET_DIR%\bridge.ViaductRail.pak
 @del %TARGET_DIR%\bridge.WoodenRoad.pak
 @del %TARGET_DIR%\bridge.koka_Bridge_single.pak
+@del %TARGET_DIR%\bridge.mlm_concrete_bridge.pak
 @del %TARGET_DIR%\bridge.tb_classic_road.pak
 @del %TARGET_DIR%\building.00_01_CITY.pak
 @del %TARGET_DIR%\building.01_CITY.pak
@@ -190,6 +193,8 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\way-object.HighSpeedOverheadpower.pak
 @del %TARGET_DIR%\way-object.SlowOverheadpower.pak
 @del %TARGET_DIR%\way.Kanal.pak
+@del %TARGET_DIR%\way.MaglevTrack.pak
+@del %TARGET_DIR%\way.MaglevTrackElevated.pak
 @del %TARGET_DIR%\way.Powerline.pak
 @del %TARGET_DIR%\way.Rillenschienen.pak
 @del %TARGET_DIR%\way.asphalt_road.pak
@@ -197,8 +202,10 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\way.cobblestone_road.pak
 @del %TARGET_DIR%\way.concrete_sleeper_track.pak
 @del %TARGET_DIR%\way.dirt_road.pak
+@del %TARGET_DIR%\way.elevated_monorail.pak
 @del %TARGET_DIR%\way.gavel_road.pak
 @del %TARGET_DIR%\way.mip_cobblestone_road.pak
+@del %TARGET_DIR%\way.monorail.pak
 @del %TARGET_DIR%\way.river.pak
 @del %TARGET_DIR%\way.river2.pak
 @del %TARGET_DIR%\way.runway_grass.pak
