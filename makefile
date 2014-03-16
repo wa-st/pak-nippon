@@ -103,7 +103,7 @@ $(RELEASE_DIR)building.np-cur-sport.pak: dat/cur/building.np-cur-sport.dat dat/c
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-sport.dat
 $(RELEASE_DIR)building.np-cur-temple.pak: dat/cur/building.np-cur-temple.dat dat/cur/temple-1-tile.png dat/cur/temple-2-tile.png dat/cur/temple-3-tile.png dat/cur/temple-4-tile.png dat/cur/temple-5-tile.png dat/cur/cemetery-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-temple.dat
-$(RELEASE_DIR)building.np-depot.pak: dat/depot/building.np-depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png
+$(RELEASE_DIR)building.np-depot.pak: dat/depot/building.np-depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png dat/depot/monorail-depot.png
 	$(MAKEOBJ64) $@ dat/depot/building.np-depot.dat
 $(RELEASE_DIR)building.np-habour.pak: dat/harbor/building.np-habour.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png
 	$(MAKEOBJ64) $@ dat/harbor/building.np-habour.dat

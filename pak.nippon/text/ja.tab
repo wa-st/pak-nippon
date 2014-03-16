@@ -62,12 +62,6 @@ np-two-lane-highway-bridge
 対面高速道路橋
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-MonorailDepot
-モノレール基地
-MonorailFoundation
-モノレール基部
-MonorailGround
-モノレール地上部
 TrainStopMaglev
 旅客駅
 TrainStopMaglevIndicator
@@ -274,6 +268,8 @@ np-air-depot
 格納庫
 np-car-depot
 車庫
+np-monorail-depot
+モノレール基地
 np-ship-depot
 造船所
 np-train-depot

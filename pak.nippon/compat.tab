@@ -6,6 +6,8 @@ MaglevTrack
 np-monorail
 MaglevTrackElevated
 np-elevated-monorail
+MonorailDepot
+np-monorail-depot
 MonorailRamp
 np-monorail-ramp
 elevated_monorail

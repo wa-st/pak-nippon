@@ -67,3 +67,17 @@ noConstruction=1
 icon=> air-depot.2.0
 cursor=air-depot.2.1
 %buil_image 1, 1, 1, 4, 2, front: true
+---
+obj=building
+name=np-monorail-depot
+copyright=wa
+type=depot
+waytype=monorail_track
+noInfo=1
+noConstruction=1
+
+%def :image, 'monorail-depot.0.0'
+
+icon=> monorail-depot.2.0
+cursor=monorail-depot.2.1
+%buil_image 1, 1, 1, 4, 2, front: true
