@@ -41,6 +41,7 @@ max_weight=110
 #intro_month=9
 waytype=monorail_track
 system_type=0
+draw_as_ding=1
 
 %def :offset, ",0,16"
 %def :fn, "monorail-ground"

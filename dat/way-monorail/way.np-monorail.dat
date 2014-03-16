@@ -75,6 +75,7 @@ max_weight=110
 #intro_month=9
 waytype=monorail_track
 system_type=0
+draw_as_ding=1
 
 icon=> monorail-ground.9.0
 cursor=monorail-ground.9.1
