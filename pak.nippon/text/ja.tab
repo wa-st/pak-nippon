@@ -1396,12 +1396,16 @@ np-dart-road
 未舗装の道路
 np-elevated-concrete-sleeper-track
 高規格高架線路
+np-elevated-concrete-sleeper-track-center
+高規格高架線路（中央）
 np-elevated-highway
 高速高架道路
 np-elevated-monorail
 モノレール高架軌道
 np-elevated-slab-track
 スラブ高架線路
+np-elevated-slab-track-center
+スラブ高架線路（中央）
 np-elevated-two-lane-highway
 対面高速高架道路
 np-fence-miscway

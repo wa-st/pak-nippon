@@ -92,3 +92,35 @@ system_type=1
 %def :offset, ",0,16"
 %def :fn, "track-4-elv"
 %include 'way-img'
+---
+obj=way
+name=np-elevated-concrete-sleeper-track-center
+copyright=wa
+cost=24000
+maintenance=800
+topspeed=200
+max_weight=110
+#intro_year=1938
+#intro_month=7
+waytype=track
+system_type=1
+
+%def :offset, ",0,0"
+%def :fn, "track-3-elv-c"
+%include 'way-img'
+---
+obj=way
+name=np-elevated-slab-track-center
+copyright=wa
+waytype=track
+cost=80000
+maintenance=1600
+topspeed=450
+max_weight=110
+#intro_year=1978
+#intro_month=3
+system_type=1
+
+%def :offset, ",0,0"
+%def :fn, "track-4-elv-c"
+%include 'way-img'
