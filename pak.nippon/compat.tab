@@ -6,10 +6,16 @@ MaglevTrack
 np-monorail
 MaglevTrackElevated
 np-elevated-monorail
+MaglevUndergroundStation
+np-monorailstop-ug-platform-i
 MonorailDepot
 np-monorail-depot
 MonorailRamp
 np-monorail-ramp
+TrainStopMaglev
+np-monorailstop-platform-i
+TrainStopMaglevIndicator
+np-monorailstop-platform-i
 elevated_monorail
 np-elevated-monorail
 mlm_concrete_bridge

@@ -60,12 +60,6 @@ np-truss-rail-bridge
 トラス橋
 np-two-lane-highway-bridge
 対面高速道路橋
-#___________________________________building____________________________________
-#___________________________________building____________________________________
-TrainStopMaglev
-旅客駅
-TrainStopMaglevIndicator
-旅客駅(表示板付)
 #___________________________________building(com)_______________________________
 #___________________________________building(com)_______________________________
 np-com-a-01-01
@@ -578,6 +572,10 @@ np-miscext-yard-office-1
 貨物駅駅舎
 np-miscext-yard-office-2
 プレハブ
+np-monorailstop-platform-i
+モノレール旅客駅
+np-monorailstop-ug-platform-i
+モノレール地下旅客駅
 np-railext-freight-roof-f
 貨物上屋拡張
 np-railext-local-station-1
