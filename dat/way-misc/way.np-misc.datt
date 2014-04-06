@@ -11,7 +11,6 @@ draw_as_ding=1
 
 %def :offset, ""
 %include 'way-img'
-%undef /^diagonal.+/
 ---
 name=np-fence-miscway
 cost=1000
@@ -30,18 +29,21 @@ cost=1000
 maintenance=25
 %def :fn, "miscway-3"
 %include 'waymisc'
+%undef /^diagonal.+/
 ---
 name=np-square-tree-miscway
 cost=3000
 maintenance=50
 %def :fn, "miscway-4"
 %include 'waymisc'
+%undef /^diagonal.+/
 ---
 name=np-square-miscway
 cost=3000
 maintenance=50
 %def :fn, "miscway-5"
 %include 'waymisc'
+%undef /^diagonal.+/
 ---
 obj=way
 name=np-barrier-miscway

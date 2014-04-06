@@ -45,10 +45,10 @@ imageUp2[9][0]=miscway-1.7.1
 imageUp2[3][0]=miscway-1.7.2
 imageUp2[6][0]=miscway-1.7.3
 
-#diagonal[SE][0]=miscway-1.8.0
-#diagonal[NE][0]=miscway-1.8.1
-#diagonal[NW][0]=miscway-1.8.2
-#diagonal[SW][0]=miscway-1.8.3
+diagonal[SE][0]=miscway-1.8.0
+diagonal[NE][0]=miscway-1.8.1
+diagonal[NW][0]=miscway-1.8.2
+diagonal[SW][0]=miscway-1.8.3
 
 image[S][1]=miscway-1-winter.0.0
 image[E][1]=miscway-1-winter.0.1
@@ -82,10 +82,10 @@ imageUp2[9][1]=miscway-1-winter.7.1
 imageUp2[3][1]=miscway-1-winter.7.2
 imageUp2[6][1]=miscway-1-winter.7.3
 
-#diagonal[SE][1]=miscway-1-winter.8.0
-#diagonal[NE][1]=miscway-1-winter.8.1
-#diagonal[NW][1]=miscway-1-winter.8.2
-#diagonal[SW][1]=miscway-1-winter.8.3
+diagonal[SE][1]=miscway-1-winter.8.0
+diagonal[NE][1]=miscway-1-winter.8.1
+diagonal[NW][1]=miscway-1-winter.8.2
+diagonal[SW][1]=miscway-1-winter.8.3
 ---
 name=np-construction-fence-miscway
 cost=1000
@@ -133,10 +133,10 @@ imageUp2[9][0]=miscway-2.7.1
 imageUp2[3][0]=miscway-2.7.2
 imageUp2[6][0]=miscway-2.7.3
 
-#diagonal[SE][0]=miscway-2.8.0
-#diagonal[NE][0]=miscway-2.8.1
-#diagonal[NW][0]=miscway-2.8.2
-#diagonal[SW][0]=miscway-2.8.3
+diagonal[SE][0]=miscway-2.8.0
+diagonal[NE][0]=miscway-2.8.1
+diagonal[NW][0]=miscway-2.8.2
+diagonal[SW][0]=miscway-2.8.3
 
 image[S][1]=miscway-2-winter.0.0
 image[E][1]=miscway-2-winter.0.1
@@ -170,10 +170,10 @@ imageUp2[9][1]=miscway-2-winter.7.1
 imageUp2[3][1]=miscway-2-winter.7.2
 imageUp2[6][1]=miscway-2-winter.7.3
 
-#diagonal[SE][1]=miscway-2-winter.8.0
-#diagonal[NE][1]=miscway-2-winter.8.1
-#diagonal[NW][1]=miscway-2-winter.8.2
-#diagonal[SW][1]=miscway-2-winter.8.3
+diagonal[SE][1]=miscway-2-winter.8.0
+diagonal[NE][1]=miscway-2-winter.8.1
+diagonal[NW][1]=miscway-2-winter.8.2
+diagonal[SW][1]=miscway-2-winter.8.3
 ---
 name=np-tree-miscway
 cost=1000
