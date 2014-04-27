@@ -1,5 +1,5 @@
-SCRIPT_DIR = .\scripts\ 
-RELEASE_DIR = .\pak.nippon\ 
+SCRIPT_DIR = ./scripts/ 
+RELEASE_DIR = ./pak.nippon/ 
 MAKEOBJ64 = ..\..\makeobj\makeobjxx.exe pak
 MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
 DATT = ruby $(SCRIPT_DIR)datt.rb
@@ -160,15 +160,15 @@ $(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/t
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
 $(RELEASE_DIR)tree.np.pak: dat/tree/tree.np.dat dat/tree/trees.png
 	$(MAKEOBJ64) $@ dat/tree/tree.np.dat
-$(RELEASE_DIR)tunnel.np-monorail.pak: dat/tunnel/tunnel.np-monorail.dat dat/tunnel/tunnel-monorail.png
+$(RELEASE_DIR)tunnel.np-monorail.pak: dat/tunnel/tunnel.np-monorail.dat dat/tunnel/tunnel-monorail.png dat/tunnel/tunnel-monorail-winter.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-monorail.dat
 $(RELEASE_DIR)tunnel.np-powerline.pak: dat/way-powerline/tunnel.np-powerline.dat128 dat/way-powerline/powerline-2hv.png
 	$(MAKEOBJ128) $@ dat/way-powerline/tunnel.np-powerline.dat128
-$(RELEASE_DIR)tunnel.np-rail.pak: dat/tunnel/tunnel.np-rail.dat dat/tunnel/tunnel-c1.png dat/tunnel/tunnel-1.png dat/tunnel/tunnel-2.png dat/tunnel/stone-tunnel.png
+$(RELEASE_DIR)tunnel.np-rail.pak: dat/tunnel/tunnel.np-rail.dat dat/tunnel/tunnel-c1.png dat/tunnel/tunnel-c1-winter.png dat/tunnel/tunnel-1.png dat/tunnel/tunnel-1-winter.png dat/tunnel/tunnel-2.png dat/tunnel/tunnel-2-winter.png dat/tunnel/stone-tunnel.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-rail.dat
-$(RELEASE_DIR)tunnel.np-road.pak: dat/tunnel/tunnel.np-road.dat dat/tunnel/tunnel-cr1.png dat/tunnel/tunnel-road1.png dat/tunnel/tunnel-road2.png dat/tunnel/stone-tunnel.png
+$(RELEASE_DIR)tunnel.np-road.pak: dat/tunnel/tunnel.np-road.dat dat/tunnel/tunnel-cr1.png dat/tunnel/tunnel-cr1-winter.png dat/tunnel/tunnel-road1.png dat/tunnel/tunnel-road1-winter.png dat/tunnel/tunnel-road2.png dat/tunnel/tunnel-road2-winter.png dat/tunnel/stone-tunnel.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-road.dat
-$(RELEASE_DIR)tunnel.np-water.pak: dat/tunnel/tunnel.np-water.dat dat/tunnel/tunnel-water.png dat/tunnel/stone-tunnel.png
+$(RELEASE_DIR)tunnel.np-water.pak: dat/tunnel/tunnel.np-water.dat dat/tunnel/tunnel-water.png dat/tunnel/tunnel-water-winter.png dat/tunnel/stone-tunnel.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-water.dat
 $(RELEASE_DIR)way-object.np-catenary.pak: dat/way-track/way-object.np-catenary.dat dat/way-track/catenary-1.png dat/way-track/catenary-2.png
 	$(MAKEOBJ64) $@ dat/way-track/way-object.np-catenary.dat
