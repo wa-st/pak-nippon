@@ -62,4 +62,5 @@ draw_as_ding=1
 %def :offset, ""
 %def :fn, "waterway-4"
 %include 'way-img-summer'
-%undef /diagonal.+/
+%include 'way-front-img-summer'
+%undef /(front)?diagonal.+/
