@@ -688,8 +688,6 @@ yellow_car
 黄色い車
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
-Oelpumpe
-採油ポンプ
 np-fact-autohaus
 カーショップ
 np-fact-autohersteller
@@ -728,6 +726,8 @@ np-fact-nutzwald
 植林地
 np-fact-oelkraftwerk
 火力発電所
+np-fact-oelpumpe
+採油ポンプ
 np-fact-oil-storage
 石油基地
 np-fact-papierfabrik

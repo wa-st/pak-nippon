@@ -139,6 +139,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\factory.Oelbohrinsel.pak
 @del %TARGET_DIR%\factory.Oelfeld.pak
 @del %TARGET_DIR%\factory.Oelkraftwerk.pak
+@del %TARGET_DIR%\factory.Oelpumpe.pak
 @del %TARGET_DIR%\factory.Papierfabrik.pak
 @del %TARGET_DIR%\factory.Pharmaceutics.pak
 @del %TARGET_DIR%\factory.Raffinerie.pak
