@@ -112,7 +112,7 @@ $(RELEASE_DIR)building.np-hq.pak: dat/hq/building.np-hq.dat dat/hq/hq-1-tile.png
 	$(MAKEOBJ64) $@ dat/hq/building.np-hq.dat
 $(RELEASE_DIR)building.np-ind.pak: dat/indcomres/building.np-ind.dat dat/indcomres/ind-a.png dat/indcomres/ind-l.png dat/indcomres/ind-m1.png dat/indcomres/ind-m2.png dat/indcomres/ind-h1.png dat/indcomres/ind-h2.png dat/indcomres/ind-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-ind.dat
-$(RELEASE_DIR)building.np-miscext-containeryard.pak: dat/stop-freight-station/building.np-miscext-containeryard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png dat/stop-freight-station/fplatform-2.png
+$(RELEASE_DIR)building.np-miscext-containeryard.pak: dat/stop-freight-station/building.np-miscext-containeryard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png dat/stop-freight-station/freight-roof-platform-ext.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-miscext-containeryard.dat
 $(RELEASE_DIR)building.np-miscext-post-office.pak: dat/stop-post/building.np-miscext-post-office.dat dat/stop-post/post-office.png
 	$(MAKEOBJ64) $@ dat/stop-post/building.np-miscext-post-office.dat
@@ -126,7 +126,7 @@ $(RELEASE_DIR)building.np-railext-platform.pak: dat/stop-platform/building.np-ra
 	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railext-platform.dat
 $(RELEASE_DIR)building.np-railstop-footbridge.pak: dat/stop-platform/building.np-railstop-footbridge.dat dat/stop-platform/footbridge-1.png dat/stop-platform/footbridge-1-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-footbridge.dat
-$(RELEASE_DIR)building.np-railstop-freight-station.pak: dat/stop-freight-station/building.np-railstop-freight-station.dat dat/stop-freight-station/fplatform-1.png dat/stop-freight-station/freight-platform-3.png dat/stop-freight-station/fplatform-2.png dat/stop-freight-station/freight-platform-misc.png
+$(RELEASE_DIR)building.np-railstop-freight-station.pak: dat/stop-freight-station/building.np-railstop-freight-station.dat dat/stop-freight-station/freight-platform-1.png dat/stop-freight-station/freight-platform-1-winter.png dat/stop-freight-station/freight-platform-2.png dat/stop-freight-station/freight-platform-2-winter.png dat/stop-freight-station/freight-platform-3.png dat/stop-freight-station/freight-platform-3-winter.png dat/stop-freight-station/freight-roof-platform.png dat/stop-freight-station/freight-roof-platform-winter.png dat/stop-freight-station/freight-platform-misc.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-railstop-freight-station.dat
 $(RELEASE_DIR)building.np-railstop-platform.pak: dat/stop-platform/building.np-railstop-platform.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-1s.png dat/stop-platform/platform-1s-winter.png dat/stop-platform/platform-1b.png dat/stop-platform/platform-1b-winter.png dat/stop-platform/platform-1u.png dat/stop-platform/platform-1u-winter.png dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-2s.png dat/stop-platform/platform-2s-winter.png dat/stop-platform/platform-2u.png dat/stop-platform/platform-2u-winter.png dat/stop-platform/platform-2b.png dat/stop-platform/platform-2b-winter.png dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png dat/stop-platform/platform-3s.png dat/stop-platform/platform-3s-winter.png dat/stop-platform/platform-3u.png dat/stop-platform/platform-3u-winter.png dat/stop-platform/platform-4.png dat/stop-platform/platform-4-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-platform.dat
@@ -237,6 +237,8 @@ dat/stop-air/building.np-airstop.dat: dat/stop-air/building.np-airstop.datt
 dat/stop-freight-station/building.np-miscext-containeryard.dat: dat/stop-freight-station/building.np-miscext-containeryard.datt
 	$(DATT) $** > $@
 dat/stop-freight-station/building.np-miscext-tank.dat: dat/stop-freight-station/building.np-miscext-tank.datt
+	$(DATT) $** > $@
+dat/stop-freight-station/building.np-railstop-freight-station.dat: dat/stop-freight-station/building.np-railstop-freight-station.datt
 	$(DATT) $** > $@
 dat/stop-monorail/building.np-monorailstop-platform.dat: dat/stop-monorail/building.np-monorailstop-platform.datt
 	$(DATT) $** > $@
