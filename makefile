@@ -158,7 +158,7 @@ $(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/S
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat
 $(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
-$(RELEASE_DIR)tree.np.pak: dat/tree/tree.np.dat dat/tree/trees.png
+$(RELEASE_DIR)tree.np.pak: dat/tree/tree.np.dat dat/tree/todomatsu.png dat/tree/ezomatsu.png dat/tree/akaezomatsu.png dat/tree/kaede.png dat/tree/keyaki.png dat/tree/mizunara.png dat/tree/buna.png dat/tree/hinoki.png dat/tree/hinoki-2.png dat/tree/kusunoki.png dat/tree/tsuburajii.png dat/tree/arakashi.png dat/tree/tabunoki.png dat/tree/isunoki.png dat/tree/tsuga.png dat/tree/shirakashi.png
 	$(MAKEOBJ64) $@ dat/tree/tree.np.dat
 $(RELEASE_DIR)tunnel.np-monorail.pak: dat/tunnel/tunnel.np-monorail.dat dat/tunnel/tunnel-monorail.png dat/tunnel/tunnel-monorail-winter.png
 	$(MAKEOBJ64) $@ dat/tunnel/tunnel.np-monorail.dat
