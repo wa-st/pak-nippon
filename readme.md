@@ -14,6 +14,7 @@
 - dat\factory\factories.datt
 - dat\factory\factory_waste_factories.datt
 - dat\factory\power.datt
+- dat\factory-food\factories.datt
 
 参照: [SourceForge / simutrans / Code](http://sourceforge.net/p/simutrans/code/HEAD/tree/pak64/)
 

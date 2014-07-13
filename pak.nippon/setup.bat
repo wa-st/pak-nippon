@@ -52,6 +52,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.CarDepot.pak
 @del %TARGET_DIR%\building.CarStop.pak
 @del %TARGET_DIR%\building.Car_StationBlg.pak
+@del %TARGET_DIR%\building.CattlePorch.pak
 @del %TARGET_DIR%\building.ChannelStop.pak
 @del %TARGET_DIR%\building.Control_StationBlg.pak
 @del %TARGET_DIR%\building.Denk*.pak
