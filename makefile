@@ -42,6 +42,7 @@ PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
 	$(RELEASE_DIR)building.np-townhall.pak \
 	$(RELEASE_DIR)building.np-waterstop.pak \
 	$(RELEASE_DIR)crossing.np-rail-road.pak \
+	$(RELEASE_DIR)factory.np-food.pak \
 	$(RELEASE_DIR)factory.np.pak \
 	$(RELEASE_DIR)ground.Outside.pak \
 	$(RELEASE_DIR)ground.np.pak \
@@ -142,6 +143,8 @@ $(RELEASE_DIR)building.np-waterstop.pak: dat/harbor/building.np-waterstop.dat da
 	$(MAKEOBJ64) $@ dat/harbor/building.np-waterstop.dat
 $(RELEASE_DIR)crossing.np-rail-road.pak: dat/crossing/crossing.np-rail-road.dat dat/crossing/crossing.png dat/crossing/crossing-2.png
 	$(MAKEOBJ64) $@ dat/crossing/crossing.np-rail-road.dat
+$(RELEASE_DIR)factory.np-food.pak: dat/factory-food/factory.np-food.dat dat/factory-food/supermarket-tile.png
+	$(MAKEOBJ64) $@ dat/factory-food/factory.np-food.dat
 $(RELEASE_DIR)factory.np.pak: dat/factory/factory.np.dat dat/factory/steelmill-tile.png dat/factory/ironore-tile.png dat/factory/sand-tile.png dat/factory/stone-tile.png dat/factory/oil-storage-tile.png dat/factory/cementmill-tile.png dat/factory/forestry-tile.png dat/factory/coalmine-tile.png dat/factory/cardealer-tile.png dat/factory/gasstaion-tile.png dat/factory/incinerator-tile.png dat/factory/incinerator-power-tile.png dat/factory/oil-powerplant-tile.png dat/factory/coal-powerplant-tile.png dat/factory/geothermal-powerplant-tile.png dat/factory/solar-powerplant-tile.png dat/factory/refinery-tile.png dat/factory/chemical-plant-tile.png dat/factory/sawmill-tile.png dat/factory/pharmaceutics-tile.png dat/factory/material-storage-tile.png dat/factory/garbage.png dat/factory/printing-tile.png dat/factory/paper-tile.png dat/factory/carfactory-tile.png dat/factory/furniture-tile.png dat/factory/concrete-tile.png dat/factory/windkraftwerk.png dat/factory/nitori.png dat/factory/bookoff.png dat/factory/matsukiyo.png dat/factory/oil-pump.png
 	$(MAKEOBJ64) $@ dat/factory/factory.np.dat
 $(RELEASE_DIR)ground.Outside.pak: dat/ground/ground.Outside.dat dat/ground/water.png
@@ -215,6 +218,8 @@ dat/cur/building.np-cur-sport.dat: dat/cur/building.np-cur-sport.datt
 dat/cur/building.np-cur-temple.dat: dat/cur/building.np-cur-temple.datt
 	$(DATT) $** > $@
 dat/depot/building.np-depot.dat: dat/depot/building.np-depot.datt
+	$(DATT) $** > $@
+dat/factory-food/factory.np-food.dat: dat/factory-food/factory.np-food.datt
 	$(DATT) $** > $@
 dat/factory/factory.np.dat: dat/factory/factory.np.datt
 	$(DATT) $** > $@

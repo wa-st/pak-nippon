@@ -1,0 +1,11 @@
+%require "factories.datt", addon: false
+---
+obj=factory
+name=np-fact-supermarket
+copyright=wa
+
+%include "supermarket", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+%def :image, "supermarket-tile.0.0"
+%buil_image 3, 2, 1, 4, 2
