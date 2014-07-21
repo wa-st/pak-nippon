@@ -132,6 +132,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\factory.Incinerator.pak
 @del %TARGET_DIR%\factory.Kohlegrube.pak
 @del %TARGET_DIR%\factory.Kohlekraftwerk.pak
+@del %TARGET_DIR%\factory.Marketplace.pak
 @del %TARGET_DIR%\factory.Materialswholesale.pak
 @del %TARGET_DIR%\factory.Moebelfabrik.pak
 @del %TARGET_DIR%\factory.Moebelhaus.pak

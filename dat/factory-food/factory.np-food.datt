@@ -9,3 +9,32 @@ copyright=wa
 
 %def :image, "supermarket-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
+---
+obj=factory
+name=np-fact-wholesale-market
+copyright=wa
+
+%include "Marketplace", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+%undef /^(productivity|input).*$/
+productivity=120
+inputGood[0]=fish
+inputCapacity[0]=100
+inputSupplier[0]=0
+inputFactor[0]=100
+inputGood[1]=flour
+inputCapacity[1]=100
+inputSupplier[1]=0
+inputFactor[1]=100
+inputGood[2]=beer
+inputCapacity[2]=100
+inputSupplier[2]=0
+inputFactor[2]=50
+inputGood[3]=canned_food
+inputCapacity[3]=100
+inputSupplier[3]=0
+inputFactor[3]=50
+
+%def :image, "market-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
