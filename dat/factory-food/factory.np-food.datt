@@ -6,7 +6,10 @@ copyright=wa
 
 %include "supermarket", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
-
+inputGood[3]=bread
+inputCapacity[3]=100
+inputSupplier[3]=0
+inputFactor[3]=50
 %def :image, "supermarket-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
 ---
@@ -35,6 +38,24 @@ inputGood[3]=canned_food
 inputCapacity[3]=100
 inputSupplier[3]=0
 inputFactor[3]=50
+inputGood[4]=bread
+inputCapacity[4]=100
+inputSupplier[4]=0
+inputFactor[4]=50
 
 %def :image, "market-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
+---
+obj=factory
+name=np-fact-bakery
+copyright=wa
+
+%include "bakery", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+outputGood[0]=bread
+outputCapacity[0]=300
+outputFactor[0]=100
+
+%def :image, "bakery-factory-tile.0.0"
+%buil_image 2, 3, 2, 4, 2
