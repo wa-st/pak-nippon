@@ -704,6 +704,8 @@ np-fact-chemist
 薬局
 np-fact-concrete-factory
 コンクリート工場
+np-fact-dairy
+乳製品工場
 np-fact-druckerei
 印刷工場
 np-fact-erzbergwerk
@@ -778,6 +780,8 @@ Chemicals
 化学薬品
 Concrete
 ＡＬＣパネル
+dairy-goods
+市乳・乳製品
 Eisenerz
 鉄鉱石
 fish

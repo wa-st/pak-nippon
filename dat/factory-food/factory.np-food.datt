@@ -10,6 +10,10 @@ inputGood[3]=bread
 inputCapacity[3]=100
 inputSupplier[3]=0
 inputFactor[3]=50
+inputGood[4]=dairy-goods
+inputCapacity[4]=100
+inputSupplier[4]=0
+inputFactor[4]=50
 %def :image, "supermarket-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
 ---
@@ -42,7 +46,10 @@ inputGood[4]=bread
 inputCapacity[4]=100
 inputSupplier[4]=0
 inputFactor[4]=50
-
+inputGood[5]=dairy-goods
+inputCapacity[5]=100
+inputSupplier[5]=0
+inputFactor[5]=50
 %def :image, "market-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
 ---
@@ -59,3 +66,17 @@ outputFactor[0]=100
 
 %def :image, "bakery-factory-tile.0.0"
 %buil_image 2, 3, 2, 4, 2
+---
+obj=factory
+name=np-fact-dairy
+copyright=wa
+
+%include "dairy", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+outputGood[0]=dairy-goods
+outputCapacity[0]=300
+outputFactor[0]=100
+
+%def :image, "dairy-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
