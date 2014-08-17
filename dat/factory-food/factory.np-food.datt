@@ -90,3 +90,13 @@ copyright=wa
 
 %def :image, "brewery-tile.0.0"
 %buil_image 4, 3, 1, 4, 2
+---
+obj=factory
+name=np-fact-cannery
+copyright=wa
+
+%include "cannery", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+%def :image, "cannery-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
