@@ -708,6 +708,8 @@ np-fact-chemist
 薬局
 np-fact-concrete-factory
 コンクリート工場
+np-fact-country-elevator
+カントリーエレベーター
 np-fact-dairy
 乳製品工場
 np-fact-druckerei
@@ -744,6 +746,8 @@ np-fact-pharmaceutics
 製薬会社
 np-fact-raffinerie
 精油所
+np-fact-rice-mill
+精米工場
 np-fact-saegewerk
 製材所
 np-fact-sandquarry
@@ -774,6 +778,8 @@ bread
 パン
 Bretter
 板材
+brown-rice
+玄米
 Buecher
 書籍
 canned_food
@@ -832,6 +838,8 @@ Stone
 石
 waste
 ゴミ
+white-rice
+白米
 #__________________________________ground_obj___________________________________
 #__________________________________ground_obj___________________________________
 bushes

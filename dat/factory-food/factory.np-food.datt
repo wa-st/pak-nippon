@@ -14,6 +14,10 @@ inputGood[4]=dairy-goods
 inputCapacity[4]=100
 inputSupplier[4]=0
 inputFactor[4]=50
+inputGood[5]=white-rice
+inputCapacity[5]=100
+inputSupplier[5]=0
+inputFactor[5]=50
 %def :image, "supermarket-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
 ---
@@ -50,6 +54,10 @@ inputGood[5]=dairy-goods
 inputCapacity[5]=100
 inputSupplier[5]=0
 inputFactor[5]=50
+inputGood[6]=white-rice
+inputCapacity[6]=100
+inputSupplier[6]=0
+inputFactor[6]=50
 %def :image, "market-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
 ---
@@ -100,3 +108,42 @@ copyright=wa
 
 %def :image, "cannery-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
+---
+obj=factory
+name=np-fact-country-elevator
+copyright=wa
+
+%include "grain_mill", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+%undef /^(productivity|input|output).*$/
+productivity=60
+inputGood[0]=grain
+inputCapacity[0]=200
+inputSupplier[0]=0
+inputFactor[0]=110
+
+outputGood[0]=brown-rice
+outputCapacity[0]=500
+outputFactor[0]=100
+
+%def :image, "country-elevator-tile.0.0"
+%buil_image 2, 3, 2, 4, 2
+---
+obj=factory
+name=np-fact-rice-mill
+copyright=wa
+
+%include "grain_mill", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+%undef /^(productivity|input|output).*$/
+productivity=80
+inputGood[0]=brown-rice
+inputCapacity[0]=300
+inputSupplier[0]=0
+inputFactor[0]=110
+
+outputGood[0]=white-rice
+outputCapacity[0]=300
+outputFactor[0]=100
+%def :image, "rice-mill-tile.0.0"
+%buil_image 3, 2, 1, 4, 2
