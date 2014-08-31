@@ -147,3 +147,13 @@ outputCapacity[0]=300
 outputFactor[0]=100
 %def :image, "rice-mill-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
+---
+obj=factory
+name=np-fact-food-processing-plant
+copyright=wa
+
+%include "food_processing_plant", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+%def :image, "food-processing-plant-tile.0.0"
+%buil_image 4, 2, 1, 4, 2
