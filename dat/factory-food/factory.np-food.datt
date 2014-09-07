@@ -157,3 +157,16 @@ copyright=wa
 
 %def :image, "food-processing-plant-tile.0.0"
 %buil_image 4, 2, 1, 4, 2
+
+---
+obj=factory
+name=np-fact-grain-mill
+copyright=wa
+
+%include "grain_mill", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+%undef /^(productivity).*$/
+productivity=160
+
+%def :image, "grain-mill-tile.0.0"
+%buil_image 3, 3, 2, 4, 2
