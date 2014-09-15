@@ -170,3 +170,14 @@ productivity=160
 
 %def :image, "grain-mill-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
+---
+obj=factory
+name=np-fact-cow-farm
+copyright=wa
+
+%include "cow_farm", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+%undef /^(max_fields|start_fields|min_fields|probability_to_spawn|fields\[\d+\]|has_snow\[\d+\]|production_per_field\[\d+\])$/
+
+%def :image, "cow-farm-tile.0.0"
+%buil_image 4, 3, 1, 4, 2
