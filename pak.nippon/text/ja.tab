@@ -752,6 +752,8 @@ np-fact-pharmaceutics
 製薬会社
 np-fact-raffinerie
 精油所
+np-fact-rice-farm
+米農家
 np-fact-rice-mill
 精米工場
 np-fact-saegewerk
@@ -836,6 +838,8 @@ Post
 郵便
 PrintersInk
 印刷インク
+raw-rice
+籾米
 Sand
 砂
 Stahl

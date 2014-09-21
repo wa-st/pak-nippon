@@ -117,7 +117,7 @@ copyright=wa
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 %undef /^(productivity|input|output).*$/
 productivity=60
-inputGood[0]=grain
+inputGood[0]=raw-rice
 inputCapacity[0]=200
 inputSupplier[0]=0
 inputFactor[0]=110
@@ -181,3 +181,58 @@ copyright=wa
 
 %def :image, "cow-farm-tile.0.0"
 %buil_image 4, 3, 1, 4, 2
+---
+obj=factory
+name=np-fact-rice-farm
+copyright=wa
+location=Land
+distributionWeight=2
+productivity=5
+range=20
+outputGood[0]=raw-rice
+outputCapacity[0]=200
+mapColor=31
+pax_level=2
+electricity_boost=0
+climates=desert,tropic,mediterran,temperate
+
+min_fields=10
+start_fields=50
+max_fields=121
+probability_to_spawn=1
+fields[0]=np-field-rice-1
+fields[1]=np-field-rice-2
+fields[2]=np-field-rice-3
+production_per_field[0]=1
+production_per_field[1]=1
+production_per_field[2]=1
+
+%def :image, "rice-farm-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+---
+obj=field
+name=np-field-rice-1
+copyright=wa
+image[0]=rice-fields.0.0
+image[1]=rice-fields.0.1
+image[2]=rice-fields.0.2
+image[3]=rice-fields.0.3
+image[4]=rice-fields.0.4
+---
+obj=field
+name=np-field-rice-2
+copyright=wa
+image[0]=rice-fields.1.0
+image[1]=rice-fields.1.1
+image[2]=rice-fields.1.2
+image[3]=rice-fields.1.3
+image[4]=rice-fields.1.4
+---
+obj=field
+name=np-field-rice-3
+copyright=wa
+image[0]=rice-fields.2.0
+image[1]=rice-fields.2.1
+image[2]=rice-fields.2.2
+image[3]=rice-fields.2.3
+image[4]=rice-fields.2.4

@@ -35,3 +35,11 @@ speed_bonus=14
 mapColor=214
 #weight_per_unit=100
 -----------------------
+obj=good
+name=raw-rice
+metric=tonnen
+catg=2
+value=140
+speed_bonus=5
+mapcolor=31
+weight_per_unit=1000
