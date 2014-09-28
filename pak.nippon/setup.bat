@@ -160,6 +160,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\factory.cow_farm.pak
 @del %TARGET_DIR%\factory.dairy.pak
 @del %TARGET_DIR%\factory.food_processing_plant.pak
+@del %TARGET_DIR%\factory.grain_farm.pak
 @del %TARGET_DIR%\factory.grain_mill.pak
 @del %TARGET_DIR%\factory.grain_windmill.pak
 @del %TARGET_DIR%\factory.old_farm.pak
@@ -167,6 +168,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\factory.supermarket.pak
 @del %TARGET_DIR%\factory.thermisches_Solarkraftwerk.pak
 @del %TARGET_DIR%\field.cow_fields.pak
+@del %TARGET_DIR%\field.wheat_fields.pak
 @del %TARGET_DIR%\ground.Basement.pak
 @del %TARGET_DIR%\ground.Borders.pak
 @del %TARGET_DIR%\ground.ClimateTexture.pak
