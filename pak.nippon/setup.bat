@@ -159,6 +159,8 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\factory.cannery.pak
 @del %TARGET_DIR%\factory.cow_farm.pak
 @del %TARGET_DIR%\factory.dairy.pak
+@del %TARGET_DIR%\factory.fish_pond.pak
+@del %TARGET_DIR%\factory.fish_swarm.pak
 @del %TARGET_DIR%\factory.food_processing_plant.pak
 @del %TARGET_DIR%\factory.grain_farm.pak
 @del %TARGET_DIR%\factory.grain_mill.pak

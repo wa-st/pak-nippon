@@ -328,3 +328,25 @@ image[9]=wheat-fields.2.9
 image[10]=wheat-fields.2.10
 image[11]=wheat-fields.2.11
 image[12]=wheat-fields.2.12
+---
+obj=factory
+name=np-fact-aquaculture
+copyright=wa
+
+productivity=96
+%include "fish_swarm", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+%def :image, "aquaculture-tile.0.0"
+%buil_image 3, 3, 1, 4, 1
+---
+obj=factory
+name=np-fact-fishing-net
+copyright=wa
+
+productivity=96
+%include "fish_swarm", label: true, overwrite: false
+%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+%def :image, "fishing-net-tile.0.0"
+%buil_image 4, 4, 1, 4, 1

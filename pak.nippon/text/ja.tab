@@ -688,6 +688,8 @@ yellow_car
 黄色い車
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+np-fact-aquaculture
+養殖いけす
 np-fact-autohaus
 カーショップ
 np-fact-autohersteller
@@ -718,6 +720,8 @@ np-fact-druckerei
 印刷工場
 np-fact-erzbergwerk
 鉄鉱石鉱山
+np-fact-fishing-net
+定置網
 np-fact-food-processing-plant
 食品工場
 np-fact-geokraftwerk
