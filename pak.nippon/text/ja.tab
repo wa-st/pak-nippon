@@ -712,6 +712,8 @@ np-fact-concrete-factory
 コンクリート工場
 np-fact-country-elevator
 カントリーエレベーター
+np-fact-convenience-store
+コンビニエンスストア
 np-fact-cow-farm
 牧場
 np-fact-dairy
@@ -774,6 +776,8 @@ np-fact-stonequarry
 採石場
 np-fact-supermarket
 スーパーマーケット
+np-fact-sushi-restaurant
+寿司屋
 np-fact-tanke
 ガソリンスタンド
 np-fact-wheat-farm
