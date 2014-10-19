@@ -393,10 +393,10 @@ imageUp[9][0]=track-3-elv.6.1,0,16
 imageUp[3][0]=track-3-elv.6.2,0,16
 imageUp[6][0]=track-3-elv.6.3,0,16
 
-imageUp2[12][0]=track-3-elv.7.0,0,16
-imageUp2[9][0]=track-3-elv.7.1,0,16
-imageUp2[3][0]=track-3-elv.7.2,0,16
-imageUp2[6][0]=track-3-elv.7.3,0,16
+#imageUp2[12][0]=track-3-elv.7.0,0,16
+#imageUp2[9][0]=track-3-elv.7.1,0,16
+#imageUp2[3][0]=track-3-elv.7.2,0,16
+#imageUp2[6][0]=track-3-elv.7.3,0,16
 
 diagonal[SE][0]=track-3-elv.8.0,0,16
 diagonal[NE][0]=track-3-elv.8.1,0,16
@@ -430,15 +430,26 @@ imageUp[9][1]=track-3-elv-winter.6.1,0,16
 imageUp[3][1]=track-3-elv-winter.6.2,0,16
 imageUp[6][1]=track-3-elv-winter.6.3,0,16
 
-imageUp2[12][1]=track-3-elv-winter.7.0,0,16
-imageUp2[9][1]=track-3-elv-winter.7.1,0,16
-imageUp2[3][1]=track-3-elv-winter.7.2,0,16
-imageUp2[6][1]=track-3-elv-winter.7.3,0,16
+#imageUp2[12][1]=track-3-elv-winter.7.0,0,16
+#imageUp2[9][1]=track-3-elv-winter.7.1,0,16
+#imageUp2[3][1]=track-3-elv-winter.7.2,0,16
+#imageUp2[6][1]=track-3-elv-winter.7.3,0,16
 
 diagonal[SE][1]=track-3-elv-winter.8.0,0,16
 diagonal[NE][1]=track-3-elv-winter.8.1,0,16
 diagonal[NW][1]=track-3-elv-winter.8.2,0,16
 diagonal[SW][1]=track-3-elv-winter.8.3,0,16
+
+imageUp2[12][0]=track-3-elv.7.0,0,14
+imageUp2[9][0]=track-3-elv.7.1,0,14
+imageUp2[3][0]=track-3-elv.7.2,0,14
+imageUp2[6][0]=track-3-elv.7.3,0,14
+
+imageUp2[12][1]=track-3-elv-winter.7.0,0,14
+imageUp2[9][1]=track-3-elv-winter.7.1,0,14
+imageUp2[3][1]=track-3-elv-winter.7.2,0,14
+imageUp2[6][1]=track-3-elv-winter.7.3,0,14
+
 ---
 obj=way
 name=np-elevated-slab-track
@@ -482,10 +493,10 @@ imageUp[9][0]=track-4-elv.6.1,0,16
 imageUp[3][0]=track-4-elv.6.2,0,16
 imageUp[6][0]=track-4-elv.6.3,0,16
 
-imageUp2[12][0]=track-4-elv.7.0,0,16
-imageUp2[9][0]=track-4-elv.7.1,0,16
-imageUp2[3][0]=track-4-elv.7.2,0,16
-imageUp2[6][0]=track-4-elv.7.3,0,16
+#imageUp2[12][0]=track-4-elv.7.0,0,16
+#imageUp2[9][0]=track-4-elv.7.1,0,16
+#imageUp2[3][0]=track-4-elv.7.2,0,16
+#imageUp2[6][0]=track-4-elv.7.3,0,16
 
 diagonal[SE][0]=track-4-elv.8.0,0,16
 diagonal[NE][0]=track-4-elv.8.1,0,16
@@ -519,15 +530,26 @@ imageUp[9][1]=track-4-elv-winter.6.1,0,16
 imageUp[3][1]=track-4-elv-winter.6.2,0,16
 imageUp[6][1]=track-4-elv-winter.6.3,0,16
 
-imageUp2[12][1]=track-4-elv-winter.7.0,0,16
-imageUp2[9][1]=track-4-elv-winter.7.1,0,16
-imageUp2[3][1]=track-4-elv-winter.7.2,0,16
-imageUp2[6][1]=track-4-elv-winter.7.3,0,16
+#imageUp2[12][1]=track-4-elv-winter.7.0,0,16
+#imageUp2[9][1]=track-4-elv-winter.7.1,0,16
+#imageUp2[3][1]=track-4-elv-winter.7.2,0,16
+#imageUp2[6][1]=track-4-elv-winter.7.3,0,16
 
 diagonal[SE][1]=track-4-elv-winter.8.0,0,16
 diagonal[NE][1]=track-4-elv-winter.8.1,0,16
 diagonal[NW][1]=track-4-elv-winter.8.2,0,16
 diagonal[SW][1]=track-4-elv-winter.8.3,0,16
+
+imageUp2[12][0]=track-4-elv.7.0,0,14
+imageUp2[9][0]=track-4-elv.7.1,0,14
+imageUp2[3][0]=track-4-elv.7.2,0,14
+imageUp2[6][0]=track-4-elv.7.3,0,14
+
+imageUp2[12][1]=track-4-elv-winter.7.0,0,14
+imageUp2[9][1]=track-4-elv-winter.7.1,0,14
+imageUp2[3][1]=track-4-elv-winter.7.2,0,14
+imageUp2[6][1]=track-4-elv-winter.7.3,0,14
+
 ---
 obj=way
 name=np-elevated-concrete-sleeper-track-center
