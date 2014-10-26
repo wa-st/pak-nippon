@@ -4,8 +4,25 @@ obj=factory
 name=np-fact-supermarket
 copyright=wa
 
-%include "supermarket", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=City
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=80
+range=40
+
+inputGood[0]=food
+inputCapacity[0]=100
+inputSupplier[0]=1
+inputFactor[0]=100
+inputGood[1]=canned_food
+inputCapacity[1]=100
+inputSupplier[1]=1
+inputFactor[1]=50
+inputGood[2]=beer
+inputCapacity[2]=100
+inputSupplier[2]=1
+inputFactor[2]=50
 inputGood[3]=bread
 inputCapacity[3]=100
 inputSupplier[3]=0
@@ -18,6 +35,14 @@ inputGood[5]=white-rice
 inputCapacity[5]=100
 inputSupplier[5]=0
 inputFactor[5]=50
+
+pax_level=45
+electricity_boost=0
+passenger_boost=1000
+mail_boost=0
+
+mapColor=87
+
 %def :image, "supermarket-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
 ---
@@ -25,11 +50,13 @@ obj=factory
 name=np-fact-wholesale-market
 copyright=wa
 
-%include "Marketplace", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=City
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
 
-%undef /^(productivity|input).*$/
 productivity=120
+range=20
+
 inputGood[0]=fish
 inputCapacity[0]=100
 inputSupplier[0]=0
@@ -58,6 +85,14 @@ inputGood[6]=white-rice
 inputCapacity[6]=100
 inputSupplier[6]=0
 inputFactor[6]=50
+
+pax_level=45
+electricity_boost=0
+passenger_boost=1000
+mail_boost=0
+
+mapColor=11
+
 %def :image, "market-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
 ---
@@ -65,12 +100,28 @@ obj=factory
 name=np-fact-bakery
 copyright=wa
 
-%include "bakery", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=City
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=120
+range=70
+
+inputGood[0]=flour
+inputFactor[0]=70
+inputCapacity[0]=500
+inputSupplier[0]=1
 
 outputGood[0]=bread
 outputCapacity[0]=300
 outputFactor[0]=100
+
+pax_level=15
+electricity_boost=1000
+passenger_boost=0
+mail_boost=0
+
+mapColor=194
 
 %def :image, "bakery-factory-tile.0.0"
 %buil_image 2, 3, 2, 4, 2
@@ -79,13 +130,28 @@ obj=factory
 name=np-fact-dairy
 copyright=wa
 
-%include "dairy", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=City
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=175
+range=160
+
+inputGood[0]=milk
+inputFactor[0]=108
+inputCapacity[0]=140
+inputSupplier[0]=1
 
 outputGood[0]=dairy-goods
 outputCapacity[0]=300
 outputFactor[0]=100
 
+pax_level=15
+electricity_boost=1000
+mail_boost=0
+passenger_boost=0
+
+mapColor=214
 %def :image, "dairy-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
 ---
@@ -93,8 +159,29 @@ obj=factory
 name=np-fact-brewery
 copyright=wa
 
-%include "brewery", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+location=City
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=150
+range=50
+
+inputGood[0]=grain
+inputFactor[0]=50
+inputCapacity[0]=280
+inputSupplier[0]=0
+
+outputGood[0]=beer
+outputCapacity[0]=300
+outputFactor[0]=100
+
+pax_level=20
+electricity_boost=1000
+mail_boost=0
+passenger_boost=0
+
+mapColor=198
 
 %def :image, "brewery-tile.0.0"
 %buil_image 4, 3, 1, 4, 2
@@ -103,8 +190,36 @@ obj=factory
 name=np-fact-cannery
 copyright=wa
 
-%include "cannery", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=Land
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=170
+range=77
+
+inputGood[0]=fish
+inputCapacity[0]=500
+inputSupplier[0]=1
+inputFactor[0]=70
+inputGood[1]=Stahl
+inputCapacity[1]=200
+inputSupplier[1]=0
+inputFactor[1]=25
+inputGood[2]=meat
+inputCapacity[2]=500
+inputSupplier[2]=1
+inputFactor[2]=60
+
+outputGood[0]=canned_food
+outputCapacity[0]=400
+outputFactor[0]=100
+
+pax_level=10
+electricity_boost=1000
+passenger_boost=0
+mail_boost=0
+
+mapColor=10
 
 %def :image, "cannery-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
@@ -113,10 +228,13 @@ obj=factory
 name=np-fact-country-elevator
 copyright=wa
 
-%include "grain_mill", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
-%undef /^(productivity|input|output).*$/
+location=Land
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
 productivity=60
+range=60
+
 inputGood[0]=raw-rice
 inputCapacity[0]=200
 inputSupplier[0]=0
@@ -126,6 +244,13 @@ outputGood[0]=brown-rice
 outputCapacity[0]=500
 outputFactor[0]=100
 
+pax_level=5
+electricity_boost=1000
+passenger_boost=0
+mail_boost=0
+
+mapColor=94
+
 %def :image, "country-elevator-tile.0.0"
 %buil_image 2, 3, 2, 4, 2
 ---
@@ -133,18 +258,29 @@ obj=factory
 name=np-fact-rice-mill
 copyright=wa
 
-%include "grain_mill", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
-%undef /^(productivity|input|output).*$/
-productivity=80
+location=Land
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=100
+range=50
+
 inputGood[0]=brown-rice
-inputCapacity[0]=300
+inputCapacity[0]=200
 inputSupplier[0]=0
 inputFactor[0]=110
 
 outputGood[0]=white-rice
 outputCapacity[0]=300
 outputFactor[0]=100
+
+pax_level=10
+electricity_boost=1000
+passenger_boost=0
+mail_boost=0
+
+mapColor=214
+
 %def :image, "rice-mill-tile.0.0"
 %buil_image 3, 2, 1, 4, 2
 ---
@@ -152,8 +288,40 @@ obj=factory
 name=np-fact-food-processing-plant
 copyright=wa
 
-%include "food_processing_plant", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=Land
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
+productivity=120
+range=80
+
+inputGood[0]=meat
+inputFactor[0]=20
+inputCapacity[0]=200
+inputSupplier[0]=1
+inputGood[1]=fish
+inputFactor[1]=20
+inputCapacity[1]=200
+inputSupplier[1]=1
+inputGood[2]=flour
+inputFactor[2]=70
+inputCapacity[2]=200
+inputSupplier[2]=1
+inputGood[3]=Plastik
+inputCapacity[3]=200
+inputSupplier[3]=0
+inputFactor[3]=15
+
+outputGood[0]=food
+outputCapacity[0]=400
+outputFactor[0]=100
+
+pax_level=20
+electricity_boost=1000
+mail_boost=0
+passenger_boost=0
+
+mapColor=119
 
 %def :image, "food-processing-plant-tile.0.0"
 %buil_image 4, 2, 1, 4, 2
@@ -163,10 +331,28 @@ obj=factory
 name=np-fact-grain-mill
 copyright=wa
 
-%include "grain_mill", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
-%undef /^(productivity).*$/
+location=Land
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra,rocky
+
 productivity=160
+range=95
+
+outputFactor[0]=100
+inputGood[0]=grain
+inputCapacity[0]=550
+inputSupplier[0]=0
+inputFactor[0]=116
+outputGood[0]=flour
+outputCapacity[0]=300
+
+pax_level=15
+electricity_boost=1000
+passenger_boost=0
+mail_boost=0
+
+mapColor=175
+
 
 %def :image, "grain-mill-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -175,9 +361,26 @@ obj=factory
 name=np-fact-cow-farm
 copyright=wa
 
-%include "cow_farm", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
-%undef /^(max_fields|start_fields|min_fields|probability_to_spawn|fields\[\d+\]|has_snow\[\d+\]|production_per_field\[\d+\])$/
+location=Land
+distributionWeight=100
+climates=mediterran,temperate,tundra,rocky
+
+productivity=200
+range=200
+
+outputGood[0]=meat
+outputCapacity[0]=300
+outputFactor[0]=100
+outputGood[1]=milk
+outputCapacity[1]=300
+outputFactor[1]=200
+
+pax_level=3
+electricity_boost=100
+passenger_boost=100
+mail_boost=0
+
+mapColor=95
 
 %def :image, "cow-farm-tile.0.0"
 %buil_image 4, 3, 1, 4, 2
@@ -185,16 +388,24 @@ copyright=wa
 obj=factory
 name=np-fact-rice-farm
 copyright=wa
+
 location=Land
-distributionWeight=2
-productivity=5
-range=20
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate
+
+productivity=15
+range=10
+
 outputGood[0]=raw-rice
 outputCapacity[0]=200
-mapColor=31
+outputFactor[0]=100
+
 pax_level=2
 electricity_boost=0
-climates=desert,tropic,mediterran,temperate
+passenger_boost=100
+mail_boost=0
+
+mapColor=93
 
 min_fields=10
 start_fields=50
@@ -265,9 +476,28 @@ obj=factory
 name=np-fact-wheat-farm
 copyright=wa
 
-%include "grain_farm", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
-%undef /^(fields|has_snow|production_per_field)$/
+location=Land
+distributionWeight=100
+climates=mediterran,temperate,tundra
+
+productivity=60
+range=20
+
+outputGood[0]=grain
+outputCapacity[0]=200
+outputFactor[0]=100
+
+electricity_boost=0
+passenger_boost=100
+mail_boost=0
+pax_level=2
+
+mapColor=31
+
+min_fields=10
+max_fields=121
+start_fields=70
+probability_to_spawn=1
 fields[0]=np-field-wheat-1
 fields[1]=np-field-wheat-2
 fields[2]=np-field-wheat-3
@@ -333,9 +563,28 @@ obj=factory
 name=np-fact-aquaculture
 copyright=wa
 
-productivity=96
-%include "fish_swarm", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=Water
+distributionWeight=100
+
+productivity=100
+range=100
+
+outputGood[0]=fish
+outputCapacity[0]=150
+outputFactor[0]=100
+
+pax_level=0
+electricity_boost=0
+passenger_boost=0
+mail_boost=0
+passenger_demand=0
+mail_demand=0
+level=1
+enables_pax=0
+enables_post=0
+
+mapColor=155
+
 
 %def :image, "aquaculture-tile.0.0"
 %buil_image 3, 3, 1, 4, 1
@@ -344,9 +593,27 @@ obj=factory
 name=np-fact-fishing-net
 copyright=wa
 
-productivity=96
-%include "fish_swarm", label: true, overwrite: false
-%undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+location=Water
+distributionWeight=100
+
+productivity=100
+range=100
+
+outputGood[0]=fish
+outputCapacity[0]=150
+outputFactor[0]=100
+
+pax_level=0
+electricity_boost=0
+passenger_boost=0
+mail_boost=0
+passenger_demand=0
+mail_demand=0
+level=1
+enables_pax=0
+enables_post=0
+
+mapColor=127
 
 %def :image, "fishing-net-tile.0.0"
 %buil_image 4, 4, 1, 4, 1
@@ -356,27 +623,31 @@ name=np-fact-convenience-store
 copyright=wa
 
 location=City
-distributionWeight=66
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+
 productivity=20
 range=10
+
 inputGood[0]=bread
 inputCapacity[0]=100
 inputSupplier[0]=0
-inputFactor[0]=50
+inputFactor[0]=100
 inputGood[1]=dairy-goods
 inputCapacity[1]=100
 inputSupplier[1]=0
-inputFactor[1]=50
+inputFactor[1]=100
 inputGood[2]=Buecher
 inputCapacity[2]=100
 inputSupplier[2]=0
-inputFactor[2]=50
-mapColor=87
-pax_level=12
-electricity_boost=500
-passenger_boost=2000
-mail_boost=500
-climates=desert,tropic,mediterran,temperate,tundra,arctic
+inputFactor[2]=100
+
+pax_level=10
+electricity_boost=0
+passenger_boost=1000
+mail_boost=0
+
+mapColor=122
 
 %def :image, "convenience-store-tile.0.0"
 %buil_image 2, 1, 1, 4, 2
@@ -386,23 +657,27 @@ name=np-fact-sushi-restaurant
 copyright=wa
 
 location=City
-distributionWeight=66
+distributionWeight=100
+climates=desert,tropic,mediterran,temperate,tundra
+
 productivity=20
 range=10
+
 inputGood[0]=white-rice
-inputCapacity[0]=100
+inputCapacity[0]=50
 inputSupplier[0]=0
-inputFactor[0]=50
+inputFactor[0]=100
 inputGood[1]=fish
-inputCapacity[1]=100
+inputCapacity[1]=50
 inputSupplier[1]=0
-inputFactor[1]=50
-mapColor=87
-pax_level=12
+inputFactor[1]=100
+
+pax_level=5
 electricity_boost=0
-passenger_boost=0
+passenger_boost=1000
 mail_boost=0
-climates=desert,tropic,mediterran,temperate,tundra,arctic
+
+mapColor=157
 
 %def :image, "sushi-restaurant-tile.0.0"
 %buil_image 2, 1, 1, 4, 2
