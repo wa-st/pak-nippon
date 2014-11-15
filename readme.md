@@ -1,6 +1,25 @@
-#pak.nippon(仮)
+#pak.nippon
 
 独自のsimutrans用pakセットを作ってみよう計画。未完成。
+
+##導入方法
+
+### 1. Simutrans本体のインストール
+pak.nipponを実行するにはバージョン120.0以降のSimutransが必要です。
+最新のSimutrans本体は[SourceForgeのプロジェクトページ](http://sourceforge.net/projects/simutrans/files/simutrans/)からダウンロードできます。
+
+### 2. pak.nipponのインストール
+pak.nipponは[Releaseページ](https://github.com/wa-st/pak-nippon/releases)からダウンロードできます。
+インストール方法は日本語Wikiの解説
+([『pak・アドオンインストール』](http://japanese.simutrans.com/index.php?pak%A1%A6%A5%A2%A5%C9%A5%AA%A5%F3%A5%A4%A5%F3%A5%B9%A5%C8%A1%BC%A5%EB)や
+[『Pakセット』](http://japanese.simutrans.com/index.php?Pak%A5%BB%A5%C3%A5%C8))
+などを参考にしてください。
+
+### 3. 追加アドオンのインストール
+
+pak.nipponはPak64用のアドオンの多く（車両、建築物、トンネルなど）をそのまま追加できますが、
+way系(線路・道路など）、way-object系(架線など）、bridge系(橋梁)のアドオンは利用できません。
+
 
 ##ライセンス
 
