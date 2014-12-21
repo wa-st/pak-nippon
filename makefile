@@ -239,6 +239,8 @@ dat/indcomres/building.np-ind.dat: dat/indcomres/building.np-ind.datt
 	$(DATT) $** > $@
 dat/indcomres/building.np-res.dat: dat/indcomres/building.np-res.datt
 	$(DATT) $** > $@
+dat/mon/building.np-mon.dat: dat/mon/building.np-mon.datt
+	$(DATT) $** > $@
 dat/pedestrian/pedestrian.np.dat: dat/pedestrian/pedestrian.np.datt
 	$(DATT) $** > $@
 dat/stop-air/building.np-airext.dat: dat/stop-air/building.np-airext.datt

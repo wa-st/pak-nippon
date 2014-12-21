@@ -1,9 +1,12 @@
+---
 obj=building
 name=np-mon-statue-of-faithful-dog
 copyright=wa
 type=mon
 passengers=60
+
 dims=1,1,4
+
 backImage[0][0][0][0][0][0]=faithful-dog.0.0
 backImage[1][0][0][0][0][0]=faithful-dog.0.1
 backImage[2][0][0][0][0][0]=faithful-dog.0.2
@@ -13,4 +16,3 @@ backImage[0][0][0][0][0][1]=faithful-dog.1.0
 backImage[1][0][0][0][0][1]=faithful-dog.1.1
 backImage[2][0][0][0][0][1]=faithful-dog.1.2
 backImage[3][0][0][0][0][1]=faithful-dog.1.3
-
