@@ -24,3 +24,12 @@ passengers=60
 
 %def :image, "giant-saw.0.0"
 %buil_image 1, 1, 1, 4, 2
+---
+obj=building
+name=np-mon-rubber-duck
+copyright=wa
+type=mon
+passengers=60
+
+%def :image, "rubber-duck.0.0"
+%buil_image 1, 1, 1, 4, 2

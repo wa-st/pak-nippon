@@ -121,7 +121,7 @@ $(RELEASE_DIR)building.np-miscext-post-office.pak: dat/stop-post/building.np-mis
 	$(MAKEOBJ64) $@ dat/stop-post/building.np-miscext-post-office.dat
 $(RELEASE_DIR)building.np-miscext-tank.pak: dat/stop-freight-station/building.np-miscext-tank.dat dat/stop-freight-station/tanks.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-miscext-tank.dat
-$(RELEASE_DIR)building.np-mon.pak: dat/mon/building.np-mon.dat dat/mon/faithful-dog.png dat/mon/giant-spider.png dat/mon/giant-saw.png
+$(RELEASE_DIR)building.np-mon.pak: dat/mon/building.np-mon.dat dat/mon/faithful-dog.png dat/mon/giant-spider.png dat/mon/giant-saw.png dat/mon/rubber-duck.png
 	$(MAKEOBJ64) $@ dat/mon/building.np-mon.dat
 $(RELEASE_DIR)building.np-monorailstop-platform.pak: dat/stop-monorail/building.np-monorailstop-platform.dat dat/stop-monorail/monorail-ug-platform-i.png dat/stop-monorail/monorail-platform-i.png
 	$(MAKEOBJ64) $@ dat/stop-monorail/building.np-monorailstop-platform.dat
