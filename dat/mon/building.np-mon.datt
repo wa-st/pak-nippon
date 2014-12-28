@@ -33,3 +33,21 @@ passengers=60
 
 %def :image, "rubber-duck.0.0"
 %buil_image 1, 1, 1, 4, 2
+---
+obj=building
+name=np-mon-giant-mannequin
+copyright=wa
+type=mon
+passengers=60
+
+%def :image, "mannequin.0.0"
+%buil_image 1, 1, 1, 4, 2
+---
+obj=building
+name=np-mon-statue-of-owl
+copyright=wa
+type=mon
+passengers=60
+
+%def :image, "owl.0.0"
+%buil_image 1, 1, 1, 4, 2

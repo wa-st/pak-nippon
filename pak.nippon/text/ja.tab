@@ -394,6 +394,8 @@ np-ind-parking-04-30
 駐車場４
 #___________________________________building(mon)_______________________________
 #___________________________________building(mon)_______________________________
+np-mon-giant-mannequin
+巨大なマネキン
 np-mon-giant-saw
 巨大なノコギリ
 np-mon-giant-spider
@@ -402,6 +404,8 @@ np-mon-rubber-duck
 ラバーダック
 np-mon-statue-of-faithful-dog
 忠犬像
+np-mon-statue-of-owl
+ふくろうの像
 #___________________________________building(res)_______________________________
 #___________________________________building(res)_______________________________
 np-res-a-01-01
