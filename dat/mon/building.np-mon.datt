@@ -51,3 +51,12 @@ passengers=60
 
 %def :image, "owl.0.0"
 %buil_image 1, 1, 1, 4, 2
+---
+obj=building
+name=np-mon-statue-of-a-politician
+copyright=wa
+type=mon
+passengers=60
+
+%def :image, "politician.0.0"
+%buil_image 1, 1, 1, 4, 2
