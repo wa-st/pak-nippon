@@ -60,3 +60,12 @@ passengers=60
 
 %def :image, "politician.0.0"
 %buil_image 1, 1, 1, 4, 2
+---
+obj=building
+name=np-mon-equestrian-statue
+copyright=wa
+type=mon
+passengers=60
+
+%def :image, "equestrian.0.0"
+%buil_image 1, 1, 1, 4, 2
