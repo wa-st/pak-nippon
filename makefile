@@ -79,7 +79,7 @@ $(RELEASE_DIR)bridge.np-rail.pak: dat/way-track/bridge.np-rail.dat dat/way-track
 	$(MAKEOBJ64) $@ dat/way-track/bridge.np-rail.dat
 $(RELEASE_DIR)bridge.np-road.pak: dat/way-road/bridge.np-road.dat dat/way-road/road-100n-bridge.png dat/way-road/road-100r-bridge.png dat/way-road/road-bridge-3.png dat/way-road/road-bridge-3-winter.png dat/way-road/road-bridge-4.png dat/way-road/road-bridge-4-winter.png dat/way-road/road-bridge-5.png dat/way-road/road-bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/bridge.np-road.dat
-$(RELEASE_DIR)building.np-airext.pak: dat/stop-air/building.np-airext.dat dat/stop-air/airstop.png dat/stop-air/airext-terminal.png
+$(RELEASE_DIR)building.np-airext.pak: dat/stop-air/building.np-airext.dat dat/stop-air/airstop.png dat/stop-air/airext-terminal.png dat/stop-air/airext-asr-ssr.png
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airext.dat
 $(RELEASE_DIR)building.np-airstop.pak: dat/stop-air/building.np-airstop.dat dat/stop-air/airstop.png
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airstop.dat
