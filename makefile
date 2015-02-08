@@ -95,7 +95,7 @@ $(RELEASE_DIR)building.np-cur-infrastructure.pak: dat/cur/building.np-cur-infras
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-infrastructure.dat
 $(RELEASE_DIR)building.np-cur-kofun.pak: dat/cur/building.np-cur-kofun.dat dat/cur/kofun-1-tile.png dat/cur/kofun-2-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-kofun.dat
-$(RELEASE_DIR)building.np-cur-park.pak: dat/cur/building.np-cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png dat/cur/zoo-tile.png
+$(RELEASE_DIR)building.np-cur-park.pak: dat/cur/building.np-cur-park.dat dat/cur/park-1-tile.png dat/cur/park-2-tile.png dat/cur/park-3-tile.png dat/cur/park-4-tile.png dat/cur/zoo-tile.png dat/cur/amusement-park-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-park.dat
 $(RELEASE_DIR)building.np-cur-public-facility.pak: dat/cur/building.np-cur-public-facility.dat dat/cur/community-center-tile.png dat/cur/policestation-tile.png dat/cur/firestation-tile.png dat/cur/library-tile.png dat/cur/historical-museum-tile.png dat/cur/health-and-welfare-center-tile.png dat/cur/tax-office-tile.png dat/cur/employment-service-center-tile.png dat/cur/museum-tile.png dat/cur/civic-hall-tile.png dat/cur/jgsdf-camp-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-public-facility.dat

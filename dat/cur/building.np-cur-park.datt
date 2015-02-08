@@ -50,3 +50,68 @@ build_time=9750
 chance=15
 %def :image, "zoo-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
+----
+obj=building
+name=np-cur-amusement-park
+copyright=wa
+type=cur
+passengers=50
+build_time=10250
+chance=10
+
+%def :image, "amusement-park-tile.0.0"
+%buil_image 4, 4, 2, 1, 2
+
+frontImage[0][1][1][0][0][0]=#{img(0, 4)}
+frontImage[0][1][1][0][1][0]=#{img(0, 5)}
+frontImage[0][1][1][0][2][0]=#{img(0, 6)}
+frontImage[0][1][1][0][3][0]=#{img(0, 7)}
+frontImage[0][1][1][0][4][0]=#{img(0, 8)}
+frontImage[0][1][1][0][5][0]=#{img(0, 9)}
+frontImage[0][1][1][0][6][0]=#{img(0, 10)}
+frontImage[0][1][1][0][7][0]=#{img(0, 11)}
+
+frontImage[0][0][1][0][0][0]=#{img(1, 4)}
+frontImage[0][0][1][0][1][0]=#{img(1, 5)}
+frontImage[0][0][1][0][2][0]=#{img(1, 6)}
+frontImage[0][0][1][0][3][0]=#{img(1, 7)}
+frontImage[0][0][1][0][4][0]=#{img(1, 8)}
+frontImage[0][0][1][0][5][0]=#{img(1, 9)}
+frontImage[0][0][1][0][6][0]=#{img(1, 10)}
+frontImage[0][0][1][0][7][0]=#{img(1, 11)}
+
+frontImage[0][3][3][0][0][0]=#{img(2, 4)}
+frontImage[0][3][3][0][1][0]=#{img(2, 5)}
+frontImage[0][3][3][0][2][0]=#{img(2, 6)}
+frontImage[0][3][3][0][3][0]=#{img(2, 7)}
+frontImage[0][3][3][0][4][0]=#{img(2, 8)}
+frontImage[0][3][3][0][5][0]=#{img(2, 9)}
+frontImage[0][3][3][0][6][0]=#{img(2, 10)}
+frontImage[0][3][3][0][7][0]=#{img(2, 11)}
+
+frontImage[0][1][1][0][0][1]=#{img(3, 4)}
+frontImage[0][1][1][0][1][1]=#{img(3, 5)}
+frontImage[0][1][1][0][2][1]=#{img(3, 6)}
+frontImage[0][1][1][0][3][1]=#{img(3, 7)}
+frontImage[0][1][1][0][4][1]=#{img(3, 8)}
+frontImage[0][1][1][0][5][1]=#{img(3, 9)}
+frontImage[0][1][1][0][6][1]=#{img(3, 10)}
+frontImage[0][1][1][0][7][1]=#{img(3, 11)}
+
+frontImage[0][0][1][0][0][1]=#{img(1, 4)}
+frontImage[0][0][1][0][1][1]=#{img(1, 5)}
+frontImage[0][0][1][0][2][1]=#{img(1, 6)}
+frontImage[0][0][1][0][3][1]=#{img(1, 7)}
+frontImage[0][0][1][0][4][1]=#{img(1, 8)}
+frontImage[0][0][1][0][5][1]=#{img(1, 9)}
+frontImage[0][0][1][0][6][1]=#{img(1, 10)}
+frontImage[0][0][1][0][7][1]=#{img(1, 11)}
+
+frontImage[0][3][3][0][0][1]=#{img(2, 4)}
+frontImage[0][3][3][0][1][1]=#{img(2, 5)}
+frontImage[0][3][3][0][2][1]=#{img(2, 6)}
+frontImage[0][3][3][0][3][1]=#{img(2, 7)}
+frontImage[0][3][3][0][4][1]=#{img(2, 8)}
+frontImage[0][3][3][0][5][1]=#{img(2, 9)}
+frontImage[0][3][3][0][6][1]=#{img(2, 10)}
+frontImage[0][3][3][0][7][1]=#{img(2, 11)}
