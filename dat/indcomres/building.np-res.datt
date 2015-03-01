@@ -17,16 +17,16 @@
 # 17 h2
 # 18 h2
 # 19 h2
-# 20 s2              p1
-# 21 s2              p2
-# 22 s2              p3
-# 23 s2              p4
-# 24 s2   empty3     p5
-# 25 m    parking3
-# 26 m
-# 27 m
-# 28 m
-# 29 m empty4
+# 20 s2 p
+# 21 s2 p
+# 22 s2 p
+# 23 s2 p
+# 24 s2 p  empty3
+# 25 m  sm parking3
+# 26 m  sm
+# 27 m  sm
+# 28 m  sm
+# 29 m  sm empty4
 # 30 h h h h h  parking4
 ---
 %resource "res"
@@ -288,6 +288,40 @@ level=28
 ---
 level=29
 %def :image, "res-m.16.0"
+%autoname 5
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+---
+level=25
+%def :image, "res-sm.0.0"
+%autoname 1
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+%undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
+---
+level=26
+%def :image, "res-sm.4.0"
+%autoname 2
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+%undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
+---
+level=27
+%def :image, "res-sm.8.0"
+%autoname 3
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+%undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
+---
+level=28
+%def :image, "res-sm.12.0"
+%autoname 4
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+%undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
+---
+level=29
+%def :image, "res-sm.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
