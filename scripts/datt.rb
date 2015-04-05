@@ -96,7 +96,10 @@ module Datt
       name = ADDON_PREFIX
 
       fail 'image not found' unless  @dat_variables[:image] =~ IMAGE_REF
-      name += $1 + '-'
+      image_name = $1
+
+      image_name = $1 if image_name =~ /(.+)-\d+$/
+      name += image_name + '-'
 
       name += sprintf('%02d', id) + '-' if id
 
