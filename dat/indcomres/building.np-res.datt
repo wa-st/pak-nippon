@@ -27,7 +27,7 @@
 # 27 m  sm
 # 28 m  sm
 # 29 m  sm empty4
-# 30 h h h h h  parking4
+# 30 h h h h h h h h h h parking4
 ---
 %resource "res"
 copyright=wa
@@ -353,6 +353,36 @@ level=30
 level=30
 %def :image, "res-h.16.0"
 %autoname 5
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+---
+level=30
+%def :image, "res-h-2.0.0"
+%autoname 6
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+---
+level=30
+%def :image, "res-h-2.4.0"
+%autoname 7
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+---
+level=30
+%def :image, "res-h-2.8.0"
+%autoname 8
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+---
+level=30
+%def :image, "res-h-2.12.0"
+%autoname 9
+%include "res"
+%buil_image 1, 1, 2, 4, 2
+---
+level=30
+%def :image, "res-h-2.16.0"
+%autoname 10
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ----
