@@ -65,6 +65,8 @@ name=np-airext-asr-ssr
 level=1
 %def :image, 'airext-asr-ssr.0.0'
 %include 'air-ext-common'
+dims=1,1,1
+
 animation_time=400
 backImage[0][0][0][0][0][0]=#{img(1, 4)}
 backImage[0][0][0][0][0][1]=#{img(1, 5)}
