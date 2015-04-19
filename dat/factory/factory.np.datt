@@ -423,20 +423,13 @@ BackImage[0][1][1][0][0]=bookoff.1.1
 ---
 obj=factory
 name=np-fact-chemist
-copyright=713
+copyright=wa
 
 %include "CHEMIST", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
-# >>> suburbanstores.zip: matsukiyo.dat
-#intro_year=1954
-#retire_year=2100
-Dims=2,2,1
-BackImage[0][0][0][0][0]=matsukiyo.0.0
-BackImage[0][0][1][0][0]=matsukiyo.0.1
-BackImage[0][1][0][0][0]=matsukiyo.1.0
-BackImage[0][1][1][0][0]=matsukiyo.1.1
-#<<<
+%def :image, "drugstore-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
 ----------------
 obj=factory
 name=np-fact-oelpumpe

@@ -44,7 +44,6 @@ way系(線路・道路など）、way-object系(架線など）、bridge系(橋�
 利用条件はpak.nippon\license\suburbanstores_readme.txtを参照してください。
 
 - dat\factory\bookoff.png
-- dat\factory\matsukiyo.png
 
 参照: [Addon128/Buildings02 - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?Addon128%2FBuildings02)
 

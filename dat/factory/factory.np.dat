@@ -3883,7 +3883,7 @@ BackImage[0][1][1][0][0]=bookoff.1.1
 ---
 obj=factory
 name=np-fact-chemist
-copyright=713
+copyright=wa
 
 #>>> factories.datt[486]
 #Obj=factory
@@ -3914,15 +3914,41 @@ climates=tropic,mediterran,temperate,tundra,rocky,arctic
 #BackImage[0][0][0][0][0][1]=pharmacy.0.1
 #<<<
 
-# >>> suburbanstores.zip: matsukiyo.dat
-#intro_year=1954
-#retire_year=2100
-Dims=2,2,1
-BackImage[0][0][0][0][0]=matsukiyo.0.0
-BackImage[0][0][1][0][0]=matsukiyo.0.1
-BackImage[0][1][0][0][0]=matsukiyo.1.0
-BackImage[0][1][1][0][0]=matsukiyo.1.1
-#<<<
+dims=2,2,4
+
+backImage[0][0][0][0][0][0]=drugstore-tile.0.0
+backImage[0][0][1][0][0][0]=drugstore-tile.0.1
+backImage[0][1][0][0][0][0]=drugstore-tile.1.0
+backImage[0][1][1][0][0][0]=drugstore-tile.1.1
+backImage[1][0][0][0][0][0]=drugstore-tile.0.2
+backImage[1][0][1][0][0][0]=drugstore-tile.0.3
+backImage[1][1][0][0][0][0]=drugstore-tile.1.2
+backImage[1][1][1][0][0][0]=drugstore-tile.1.3
+backImage[2][0][0][0][0][0]=drugstore-tile.0.4
+backImage[2][0][1][0][0][0]=drugstore-tile.0.5
+backImage[2][1][0][0][0][0]=drugstore-tile.1.4
+backImage[2][1][1][0][0][0]=drugstore-tile.1.5
+backImage[3][0][0][0][0][0]=drugstore-tile.0.6
+backImage[3][0][1][0][0][0]=drugstore-tile.0.7
+backImage[3][1][0][0][0][0]=drugstore-tile.1.6
+backImage[3][1][1][0][0][0]=drugstore-tile.1.7
+
+backImage[0][0][0][0][0][1]=drugstore-tile.2.0
+backImage[0][0][1][0][0][1]=drugstore-tile.2.1
+backImage[0][1][0][0][0][1]=drugstore-tile.3.0
+backImage[0][1][1][0][0][1]=drugstore-tile.3.1
+backImage[1][0][0][0][0][1]=drugstore-tile.2.2
+backImage[1][0][1][0][0][1]=drugstore-tile.2.3
+backImage[1][1][0][0][0][1]=drugstore-tile.3.2
+backImage[1][1][1][0][0][1]=drugstore-tile.3.3
+backImage[2][0][0][0][0][1]=drugstore-tile.2.4
+backImage[2][0][1][0][0][1]=drugstore-tile.2.5
+backImage[2][1][0][0][0][1]=drugstore-tile.3.4
+backImage[2][1][1][0][0][1]=drugstore-tile.3.5
+backImage[3][0][0][0][0][1]=drugstore-tile.2.6
+backImage[3][0][1][0][0][1]=drugstore-tile.2.7
+backImage[3][1][0][0][0][1]=drugstore-tile.3.6
+backImage[3][1][1][0][0][1]=drugstore-tile.3.7
 ---
 obj=factory
 name=np-fact-oelpumpe
