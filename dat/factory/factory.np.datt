@@ -396,30 +396,13 @@ backImage[1][4][0][1][4]=windkraftwerk.8.1
 ---
 obj=factory
 name=np-fact-moebelhaus
-copyright=713
+copyright=wa
 
 %include "Moebelhaus", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
-# >>> suburbanstores.zip: nitori.dat
-#intro_year=1967
-#retire_year=2100
-Dims=3,3,1
-BackImage[0][0][0][0][0]=nitori.0.0
-BackImage[0][0][1][0][0]=nitori.0.1
-BackImage[0][0][2][0][0]=nitori.0.2
-BackImage[0][1][0][0][0]=nitori.1.0
-BackImage[0][1][1][0][0]=nitori.1.1
-BackImage[0][1][2][0][0]=nitori.1.2
-BackImage[0][2][0][0][0]=nitori.2.0
-BackImage[0][2][1][0][0]=nitori.2.1
-BackImage[0][2][2][0][0]=nitori.2.2
-BackImage[0][0][0][1][0]=nitori.3.0
-BackImage[0][0][1][1][0]=nitori.3.1
-BackImage[0][0][2][1][0]=nitori.3.2
-BackImage[0][1][0][1][0]=nitori.4.0
-BackImage[0][2][0][1][0]=nitori.5.0
-#<<<
+%def :image, "nitori-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
 ---
 obj=factory
 name=np-fact-buchgrosshandel

@@ -45,7 +45,6 @@ way系(線路・道路など）、way-object系(架線など）、bridge系(橋�
 
 - dat\factory\bookoff.png
 - dat\factory\matsukiyo.png
-- dat\factory\nitori.png
 
 参照: [Addon128/Buildings02 - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?Addon128%2FBuildings02)
 
