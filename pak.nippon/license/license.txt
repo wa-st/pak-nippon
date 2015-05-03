@@ -1,10 +1,6 @@
 ファイル名に「np-」を含まないpakファイルは、pak64に由来するアドオンです。
 利用条件はpak64_licence.txtを参照してください。
 
-factory.np.pakの一部(np-fact-buchgrosshandel)は、
-713氏が作成されたアドオンを元にしています。
-利用条件はsuburbanstores_readme.txtを参照してください。
-
 roadsign.np-rail.pak、roadsign.np-monorail.pakは、りむ氏が作成されたアドオンを元にしています。
 利用条件はJpLeftSignais_readme.txtを参照してください。
 

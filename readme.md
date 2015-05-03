@@ -37,16 +37,6 @@ way系(線路・道路など）、way-object系(架線など）、bridge系(橋�
 
 参照: [SourceForge / simutrans / Code](http://sourceforge.net/p/simutrans/code/HEAD/tree/pak64/)
 
-
-###713氏が作成されたファイルについて
-
-以下のファイルは713氏が作成された「Suburban stores/ 郊外店セット」に由来するファイルです。
-利用条件はpak.nippon\license\suburbanstores_readme.txtを参照してください。
-
-- dat\factory\bookoff.png
-
-参照: [Addon128/Buildings02 - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?Addon128%2FBuildings02)
-
 ###りむ氏が作成されたファイルについて
 
 以下のファイルはりむ氏が作成された「日本風左側通行信号機セット」に由来するファイルです。

@@ -406,20 +406,13 @@ copyright=wa
 ---
 obj=factory
 name=np-fact-buchgrosshandel
-copyright=713
+copyright=wa
 
 %include "Buchgrosshandel", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
-# >>> suburbanstores.zip: bookoff.dat
-#intro_year=1991
-#retire_year=2100
-Dims=2,2,1
-BackImage[0][0][0][0][0]=bookoff.0.0
-BackImage[0][0][1][0][0]=bookoff.0.1
-BackImage[0][1][0][0][0]=bookoff.1.0
-BackImage[0][1][1][0][0]=bookoff.1.1
-#<<<
+%def :image, "bookstore-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
 ---
 obj=factory
 name=np-fact-chemist
