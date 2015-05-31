@@ -10,11 +10,11 @@
 # 10 l2 s
 # 11 l2 s
 # 12 l2 s
-# 13 l2 s
-# 14 l2 s
-# 15 m1   com-parking
-# 16 m1
-# 17 m1
+# 13 l2 s hl2
+# 14 l2 s hl2
+# 15 m1   hl2 com-parking
+# 16 m1   hl2
+# 17 m1   hl2
 # 18 m1
 # 19 m1
 # 20 m2
@@ -171,6 +171,36 @@ level=14
 %autoname 5
 %include "com"
 %buil_image 1, 1, 1, 4, 2
+---
+level=13
+%def :image, "com-hl2.0.0"
+%autoname 1
+%include "com"
+%buil_image 1, 1, 1, 8, 2
+---
+level=14
+%def :image, "com-hl2.2.0"
+%autoname 2
+%include "com"
+%buil_image 1, 1, 1, 8, 2
+---
+level=15
+%def :image, "com-hl2.4.0"
+%autoname 3
+%include "com"
+%buil_image 1, 1, 1, 8, 2
+---
+level=16
+%def :image, "com-hl2.6.0"
+%autoname 4
+%include "com"
+%buil_image 1, 1, 1, 8, 2
+---
+level=17
+%def :image, "com-hl2.8.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 1, 8, 2
 ---
 level=15
 %def :image, "com-m1.0.0"

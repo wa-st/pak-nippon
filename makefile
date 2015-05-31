@@ -83,7 +83,7 @@ $(RELEASE_DIR)building.np-airext.pak: dat/stop-air/building.np-airext.dat dat/st
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airext.dat
 $(RELEASE_DIR)building.np-airstop.pak: dat/stop-air/building.np-airstop.dat dat/stop-air/airstop.png
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airstop.dat
-$(RELEASE_DIR)building.np-com.pak: dat/indcomres/building.np-com.dat dat/indcomres/com-a.png dat/indcomres/com-l1.png dat/indcomres/com-t.png dat/indcomres/com-l2.png dat/indcomres/com-s.png dat/indcomres/com-m1.png dat/indcomres/com-m2.png dat/indcomres/com-h1.png dat/indcomres/com-h2.png dat/indcomres/com-parking.png
+$(RELEASE_DIR)building.np-com.pak: dat/indcomres/building.np-com.dat dat/indcomres/com-a.png dat/indcomres/com-l1.png dat/indcomres/com-t.png dat/indcomres/com-l2.png dat/indcomres/com-s.png dat/indcomres/com-hl2.png dat/indcomres/com-m1.png dat/indcomres/com-m2.png dat/indcomres/com-h1.png dat/indcomres/com-h2.png dat/indcomres/com-parking.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-com.dat
 $(RELEASE_DIR)building.np-cur-castle.pak: dat/cur/building.np-cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-castle.dat
