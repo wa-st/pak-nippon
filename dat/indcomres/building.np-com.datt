@@ -2,7 +2,7 @@
 # 02 a
 # 03 a
 # 04 
-# 05 l1 t com-parking
+# 05 l1 t parking
 # 06 l1 t
 # 07 l1 t
 # 08 l1 t
@@ -12,22 +12,22 @@
 # 12 l2 s
 # 13 l2 s hl2
 # 14 l2 s hl2
-# 15 m1   hl2 com-parking
+# 15 m1   hl2 parking
 # 16 m1   hl2
 # 17 m1   hl2
 # 18 m1
 # 19 m1
-# 20 m2
+# 20 m2   parking
 # 21 m2
 # 22 m2
 # 23 m2
 # 24 m2
-# 25 h1   com-parking
+# 25 h1   parking
 # 26 h1
 # 27 h1
-# 28 h1
+# 28 h1   parking
 # 29 h1
-# 30 h2 h2 h2 h2 h2 com-parking
+# 30 h2 h2 h2 h2 h2 parking parking
 ---
 %resource "com"
 copyright=wa
@@ -345,3 +345,21 @@ level=30
 %autoname 4
 %include "com"
 %buil_image 1, 1, 1, 4, 2
+----
+level=20
+%def :image, "com-parking-2.0.0"
+%autoname 5
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+----
+level=28
+%def :image, "com-parking-2.2.0"
+%autoname 6
+%include "com"
+%buil_image 1, 1, 1, 4, 2
+----
+level=30
+%def :image, "com-parking-2.4.0"
+%autoname 7
+%include "com"
+%buil_image 1, 1, 2, 4, 2

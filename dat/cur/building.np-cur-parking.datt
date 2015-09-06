@@ -1,0 +1,65 @@
+obj=building
+name=np-cur-parking-1
+copyright=wa
+type=cur
+passengers=2
+build_time=200
+chance=50
+
+%def :image, "parking-1-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+---
+obj=building
+name=np-cur-parking-2
+copyright=wa
+type=cur
+passengers=2
+build_time=2200
+chance=30
+
+%def :image, "parking-2-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+---
+obj=building
+name=np-cur-parking-3
+copyright=wa
+type=cur
+passengers=4
+build_time=4200
+chance=50
+
+%def :image, "parking-3-tile.0.0"
+%buil_image 2, 2, 1, 4, 2
+---
+obj=building
+name=np-cur-parking-4
+copyright=wa
+type=cur
+passengers=8
+build_time=6200
+chance=30
+
+%def :image, "parking-4-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+---
+obj=building
+name=np-cur-parking-5
+copyright=wa
+type=cur
+passengers=12
+build_time=7200
+chance=15
+
+%def :image, "parking-5-tile.0.0"
+%buil_image 2, 3, 2, 4, 2
+---
+obj=building
+name=np-cur-parking-6
+copyright=wa
+type=cur
+passengers=20
+build_time=8200
+chance=15
+
+%def :image, "parking-6-tile.0.0"
+%buil_image 2, 2, 2, 4, 2

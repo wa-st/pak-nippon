@@ -1,9 +1,9 @@
 # 01 a
 # 02 a
 # 03 a
-# 04 
-# 05 h1 t1 parking1
-# 06 h1 t1 empty1
+# 04
+# 05 h1 t1 parking
+# 06 h1 t1 empty
 # 07 h1 t1
 # 08 h1 t1
 # 09 h1 t1
@@ -11,23 +11,23 @@
 # 11 s1 t2
 # 12 s1 t2
 # 13 s1 t2
-# 14 s1 t2 empty2
-# 15 h2    parking2
+# 14 s1 t2 empty
+# 15 h2    parking
 # 16 h2
 # 17 h2
 # 18 h2
 # 19 h2
-# 20 s2 p
+# 20 s2 p  parking
 # 21 s2 p
 # 22 s2 p
 # 23 s2 p
-# 24 s2 p  empty3
-# 25 m  sm parking3
+# 24 s2 p  empty
+# 25 m  sm parking
 # 26 m  sm
 # 27 m  sm
 # 28 m  sm
-# 29 m  sm empty4
-# 30 h h h h h h h h h h parking4
+# 29 m  sm empty
+# 30 h h h h h h h h h h parking parking
 ---
 %resource "res"
 copyright=wa
@@ -409,6 +409,18 @@ level=30
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
+----
+level=20
+%def :image, "res-parking-2.0.0"
+%autoname 5
+%include "res"
+%buil_image 1, 1, 1, 4, 2
+----
+level=30
+%def :image, "res-parking-2.2.0"
+%autoname 6
+%include "res"
+%buil_image 1, 1, 2, 4, 2
 ----
 level=6
 %def :image, "res-empty.0.0"
