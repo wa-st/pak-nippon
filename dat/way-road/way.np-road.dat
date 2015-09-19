@@ -495,7 +495,7 @@ diagonal[SE][0]=road-100r-elv.6.3,0,16
 
 ---
 obj=way
-name=np-dart-road
+name=np-dirt-road
 copyright=wa
 cost=2000
 maintenance=100
@@ -503,85 +503,85 @@ topspeed=25
 max_weight=15
 waytype=road
 
-icon=> dart-1.9.0
-cursor=dart-1.9.1
+icon=> dirt-road.9.0
+cursor=dirt-road.9.1
 
-image[S][0]=dart-1.0.0
-image[E][0]=dart-1.0.1
-image[N][0]=dart-1.0.2
-image[W][0]=dart-1.0.3
+image[S][0]=dirt-road.0.0
+image[E][0]=dirt-road.0.1
+image[N][0]=dirt-road.0.2
+image[W][0]=dirt-road.0.3
 
-image[SE][0]=dart-1.1.0
-image[NE][0]=dart-1.1.1
-image[NW][0]=dart-1.1.2
-image[SW][0]=dart-1.1.3
+image[SE][0]=dirt-road.1.0
+image[NE][0]=dirt-road.1.1
+image[NW][0]=dirt-road.1.2
+image[SW][0]=dirt-road.1.3
 
-image[NS][0]=dart-1.2.0
-image[EW][0]=dart-1.2.1
+image[NS][0]=dirt-road.2.0
+image[EW][0]=dirt-road.2.1
 
-image[NSEW][0]=dart-1.3.0
+image[NSEW][0]=dirt-road.3.0
 
-image[-][0]=dart-1.4.0
+image[-][0]=dirt-road.4.0
 
-image[NSE][0]=dart-1.5.0
-image[NEW][0]=dart-1.5.1
-image[NSW][0]=dart-1.5.2
-image[SEW][0]=dart-1.5.3
+image[NSE][0]=dirt-road.5.0
+image[NEW][0]=dirt-road.5.1
+image[NSW][0]=dirt-road.5.2
+image[SEW][0]=dirt-road.5.3
 
-imageUp[12][0]=dart-1.6.0
-imageUp[9][0]=dart-1.6.1
-imageUp[3][0]=dart-1.6.2
-imageUp[6][0]=dart-1.6.3
+imageUp[12][0]=dirt-road.6.0
+imageUp[9][0]=dirt-road.6.1
+imageUp[3][0]=dirt-road.6.2
+imageUp[6][0]=dirt-road.6.3
 
-imageUp2[12][0]=dart-1.7.0
-imageUp2[9][0]=dart-1.7.1
-imageUp2[3][0]=dart-1.7.2
-imageUp2[6][0]=dart-1.7.3
+imageUp2[12][0]=dirt-road.7.0
+imageUp2[9][0]=dirt-road.7.1
+imageUp2[3][0]=dirt-road.7.2
+imageUp2[6][0]=dirt-road.7.3
 
-diagonal[SE][0]=dart-1.8.0
-diagonal[NE][0]=dart-1.8.1
-diagonal[NW][0]=dart-1.8.2
-diagonal[SW][0]=dart-1.8.3
+diagonal[SE][0]=dirt-road.8.0
+diagonal[NE][0]=dirt-road.8.1
+diagonal[NW][0]=dirt-road.8.2
+diagonal[SW][0]=dirt-road.8.3
 
-image[S][1]=dart-1-winter.0.0
-image[E][1]=dart-1-winter.0.1
-image[N][1]=dart-1-winter.0.2
-image[W][1]=dart-1-winter.0.3
+image[S][1]=dirt-road-winter.0.0
+image[E][1]=dirt-road-winter.0.1
+image[N][1]=dirt-road-winter.0.2
+image[W][1]=dirt-road-winter.0.3
 
-image[SE][1]=dart-1-winter.1.0
-image[NE][1]=dart-1-winter.1.1
-image[NW][1]=dart-1-winter.1.2
-image[SW][1]=dart-1-winter.1.3
+image[SE][1]=dirt-road-winter.1.0
+image[NE][1]=dirt-road-winter.1.1
+image[NW][1]=dirt-road-winter.1.2
+image[SW][1]=dirt-road-winter.1.3
 
-image[NS][1]=dart-1-winter.2.0
-image[EW][1]=dart-1-winter.2.1
+image[NS][1]=dirt-road-winter.2.0
+image[EW][1]=dirt-road-winter.2.1
 
-image[NSEW][1]=dart-1-winter.3.0
+image[NSEW][1]=dirt-road-winter.3.0
 
-image[-][1]=dart-1-winter.4.0
+image[-][1]=dirt-road-winter.4.0
 
-image[NSE][1]=dart-1-winter.5.0
-image[NEW][1]=dart-1-winter.5.1
-image[NSW][1]=dart-1-winter.5.2
-image[SEW][1]=dart-1-winter.5.3
+image[NSE][1]=dirt-road-winter.5.0
+image[NEW][1]=dirt-road-winter.5.1
+image[NSW][1]=dirt-road-winter.5.2
+image[SEW][1]=dirt-road-winter.5.3
 
-imageUp[12][1]=dart-1-winter.6.0
-imageUp[9][1]=dart-1-winter.6.1
-imageUp[3][1]=dart-1-winter.6.2
-imageUp[6][1]=dart-1-winter.6.3
+imageUp[12][1]=dirt-road-winter.6.0
+imageUp[9][1]=dirt-road-winter.6.1
+imageUp[3][1]=dirt-road-winter.6.2
+imageUp[6][1]=dirt-road-winter.6.3
 
-imageUp2[12][1]=dart-1-winter.7.0
-imageUp2[9][1]=dart-1-winter.7.1
-imageUp2[3][1]=dart-1-winter.7.2
-imageUp2[6][1]=dart-1-winter.7.3
+imageUp2[12][1]=dirt-road-winter.7.0
+imageUp2[9][1]=dirt-road-winter.7.1
+imageUp2[3][1]=dirt-road-winter.7.2
+imageUp2[6][1]=dirt-road-winter.7.3
 
-diagonal[SE][1]=dart-1-winter.8.0
-diagonal[NE][1]=dart-1-winter.8.1
-diagonal[NW][1]=dart-1-winter.8.2
-diagonal[SW][1]=dart-1-winter.8.3
+diagonal[SE][1]=dirt-road-winter.8.0
+diagonal[NE][1]=dirt-road-winter.8.1
+diagonal[NW][1]=dirt-road-winter.8.2
+diagonal[SW][1]=dirt-road-winter.8.3
 ---
 obj=way
-name=np-gavel-road
+name=np-gravel-road
 copyright=wa
 cost=4000
 maintenance=300
@@ -589,79 +589,79 @@ topspeed=40
 max_weight=30
 waytype=road
 
-icon=> dart-2.9.0
-cursor=dart-2.9.1
+icon=> gravel-road.9.0
+cursor=gravel-road.9.1
 
-image[S][0]=dart-2.0.0
-image[E][0]=dart-2.0.1
-image[N][0]=dart-2.0.2
-image[W][0]=dart-2.0.3
+image[S][0]=gravel-road.0.0
+image[E][0]=gravel-road.0.1
+image[N][0]=gravel-road.0.2
+image[W][0]=gravel-road.0.3
 
-image[SE][0]=dart-2.1.0
-image[NE][0]=dart-2.1.1
-image[NW][0]=dart-2.1.2
-image[SW][0]=dart-2.1.3
+image[SE][0]=gravel-road.1.0
+image[NE][0]=gravel-road.1.1
+image[NW][0]=gravel-road.1.2
+image[SW][0]=gravel-road.1.3
 
-image[NS][0]=dart-2.2.0
-image[EW][0]=dart-2.2.1
+image[NS][0]=gravel-road.2.0
+image[EW][0]=gravel-road.2.1
 
-image[NSEW][0]=dart-2.3.0
+image[NSEW][0]=gravel-road.3.0
 
-image[-][0]=dart-2.4.0
+image[-][0]=gravel-road.4.0
 
-image[NSE][0]=dart-2.5.0
-image[NEW][0]=dart-2.5.1
-image[NSW][0]=dart-2.5.2
-image[SEW][0]=dart-2.5.3
+image[NSE][0]=gravel-road.5.0
+image[NEW][0]=gravel-road.5.1
+image[NSW][0]=gravel-road.5.2
+image[SEW][0]=gravel-road.5.3
 
-imageUp[12][0]=dart-2.6.0
-imageUp[9][0]=dart-2.6.1
-imageUp[3][0]=dart-2.6.2
-imageUp[6][0]=dart-2.6.3
+imageUp[12][0]=gravel-road.6.0
+imageUp[9][0]=gravel-road.6.1
+imageUp[3][0]=gravel-road.6.2
+imageUp[6][0]=gravel-road.6.3
 
-imageUp2[12][0]=dart-2.7.0
-imageUp2[9][0]=dart-2.7.1
-imageUp2[3][0]=dart-2.7.2
-imageUp2[6][0]=dart-2.7.3
+imageUp2[12][0]=gravel-road.7.0
+imageUp2[9][0]=gravel-road.7.1
+imageUp2[3][0]=gravel-road.7.2
+imageUp2[6][0]=gravel-road.7.3
 
-diagonal[SE][0]=dart-2.8.0
-diagonal[NE][0]=dart-2.8.1
-diagonal[NW][0]=dart-2.8.2
-diagonal[SW][0]=dart-2.8.3
+diagonal[SE][0]=gravel-road.8.0
+diagonal[NE][0]=gravel-road.8.1
+diagonal[NW][0]=gravel-road.8.2
+diagonal[SW][0]=gravel-road.8.3
 
-image[S][1]=dart-2-winter.0.0
-image[E][1]=dart-2-winter.0.1
-image[N][1]=dart-2-winter.0.2
-image[W][1]=dart-2-winter.0.3
+image[S][1]=gravel-road-winter.0.0
+image[E][1]=gravel-road-winter.0.1
+image[N][1]=gravel-road-winter.0.2
+image[W][1]=gravel-road-winter.0.3
 
-image[SE][1]=dart-2-winter.1.0
-image[NE][1]=dart-2-winter.1.1
-image[NW][1]=dart-2-winter.1.2
-image[SW][1]=dart-2-winter.1.3
+image[SE][1]=gravel-road-winter.1.0
+image[NE][1]=gravel-road-winter.1.1
+image[NW][1]=gravel-road-winter.1.2
+image[SW][1]=gravel-road-winter.1.3
 
-image[NS][1]=dart-2-winter.2.0
-image[EW][1]=dart-2-winter.2.1
+image[NS][1]=gravel-road-winter.2.0
+image[EW][1]=gravel-road-winter.2.1
 
-image[NSEW][1]=dart-2-winter.3.0
+image[NSEW][1]=gravel-road-winter.3.0
 
-image[-][1]=dart-2-winter.4.0
+image[-][1]=gravel-road-winter.4.0
 
-image[NSE][1]=dart-2-winter.5.0
-image[NEW][1]=dart-2-winter.5.1
-image[NSW][1]=dart-2-winter.5.2
-image[SEW][1]=dart-2-winter.5.3
+image[NSE][1]=gravel-road-winter.5.0
+image[NEW][1]=gravel-road-winter.5.1
+image[NSW][1]=gravel-road-winter.5.2
+image[SEW][1]=gravel-road-winter.5.3
 
-imageUp[12][1]=dart-2-winter.6.0
-imageUp[9][1]=dart-2-winter.6.1
-imageUp[3][1]=dart-2-winter.6.2
-imageUp[6][1]=dart-2-winter.6.3
+imageUp[12][1]=gravel-road-winter.6.0
+imageUp[9][1]=gravel-road-winter.6.1
+imageUp[3][1]=gravel-road-winter.6.2
+imageUp[6][1]=gravel-road-winter.6.3
 
-imageUp2[12][1]=dart-2-winter.7.0
-imageUp2[9][1]=dart-2-winter.7.1
-imageUp2[3][1]=dart-2-winter.7.2
-imageUp2[6][1]=dart-2-winter.7.3
+imageUp2[12][1]=gravel-road-winter.7.0
+imageUp2[9][1]=gravel-road-winter.7.1
+imageUp2[3][1]=gravel-road-winter.7.2
+imageUp2[6][1]=gravel-road-winter.7.3
 
-diagonal[SE][1]=dart-2-winter.8.0
-diagonal[NE][1]=dart-2-winter.8.1
-diagonal[NW][1]=dart-2-winter.8.2
-diagonal[SW][1]=dart-2-winter.8.3
+diagonal[SE][1]=gravel-road-winter.8.0
+diagonal[NE][1]=gravel-road-winter.8.1
+diagonal[NW][1]=gravel-road-winter.8.2
+diagonal[SW][1]=gravel-road-winter.8.3

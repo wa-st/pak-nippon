@@ -1510,7 +1510,7 @@ np-concrete-sleeper-track
 高規格線路
 np-construction-fence-miscway
 工事用フェンス
-np-dart-road
+np-dirt-road
 未舗装の道路
 np-elevated-concrete-sleeper-track
 高規格高架線路
@@ -1528,7 +1528,7 @@ np-elevated-two-lane-highway
 対面高速高架道路
 np-fence-miscway
 フェンス
-np-gavel-road
+np-gravel-road
 砂利道
 np-highway
 高速道路

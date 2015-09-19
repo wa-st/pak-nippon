@@ -255,7 +255,7 @@ draw_as_ding=1
 
 ---
 obj=way
-name=np-dart-road
+name=np-dirt-road
 copyright=wa
 cost=2000
 maintenance=100
@@ -264,11 +264,11 @@ max_weight=15
 waytype=road
 
 %def :offset, ""
-%def :fn, "dart-1"
+%def :fn, "dirt-road"
 %include "way-img"
 ---
 obj=way
-name=np-gavel-road
+name=np-gravel-road
 copyright=wa
 cost=4000
 maintenance=300
@@ -277,5 +277,5 @@ max_weight=30
 waytype=road
 
 %def :offset, ""
-%def :fn, "dart-2"
+%def :fn, "gravel-road"
 %include "way-img"
