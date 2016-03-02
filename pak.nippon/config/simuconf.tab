@@ -2,20 +2,22 @@
 #
 # Low-Level values and constants
 #
+# Lines starting with '#' or any non_character letter will be ignored!
+# To actually set a value, remove the leading '#'!
 #
 # This file can be found in many places:
 #
-# simutrans/config/simuconf.tab
-# ~/simutrans/simuconf.tab (in the user directory, if singleuser_install != 0 or not present, first only pak-file path will be read)
-# simutrans/pakfilefolder/config/simuconf.tab
-# ~/simutrans/simuconf.tab (readed a second time, s.a.)
+# simutrans/config/simuconf.tab (this one)
+# ~/simutrans/simuconf.tab (in the user directory, if not a portable (single user) installation)
+# simutrans/pakfilefolder/config/simuconf.tab (always, if present)
+# ~/simutrans/simuconf.tab (read a second time, again only if not a portable (single user) installation)
 #
 # Due to this location inside a pak folder, we will only touch the pak dependent values!
 #
 ###############################passenger stuff##############################
 
 # town growth multiplier factors (electricity is not used at the moment)
-# A heigher factor mean faster growth
+# A higher factor mean faster growth
 # passenger_multiplier = 40
 mail_multiplier = 20
 goods_multiplier = 20
@@ -35,7 +37,7 @@ passenger_factor=16
 factory_worker_percentage = 33
 tourist_percentage = 16
 
-# how much local destinations are prefrerred over time
+# how much local destinations are preferred over time
 # 1 means almost local passengers/mail only, 10000 spreads them over the map
 # You can have up to ten entries, first is the year, next is the factor.
 # The increase between the year will increase first slow then fast towards
@@ -57,10 +59,6 @@ factory_worker_maximum_towns = 4
 # if enabled (default = 0 off) stops may have different capacities for passengers, mail, and  freight
 seperate_halt_capacities = 0
 
-# lowest possible income with speedbonus (1000=1) default 125
-bonus_basefactor = 125
-
-
 # three modes (default = 0)
 # 1: the payment is only relative to the distance to next interchange, 2 to the trips destination (default 0 is distance since last stop)
 pay_for_total_distance = 0
@@ -78,10 +76,16 @@ beginner_price_factor = 1500
 
 # when a city reaches 2^n times of this number
 # then a factory is extended, or a new factory chain is spawned
-#industry_increase_every = 4000
+industry_increase_every = 2000
 
 # smallest distance between two adjacent factories
 factory_spacing = 9
+
+# max distance for connected factories
+# if percentage>0, it will be in percent of the largest map dimension
+# percentage also overrides the absolute value
+#max_factory_spacing_percentage = 25
+#max_factory_spacing = 40
 
 # allow all possible supplier to connect to your factories?
 # best to leave it in default position. (only on for simuTTD)
@@ -91,25 +95,25 @@ crossconnect_factories = 0
 # (100% will give nearly the same results as crossconnect_factories=1)
 crossconnect_factories_percentage = 33
 
-# true if transformers are allowed underground (default)
-
-allow_underground_transformers = 0
-
 # how much is the total electric power available (in relation to total production) in parts per thousand
 electric_promille = 330
 
-# with this switch on (default), overcrowded factories will not recieve goods any more
+# true if transformers are allowed underground (default)
+allow_underground_transformers = 1
+
+# with this switch on overcrowded factories will not receive goods any more
+# There are three settings 0=off, 1=old_style (default), 2=new_style
 just_in_time = 1
+
+# how much amount in transport is sent before further distribution stops
+# This is only enabled when "just_in_time=1" is enabled
+# The limit is given in percent of factory storage (0=off)
+# It should be not too low to allow big convoys fully loaded at more than one
+# factory (for medium sized maps 500 seems a reasonable number)
+maximum_intransit_percentage = 500
 
 # use beginner mode for new maps (can be switched anyway on the new map dialog)
 first_beginner = 0
-
-# how much amount in transport is sent before further distribution stops
-# This is only enabled when "just_in_time" is enabled
-# The limit is given in percent of factory storage (0=off)
-# It should be not too low to allow big convois fully loaded at more than one
-# factory (for medium sized maps 500 seems a reasonable number)
-maximum_intransit_percentage = 500
 
 # number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
 # one period represents a fixed interval of 2^18 ms in-game time
@@ -118,14 +122,6 @@ factory_arrival_periods = 4
 
 # whether factory's pax/mail demands are enforced or not; default is on
 factory_enforce_demand = 1
-
-
-# how height is a tile in z-direction (default 16, TTD 8)
-# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
-tile_height = 8
-
-# new height for old slopes when old single height savegame loaded with double height pak (default 1=single height, 2=double height)
-height_conversion_factor = 2
 
 ###################################display stuff##################################
 
@@ -153,6 +149,14 @@ player_color[1] = 1,4
 # how long is a diagonal (512: faktor 2=1024/512, old way, 724: sqrt(2)=1024/724
 # THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
 diagonal_multiplier = 724
+
+# new height for old slopes when old single height savegame loaded with double height pak (default 1=single height, 2=double height)
+# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
+height_conversion_factor = 2
+
+# how height is a tile in z-direction (default 16, TTD 8)
+# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
+tile_height = 8
 
 # If enabled, default background is black
 #background_color = 240
@@ -191,7 +195,7 @@ special_color[14]=0x01, 0x01, 0xFF, 0x01, 0x01, 0xFF // blue light
 
 # New system of year dependent starting money. Up to ten triplets are
 # possible. The entries are of the form:
-# startingmoney[i]=year,money(in 1/10 credits),interpolate (1) or step(0)
+# startingmoney[i]=year,money(in 1/100 credits),interpolate (1) or step(0)
 starting_money[0]=1930,20000000,1
 starting_money[1]=2030,35000000,1
 
@@ -202,9 +206,12 @@ allow_buying_obsolete_vehicles = 0
 # the loss is given in 1/1000th, i.e 300 mean the value will be 70%
 used_vehicle_reduction = 15
 
-# if a convoi runs on a way that belongs to another player, toll may
+# lowest possible income with speedbonus (1000=1) default 125
+bonus_basefactor = 125
+
+# if a convoy runs on a way that belongs to another player, toll may
 # be charged. The number given is the percentage of the running cost
-# of the convoi or the way cost (include electrification if needed).
+# of the convoy or the way cost (include electrification if needed).
 # (default 0)
 toll_runningcost_percentage = 10
 toll_waycost_percentage = 5
@@ -223,6 +230,7 @@ cost_multiply_post=300
 cost_multiply_headquarter=1000
 
 # cost for depots
+cost_depot_air=5000
 cost_depot_rail=1000
 cost_depot_road=1300
 cost_depot_ship=2500
@@ -233,8 +241,8 @@ cost_tunnel=10000
 cost_third_rail=80
 
 # other construction/destruction stuff
-cost_alter_land=1500
 cost_buy_land=100
+cost_alter_land=1500
 cost_set_slope=2000
 cost_alter_climate=5000
 cost_found_city=5000000
@@ -242,6 +250,8 @@ cost_multiply_found_industry=20000
 cost_remove_tree=100
 cost_multiply_remove_haus=1000
 cost_multiply_remove_field=5000
+#cost_transformer=2500
+#cost_maintain_transformer=20
 
 # unlimited bridges and tunnels
 way_max_bridge_len = 4095
@@ -250,20 +260,22 @@ way_max_bridge_len = 4095
 ###################################time stuff###################################
 
 # Starting year of the game:
-# Setting it below 1850 is not recommended for 64 set!
+# Setting it below 1850 is not recommended for pak64 set!
 # You will have problems with missing vehicles, do not complain if you do so!
 # Setting it above 2050 will render game bit boring - no new vehicles.
 #
-# other recommended vaule for 64 is 1956
+# other recommended value for pak64 is 1956
 #
 starting_year = 1930
 
-##################################forest stuff#################################
+################################# forest stuff #################################
 #  please be careful in changing them, I spent lot of time finding optimals.
-#  those values have impact on no. of spwaned trees -> memory consumption
+#  those values have impact on no. of spawned trees -> memory consumption
 #
 # Number of trees on square 2 - minimal usable, 3 good, 4 very nice looking
 max_no_of_trees_on_square = 3
+
+# All following tree options are only active during map generation/extension.
 
 # Base forest size - minimal size of forest - map independent
 forest_base_size = 36
@@ -274,25 +286,32 @@ forest_map_size_divisor = 38
 # Forest count divisor - smaller it is, the more forest are generated
 forest_count_divisor = 16
 
-# Determins how dense are spare trees going to be planted (works inversly)
+# Determines how dense are spare trees going to be planted (works inversely)
 forest_inverse_spare_tree_density = 400
 
-# climate with trees entirely (1: water, 2:desert, 4:tropic, 8:mediterran, 16:temperate, 32:tundra, 64:rocky, 128:arctic)
+# climate with trees entirely (1: water, 2:desert, 4:tropic, 8:mediterranean, 16:temperate, 32:tundra, 64:rocky, 128:arctic)
 # zero (default) means no climate with at least one tree per tile
 tree_climates = 4
 
 # climates with no trees at all (desert and arctic at the moment)
 no_tree_climates = 130
 
+# if set, no trees will be created at all (save about 30% memory and
+# the season change will be much smoother on small machines)
+no_trees = 0
+
+# if set, no lakes will be created at all
+no_lakes = 0
+
 ###################################other stuff##################################
 
 # how far cities should be minimum apart (default 16)
 minimum_city_distance = 32
 
-# at which number of inhabitants we need a new market?
-industry_increase_every = 2000
+# Minimum distance of a city attraction to other special buildings
+#special_building_distance = 3
 
-# Max. length of intitial intercity road connections
+# Max. length of initial intercity road connections
 # If you want to speed up map creation, lower this value
 # If you want more initial intercity roads, raise this value
 # 4000 will connect almost every city if possible
@@ -300,18 +319,20 @@ industry_increase_every = 2000
 #
 intercity_road_length = 70
 
-# Type of initial intercity roads - must be available
-# as PAK file. Fallback (if PAK is not found) is "asphalt_road"
+# Type of intercity roads - must be available as PAK file.
+# Intercityroad with timeline: intercity_road[number]=name,intro-year,retire-year
+# .. number = 0..9 - up to ten different intercity_roads possible
+# .. name = name of an existing pak file
 intercity_road[0] = np-arterial-road, 0
 
 # Type of city roads - must be available as PAK file.
-# order is random
-# format is besch_name[,into_year[,retire_year]]
-# if intro or retire is not given, the default dates from the pak is used
+# Cityroad with timeline: city_road[number]=name,intro-year,retire-year
+# .. number = 0..9 - up to ten different city_roads possible
+# .. name = name of an existing pak file
 city_road[0] = city_road, 0
 
 # rivers:
-# The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
+# The highest number is the smallest. A river with max_speed==0 is not navigable by ships.
 river_type[0] = np-river-1
 river_type[1] = np-river-2
 river_type[2] = np-river-3

@@ -74,7 +74,6 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\building.Lighthouse.pak
 @del %TARGET_DIR%\building.LongBusStop.pak
 @del %TARGET_DIR%\building.MHzSmallStation.pak
-@del %TARGET_DIR%\building.MaglevUndergroundStation.pak
 @del %TARGET_DIR%\building.MainTerminal1930.pak
 @del %TARGET_DIR%\building.ModernAirTerminal477.pak
 @del %TARGET_DIR%\building.MonorailDepot.pak

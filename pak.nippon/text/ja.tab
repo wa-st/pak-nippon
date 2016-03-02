@@ -5,22 +5,30 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                           Date Created: 17.03 2013                           #
+#                            Date Created: 6.01 2016                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - An_dz                                   #
 #                   note: Verified where all texts are shown                   #
 #                                    - Dwachs                                  #
 #                                    note:                                     #
-#                              Frank Penz - FrankP                             #
+#                                  - Flemmbrav                                 #
+#                                    note:                                     #
+#                                    - FrankP                                  #
 #                                    note:                                     #
 #                                    - Hamo73                                  #
 #                                    note:                                     #
-#                            Shun Yamashita - Tajia                            #
+#                                     - PTM                                    #
+#                                    note:                                     #
+#                                    - Tajia                                   #
 #                                    note:                                     #
 #                           Tomohiro MATSUMURA - hiro                          #
 #                                    note:                                     #
-#                          Markus Pristovsek - prissi                          #
+#                                   - paintree                                 #
+#                                    note:                                     #
+#                                    - prissi                                  #
+#                                    note:                                     #
+#                                  - teamhimeH                                 #
 #                                    note:                                     #
 #                          SHISHIDO Yoshihiro - yoshi                          #
 #                                    note:                                     #
@@ -755,7 +763,7 @@ np-waterstop-freight
 Ambulanz
 救急車
 FordT
-Ｔ型フォード
+T型フォード
 green_car
 緑の乗用車
 Motorrad
@@ -817,7 +825,7 @@ np-fact-incinerator
 np-fact-kohlegrube
 炭鉱
 np-fact-kohlekraftwerk
-石炭発電所
+石炭火力発電所
 np-fact-material-storage
 資材置き場
 np-fact-moebelfabrik
@@ -839,7 +847,7 @@ np-fact-papierfabrik
 np-fact-pharmaceutics
 製薬会社
 np-fact-raffinerie
-精油所
+製油所
 np-fact-rice-farm
 米農家
 np-fact-rice-mill
@@ -946,8 +954,28 @@ white-rice
 #__________________________________ground_obj___________________________________
 bushes
 やぶ
+deco_rock
+玉石
+deco_rock_2
+巨礫
 flowers
 自然の花畑
+moles
+モグラのもこもこ
+rocks
+岩
+See1
+水鳥のいる池
+See2
+鴨のいる湖
+See3
+沼
+See4
+沼
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MONORAILTOOLS
+モノレールツール
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
 np-pedestrian-1
@@ -1190,6 +1218,8 @@ Cargosprinter-Steuer
 カーゴスプリンター(後尾車)
 Cementtrailer
 セメントトレーラー
+Class86
+イギリス国鉄 クラス86
 CombinoShort(T)
 コンビーノ 広電5000型C/D車
 CombinoShortA(Mc)
@@ -1234,6 +1264,8 @@ Deponielaster2
 清掃車
 Doubledeck_city_bus
 二階建て市内バス
+DoubleDecker
+２階建て客車
 E44
 DB E44
 Eb3-5
@@ -1376,6 +1408,8 @@ logs
 木材筏
 Lowa_Anhaenger
 Lowa (付随車)
+Mack_Truck_01
+マック・トラック
 Mailcontainerwagon
 郵便コンテナ貨車
 MailExpress
@@ -1420,6 +1454,8 @@ Pferdebahn
 鉄道馬車用馬
 Pferdebahnwagen
 鉄道馬車
+PonyExpress
+急行馬車
 Postschiff
 郵便船
 Posttransporter
@@ -1488,10 +1524,18 @@ Trike
 ばら荷運搬トラック
 Tugboat
 タグボート
+Ucy
+粉体貨車
 VolvoFH12
 ボルボ FH12
 wastewagon
 廃棄物運搬用無蓋車
+X2000back
+スウェーデン国鉄 X2000 後部
+X2000car
+スウェーデン国鉄 X2000 客車
+X2000front
+スウェーデン国鉄 X2000 先頭部
 Zeppelin
 ツェッペリン飛行船
 #______________________________________way______________________________________
