@@ -199,6 +199,8 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\roadsign.preSignals.pak
 @del %TARGET_DIR%\roadsign.preSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.traffic_light.pak
+@del %TARGET_DIR%\symbol.CompassIso.pak
+@del %TARGET_DIR%\symbol.CompassMap.pak
 @del %TARGET_DIR%\tree.*.pak
 @del %TARGET_DIR%\tunnel.FastRailTunnel.pak
 @del %TARGET_DIR%\tunnel.FastRoadTunnel.pak

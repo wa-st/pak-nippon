@@ -1,0 +1,19 @@
+obj=symbol
+name=CompassIso
+copyright=wa
+image[0]=> compass.0.1
+image[1]=> compass.0.3
+image[2]=> compass.0.5
+image[3]=> compass.0.7
+--
+obj=symbol
+name=CompassMap
+copyright=wa
+image[0]=> compass.2.0
+image[1]=> compass.2.2
+image[2]=> compass.2.4
+image[3]=> compass.2.6
+image[4]=> compass.1.1
+image[5]=> compass.1.3
+image[6]=> compass.1.5
+image[7]=> compass.1.7

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns="http://www.w3.org/2000/svg"
+	width="512px"
+	height="192px">
+	<style type="text/css">
+	.men{
+		stroke: none;
+		fill: #F0F0F0;
+	}
+	.waku-ue{
+		stroke: none;
+		fill: #888;
+		fill-rule: evenodd;
+	}
+	.waku-yoko{
+		stroke: none;
+		fill: #444;
+	}
+	.waku-naka{
+		stroke: none;
+		fill: #444;
+	}
+	</style>
+	<defs>
+		<g id="compass1">
+			<path d="m -18,0 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="waku-naka"/>
+			<path d="m -18,4 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="men"/>
+			<path d="m -22,0 a 22,22,0,0,0,44,0 a 22,22,0,0,0,-44,0 M -18,0 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="waku-ue"/>
+			<path d="m -22,0 0,10 a 22,22,0,0,0,44,0 l 0,-10 a 22,22,0,0,1,-44,0" class="waku-yoko"/>
+		</g>
+		<g id="compass2">
+			<path d="m -18,0 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="waku-naka"/>
+			<path d="m -18,4 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="men"/>
+			<path d="m -22,0 a 22,22,0,0,0,44,0 a 22,22,0,0,0,-44,0 M -18,0 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="waku-ue"/>
+			<path d="m -22,0 0,10 a 22,22,0,0,0,44,0 l 0,-10 a 22,22,0,0,1,-44,0" class="waku-yoko"/>
+		</g>
+		<g id="compass3">
+			<path d="m -22,0 a 22,22,0,0,0,44,0 a 22,22,0,0,0,-44,0" class="waku-ue"/>
+			<path d="m -18,0 a 18,18,0,0,0,36,0 a 18,18,0,0,0,-36,0" class="men"/>
+		</g>
+		<g id="hari">
+			<path d="M 0,0 -6,0 0,-18 6,0 z" style="stroke: none; fill: #F00"/>
+			<path d="M 0,0 -6,0 0, 18 6,0 z" style="stroke: none; fill: #BBB"/>
+		</g>
+	</defs>
+	<g>
+		<g transform="translate(  0, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate(  0)"/></g>
+		<g transform="translate( 64, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate( 45)"/></g>
+		<g transform="translate(128, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate( 90)"/></g>
+		<g transform="translate(192, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate(135)"/></g>
+		<g transform="translate(256, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate(180)"/></g>
+		<g transform="translate(320, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate(225)"/></g>
+		<g transform="translate(384, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate(270)"/></g>
+		<g transform="translate(448, 0) translate(32, 32) scale(1, 0.5) scale(0.75)"><use xlink:href="#compass1"/><use xlink:href="#hari" transform="rotate(315)"/></g>
+	</g>
+	
+	<g transform="translate(0, 64)">
+		<g transform="translate(  0, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate(  0)"/></g>
+		<g transform="translate( 64, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate( 45)"/></g>
+		<g transform="translate(128, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate( 90)"/></g>
+		<g transform="translate(192, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate(135)"/></g>
+		<g transform="translate(256, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate(180)"/></g>
+		<g transform="translate(320, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate(225)"/></g>
+		<g transform="translate(384, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate(270)"/></g>
+		<g transform="translate(448, 0) translate(32, 32) scale(1, 0.5) scale(0.5)"><use xlink:href="#compass2"/><use xlink:href="#hari" transform="rotate(315)"/></g>
+	</g>
+	
+	<g transform="translate(0, 128)">
+		<g transform="translate(  0, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate(  0)"/></g>
+		<g transform="translate( 64, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate( 45)"/></g>
+		<g transform="translate(128, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate( 90)"/></g>
+		<g transform="translate(192, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate(135)"/></g>
+		<g transform="translate(256, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate(180)"/></g>
+		<g transform="translate(320, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate(225)"/></g>
+		<g transform="translate(384, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate(270)"/></g>
+		<g transform="translate(448, 0) translate(32, 32) scale(0.5)"><use xlink:href="#compass3"/><use xlink:href="#hari" transform="rotate(315)"/></g>
+	</g>
+</svg>
+<!-- start /WAIT "" "C:\Program Files\Inkscape\inkscape.exe" -z -e r:/output.png compass2.svg -->
