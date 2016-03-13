@@ -335,11 +335,17 @@ np-habour-gantry-crane
 np-habour-left-breakwater
 左側白色防波堤灯台
 np-habour-pier
+屋根付き浮き桟橋
+np-habour-pier-2
 浮き桟橋
 np-habour-quay
 岸壁
+np-habour-ramp
+船揚場　斜路
 np-habour-right-breakwater
 右側赤色防波堤灯台
+np-habour-sea-berth
+シーバース
 np-habour-wharf
 埠頭
 #___________________________________building(headquarter)_______________________

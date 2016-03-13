@@ -78,3 +78,43 @@ level=2
 icon=> #{img(4, 0)}
 cursor=#{img(4, 1)}
 %buil_image 1, 2, 2, 4, 1
+---
+obj=building
+name=np-habour-ramp
+copyright=wa
+noInfo=1
+noConstruction=1
+type=habour
+level=1
+
+%def :image, "port6.0.0"
+icon=> #{img(1, 0)}
+cursor=#{img(1, 1)}
+%buil_image 1, 1, 1, 4, 1
+---
+obj=building
+name=np-habour-sea-berth
+copyright=wa
+noInfo=1
+noConstruction=1
+type=habour
+enables_ware=1
+level=2
+
+%def :image, "port7-tile.0.0"
+icon=> #{img(4, 0)}
+cursor=#{img(4, 1)}
+%buil_image 1, 4, 1, 4, 1
+---
+obj=building
+name=np-habour-pier-2
+copyright=wa
+noInfo=1
+noConstruction=1
+type=habour
+level=2
+
+%def :image, "port8-tile.0.0"
+icon=> #{img(3, 0)}
+cursor=#{img(3, 1)}
+%buil_image 1, 3, 1, 4, 1
