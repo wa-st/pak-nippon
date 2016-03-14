@@ -426,6 +426,7 @@ toolbar[6][7]=buildings(33,3)
 toolbar[6][8]=buildings(34,3)
 toolbar[6][9]=buildings(11,3)
 toolbar[6][10]=buildings(35,3)
+toolbar[6][11]=buildings(36,3)
 
 # airtools (waytype 1)
 toolbar[7][0]=ways(16,0)
