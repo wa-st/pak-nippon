@@ -29,6 +29,7 @@ way系(線路・道路など）、way-object系(架線など）、bridge系(橋�
 利用条件はpak.nippon\license\pak64_licence.txtを参照してください。
 
 - pak.nippon\config\cityrules.tab
+- pak.nippon\config\menuconf.tab
 - pak.nippon\config\simuconf.tab
 - dat\factory\factories.datt
 - dat\factory\factory_waste_factories.datt
