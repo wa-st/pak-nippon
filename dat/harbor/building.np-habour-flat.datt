@@ -1,0 +1,53 @@
+obj=building
+name=np-habour-flat-quay
+copyright=wa
+noInfo=1
+noConstruction=1
+type=dock
+level=2
+
+%def :image, "port1-flat.0.0"
+icon=> #{img(1, 0)}
+cursor=#{img(1, 1)}
+%buil_image 1, 1, 1, 4, 1
+---
+obj=building
+name=np-habour-flat-pier
+copyright=wa
+noInfo=1
+noConstruction=1
+type=dock
+enables_pax=1
+level=3
+
+%def :image, "port4-flat-tile.0.0"
+icon=> #{img(2, 0)}
+cursor=#{img(2, 1)}
+%buil_image 1, 2, 1, 4, 1
+---
+obj=building
+name=np-habour-flat-pier-2
+copyright=wa
+noInfo=1
+noConstruction=1
+type=dock
+level=3
+
+%def :image, "port8-flat-tile.0.0"
+icon=> #{img(3, 0)}
+cursor=#{img(3, 1)}
+%buil_image 1, 3, 1, 4, 1
+---
+obj=building
+name=np-habour-flat-jetty
+copyright=wa
+noInfo=1
+noConstruction=1
+type=dock
+enables_pax=1
+level=2
+
+%def :image, "port9-flat-tile.0.0"
+icon=> #{img(2, 0)}
+cursor=#{img(2, 1)}
+%buil_image 1, 2, 1, 4, 1

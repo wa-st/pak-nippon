@@ -25,6 +25,7 @@ PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
 	$(RELEASE_DIR)building.np-cur-sport.pak \
 	$(RELEASE_DIR)building.np-cur-temple.pak \
 	$(RELEASE_DIR)building.np-depot.pak \
+	$(RELEASE_DIR)building.np-habour-flat.pak \
 	$(RELEASE_DIR)building.np-habour.pak \
 	$(RELEASE_DIR)building.np-hq.pak \
 	$(RELEASE_DIR)building.np-ind.pak \
@@ -113,6 +114,8 @@ $(RELEASE_DIR)building.np-cur-temple.pak: dat/cur/building.np-cur-temple.dat dat
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-temple.dat
 $(RELEASE_DIR)building.np-depot.pak: dat/depot/building.np-depot.dat dat/depot/car-depot.png dat/depot/train-depot.png dat/depot/ship-depot.png dat/depot/tram-depot.png dat/depot/air-depot.png dat/depot/monorail-depot.png
 	$(MAKEOBJ64) $@ dat/depot/building.np-depot.dat
+$(RELEASE_DIR)building.np-habour-flat.pak: dat/harbor/building.np-habour-flat.dat dat/harbor/port1-flat.png dat/harbor/port4-flat-tile.png dat/harbor/port8-flat-tile.png dat/harbor/port9-flat-tile.png
+	$(MAKEOBJ64) $@ dat/harbor/building.np-habour-flat.dat
 $(RELEASE_DIR)building.np-habour.pak: dat/harbor/building.np-habour.dat dat/harbor/port1.png dat/harbor/port2-tile.png dat/harbor/port3a-tile.png dat/harbor/port3b-tile.png dat/harbor/port4-tile.png dat/harbor/port5-tile.png dat/harbor/port6.png dat/harbor/port7-tile.png dat/harbor/port8-tile.png
 	$(MAKEOBJ64) $@ dat/harbor/building.np-habour.dat
 $(RELEASE_DIR)building.np-hq.pak: dat/hq/building.np-hq.dat dat/hq/hq-1-tile.png dat/hq/hq-2-tile.png dat/hq/hq-3-tile.png dat/hq/hq-4-tile.png dat/hq/hq-5-tile.png
@@ -236,6 +239,8 @@ dat/depot/building.np-depot.dat: dat/depot/building.np-depot.datt
 dat/factory-food/factory.np-food.dat: dat/factory-food/factory.np-food.datt
 	$(DATT) $** > $@
 dat/factory/factory.np.dat: dat/factory/factory.np.datt
+	$(DATT) $** > $@
+dat/harbor/building.np-habour-flat.dat: dat/harbor/building.np-habour-flat.datt
 	$(DATT) $** > $@
 dat/harbor/building.np-habour.dat: dat/harbor/building.np-habour.datt
 	$(DATT) $** > $@
