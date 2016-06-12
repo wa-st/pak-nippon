@@ -285,7 +285,7 @@ copyright=wa
 waytype=track
 cost=100000
 maintenance=5000
-topspeed=120
+topspeed=130
 way=np-wooden-sleeper-track
 
 backImage[N][0]=stone-tunnel.6.0
