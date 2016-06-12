@@ -170,7 +170,7 @@ $(RELEASE_DIR)pedestrian.np.pak: dat/pedestrian/pedestrian.np.dat dat/pedestrian
 	$(MAKEOBJ64) $@ dat/pedestrian/pedestrian.np.dat
 $(RELEASE_DIR)roadsign.np-monorail.pak: dat/signal/roadsign.np-monorail.dat dat/signal/Signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-monorail.dat
-$(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/Signals.png
+$(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/rail-signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat
 $(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat

@@ -38,26 +38,9 @@ way系(線路・道路など）、way-object系(架線など）、bridge系(橋�
 
 参照: [SourceForge / simutrans / Code](http://sourceforge.net/p/simutrans/code/HEAD/tree/pak64/)
 
-###りむ氏が作成されたファイルについて
-
-以下のファイルはりむ氏が作成された「日本風左側通行信号機セット」に由来するファイルです。
-利用条件はpak.nippon\license\JpLeftSignais_readme.txtを参照してください。
-
-- dat\signal\Signals.png
-- dat\signal\roadsign.np-monorail.dat (roadsign.monorail-signals.datより改変)
-- dat\signal\roadsign.np-rail.dat (roadsign.railsignals.datより改変)
-
-参照: [アドオン/railtool - Simutrans日本語化･解説](http://japanese.simutrans.com/index.php?%A5%A2%A5%C9%A5%AA%A5%F3%2Frailtool)
-
-###市区町村一覧について
-
-pak.nippon\text\citylist_ja.txtには、e-Statから取得した2013年8月1日時点での日本の市区町村一覧が含まれています。
-
-参照: [市区町村名・コード　政府統計の総合窓口　GA03000001](http://www.e-stat.go.jp/SG1/hyoujun/initialize.do)
-
 ###その他のファイルについて
 
-その他のファイルの利用条件はMITライセンスに従います。
+waが作成したアドオンについては、MITライセンスに従います。
 
 The MIT License (MIT)
 

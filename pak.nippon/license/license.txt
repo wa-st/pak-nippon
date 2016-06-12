@@ -1,9 +1,6 @@
 ファイル名に「np-」を含まないpakファイルは、pak64に由来するアドオンです。
 利用条件はpak64_licence.txtを参照してください。
 
-roadsign.np-rail.pak、roadsign.np-monorail.pakは、りむ氏が作成されたアドオンを元にしています。
-利用条件はJpLeftSignais_readme.txtを参照してください。
-
 waが作成したアドオンについては、MITライセンスに従います。
 --------------------------------------------------------------------------------
 The MIT License (MIT)
