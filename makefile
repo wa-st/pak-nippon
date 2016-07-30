@@ -142,7 +142,7 @@ $(RELEASE_DIR)building.np-railstop-freight-station.pak: dat/stop-freight-station
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-railstop-freight-station.dat
 $(RELEASE_DIR)building.np-railstop-platform.pak: dat/stop-platform/building.np-railstop-platform.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-1s.png dat/stop-platform/platform-1s-winter.png dat/stop-platform/platform-1b.png dat/stop-platform/platform-1b-winter.png dat/stop-platform/platform-1u.png dat/stop-platform/platform-1u-winter.png dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-2s.png dat/stop-platform/platform-2s-winter.png dat/stop-platform/platform-2u.png dat/stop-platform/platform-2u-winter.png dat/stop-platform/platform-2b.png dat/stop-platform/platform-2b-winter.png dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png dat/stop-platform/platform-3s.png dat/stop-platform/platform-3s-winter.png dat/stop-platform/platform-3u.png dat/stop-platform/platform-3u-winter.png dat/stop-platform/platform-4.png dat/stop-platform/platform-4-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-platform.dat
-$(RELEASE_DIR)building.np-res.pak: dat/indcomres/building.np-res.dat dat/indcomres/res-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-p.png dat/indcomres/res-m.png dat/indcomres/res-sm.png dat/indcomres/res-h.png dat/indcomres/res-h-2.png dat/indcomres/res-parking.png dat/indcomres/res-parking-2.png dat/indcomres/res-empty.png
+$(RELEASE_DIR)building.np-res.pak: dat/indcomres/building.np-res.dat dat/indcomres/res-a.png dat/indcomres/ind-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-p.png dat/indcomres/res-m.png dat/indcomres/res-sm.png dat/indcomres/res-h.png dat/indcomres/res-h-2.png dat/indcomres/res-parking.png dat/indcomres/res-parking-2.png dat/indcomres/res-empty.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-res.dat
 $(RELEASE_DIR)building.np-roadstop-freight.pak: dat/stop-road/building.np-roadstop-freight.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
 	$(MAKEOBJ64) $@ dat/stop-road/building.np-roadstop-freight.dat
@@ -168,7 +168,7 @@ $(RELEASE_DIR)misc.np.pak: dat/misc/misc.np.dat dat/misc/power-trans.png dat/mis
 	$(MAKEOBJ64) $@ dat/misc/misc.np.dat
 $(RELEASE_DIR)pedestrian.np.pak: dat/pedestrian/pedestrian.np.dat dat/pedestrian/pedestrian.png
 	$(MAKEOBJ64) $@ dat/pedestrian/pedestrian.np.dat
-$(RELEASE_DIR)roadsign.np-monorail.pak: dat/signal/roadsign.np-monorail.dat dat/signal/Signals.png
+$(RELEASE_DIR)roadsign.np-monorail.pak: dat/signal/roadsign.np-monorail.dat dat/signal/rail-signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-monorail.dat
 $(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/rail-signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat

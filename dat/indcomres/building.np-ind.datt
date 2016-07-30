@@ -38,19 +38,19 @@ level=1
 %def :image, "ind-a.0.0"
 %autoname 1
 %include "ind"
-%buil_image 1, 1, 1, 4, 2
+%buil_image 1, 1, 1, 4, 5
 ---
 level=2
-%def :image, "ind-a.2.0"
+%def :image, "ind-a.5.0"
 %autoname 2
 %include "ind"
-%buil_image 1, 1, 1, 4, 2
+%buil_image 1, 1, 1, 4, 5
 ---
 level=3
-%def :image, "ind-a.4.0"
+%def :image, "ind-a.10.0"
 %autoname 3
 %include "ind"
-%buil_image 1, 1, 1, 4, 2
+%buil_image 1, 1, 1, 4, 5
 ---
 level=5
 %def :image, "ind-l.0.0"

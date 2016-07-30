@@ -38,19 +38,19 @@ level=1
 %def :image, "com-a.0.0"
 %autoname 1
 %include "com"
-%buil_image 1, 1, 1, 4, 2
+%buil_image 1, 1, 1, 4, 5
 ---
 level=2
-%def :image, "com-a.0.0"
+%def :image, "com-a.5.0"
 %autoname 2
 %include "com"
-%buil_image 1, 1, 1, 4, 2
+%buil_image 1, 1, 1, 4, 5
 ---
 level=3
-%def :image, "com-a.0.0"
+%def :image, "com-a.10.0"
 %autoname 3
 %include "com"
-%buil_image 1, 1, 1, 4, 2
+%buil_image 1, 1, 1, 4, 5
 ---
 level=5
 %def :image, "com-l1.0.0"
