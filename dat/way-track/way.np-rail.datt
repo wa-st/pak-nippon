@@ -75,7 +75,7 @@ system_type=1
 
 %def :offset, ",0,16"
 %def :fn, "track-3-elv"
-%include 'way-img'
+%include 'way-img-summer'
 
 %undef /^imageup2.+/
 imageUp2[12][0]=#{fn}.7.0,0,14
@@ -83,10 +83,6 @@ imageUp2[9][0]=#{fn}.7.1,0,14
 imageUp2[3][0]=#{fn}.7.2,0,14
 imageUp2[6][0]=#{fn}.7.3,0,14
 
-imageUp2[12][1]=#{fn}-winter.7.0,0,14
-imageUp2[9][1]=#{fn}-winter.7.1,0,14
-imageUp2[3][1]=#{fn}-winter.7.2,0,14
-imageUp2[6][1]=#{fn}-winter.7.3,0,14
 
 
 ---
@@ -104,7 +100,7 @@ system_type=1
 
 %def :offset, ",0,16"
 %def :fn, "track-4-elv"
-%include 'way-img'
+%include 'way-img-summer'
 
 %undef /^imageup2.+/
 imageUp2[12][0]=#{fn}.7.0,0,14
@@ -112,10 +108,6 @@ imageUp2[9][0]=#{fn}.7.1,0,14
 imageUp2[3][0]=#{fn}.7.2,0,14
 imageUp2[6][0]=#{fn}.7.3,0,14
 
-imageUp2[12][1]=#{fn}-winter.7.0,0,14
-imageUp2[9][1]=#{fn}-winter.7.1,0,14
-imageUp2[3][1]=#{fn}-winter.7.2,0,14
-imageUp2[6][1]=#{fn}-winter.7.3,0,14
 
 ---
 obj=way
@@ -132,7 +124,7 @@ system_type=1
 
 %def :offset, ",0,0"
 %def :fn, "track-3-elv-c"
-%include 'way-img'
+%include 'way-img-summer'
 ---
 obj=way
 name=np-elevated-slab-track-center
@@ -148,4 +140,4 @@ system_type=1
 
 %def :offset, ",0,0"
 %def :fn, "track-4-elv-c"
-%include 'way-img'
+%include 'way-img-summer'

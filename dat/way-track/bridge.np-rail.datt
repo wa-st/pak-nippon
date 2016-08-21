@@ -12,7 +12,7 @@ pillar_asymmetric=1
 max_length=20
 
 %def :fn, "bridge-1"
-%include 'bridge-image'
+%include 'bridge-image-summer'
 %undef /(back|front)ramp2.*/
 
 --------------------------
@@ -28,7 +28,7 @@ pillar_asymmetric=1
 max_length=20
 
 %def :fn, "bridge-2"
-%include 'bridge-image'
+%include 'bridge-image-summer'
 %undef /(back|front)ramp2.*/
 --------------------------
 obj=bridge
@@ -43,7 +43,7 @@ pillar_asymmetric=1
 max_length=10
 
 %def :fn, "bridge-3"
-%include 'bridge-image'
+%include 'bridge-image-summer'
 %undef /(back|front)ramp2.*/
 --------------------------
 obj=bridge
@@ -58,7 +58,7 @@ pillar_asymmetric=1
 max_length=10
 
 %def :fn, "bridge-4"
-%include 'bridge-image'
+%include 'bridge-image-summer'
 %undef /(back|front)ramp2.*/
 --------------------------
 obj=bridge
@@ -73,6 +73,6 @@ pillar_asymmetric=1
 max_length=10
 
 %def :fn, "bridge-5"
-%include 'bridge-image'
-%include 'bridge-front-image'
+%include 'bridge-image-summer'
+%include 'bridge-front-image-summer'
 %undef /(back|front)ramp2.*/

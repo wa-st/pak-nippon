@@ -78,7 +78,7 @@ $(RELEASE_DIR)bridge.np-monorail.pak: dat/way-monorail/bridge.np-monorail.dat da
 	$(MAKEOBJ64) $@ dat/way-monorail/bridge.np-monorail.dat
 $(RELEASE_DIR)bridge.np-powerline.pak: dat/way-powerline/bridge.np-powerline.dat128 dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-2red.png dat/way-powerline/powerline-4.png
 	$(MAKEOBJ128) $@ dat/way-powerline/bridge.np-powerline.dat128
-$(RELEASE_DIR)bridge.np-rail.pak: dat/way-track/bridge.np-rail.dat dat/way-track/bridge-1.png dat/way-track/bridge-1-winter.png dat/way-track/bridge-2.png dat/way-track/bridge-2-winter.png dat/way-track/bridge-3.png dat/way-track/bridge-3-winter.png dat/way-track/bridge-4.png dat/way-track/bridge-4-winter.png dat/way-track/bridge-5.png dat/way-track/bridge-5-winter.png
+$(RELEASE_DIR)bridge.np-rail.pak: dat/way-track/bridge.np-rail.dat dat/way-track/bridge-1.png dat/way-track/bridge-2.png dat/way-track/bridge-3.png dat/way-track/bridge-4.png dat/way-track/bridge-5.png
 	$(MAKEOBJ64) $@ dat/way-track/bridge.np-rail.dat
 $(RELEASE_DIR)bridge.np-road.pak: dat/way-road/bridge.np-road.dat dat/way-road/road-100n-bridge.png dat/way-road/road-100r-bridge.png dat/way-road/road-bridge-3.png dat/way-road/road-bridge-3-winter.png dat/way-road/road-bridge-4.png dat/way-road/road-bridge-4-winter.png dat/way-road/road-bridge-5.png dat/way-road/road-bridge-5-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/bridge.np-road.dat
@@ -200,7 +200,7 @@ $(RELEASE_DIR)way.np-powerline-underground.pak: dat/way-powerline/way.np-powerli
 	$(MAKEOBJ64) $@ dat/way-powerline/way.np-powerline-underground.dat
 $(RELEASE_DIR)way.np-powerline.pak: dat/way-powerline/way.np-powerline.dat128 dat/way-powerline/powerline-1a.png dat/way-powerline/powerline-1b.png dat/way-powerline/powerline-2.png dat/way-powerline/powerline-2hv.png dat/way-powerline/powerline-4.png
 	$(MAKEOBJ128) $@ dat/way-powerline/way.np-powerline.dat128
-$(RELEASE_DIR)way.np-rail.pak: dat/way-track/way.np-rail.dat dat/way-track/track-1.png dat/way-track/track-1-winter.png dat/way-track/track-2.png dat/way-track/track-2-winter.png dat/way-track/track-3.png dat/way-track/track-3-winter.png dat/way-track/track-4.png dat/way-track/track-4-winter.png dat/way-track/track-3-elv.png dat/way-track/track-3-elv-winter.png dat/way-track/track-4-elv.png dat/way-track/track-4-elv-winter.png dat/way-track/track-3-elv-c.png dat/way-track/track-3-elv-c-winter.png dat/way-track/track-4-elv-c.png dat/way-track/track-4-elv-c-winter.png
+$(RELEASE_DIR)way.np-rail.pak: dat/way-track/way.np-rail.dat dat/way-track/track-1.png dat/way-track/track-1-winter.png dat/way-track/track-2.png dat/way-track/track-2-winter.png dat/way-track/track-3.png dat/way-track/track-3-winter.png dat/way-track/track-4.png dat/way-track/track-4-winter.png dat/way-track/track-3-elv.png dat/way-track/track-4-elv.png dat/way-track/track-3-elv-c.png dat/way-track/track-4-elv-c.png
 	$(MAKEOBJ64) $@ dat/way-track/way.np-rail.dat
 $(RELEASE_DIR)way.np-road.pak: dat/way-road/way.np-road.dat dat/way-road/cityroad.png dat/way-road/cityroad-winter.png dat/way-road/road-40n.png dat/way-road/road-40n-winter.png dat/way-road/road-70r.png dat/way-road/road-70r-winter.png dat/way-road/road-100n.png dat/way-road/road-100n-winter.png dat/way-road/road-100n-elv.png dat/way-road/road-100r.png dat/way-road/road-100r-winter.png dat/way-road/road-100r-elv.png dat/way-road/dirt-road.png dat/way-road/dirt-road-winter.png dat/way-road/gravel-road.png dat/way-road/gravel-road-winter.png
 	$(MAKEOBJ64) $@ dat/way-road/way.np-road.dat
