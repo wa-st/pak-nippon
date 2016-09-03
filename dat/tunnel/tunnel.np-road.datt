@@ -6,7 +6,7 @@ copyright=wa
 waytype=road
 cost=100000
 maintenance=3000
-topspeed=120
+topspeed=130
 way=city_road
 
 %def :fn, 'tunnel-cr1'
@@ -18,7 +18,7 @@ copyright=wa
 waytype=road
 cost=100000
 maintenance=3000
-topspeed=120
+topspeed=130
 way=city_road
 %def :fn, 'tunnel-road1'
 %include 'wide-tunnel'
@@ -29,7 +29,7 @@ copyright=wa
 waytype=road
 cost=150000
 maintenance=5000
-topspeed=200
+topspeed=100
 way=np-two-lane-highway
 %def :fn, 'tunnel-road2'
 %include 'wide-tunnel'
