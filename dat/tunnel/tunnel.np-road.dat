@@ -6,7 +6,7 @@ copyright=wa
 waytype=road
 cost=100000
 maintenance=3000
-topspeed=130
+topspeed=120
 way=city_road
 
 backImage[N][0]=tunnel-cr1.0.0
@@ -99,7 +99,7 @@ copyright=wa
 waytype=road
 cost=100000
 maintenance=3000
-topspeed=130
+topspeed=120
 way=city_road
 
 backImage[N][0]=tunnel-road1.0.0
@@ -192,7 +192,7 @@ copyright=wa
 waytype=road
 cost=150000
 maintenance=5000
-topspeed=100
+topspeed=90
 way=np-two-lane-highway
 
 backImage[N][0]=tunnel-road2.0.0
