@@ -1,7 +1,8 @@
-SCRIPT_DIR = ./scripts/ 
-RELEASE_DIR = ./pak.nippon/ 
-MAKEOBJ64 = ..\..\makeobj\makeobjxx.exe pak
-MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
+SCRIPT_DIR = ./scripts/
+RELEASE_DIR = ./pak.nippon/
+MAKEOBJ = ./makeobj.exe
+MAKEOBJ64 = $(MAKEOBJ) pak
+MAKEOBJ128 = $(MAKEOBJ) pak128
 DATT = ruby $(SCRIPT_DIR)datt.rb
 
 ########### .pak -> PAKS
