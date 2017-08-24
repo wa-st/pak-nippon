@@ -4,6 +4,9 @@ MAKEOBJ64 = ..\..\makeobj\makeobjxx.exe pak
 MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
 DATT = ruby $(SCRIPT_DIR)datt.rb
 
+%.dat : %.datt
+	$(DATT) $*.datt > $@
+
 ########### .pak -> PAKS
 PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
 	$(RELEASE_DIR)bridge.np-powerline.pak \
@@ -209,106 +212,6 @@ $(RELEASE_DIR)way.np-tram.pak: dat/way-track/way.np-tram.dat dat/way-track/tramt
 $(RELEASE_DIR)way.np-water.pak: dat/way-water/way.np-water.dat dat/way-water/waterway-1.png dat/way-water/waterway-2.png dat/way-water/waterway-3.png dat/way-water/waterway-4.png
 	$(MAKEOBJ64) $@ dat/way-water/way.np-water.dat
 
-########### .datt => .dat
-dat/cur/building.np-cur-castle.dat: dat/cur/building.np-cur-castle.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-church.dat: dat/cur/building.np-cur-church.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-hospital.dat: dat/cur/building.np-cur-hospital.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-infrastructure.dat: dat/cur/building.np-cur-infrastructure.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-kofun.dat: dat/cur/building.np-cur-kofun.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-park.dat: dat/cur/building.np-cur-park.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-parking.dat: dat/cur/building.np-cur-parking.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-public-facility.dat: dat/cur/building.np-cur-public-facility.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-school.dat: dat/cur/building.np-cur-school.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-shrine.dat: dat/cur/building.np-cur-shrine.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-sport.dat: dat/cur/building.np-cur-sport.datt
-	$(DATT) $** > $@
-dat/cur/building.np-cur-temple.dat: dat/cur/building.np-cur-temple.datt
-	$(DATT) $** > $@
-dat/depot/building.np-depot.dat: dat/depot/building.np-depot.datt
-	$(DATT) $** > $@
-dat/factory-food/factory.np-food.dat: dat/factory-food/factory.np-food.datt
-	$(DATT) $** > $@
-dat/factory/factory.np.dat: dat/factory/factory.np.datt
-	$(DATT) $** > $@
-dat/harbor/building.np-habour-flat.dat: dat/harbor/building.np-habour-flat.datt
-	$(DATT) $** > $@
-dat/harbor/building.np-habour.dat: dat/harbor/building.np-habour.datt
-	$(DATT) $** > $@
-dat/hq/building.np-hq.dat: dat/hq/building.np-hq.datt
-	$(DATT) $** > $@
-dat/indcomres/building.np-com.dat: dat/indcomres/building.np-com.datt
-	$(DATT) $** > $@
-dat/indcomres/building.np-ind.dat: dat/indcomres/building.np-ind.datt
-	$(DATT) $** > $@
-dat/indcomres/building.np-res.dat: dat/indcomres/building.np-res.datt
-	$(DATT) $** > $@
-dat/mon/building.np-mon.dat: dat/mon/building.np-mon.datt
-	$(DATT) $** > $@
-dat/pedestrian/pedestrian.np.dat: dat/pedestrian/pedestrian.np.datt
-	$(DATT) $** > $@
-dat/stop-air/building.np-airext.dat: dat/stop-air/building.np-airext.datt
-	$(DATT) $** > $@
-dat/stop-air/building.np-airstop.dat: dat/stop-air/building.np-airstop.datt
-	$(DATT) $** > $@
-dat/stop-freight-station/building.np-miscext-containeryard.dat: dat/stop-freight-station/building.np-miscext-containeryard.datt
-	$(DATT) $** > $@
-dat/stop-freight-station/building.np-miscext-tank.dat: dat/stop-freight-station/building.np-miscext-tank.datt
-	$(DATT) $** > $@
-dat/stop-freight-station/building.np-railstop-freight-station.dat: dat/stop-freight-station/building.np-railstop-freight-station.datt
-	$(DATT) $** > $@
-dat/stop-monorail/building.np-monorailstop-platform.dat: dat/stop-monorail/building.np-monorailstop-platform.datt
-	$(DATT) $** > $@
-dat/stop-platform/building.np-railstop-platform.dat: dat/stop-platform/building.np-railstop-platform.datt
-	$(DATT) $** > $@
-dat/stop-post/building.np-miscext-post-office.dat: dat/stop-post/building.np-miscext-post-office.datt
-	$(DATT) $** > $@
-dat/stop-station/building.np-railext-local-station.dat: dat/stop-station/building.np-railext-local-station.datt
-	$(DATT) $** > $@
-dat/tow/building.np-townhall.dat: dat/tow/building.np-townhall.datt
-	$(DATT) $** > $@
-dat/tunnel/tunnel.np-monorail.dat: dat/tunnel/tunnel.np-monorail.datt
-	$(DATT) $** > $@
-dat/tunnel/tunnel.np-rail.dat: dat/tunnel/tunnel.np-rail.datt
-	$(DATT) $** > $@
-dat/tunnel/tunnel.np-road.dat: dat/tunnel/tunnel.np-road.datt
-	$(DATT) $** > $@
-dat/tunnel/tunnel.np-water.dat: dat/tunnel/tunnel.np-water.datt
-	$(DATT) $** > $@
-dat/way-air/way.np-air.dat: dat/way-air/way.np-air.datt
-	$(DATT) $** > $@
-dat/way-misc/way.np-misc.dat: dat/way-misc/way.np-misc.datt
-	$(DATT) $** > $@
-dat/way-monorail/bridge.np-monorail.dat: dat/way-monorail/bridge.np-monorail.datt
-	$(DATT) $** > $@
-dat/way-monorail/way.np-monorail.dat: dat/way-monorail/way.np-monorail.datt
-	$(DATT) $** > $@
-dat/way-powerline/bridge.np-powerline.dat128: dat/way-powerline/bridge.np-powerline.datt128
-	$(DATT) $** > $@
-dat/way-powerline/tunnel.np-powerline.dat128: dat/way-powerline/tunnel.np-powerline.datt128
-	$(DATT) $** > $@
-dat/way-powerline/way.np-powerline.dat128: dat/way-powerline/way.np-powerline.datt128
-	$(DATT) $** > $@
-dat/way-road/bridge.np-road.dat: dat/way-road/bridge.np-road.datt
-	$(DATT) $** > $@
-dat/way-road/way.np-road.dat: dat/way-road/way.np-road.datt
-	$(DATT) $** > $@
-dat/way-track/bridge.np-rail.dat: dat/way-track/bridge.np-rail.datt
-	$(DATT) $** > $@
-dat/way-track/way-object.np-catenary.dat: dat/way-track/way-object.np-catenary.datt
-	$(DATT) $** > $@
-dat/way-track/way.np-rail.dat: dat/way-track/way.np-rail.datt
-	$(DATT) $** > $@
-dat/way-track/way.np-tram.dat: dat/way-track/way.np-tram.datt
-	$(DATT) $** > $@
-dat/way-water/way.np-water.dat: dat/way-water/way.np-water.datt
-	$(DATT) $** > $@
+.PHONY: clean
+clean:
+	-rm $(RELEASE_DIR)*.pak $(subst .datt,.dat,$(wildcard dat/*/*.datt))
