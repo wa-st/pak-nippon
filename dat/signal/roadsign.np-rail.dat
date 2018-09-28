@@ -37,6 +37,27 @@ icon=> rail-signals.1.12
 cursor=rail-signals.1.13
 ---
 obj=roadsign
+name=np-rail-prioritysignal
+copyright=wa
+waytype=track
+cost=1500
+is_prioritysignal=1
+image[0]=rail-signals.7.0
+image[1]=rail-signals.7.1
+image[2]=rail-signals.7.2
+image[3]=rail-signals.7.3
+image[4]=rail-signals.7.4
+image[5]=rail-signals.7.5
+image[6]=rail-signals.7.6
+image[7]=rail-signals.7.7
+image[8]=rail-signals.7.8
+image[9]=rail-signals.7.9
+image[10]=rail-signals.7.10
+image[11]=rail-signals.7.11
+icon=> rail-signals.7.12
+cursor=rail-signals.7.13
+---
+obj=roadsign
 name=np-rail-long-block-signals
 copyright=wa
 waytype=track

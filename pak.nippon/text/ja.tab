@@ -1046,6 +1046,8 @@ np-monorail-long-block-signals
 多閉塞信号
 np-monorail-presignals
 プレシグナル
+np-monorail-prioritysignal
+プライオリティシグナル
 np-monorail-signals
 信号機
 np-rail-choose-signals
@@ -1060,6 +1062,8 @@ np-rail-long-block-signals
 多閉塞信号
 np-rail-presignals
 プレシグナル
+np-rail-prioritysignal
+プライオリティシグナル
 np-rail-signals
 信号機
 np-road-traffic-light
