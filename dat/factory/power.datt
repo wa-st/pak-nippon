@@ -241,7 +241,7 @@ BackImage[0][0][0][0][5]=windmill.0.5
 --------------------
 Obj=factory
 name=Oelkraftwerk
-Location=Land
+Location=River
 DistributionWeight=110
 Productivity=333
 Range=167
@@ -289,7 +289,7 @@ BackImage[0][1][1][0][0][1]=winter-oil_power_plant.0.4
 ----------------
 Obj=factory
 name=Kohlekraftwerk
-Location=Land
+Location=River
 DistributionWeight=120
 Productivity=222
 Range=120

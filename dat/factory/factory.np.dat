@@ -3,7 +3,7 @@ obj=factory
 name=np-fact-stahlwerk
 copyright=wa
 
-#>>> factories.datt[140]
+#>>> factories.datt[138]
 #Obj=factory
 #name=Stahlwerk
 Location=Land
@@ -313,7 +313,7 @@ obj=factory
 name=np-fact-erzbergwerk
 copyright=wa
 
-#>>> factories.datt[67]
+#>>> factories.datt[65]
 #Obj=factory
 #name=Erzbergwerk
 Location=Land
@@ -540,7 +540,7 @@ obj=factory
 name=np-fact-sandquarry
 copyright=wa
 
-#>>> factories.datt[928]
+#>>> factories.datt[932]
 #Obj=factory
 #name=Sandquarry
 Location=Land
@@ -644,7 +644,7 @@ obj=factory
 name=np-fact-stonequarry
 copyright=wa
 
-#>>> factories.datt[902]
+#>>> factories.datt[906]
 #Obj=factory
 #name=Stonequarry
 Location=Land
@@ -755,7 +755,7 @@ copyright=wa
 Location=Land
 climates=desert,tropic,mediterran,temperate,tundra,rocky
 
-#>>> factories.datt[370]
+#>>> factories.datt[368]
 #Obj=factory
 #name=Oelbohrinsel
 #Location=Water
@@ -795,6 +795,7 @@ passenger_demand=300
 #BackImage[0][1][0][0][0][0]=oilrigg-vilvoh.1.1
 #BackImage[0][1][0][1][0][0]=oilrigg-vilvoh.1.2
 #BackImage[0][1][1][0][0][0]=oilrigg-vilvoh.2.0
+# no frontimagewith h>1 ...
 #FrontImage[0][0][0][0][0][0]=oilrigg-vilvoh.0.0
 #FrontImage[0][0][0][1][0][0]=oilrigg-vilvoh.0.1
 #FrontImage[0][0][1][0][0][0]=oilrigg-vilvoh.0.2
@@ -876,7 +877,7 @@ obj=factory
 name=np-fact-cementmill
 copyright=wa
 
-#>>> factories.datt[950]
+#>>> factories.datt[954]
 #Obj=factory
 #name=Cementmill
 Location=Land
@@ -1027,10 +1028,10 @@ name=np-fact-nutzwald
 copyright=wa
 #needs_ground=0
 
-#>>> factories.datt[606]
+#>>> factories.datt[605]
 #Obj=factory
 #name=Nutzwald
-Location=Land
+Location=forest
 DistributionWeight=100
 #Productivity=3
 Productivity=240
@@ -1038,6 +1039,8 @@ Range=60
 climates=tropic,mediterran,temperate,tundra
 #intro_year=1400
 #needs_ground=1
+sound=tree-cutting.wav
+sound_interval=30000
 OutputGood[0]=Holz
 OutputCapacity[0]=100
 MapColor=87
@@ -1133,7 +1136,7 @@ obj=factory
 name=np-fact-kohlegrube
 copyright=wa
 
-#>>> factories.datt[30]
+#>>> factories.datt[28]
 #Obj=factory
 #name=Kohlegrube
 Location=Land
@@ -1142,7 +1145,7 @@ Productivity=800
 Range=600
 OutputGood[0]=Kohle
 OutputCapacity[0]=380
-MapColor=176
+mapcolor=176
 pax_level=30
 #intro_year=1810
 electricity_boost=100
@@ -1372,7 +1375,7 @@ obj=factory
 name=np-fact-autohaus
 copyright=wa
 
-#>>> factories.datt[216]
+#>>> factories.datt[214]
 #Obj=factory
 #name=Autohaus
 Location=City
@@ -1441,11 +1444,11 @@ obj=factory
 name=np-fact-tanke
 copyright=wa
 
-#>>> factories.datt[243]
+#>>> factories.datt[241]
 #Obj=factory
 #name=TANKE
 Location=City
-DistributionWeight=100
+DistributionWeight=150
 Productivity=50
 Range=40
 InputGood[0]=Gasoline
@@ -1500,7 +1503,7 @@ copyright=wa
 #name=Incinerator
 #copyright=Hajo
 Location=Land
-DistributionWeight=200
+DistributionWeight=50
 Productivity=140
 Range=70
 #Smoke=Industry_Smoke
@@ -1761,11 +1764,12 @@ backImage[3][2][2][0][0][1]=incinerator-power-tile.11.11
 obj=factory
 name=np-fact-oelkraftwerk
 copyright=wa
+location=Land
 
 #>>> power.datt[242]
 #Obj=factory
 #name=Oelkraftwerk
-Location=Land
+#Location=River
 DistributionWeight=110
 Productivity=333
 Range=167
@@ -1963,11 +1967,12 @@ backImage[3][2][2][0][0][1]=oil-powerplant-tile.11.11
 obj=factory
 name=np-fact-kohlekraftwerk
 copyright=wa
+location=Land
 
 #>>> power.datt[290]
 #Obj=factory
 #name=Kohlekraftwerk
-Location=Land
+#Location=River
 DistributionWeight=120
 Productivity=222
 Range=120
@@ -2353,7 +2358,7 @@ obj=factory
 name=np-fact-raffinerie
 copyright=wa
 
-#>>> factories.datt[271]
+#>>> factories.datt[269]
 #Obj=factory
 #name=3Raffinerie
 Location=Land
@@ -2529,7 +2534,7 @@ obj=factory
 name=np-fact-chemical-plant
 copyright=wa
 
-#>>> factories.datt[417]
+#>>> factories.datt[416]
 #Obj=factory
 #name=ChemicalPlant
 Location=Land
@@ -2648,11 +2653,12 @@ backImage[3][2][2][0][0][1]=chemical-plant-tile.5.11
 obj=factory
 name=np-fact-saegewerk
 copyright=wa
+location=Land
 
-#>>> factories.datt[636]
+#>>> factories.datt[637]
 #Obj=factory
 #name=Saegewerk
-Location=Land
+#Location=forest
 DistributionWeight=100
 Productivity=240
 Range=72
@@ -2729,11 +2735,12 @@ backImage[3][1][1][0][0][1]=sawmill-tile.3.7
 obj=factory
 name=np-fact-pharmaceutics
 copyright=wa
+location=Land
 
-#>>> factories.datt[455]
+#>>> factories.datt[454]
 #Obj=factory
 #name=Pharmaceutics
-Location=Land
+#Location=forest
 DistributionWeight=127
 Productivity=75
 Range=80
@@ -2843,7 +2850,7 @@ obj=factory
 name=np-fact-material-storage
 copyright=wa
 
-#>>> factories.datt[1049]
+#>>> factories.datt[1053]
 #Obj=factory
 #name=Materialswholesale
 Location=City
@@ -2982,10 +2989,10 @@ obj=factory
 name=np-fact-druckerei
 copyright=wa
 
-#>>> factories.datt[543]
+#>>> factories.datt[542]
 #Obj=factory
 #name=Druckerei
-Location=Land
+Location=City
 DistributionWeight=100
 Productivity=180
 Range=180
@@ -3098,11 +3105,12 @@ backImage[3][2][2][0][0][1]=printing-tile.5.11
 obj=factory
 name=np-fact-papierfabrik
 copyright=wa
+location=Land
 
-#>>> factories.datt[513]
+#>>> factories.datt[512]
 #Obj=factory
 #name=Papierfabrik
-Location=Land
+#Location=River
 DistributionWeight=100
 Productivity=200
 Range=177
@@ -3212,7 +3220,7 @@ obj=factory
 name=np-fact-autohersteller
 copyright=wa
 
-#>>> factories.datt[184]
+#>>> factories.datt[182]
 #Obj=factory
 #name=Autohersteller
 Location=Land
@@ -3382,7 +3390,7 @@ obj=factory
 name=np-fact-moebelfabrik
 copyright=wa
 
-#>>> factories.datt[705]
+#>>> factories.datt[709]
 #Obj=factory
 #name=Moebelfabrik
 #Location=Land
@@ -3495,7 +3503,7 @@ obj=factory
 name=np-fact-concrete-factory
 copyright=wa
 
-#>>> factories.datt[994]
+#>>> factories.datt[998]
 #Obj=factory
 #name=Concretefactory
 Location=Land
@@ -3704,7 +3712,7 @@ obj=factory
 name=np-fact-moebelhaus
 copyright=wa
 
-#>>> factories.datt[776]
+#>>> factories.datt[780]
 #Obj=factory
 #name=Moebelhaus
 #copyright=Paul Szczepanek
@@ -3725,7 +3733,7 @@ passenger_boost=1500
 mail_boost=1500
 passenger_demand=190
 #Dims=2,2
-#intro_year=1968
+#intro_year=1957
 climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 #BackImage[0][0][0][1][0][0]=home_market.0.3
 #BackImage[0][0][0][0][0][0]=home_market.1.3
@@ -3841,7 +3849,7 @@ obj=factory
 name=np-fact-buchgrosshandel
 copyright=wa
 
-#>>> factories.datt[578]
+#>>> factories.datt[577]
 #Obj=factory
 #name=Buchgrosshandel
 Location=City
@@ -3911,7 +3919,7 @@ obj=factory
 name=np-fact-chemist
 copyright=wa
 
-#>>> factories.datt[486]
+#>>> factories.datt[485]
 #Obj=factory
 #name=CHEMIST
 Location=City
@@ -3980,7 +3988,7 @@ obj=factory
 name=np-fact-oelpumpe
 copyright=wa
 
-#>>> factories.datt[345]
+#>>> factories.datt[343]
 #Obj=factory
 #name=Oelpumpe
 Location=Land

@@ -164,6 +164,7 @@ copyright=wa
 obj=factory
 name=np-fact-oelkraftwerk
 copyright=wa
+location=Land
 
 %include "Oelkraftwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
@@ -174,6 +175,7 @@ copyright=wa
 obj=factory
 name=np-fact-kohlekraftwerk
 copyright=wa
+location=Land
 
 %include "Kohlekraftwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
@@ -230,6 +232,7 @@ copyright=wa
 obj=factory
 name=np-fact-saegewerk
 copyright=wa
+location=Land
 
 %include "Saegewerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
@@ -240,6 +243,7 @@ copyright=wa
 obj=factory
 name=np-fact-pharmaceutics
 copyright=wa
+location=Land
 
 %include "Pharmaceutics", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
@@ -280,6 +284,7 @@ copyright=wa
 obj=factory
 name=np-fact-papierfabrik
 copyright=wa
+location=Land
 
 %include "Papierfabrik", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/

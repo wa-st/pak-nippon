@@ -160,7 +160,7 @@ simple_tool[0]=0,p
 simple_tool[1]=1,W
 simple_tool[2]=2,c
 simple_tool[3]=3
-simple_tool[4]=4,z
+simple_tool[4]=4,^Z
 simple_tool[5]=5,P
 simple_tool[6]=6
 # simple tool 7 needs a parameter
@@ -217,6 +217,7 @@ simple_tool[34]=,O
 # WKZ_CLIMATES=26
 # WKZ_SETTINGS=27
 # WKZ_GAMEINFO_NETWORK=28
+# WKZ_THEMES=29
 #
 dialog_tool[0]=0,?
 dialog_tool[1]=1,Q
@@ -297,6 +298,10 @@ dialog_tool[28]=,n
 #
 # IMPORTANT: toolbar[2] must not be mentioned before toolbar[1]!
 # SPACES have a meaning here! Do not use spaces, if you did not intend so!
+# Toolbars must be numbered consequetively! (Exception: Last used tools)
+#
+# There are two predefines toolbars:
+# Toolbar 0 and LAST_USED (which contains the ten tools used last time)
 #
 
 # toolbar[0] is always main menu
@@ -341,7 +346,9 @@ toolbar[0][33]=simple_tool[19],,),+
 toolbar[0][34]=simple_tool[19],,(,-
 toolbar[0][35]=simple_tool[15],,
 toolbar[0][36]=dialog_tool[28]
-toolbar[0][37]=simple_tool[0],,^p,
+# last used toolbar (without icon yet)
+toolbar[0][37]=toolbar[LAST_USED],,z,Last used tools,
+
 
 # slope tools
 toolbar[1][0]=general_tool[2]
@@ -483,6 +490,8 @@ toolbar[9][20]=general_tool[39],36,,4
 toolbar[9][21]=general_tool[39],37,,5
 toolbar[9][22]=general_tool[39],38,,6
 toolbar[9][23]=general_tool[39],39,,7
+# second pause
+toolbar[9][24]=simple_tool[0],,^p,
 
 # list tools
 toolbar[10][0]=dialog_tool[14]

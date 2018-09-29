@@ -1184,6 +1184,8 @@ Autotransportwagen
 自動車運送貨車
 BB1280
 BB1280 電気機関車
+BB200
+BB200 電気機関車
 Be5-7
 スイスBLS Be 5/7 電気機関車
 Blimp
@@ -1398,6 +1400,14 @@ JR_9600
 国鉄 9600
 JR_9600_tender
 国鉄 9600用炭水車
+JRE-Mp233
+JR東日本E233系電車(モーター車パンタグラフ単一)
+JRE-Mpp233
+JR東日本E233系電車(パンタグラフ両端)
+JRE-T233
+JR東日本E233系電車(付随車)
+JRE-T233cb
+JR東日本E233系電車(運転台)
 Ju52
 ユンカース Ju52
 JumboCruiser
@@ -1408,12 +1418,12 @@ JumboCruiserBack2
 大型クルーザーバス（後・郵便車）
 JumboJet
 ボーイング747ジャンボジェット
-kkStB_tender
-墺国鉄 炭水車
 kkStB110
 墺国鉄 110型 蒸気機関車
 kkStB91
 墺国鉄 91型 蒸気機関車
+kkStB_tender
+墺国鉄 炭水車
 Kohleanhaenger
 H-Trans トレーラー MK2
 Kohletransporter
