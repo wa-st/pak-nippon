@@ -194,6 +194,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\roadsign.ChooseSignals.pak
 @del %TARGET_DIR%\roadsign.ChooseSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.Endofchoosetrack.pak
+@del %TARGET_DIR%\roadsign.GreedyBlockSignals.pak
 @del %TARGET_DIR%\roadsign.LongBlockSignals.pak
 @del %TARGET_DIR%\roadsign.RailClose.pak
 @del %TARGET_DIR%\roadsign.Railgate.pak
