@@ -1,5 +1,5 @@
-SCRIPT_DIR = ./scripts/ 
-RELEASE_DIR = ./pak.nippon/ 
+SCRIPT_DIR = ./scripts/
+RELEASE_DIR = ./pak.nippon/
 MAKEOBJ64 = ..\..\makeobj\makeobjxx.exe pak
 MAKEOBJ128 = ..\..\makeobj\makeobjxx.exe pak128
 DATT = ruby $(SCRIPT_DIR)datt.rb
@@ -170,7 +170,7 @@ $(RELEASE_DIR)pedestrian.np.pak: dat/pedestrian/pedestrian.np.dat dat/pedestrian
 	$(MAKEOBJ64) $@ dat/pedestrian/pedestrian.np.dat
 $(RELEASE_DIR)roadsign.np-monorail.pak: dat/signal/roadsign.np-monorail.dat dat/signal/rail-signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-monorail.dat
-$(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/rail-signals.png
+$(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/rail-signals.png dat/signal/rail-semaphore-signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat
 $(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
