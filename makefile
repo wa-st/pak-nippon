@@ -55,6 +55,7 @@ PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
 	$(RELEASE_DIR)roadsign.np-monorail.pak \
 	$(RELEASE_DIR)roadsign.np-rail.pak \
 	$(RELEASE_DIR)roadsign.np-road.pak \
+	$(RELEASE_DIR)smoke.np.pak \
 	$(RELEASE_DIR)symbol.np.pak \
 	$(RELEASE_DIR)tree.np.pak \
 	$(RELEASE_DIR)tunnel.np-monorail.pak \
@@ -174,6 +175,8 @@ $(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/r
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat
 $(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
+$(RELEASE_DIR)smoke.np.pak: dat/smoke/smoke.np.dat dat/smoke/industry-smoke.png
+	$(MAKEOBJ64) $@ dat/smoke/smoke.np.dat
 $(RELEASE_DIR)symbol.np.pak: dat/symbol/symbol.np.dat dat/symbol/compass.png
 	$(MAKEOBJ64) $@ dat/symbol/symbol.np.dat
 $(RELEASE_DIR)tree.np.pak: dat/tree/tree.np.dat dat/tree/todomatsu.png dat/tree/ezomatsu.png dat/tree/akaezomatsu.png dat/tree/kaede.png dat/tree/keyaki.png dat/tree/mizunara.png dat/tree/buna.png dat/tree/hinoki.png dat/tree/hinoki-2.png dat/tree/kusunoki.png dat/tree/tsuburajii.png dat/tree/arakashi.png dat/tree/tabunoki.png dat/tree/isunoki.png dat/tree/tsuga.png dat/tree/shirakashi.png

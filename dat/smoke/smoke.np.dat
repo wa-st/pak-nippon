@@ -1,0 +1,8 @@
+obj=smoke
+copyright=wa
+name=np-industry-smoke
+image[0]=industry-smoke.0.0
+image[1]=industry-smoke.0.1
+image[2]=industry-smoke.0.2
+image[3]=industry-smoke.0.3
+image[4]=industry-smoke.0.4

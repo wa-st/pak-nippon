@@ -9,6 +9,10 @@ copyright=wa
 %include "Stahlwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+smoke=np-industry-smoke
+smokeTile=2,0
+smokeOffset=0,-65
+
 %def :image, "steelmill-tile.0.0"
 %buil_image 4, 4, 2, 4, 2
 ---
@@ -118,6 +122,10 @@ copyright=wa
 %include "Kohlegrube", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+smoke=np-industry-smoke
+smokeTile=2,0
+smokeOffset=0,-60
+
 %def :image, "coalmine-tile.0.0"
 %buil_image 4, 3, 2, 4, 2
 ---
@@ -148,6 +156,10 @@ copyright=wa
 %include "Incinerator", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+smoke=np-industry-smoke
+smokeTile=0,0
+smokeOffset=0,-40
+
 %def :image, "incinerator-tile.0.0"
 %buil_image 2, 2, 1, 4, 2
 ---
@@ -157,6 +169,10 @@ copyright=wa
 
 %include "Muellkraftwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+smoke=np-industry-smoke
+smokeTile=0,0
+smokeOffset=0,-90
 
 %def :image, "incinerator-power-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -169,6 +185,10 @@ location=Land
 %include "Oelkraftwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+smoke=np-industry-smoke
+smokeTile=1,0
+smokeOffset=0,-60
+
 %def :image, "oil-powerplant-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
 ----------------
@@ -179,6 +199,10 @@ location=Land
 
 %include "Kohlekraftwerk", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+smoke=np-industry-smoke
+smokeTile=1,0
+smokeOffset=0,-80
 
 %def :image, "coal-powerplant-tile.0.0"
 %buil_image 3, 3, 2, 4, 2
@@ -216,6 +240,10 @@ copyright=wa
 %include "3Raffinerie", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
 
+smoke=np-industry-smoke
+smokeTile=1,0
+smokeOffset=0,-40
+
 %def :image, "refinery-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
 ----------------
@@ -225,6 +253,10 @@ copyright=wa
 
 %include "ChemicalPlant", label: true, overwrite: false
 %undef /^(smoke|.+_year|.+_month|dims|backimage|frontimage|needs_ground).*$/
+
+smoke=np-industry-smoke
+smokeTile=0,1
+smokeOffset=0,0
 
 %def :image, "chemical-plant-tile.0.0"
 %buil_image 3, 3, 1, 4, 2
