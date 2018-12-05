@@ -191,6 +191,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\misc.PowerSource.pak
 @del %TARGET_DIR%\misc.Sidewalk.pak
 @del %TARGET_DIR%\pedestrian.*.pak
+@del %TARGET_DIR%\roadsign.choose_point.pak
 @del %TARGET_DIR%\roadsign.ChooseSignals.pak
 @del %TARGET_DIR%\roadsign.ChooseSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.Endofchoosetrack.pak

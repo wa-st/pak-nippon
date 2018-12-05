@@ -1038,8 +1038,6 @@ NoEntry
 進入禁止
 Roadgate
 ゲート
-choose_point
-停車振分標識
 np-monorail-choose-signals
 入線振分信号
 np-monorail-long-block-signals
@@ -1076,6 +1074,8 @@ np-rail-signals
 信号機
 np-rail-signals-semaphore
 信号機（腕木式）
+np-road-choose-point
+停車振分標識
 np-road-traffic-light
 信号機
 #_____________________________________tree______________________________________
