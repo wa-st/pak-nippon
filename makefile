@@ -39,6 +39,7 @@ PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
 	$(RELEASE_DIR)building.np-railstop-footbridge.pak \
 	$(RELEASE_DIR)building.np-railstop-freight-station.pak \
 	$(RELEASE_DIR)building.np-railstop-platform.pak \
+	$(RELEASE_DIR)building.np-res-mt.pak \
 	$(RELEASE_DIR)building.np-res.pak \
 	$(RELEASE_DIR)building.np-roadstop-freight.pak \
 	$(RELEASE_DIR)building.np-roadstop.pak \
@@ -143,6 +144,8 @@ $(RELEASE_DIR)building.np-railstop-freight-station.pak: dat/stop-freight-station
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-railstop-freight-station.dat
 $(RELEASE_DIR)building.np-railstop-platform.pak: dat/stop-platform/building.np-railstop-platform.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-1s.png dat/stop-platform/platform-1s-winter.png dat/stop-platform/platform-1b.png dat/stop-platform/platform-1b-winter.png dat/stop-platform/platform-1u.png dat/stop-platform/platform-1u-winter.png dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-2s.png dat/stop-platform/platform-2s-winter.png dat/stop-platform/platform-2u.png dat/stop-platform/platform-2u-winter.png dat/stop-platform/platform-2b.png dat/stop-platform/platform-2b-winter.png dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png dat/stop-platform/platform-3s.png dat/stop-platform/platform-3s-winter.png dat/stop-platform/platform-3u.png dat/stop-platform/platform-3u-winter.png dat/stop-platform/platform-4.png dat/stop-platform/platform-4-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-platform.dat
+$(RELEASE_DIR)building.np-res-mt.pak: dat/indcomres-mt/building.np-res-mt.dat dat/indcomres-mt/res-mx-1.png dat/indcomres-mt/res-mx-2.png dat/indcomres-mt/res-mx-3.png dat/indcomres-mt/res-mx-4.png dat/indcomres-mt/res-mx-5.png dat/indcomres-mt/res-hhx-1.png dat/indcomres-mt/res-hhx-2.png dat/indcomres-mt/res-hhx-3.png dat/indcomres-mt/res-hhx-4.png dat/indcomres-mt/res-hhx-5.png
+	$(MAKEOBJ64) $@ dat/indcomres-mt/building.np-res-mt.dat
 $(RELEASE_DIR)building.np-res.pak: dat/indcomres/building.np-res.dat dat/indcomres/res-a.png dat/indcomres/ind-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-p.png dat/indcomres/res-m.png dat/indcomres/res-sm.png dat/indcomres/res-h.png dat/indcomres/res-h-2.png dat/indcomres/res-parking.png dat/indcomres/res-parking-2.png dat/indcomres/res-empty.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-res.dat
 $(RELEASE_DIR)building.np-roadstop-freight.pak: dat/stop-road/building.np-roadstop-freight.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
@@ -173,7 +176,7 @@ $(RELEASE_DIR)roadsign.np-monorail.pak: dat/signal/roadsign.np-monorail.dat dat/
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-monorail.dat
 $(RELEASE_DIR)roadsign.np-rail.pak: dat/signal/roadsign.np-rail.dat dat/signal/rail-signals.png dat/signal/rail-semaphore-signals.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-rail.dat
-$(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png
+$(RELEASE_DIR)roadsign.np-road.pak: dat/signal/roadsign.np-road.dat dat/signal/traffic-light.png dat/signal/road-choose-point.png
 	$(MAKEOBJ64) $@ dat/signal/roadsign.np-road.dat
 $(RELEASE_DIR)smoke.np.pak: dat/smoke/smoke.np.dat dat/smoke/industry-smoke.png
 	$(MAKEOBJ64) $@ dat/smoke/smoke.np.dat
@@ -248,6 +251,8 @@ dat/harbor/building.np-habour-flat.dat: dat/harbor/building.np-habour-flat.datt
 dat/harbor/building.np-habour.dat: dat/harbor/building.np-habour.datt
 	$(DATT) $** > $@
 dat/hq/building.np-hq.dat: dat/hq/building.np-hq.datt
+	$(DATT) $** > $@
+dat/indcomres-mt/building.np-res-mt.dat: dat/indcomres-mt/building.np-res-mt.datt
 	$(DATT) $** > $@
 dat/indcomres/building.np-com.dat: dat/indcomres/building.np-com.datt
 	$(DATT) $** > $@

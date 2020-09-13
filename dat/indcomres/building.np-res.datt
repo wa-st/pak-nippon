@@ -23,11 +23,11 @@
 # 23 s2 p
 # 24 s2 p  empty
 # 25 m  sm parking
-# 26 m  sm
-# 27 m  sm
+# 26 m  sm mx
+# 27 m  sm mx
 # 28 m  sm
 # 29 m  sm empty
-# 30 h h h h h h h h h h parking parking
+# 30 h h h h h h h h h h parking parking hhx hhx hhx hhx hhx mx mx mx
 ---
 %resource "res"
 copyright=wa
