@@ -1,33 +1,28 @@
-# 01 a a
-# 02 a a
-# 03 a a
+# 01 a a h0 t0
+# 02 a a h0 t0
+# 03 a a h0 t0
 # 04
-# 05 h1 t1 parking
-# 06 h1 t1 empty
-# 07 h1 t1
-# 08 h1 t1
-# 09 h1 t1
-# 10 s1 t2
-# 11 s1 t2
-# 12 s1 t2
-# 13 s1 t2
-# 14 s1 t2 empty
-# 15 h2    parking
-# 16 h2
-# 17 h2
-# 18 h2
-# 19 h2
-# 20 s2 p  parking
-# 21 s2 p
-# 22 s2 p
-# 23 s2 p
-# 24 s2 p  empty
-# 25 m  sm parking
-# 26 m  sm mx
-# 27 m  sm mx
-# 28 m  sm
-# 29 m  sm empty
-# 30 h h h h h h h h h h parking parking hhx hhx hhx hhx hhx mx mx mx
+# 05 h1 s1 t1 parking
+# 06 h1 s1 t1 empty
+# 07 h1 s1 t1 
+# 08 h1 s1 t1 
+# 09 h1 s1 t1 
+# 10 h2 s2 t2 parking
+# 11 h2 s2 t2 empty
+# 12 h2 s2 t2 
+# 13 h2 s2 t2 
+# 14 h2 s2 t2 
+# 15 p        parking
+# 16 p        empty
+# 17 p
+# 18 p
+# 19 p
+# 20 m sm    parking
+# 21 m sm    empty
+# 22 m sm    mx
+# 23 m sm    mx
+# 24 m sm
+# 25 h h h h h h h h h h parking parking hhx hhx hhx hhx hhx mx mx mx
 ---
 %resource "res"
 copyright=wa
@@ -118,61 +113,61 @@ chance=35
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
-level=10
+level=5
 %def :image, "res-s1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=11
+level=6
 %def :image, "res-s1.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=12
+level=7
 %def :image, "res-s1.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=13
+level=8
 %def :image, "res-s1.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=14
+level=9
 %def :image, "res-s1.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=20
+level=10
 %def :image, "res-s2.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=21
+level=11
 %def :image, "res-s2.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=22
+level=12
 %def :image, "res-s2.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=23
+level=13
 %def :image, "res-s2.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=24
+level=14
 %def :image, "res-s2.8.0"
 %autoname 5
 %include "res"
@@ -208,31 +203,31 @@ level=9
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=15
+level=10
 %def :image, "res-h2.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=16
+level=11
 %def :image, "res-h2.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=17
+level=12
 %def :image, "res-h2.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=18
+level=13
 %def :image, "res-h2.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=19
+level=14
 %def :image, "res-h2.8.0"
 %autoname 5
 %include "res"
@@ -298,155 +293,155 @@ level=14
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=20
+level=15
 %def :image, "res-p.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=21
+level=16
 %def :image, "res-p.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=22
+level=17
 %def :image, "res-p.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=23
+level=18
 %def :image, "res-p.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=24
+level=19
 %def :image, "res-p.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
-level=25
+level=20
 %def :image, "res-m.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=26
+level=21
 %def :image, "res-m.4.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=27
+level=22
 %def :image, "res-m.8.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=28
+level=23
 %def :image, "res-m.12.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=29
+level=24
 %def :image, "res-m.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=25
+level=20
 %def :image, "res-sm.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
-level=26
+level=21
 %def :image, "res-sm.4.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
-level=27
+level=22
 %def :image, "res-sm.8.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
-level=28
+level=23
 %def :image, "res-sm.12.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
-level=29
+level=24
 %def :image, "res-sm.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h.4.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h.8.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h.12.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h-2.0.0"
 %autoname 6
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h-2.4.0"
 %autoname 7
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h-2.8.0"
 %autoname 8
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h-2.12.0"
 %autoname 9
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
-level=30
+level=25
 %def :image, "res-h-2.16.0"
 %autoname 10
 %include "res"
@@ -458,31 +453,31 @@ level=5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=15
+level=10
 %def :image, "res-parking.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=25
+level=20
 %def :image, "res-parking.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=30
+level=25
 %def :image, "res-parking.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=20
+level=15
 %def :image, "res-parking-2.0.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=30
+level=25
 %def :image, "res-parking-2.2.0"
 %autoname 6
 %include "res"
@@ -494,19 +489,19 @@ level=6
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=14
+level=11
 %def :image, "res-empty.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=24
+level=16
 %def :image, "res-empty.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
-level=29
+level=21
 %def :image, "res-empty.6.0"
 %autoname 4
 %include "res"
