@@ -52,21 +52,21 @@ climates=desert,mediterran
 ---
 level=1
 %def :image, "ind-a.0.0"
-name=np-res-a-04-#{"%02i" % level}
+name=np-res-a-04
 %include "res"
 climates=temperate,tundra,rocky
 %buil_image 1, 1, 1, 4, 5
 ---
 level=2
 %def :image, "ind-a.5.0"
-name=np-res-a-05-#{"%02i" % level}
+name=np-res-a-05
 %include "res"
 climates=temperate,tundra,rocky
 %buil_image 1, 1, 1, 4, 5
 ---
 level=3
 %def :image, "ind-a.10.0"
-name=np-res-a-06-#{"%02i" % level}
+name=np-res-a-06
 %include "res"
 climates=temperate,tundra,rocky
 %buil_image 1, 1, 1, 4, 5

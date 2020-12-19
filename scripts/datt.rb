@@ -99,11 +99,10 @@ module Datt
       image_name = $1
 
       image_name = $1 if image_name =~ /(.+)-\d+$/
-      name += image_name + '-'
+      name += image_name
 
-      name += sprintf('%02d', id) + '-' if id
+      name += '-' + sprintf('%02d', id) if id
 
-      name += sprintf('%02d', @dat_variables[:level].to_i)
       push_dat_line "name=#{name}"
     end
 

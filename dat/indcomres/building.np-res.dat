@@ -1,6 +1,6 @@
 ---
 level=1
-name=np-res-a-01-01
+name=np-res-a-01
 copyright=wa
 obj=building
 type=res
@@ -33,7 +33,7 @@ backImage[2][0][0][0][0][4]=res-a.4.2
 backImage[3][0][0][0][0][4]=res-a.4.3
 ---
 level=2
-name=np-res-a-02-02
+name=np-res-a-02
 copyright=wa
 obj=building
 type=res
@@ -66,7 +66,7 @@ backImage[2][0][0][0][0][4]=res-a.9.2
 backImage[3][0][0][0][0][4]=res-a.9.3
 ---
 level=3
-name=np-res-a-03-03
+name=np-res-a-03
 copyright=wa
 obj=building
 type=res
@@ -99,7 +99,7 @@ backImage[2][0][0][0][0][4]=res-a.14.2
 backImage[3][0][0][0][0][4]=res-a.14.3
 ---
 level=1
-name=np-res-a-04-01
+name=np-res-a-04
 copyright=wa
 obj=building
 type=res
@@ -132,7 +132,7 @@ backImage[2][0][0][0][0][4]=ind-a.4.2
 backImage[3][0][0][0][0][4]=ind-a.4.3
 ---
 level=2
-name=np-res-a-05-02
+name=np-res-a-05
 copyright=wa
 obj=building
 type=res
@@ -165,7 +165,7 @@ backImage[2][0][0][0][0][4]=ind-a.9.2
 backImage[3][0][0][0][0][4]=ind-a.9.3
 ---
 level=3
-name=np-res-a-06-03
+name=np-res-a-06
 copyright=wa
 obj=building
 type=res
@@ -199,7 +199,7 @@ backImage[3][0][0][0][0][4]=ind-a.14.3
 ---
 level=1
 chance=15
-name=np-res-h0-01-01
+name=np-res-h0-01
 copyright=wa
 obj=building
 type=res
@@ -212,7 +212,7 @@ backImage[3][0][0][0][0][0]=res-h0.0.3
 ---
 level=2
 chance=25
-name=np-res-h0-02-02
+name=np-res-h0-02
 copyright=wa
 obj=building
 type=res
@@ -225,7 +225,7 @@ backImage[3][0][0][0][0][0]=res-h0.2.3
 ---
 level=3
 chance=35
-name=np-res-h0-03-03
+name=np-res-h0-03
 copyright=wa
 obj=building
 type=res
@@ -238,7 +238,7 @@ backImage[3][0][0][0][0][0]=res-h0.4.3
 ---
 level=1
 chance=15
-name=np-res-t0-01-01
+name=np-res-t0-01
 copyright=wa
 obj=building
 type=res
@@ -251,7 +251,7 @@ backImage[3][0][0][0][0][0]=res-t0.0.3
 ---
 level=2
 chance=25
-name=np-res-t0-02-02
+name=np-res-t0-02
 copyright=wa
 obj=building
 type=res
@@ -264,7 +264,7 @@ backImage[3][0][0][0][0][0]=res-t0.2.3
 ---
 level=3
 chance=35
-name=np-res-t0-03-03
+name=np-res-t0-03
 copyright=wa
 obj=building
 type=res
@@ -276,7 +276,7 @@ backImage[2][0][0][0][0][0]=res-t0.4.2
 backImage[3][0][0][0][0][0]=res-t0.4.3
 ---
 level=5
-name=np-res-s1-01-05
+name=np-res-s1-01
 copyright=wa
 obj=building
 type=res
@@ -293,7 +293,7 @@ backImage[2][0][0][0][0][1]=res-s1.1.2
 backImage[3][0][0][0][0][1]=res-s1.1.3
 ---
 level=6
-name=np-res-s1-02-06
+name=np-res-s1-02
 copyright=wa
 obj=building
 type=res
@@ -310,7 +310,7 @@ backImage[2][0][0][0][0][1]=res-s1.3.2
 backImage[3][0][0][0][0][1]=res-s1.3.3
 ---
 level=7
-name=np-res-s1-03-07
+name=np-res-s1-03
 copyright=wa
 obj=building
 type=res
@@ -327,7 +327,7 @@ backImage[2][0][0][0][0][1]=res-s1.5.2
 backImage[3][0][0][0][0][1]=res-s1.5.3
 ---
 level=8
-name=np-res-s1-04-08
+name=np-res-s1-04
 copyright=wa
 obj=building
 type=res
@@ -344,7 +344,7 @@ backImage[2][0][0][0][0][1]=res-s1.7.2
 backImage[3][0][0][0][0][1]=res-s1.7.3
 ---
 level=9
-name=np-res-s1-05-09
+name=np-res-s1-05
 copyright=wa
 obj=building
 type=res
@@ -361,7 +361,7 @@ backImage[2][0][0][0][0][1]=res-s1.9.2
 backImage[3][0][0][0][0][1]=res-s1.9.3
 ---
 level=10
-name=np-res-s2-01-10
+name=np-res-s2-01
 copyright=wa
 obj=building
 type=res
@@ -378,7 +378,7 @@ backImage[2][0][0][0][0][1]=res-s2.1.2
 backImage[3][0][0][0][0][1]=res-s2.1.3
 ---
 level=11
-name=np-res-s2-02-11
+name=np-res-s2-02
 copyright=wa
 obj=building
 type=res
@@ -395,7 +395,7 @@ backImage[2][0][0][0][0][1]=res-s2.3.2
 backImage[3][0][0][0][0][1]=res-s2.3.3
 ---
 level=12
-name=np-res-s2-03-12
+name=np-res-s2-03
 copyright=wa
 obj=building
 type=res
@@ -412,7 +412,7 @@ backImage[2][0][0][0][0][1]=res-s2.5.2
 backImage[3][0][0][0][0][1]=res-s2.5.3
 ---
 level=13
-name=np-res-s2-04-13
+name=np-res-s2-04
 copyright=wa
 obj=building
 type=res
@@ -429,7 +429,7 @@ backImage[2][0][0][0][0][1]=res-s2.7.2
 backImage[3][0][0][0][0][1]=res-s2.7.3
 ---
 level=14
-name=np-res-s2-05-14
+name=np-res-s2-05
 copyright=wa
 obj=building
 type=res
@@ -446,7 +446,7 @@ backImage[2][0][0][0][0][1]=res-s2.9.2
 backImage[3][0][0][0][0][1]=res-s2.9.3
 ---
 level=5
-name=np-res-h1-01-05
+name=np-res-h1-01
 copyright=wa
 obj=building
 type=res
@@ -463,7 +463,7 @@ backImage[2][0][0][0][0][1]=res-h1.1.2
 backImage[3][0][0][0][0][1]=res-h1.1.3
 ---
 level=6
-name=np-res-h1-02-06
+name=np-res-h1-02
 copyright=wa
 obj=building
 type=res
@@ -480,7 +480,7 @@ backImage[2][0][0][0][0][1]=res-h1.3.2
 backImage[3][0][0][0][0][1]=res-h1.3.3
 ---
 level=7
-name=np-res-h1-03-07
+name=np-res-h1-03
 copyright=wa
 obj=building
 type=res
@@ -497,7 +497,7 @@ backImage[2][0][0][0][0][1]=res-h1.5.2
 backImage[3][0][0][0][0][1]=res-h1.5.3
 ---
 level=8
-name=np-res-h1-04-08
+name=np-res-h1-04
 copyright=wa
 obj=building
 type=res
@@ -514,7 +514,7 @@ backImage[2][0][0][0][0][1]=res-h1.7.2
 backImage[3][0][0][0][0][1]=res-h1.7.3
 ---
 level=9
-name=np-res-h1-05-09
+name=np-res-h1-05
 copyright=wa
 obj=building
 type=res
@@ -531,7 +531,7 @@ backImage[2][0][0][0][0][1]=res-h1.9.2
 backImage[3][0][0][0][0][1]=res-h1.9.3
 ---
 level=10
-name=np-res-h2-01-10
+name=np-res-h2-01
 copyright=wa
 obj=building
 type=res
@@ -548,7 +548,7 @@ backImage[2][0][0][0][0][1]=res-h2.1.2
 backImage[3][0][0][0][0][1]=res-h2.1.3
 ---
 level=11
-name=np-res-h2-02-11
+name=np-res-h2-02
 copyright=wa
 obj=building
 type=res
@@ -565,7 +565,7 @@ backImage[2][0][0][0][0][1]=res-h2.3.2
 backImage[3][0][0][0][0][1]=res-h2.3.3
 ---
 level=12
-name=np-res-h2-03-12
+name=np-res-h2-03
 copyright=wa
 obj=building
 type=res
@@ -582,7 +582,7 @@ backImage[2][0][0][0][0][1]=res-h2.5.2
 backImage[3][0][0][0][0][1]=res-h2.5.3
 ---
 level=13
-name=np-res-h2-04-13
+name=np-res-h2-04
 copyright=wa
 obj=building
 type=res
@@ -599,7 +599,7 @@ backImage[2][0][0][0][0][1]=res-h2.7.2
 backImage[3][0][0][0][0][1]=res-h2.7.3
 ---
 level=14
-name=np-res-h2-05-14
+name=np-res-h2-05
 copyright=wa
 obj=building
 type=res
@@ -616,7 +616,7 @@ backImage[2][0][0][0][0][1]=res-h2.9.2
 backImage[3][0][0][0][0][1]=res-h2.9.3
 ---
 level=5
-name=np-res-t1-01-05
+name=np-res-t1-01
 copyright=wa
 obj=building
 type=res
@@ -633,7 +633,7 @@ backImage[2][0][0][0][0][1]=res-t1.1.2
 backImage[3][0][0][0][0][1]=res-t1.1.3
 ---
 level=6
-name=np-res-t1-02-06
+name=np-res-t1-02
 copyright=wa
 obj=building
 type=res
@@ -650,7 +650,7 @@ backImage[2][0][0][0][0][1]=res-t1.3.2
 backImage[3][0][0][0][0][1]=res-t1.3.3
 ---
 level=7
-name=np-res-t1-03-07
+name=np-res-t1-03
 copyright=wa
 obj=building
 type=res
@@ -667,7 +667,7 @@ backImage[2][0][0][0][0][1]=res-t1.5.2
 backImage[3][0][0][0][0][1]=res-t1.5.3
 ---
 level=8
-name=np-res-t1-04-08
+name=np-res-t1-04
 copyright=wa
 obj=building
 type=res
@@ -684,7 +684,7 @@ backImage[2][0][0][0][0][1]=res-t1.7.2
 backImage[3][0][0][0][0][1]=res-t1.7.3
 ---
 level=9
-name=np-res-t1-05-09
+name=np-res-t1-05
 copyright=wa
 obj=building
 type=res
@@ -701,7 +701,7 @@ backImage[2][0][0][0][0][1]=res-t1.9.2
 backImage[3][0][0][0][0][1]=res-t1.9.3
 ---
 level=10
-name=np-res-t2-01-10
+name=np-res-t2-01
 copyright=wa
 obj=building
 type=res
@@ -718,7 +718,7 @@ backImage[2][0][0][0][0][1]=res-t2.1.2
 backImage[3][0][0][0][0][1]=res-t2.1.3
 ---
 level=11
-name=np-res-t2-02-11
+name=np-res-t2-02
 copyright=wa
 obj=building
 type=res
@@ -735,7 +735,7 @@ backImage[2][0][0][0][0][1]=res-t2.3.2
 backImage[3][0][0][0][0][1]=res-t2.3.3
 ---
 level=12
-name=np-res-t2-03-12
+name=np-res-t2-03
 copyright=wa
 obj=building
 type=res
@@ -752,7 +752,7 @@ backImage[2][0][0][0][0][1]=res-t2.5.2
 backImage[3][0][0][0][0][1]=res-t2.5.3
 ---
 level=13
-name=np-res-t2-04-13
+name=np-res-t2-04
 copyright=wa
 obj=building
 type=res
@@ -769,7 +769,7 @@ backImage[2][0][0][0][0][1]=res-t2.7.2
 backImage[3][0][0][0][0][1]=res-t2.7.3
 ---
 level=14
-name=np-res-t2-05-14
+name=np-res-t2-05
 copyright=wa
 obj=building
 type=res
@@ -786,7 +786,7 @@ backImage[2][0][0][0][0][1]=res-t2.9.2
 backImage[3][0][0][0][0][1]=res-t2.9.3
 ---
 level=15
-name=np-res-p-01-15
+name=np-res-p-01
 copyright=wa
 obj=building
 type=res
@@ -803,7 +803,7 @@ backImage[2][0][0][0][0][1]=res-p.1.2
 backImage[3][0][0][0][0][1]=res-p.1.3
 ---
 level=16
-name=np-res-p-02-16
+name=np-res-p-02
 copyright=wa
 obj=building
 type=res
@@ -820,7 +820,7 @@ backImage[2][0][0][0][0][1]=res-p.3.2
 backImage[3][0][0][0][0][1]=res-p.3.3
 ---
 level=17
-name=np-res-p-03-17
+name=np-res-p-03
 copyright=wa
 obj=building
 type=res
@@ -837,7 +837,7 @@ backImage[2][0][0][0][0][1]=res-p.5.2
 backImage[3][0][0][0][0][1]=res-p.5.3
 ---
 level=18
-name=np-res-p-04-18
+name=np-res-p-04
 copyright=wa
 obj=building
 type=res
@@ -854,7 +854,7 @@ backImage[2][0][0][0][0][1]=res-p.7.2
 backImage[3][0][0][0][0][1]=res-p.7.3
 ---
 level=19
-name=np-res-p-05-19
+name=np-res-p-05
 copyright=wa
 obj=building
 type=res
@@ -871,7 +871,7 @@ backImage[2][0][0][0][0][1]=res-p.9.2
 backImage[3][0][0][0][0][1]=res-p.9.3
 ---
 level=20
-name=np-res-m-01-20
+name=np-res-m-01
 copyright=wa
 obj=building
 type=res
@@ -896,7 +896,7 @@ backImage[3][0][0][0][0][1]=res-m.3.3
 backImage[3][0][0][1][0][1]=res-m.2.3
 ---
 level=21
-name=np-res-m-02-21
+name=np-res-m-02
 copyright=wa
 obj=building
 type=res
@@ -921,7 +921,7 @@ backImage[3][0][0][0][0][1]=res-m.7.3
 backImage[3][0][0][1][0][1]=res-m.6.3
 ---
 level=22
-name=np-res-m-03-22
+name=np-res-m-03
 copyright=wa
 obj=building
 type=res
@@ -946,7 +946,7 @@ backImage[3][0][0][0][0][1]=res-m.11.3
 backImage[3][0][0][1][0][1]=res-m.10.3
 ---
 level=23
-name=np-res-m-04-23
+name=np-res-m-04
 copyright=wa
 obj=building
 type=res
@@ -971,7 +971,7 @@ backImage[3][0][0][0][0][1]=res-m.15.3
 backImage[3][0][0][1][0][1]=res-m.14.3
 ---
 level=24
-name=np-res-m-05-24
+name=np-res-m-05
 copyright=wa
 obj=building
 type=res
@@ -996,7 +996,7 @@ backImage[3][0][0][0][0][1]=res-m.19.3
 backImage[3][0][0][1][0][1]=res-m.18.3
 ---
 level=20
-name=np-res-sm-01-20
+name=np-res-sm-01
 copyright=wa
 obj=building
 type=res
@@ -1021,7 +1021,7 @@ backImage[3][0][0][0][0][1]=res-sm.3.3
 #backImage[3][0][0][1][0][1]=res-sm.2.3
 ---
 level=21
-name=np-res-sm-02-21
+name=np-res-sm-02
 copyright=wa
 obj=building
 type=res
@@ -1046,7 +1046,7 @@ backImage[3][0][0][0][0][1]=res-sm.7.3
 #backImage[3][0][0][1][0][1]=res-sm.6.3
 ---
 level=22
-name=np-res-sm-03-22
+name=np-res-sm-03
 copyright=wa
 obj=building
 type=res
@@ -1071,7 +1071,7 @@ backImage[3][0][0][0][0][1]=res-sm.11.3
 #backImage[3][0][0][1][0][1]=res-sm.10.3
 ---
 level=23
-name=np-res-sm-04-23
+name=np-res-sm-04
 copyright=wa
 obj=building
 type=res
@@ -1096,7 +1096,7 @@ backImage[3][0][0][0][0][1]=res-sm.15.3
 #backImage[3][0][0][1][0][1]=res-sm.14.3
 ---
 level=24
-name=np-res-sm-05-24
+name=np-res-sm-05
 copyright=wa
 obj=building
 type=res
@@ -1121,7 +1121,7 @@ backImage[3][0][0][0][0][1]=res-sm.19.3
 backImage[3][0][0][1][0][1]=res-sm.18.3
 ---
 level=25
-name=np-res-h-01-25
+name=np-res-h-01
 copyright=wa
 obj=building
 type=res
@@ -1146,7 +1146,7 @@ backImage[3][0][0][0][0][1]=res-h.3.3
 backImage[3][0][0][1][0][1]=res-h.2.3
 ---
 level=25
-name=np-res-h-02-25
+name=np-res-h-02
 copyright=wa
 obj=building
 type=res
@@ -1171,7 +1171,7 @@ backImage[3][0][0][0][0][1]=res-h.7.3
 backImage[3][0][0][1][0][1]=res-h.6.3
 ---
 level=25
-name=np-res-h-03-25
+name=np-res-h-03
 copyright=wa
 obj=building
 type=res
@@ -1196,7 +1196,7 @@ backImage[3][0][0][0][0][1]=res-h.11.3
 backImage[3][0][0][1][0][1]=res-h.10.3
 ---
 level=25
-name=np-res-h-04-25
+name=np-res-h-04
 copyright=wa
 obj=building
 type=res
@@ -1221,7 +1221,7 @@ backImage[3][0][0][0][0][1]=res-h.15.3
 backImage[3][0][0][1][0][1]=res-h.14.3
 ---
 level=25
-name=np-res-h-05-25
+name=np-res-h-05
 copyright=wa
 obj=building
 type=res
@@ -1246,7 +1246,7 @@ backImage[3][0][0][0][0][1]=res-h.19.3
 backImage[3][0][0][1][0][1]=res-h.18.3
 ---
 level=25
-name=np-res-h-06-25
+name=np-res-h-06
 copyright=wa
 obj=building
 type=res
@@ -1271,7 +1271,7 @@ backImage[3][0][0][0][0][1]=res-h-2.3.3
 backImage[3][0][0][1][0][1]=res-h-2.2.3
 ---
 level=25
-name=np-res-h-07-25
+name=np-res-h-07
 copyright=wa
 obj=building
 type=res
@@ -1296,7 +1296,7 @@ backImage[3][0][0][0][0][1]=res-h-2.7.3
 backImage[3][0][0][1][0][1]=res-h-2.6.3
 ---
 level=25
-name=np-res-h-08-25
+name=np-res-h-08
 copyright=wa
 obj=building
 type=res
@@ -1321,7 +1321,7 @@ backImage[3][0][0][0][0][1]=res-h-2.11.3
 backImage[3][0][0][1][0][1]=res-h-2.10.3
 ---
 level=25
-name=np-res-h-09-25
+name=np-res-h-09
 copyright=wa
 obj=building
 type=res
@@ -1346,7 +1346,7 @@ backImage[3][0][0][0][0][1]=res-h-2.15.3
 backImage[3][0][0][1][0][1]=res-h-2.14.3
 ---
 level=25
-name=np-res-h-10-25
+name=np-res-h-10
 copyright=wa
 obj=building
 type=res
@@ -1371,7 +1371,7 @@ backImage[3][0][0][0][0][1]=res-h-2.19.3
 backImage[3][0][0][1][0][1]=res-h-2.18.3
 ---
 level=5
-name=np-res-parking-01-05
+name=np-res-parking-01
 copyright=wa
 obj=building
 type=res
@@ -1388,7 +1388,7 @@ backImage[2][0][0][0][0][1]=res-parking.1.2
 backImage[3][0][0][0][0][1]=res-parking.1.3
 ---
 level=10
-name=np-res-parking-02-10
+name=np-res-parking-02
 copyright=wa
 obj=building
 type=res
@@ -1405,7 +1405,7 @@ backImage[2][0][0][0][0][1]=res-parking.3.2
 backImage[3][0][0][0][0][1]=res-parking.3.3
 ---
 level=20
-name=np-res-parking-03-20
+name=np-res-parking-03
 copyright=wa
 obj=building
 type=res
@@ -1422,7 +1422,7 @@ backImage[2][0][0][0][0][1]=res-parking.5.2
 backImage[3][0][0][0][0][1]=res-parking.5.3
 ---
 level=25
-name=np-res-parking-04-25
+name=np-res-parking-04
 copyright=wa
 obj=building
 type=res
@@ -1439,7 +1439,7 @@ backImage[2][0][0][0][0][1]=res-parking.7.2
 backImage[3][0][0][0][0][1]=res-parking.7.3
 ---
 level=15
-name=np-res-parking-05-15
+name=np-res-parking-05
 copyright=wa
 obj=building
 type=res
@@ -1456,7 +1456,7 @@ backImage[2][0][0][0][0][1]=res-parking-2.1.2
 backImage[3][0][0][0][0][1]=res-parking-2.1.3
 ---
 level=25
-name=np-res-parking-06-25
+name=np-res-parking-06
 copyright=wa
 obj=building
 type=res
@@ -1481,7 +1481,7 @@ backImage[3][0][0][0][0][1]=res-parking-2.5.3
 backImage[3][0][0][1][0][1]=res-parking-2.4.3
 ---
 level=6
-name=np-res-empty-01-06
+name=np-res-empty-01
 copyright=wa
 obj=building
 type=res
@@ -1498,7 +1498,7 @@ backImage[2][0][0][0][0][1]=res-empty.1.2
 backImage[3][0][0][0][0][1]=res-empty.1.3
 ---
 level=11
-name=np-res-empty-02-11
+name=np-res-empty-02
 copyright=wa
 obj=building
 type=res
@@ -1515,7 +1515,7 @@ backImage[2][0][0][0][0][1]=res-empty.3.2
 backImage[3][0][0][0][0][1]=res-empty.3.3
 ---
 level=16
-name=np-res-empty-03-16
+name=np-res-empty-03
 copyright=wa
 obj=building
 type=res
@@ -1532,7 +1532,7 @@ backImage[2][0][0][0][0][1]=res-empty.5.2
 backImage[3][0][0][0][0][1]=res-empty.5.3
 ---
 level=21
-name=np-res-empty-04-21
+name=np-res-empty-04
 copyright=wa
 obj=building
 type=res

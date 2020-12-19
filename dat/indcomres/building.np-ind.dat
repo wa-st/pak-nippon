@@ -1,6 +1,6 @@
 ---
 level=1
-name=np-ind-a-01-01
+name=np-ind-a-01
 
 copyright=wa
 obj=building
@@ -33,7 +33,7 @@ backImage[2][0][0][0][0][4]=ind-a.4.2
 backImage[3][0][0][0][0][4]=ind-a.4.3
 ---
 level=2
-name=np-ind-a-02-02
+name=np-ind-a-02
 
 copyright=wa
 obj=building
@@ -66,7 +66,7 @@ backImage[2][0][0][0][0][4]=ind-a.9.2
 backImage[3][0][0][0][0][4]=ind-a.9.3
 ---
 level=3
-name=np-ind-a-03-03
+name=np-ind-a-03
 
 copyright=wa
 obj=building
@@ -99,7 +99,7 @@ backImage[2][0][0][0][0][4]=ind-a.14.2
 backImage[3][0][0][0][0][4]=ind-a.14.3
 ---
 level=5
-name=np-ind-l-01-05
+name=np-ind-l-01
 
 copyright=wa
 obj=building
@@ -117,7 +117,7 @@ backImage[2][0][0][0][0][1]=ind-l.1.2
 backImage[3][0][0][0][0][1]=ind-l.1.3
 ---
 level=5
-name=np-ind-l-02-05
+name=np-ind-l-02
 
 copyright=wa
 obj=building
@@ -135,7 +135,7 @@ backImage[2][0][0][0][0][1]=ind-l.3.2
 backImage[3][0][0][0][0][1]=ind-l.3.3
 ---
 level=6
-name=np-ind-l-03-06
+name=np-ind-l-03
 
 copyright=wa
 obj=building
@@ -153,7 +153,7 @@ backImage[2][0][0][0][0][1]=ind-l.5.2
 backImage[3][0][0][0][0][1]=ind-l.5.3
 ---
 level=6
-name=np-ind-l-04-06
+name=np-ind-l-04
 
 copyright=wa
 obj=building
@@ -171,7 +171,7 @@ backImage[2][0][0][0][0][1]=ind-l.7.2
 backImage[3][0][0][0][0][1]=ind-l.7.3
 ---
 level=7
-name=np-ind-l-05-07
+name=np-ind-l-05
 
 copyright=wa
 obj=building
@@ -189,7 +189,7 @@ backImage[2][0][0][0][0][1]=ind-l.9.2
 backImage[3][0][0][0][0][1]=ind-l.9.3
 ---
 level=7
-name=np-ind-l-06-07
+name=np-ind-l-06
 
 copyright=wa
 obj=building
@@ -207,7 +207,7 @@ backImage[2][0][0][0][0][1]=ind-l.11.2
 backImage[3][0][0][0][0][1]=ind-l.11.3
 ---
 level=8
-name=np-ind-l-07-08
+name=np-ind-l-07
 
 copyright=wa
 obj=building
@@ -225,7 +225,7 @@ backImage[2][0][0][0][0][1]=ind-l.13.2
 backImage[3][0][0][0][0][1]=ind-l.13.3
 ---
 level=8
-name=np-ind-l-08-08
+name=np-ind-l-08
 
 copyright=wa
 obj=building
@@ -243,7 +243,7 @@ backImage[2][0][0][0][0][1]=ind-l.15.2
 backImage[3][0][0][0][0][1]=ind-l.15.3
 ---
 level=9
-name=np-ind-l-09-09
+name=np-ind-l-09
 
 copyright=wa
 obj=building
@@ -261,7 +261,7 @@ backImage[2][0][0][0][0][1]=ind-l.17.2
 backImage[3][0][0][0][0][1]=ind-l.17.3
 ---
 level=9
-name=np-ind-l-10-09
+name=np-ind-l-10
 
 copyright=wa
 obj=building
@@ -279,7 +279,7 @@ backImage[2][0][0][0][0][1]=ind-l.19.2
 backImage[3][0][0][0][0][1]=ind-l.19.3
 ---
 level=10
-name=np-ind-m1-01-10
+name=np-ind-m1-01
 
 copyright=wa
 obj=building
@@ -321,7 +321,7 @@ backImage[7][0][0][0][0][1]=ind-m1.3.7
 backImage[7][0][0][1][0][1]=ind-m1.2.7
 ---
 level=11
-name=np-ind-m1-02-11
+name=np-ind-m1-02
 
 copyright=wa
 obj=building
@@ -363,7 +363,7 @@ backImage[7][0][0][0][0][1]=ind-m1.7.7
 backImage[7][0][0][1][0][1]=ind-m1.6.7
 ---
 level=12
-name=np-ind-m1-03-12
+name=np-ind-m1-03
 
 copyright=wa
 obj=building
@@ -405,7 +405,7 @@ backImage[7][0][0][0][0][1]=ind-m1.11.7
 backImage[7][0][0][1][0][1]=ind-m1.10.7
 ---
 level=13
-name=np-ind-m1-04-13
+name=np-ind-m1-04
 
 copyright=wa
 obj=building
@@ -447,7 +447,7 @@ backImage[7][0][0][0][0][1]=ind-m1.15.7
 backImage[7][0][0][1][0][1]=ind-m1.14.7
 ---
 level=14
-name=np-ind-m1-05-14
+name=np-ind-m1-05
 
 copyright=wa
 obj=building
@@ -489,7 +489,7 @@ backImage[7][0][0][0][0][1]=ind-m1.19.7
 backImage[7][0][0][1][0][1]=ind-m1.18.7
 ---
 level=15
-name=np-ind-m2-01-15
+name=np-ind-m2-01
 
 copyright=wa
 obj=building
@@ -531,7 +531,7 @@ backImage[7][0][0][0][0][1]=ind-m2.3.7
 backImage[7][0][0][1][0][1]=ind-m2.2.7
 ---
 level=16
-name=np-ind-m2-02-16
+name=np-ind-m2-02
 
 copyright=wa
 obj=building
@@ -573,7 +573,7 @@ backImage[7][0][0][0][0][1]=ind-m2.7.7
 backImage[7][0][0][1][0][1]=ind-m2.6.7
 ---
 level=17
-name=np-ind-m2-03-17
+name=np-ind-m2-03
 
 copyright=wa
 obj=building
@@ -615,7 +615,7 @@ backImage[7][0][0][0][0][1]=ind-m2.11.7
 backImage[7][0][0][1][0][1]=ind-m2.10.7
 ---
 level=18
-name=np-ind-m2-04-18
+name=np-ind-m2-04
 
 copyright=wa
 obj=building
@@ -657,7 +657,7 @@ backImage[7][0][0][0][0][1]=ind-m2.15.7
 backImage[7][0][0][1][0][1]=ind-m2.14.7
 ---
 level=19
-name=np-ind-m2-05-19
+name=np-ind-m2-05
 
 copyright=wa
 obj=building
@@ -699,7 +699,7 @@ backImage[7][0][0][0][0][1]=ind-m2.19.7
 backImage[7][0][0][1][0][1]=ind-m2.18.7
 ---
 level=20
-name=np-ind-h1-01-20
+name=np-ind-h1-01
 
 copyright=wa
 obj=building
@@ -741,7 +741,7 @@ backImage[7][0][0][0][0][1]=ind-h1.3.7
 backImage[7][0][0][1][0][1]=ind-h1.2.7
 ---
 level=21
-name=np-ind-h1-02-21
+name=np-ind-h1-02
 
 copyright=wa
 obj=building
@@ -783,7 +783,7 @@ backImage[7][0][0][0][0][1]=ind-h1.7.7
 backImage[7][0][0][1][0][1]=ind-h1.6.7
 ---
 level=22
-name=np-ind-h1-03-22
+name=np-ind-h1-03
 
 copyright=wa
 obj=building
@@ -825,7 +825,7 @@ backImage[7][0][0][0][0][1]=ind-h1.11.7
 backImage[7][0][0][1][0][1]=ind-h1.10.7
 ---
 level=23
-name=np-ind-h1-04-23
+name=np-ind-h1-04
 
 copyright=wa
 obj=building
@@ -867,7 +867,7 @@ backImage[7][0][0][0][0][1]=ind-h1.15.7
 backImage[7][0][0][1][0][1]=ind-h1.14.7
 ---
 level=24
-name=np-ind-h1-05-24
+name=np-ind-h1-05
 
 copyright=wa
 obj=building
@@ -885,7 +885,7 @@ backImage[1][0][0][0][0][1]=ind-h1.19.1
 backImage[1][0][0][1][0][1]=ind-h1.18.1
 ---
 level=25
-name=np-ind-h2-01-25
+name=np-ind-h2-01
 
 copyright=wa
 obj=building
@@ -927,7 +927,7 @@ backImage[7][0][0][0][0][1]=ind-h2.3.7
 backImage[7][0][0][1][0][1]=ind-h2.2.7
 ---
 level=25
-name=np-ind-h2-02-25
+name=np-ind-h2-02
 
 copyright=wa
 obj=building
@@ -969,7 +969,7 @@ backImage[7][0][0][0][0][1]=ind-h2.7.7
 backImage[7][0][0][1][0][1]=ind-h2.6.7
 ---
 level=25
-name=np-ind-h2-03-25
+name=np-ind-h2-03
 
 copyright=wa
 obj=building
@@ -1011,7 +1011,7 @@ backImage[7][0][0][0][0][1]=ind-h2.11.7
 backImage[7][0][0][1][0][1]=ind-h2.10.7
 ---
 level=25
-name=np-ind-h2-04-25
+name=np-ind-h2-04
 
 copyright=wa
 obj=building
@@ -1053,7 +1053,7 @@ backImage[7][0][0][0][0][1]=ind-h2.15.7
 backImage[7][0][0][1][0][1]=ind-h2.14.7
 ---
 level=25
-name=np-ind-h2-05-25
+name=np-ind-h2-05
 
 copyright=wa
 obj=building
@@ -1095,7 +1095,7 @@ backImage[7][0][0][0][0][1]=ind-h2.19.7
 backImage[7][0][0][1][0][1]=ind-h2.18.7
 ---
 level=5
-name=np-ind-parking-01-05
+name=np-ind-parking-01
 
 copyright=wa
 obj=building
@@ -1113,7 +1113,7 @@ backImage[2][0][0][0][0][1]=ind-parking.1.2
 backImage[3][0][0][0][0][1]=ind-parking.1.3
 ---
 level=10
-name=np-ind-parking-02-10
+name=np-ind-parking-02
 
 copyright=wa
 obj=building
@@ -1131,7 +1131,7 @@ backImage[2][0][0][0][0][1]=ind-parking.3.2
 backImage[3][0][0][0][0][1]=ind-parking.3.3
 ---
 level=20
-name=np-ind-parking-03-20
+name=np-ind-parking-03
 
 copyright=wa
 obj=building
@@ -1149,7 +1149,7 @@ backImage[2][0][0][0][0][1]=ind-parking.5.2
 backImage[3][0][0][0][0][1]=ind-parking.5.3
 ---
 level=25
-name=np-ind-parking-04-25
+name=np-ind-parking-04
 
 copyright=wa
 obj=building
@@ -1167,7 +1167,7 @@ backImage[2][0][0][0][0][1]=ind-parking.7.2
 backImage[3][0][0][0][0][1]=ind-parking.7.3
 ---
 level=15
-name=np-ind-parking-05-15
+name=np-ind-parking-05
 
 copyright=wa
 obj=building
@@ -1185,7 +1185,7 @@ backImage[2][0][0][0][0][1]=ind-parking-2.1.2
 backImage[3][0][0][0][0][1]=ind-parking-2.1.3
 ---
 level=25
-name=np-ind-parking-06-25
+name=np-ind-parking-06
 
 copyright=wa
 obj=building
