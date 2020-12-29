@@ -1,28 +1,28 @@
-# 01 a
-# 02 a
-# 03 a
+# 01 field
+# 02 field
+# 03 field
 # 04 
-# 05 l l parking
-# 06 l l
-# 07 l l
-# 08 l l
-# 09 l l
-# 10 m1 parking
-# 11 m1
-# 12 m1
-# 12 m1
-# 13 m1
-# 15 m2 parking
-# 16 m2
-# 17 m2
-# 18 m2
-# 19 m2
-# 20 h1 parking parkingx
-# 21 h1 hhx
-# 22 h1 hhx
-# 23 h1 hhx
-# 24 h1 construction
-# 25 h2 h2 h2 h2 h2 parking parking hhx hhx hhx hhx hhx mx mx mx
+# 05 factory-h0 factory-h0 parking
+# 06 factory-h0 factory-h0
+# 07 factory-h0 factory-h0
+# 08 factory-h0 factory-h0
+# 09 factory-h0 factory-h0
+# 10 office-h1             parking
+# 11 office-h1
+# 12 office-h1
+# 13 office-h1
+# 14 office-h1
+# 15 office-h2             parking
+# 16 office-h2
+# 17 office-h2
+# 18 office-h2
+# 19 office-h2
+# 20 office-h3             parking parking-x
+# 21 office-h3 office-hx2
+# 22 office-h3 office-hx2
+# 23 office-h3 office-hx2
+# 24 office-h3             construction-site
+# 25 office-h4 * 5 office-hx2 * 5 parking * 2  office-hx1 * 3
 
 %resource "ind"
 copyright=wa
@@ -30,223 +30,223 @@ obj=building
 type=ind
 ---
 level=1
-%def :image, "ind-a.0.0"
+%def :image, "ind-field.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 1, 4, 5
 ---
 level=2
-%def :image, "ind-a.5.0"
+%def :image, "ind-field.5.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 1, 4, 5
 ---
 level=3
-%def :image, "ind-a.10.0"
+%def :image, "ind-field.10.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 1, 4, 5
 ---
 level=5
-%def :image, "ind-l.0.0"
+%def :image, "ind-factory-h0.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=5
-%def :image, "ind-l.2.0"
+%def :image, "ind-factory-h0.2.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=6
-%def :image, "ind-l.4.0"
+%def :image, "ind-factory-h0.4.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=6
-%def :image, "ind-l.6.0"
+%def :image, "ind-factory-h0.6.0"
 %autoname 4
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=7
-%def :image, "ind-l.8.0"
+%def :image, "ind-factory-h0.8.0"
 %autoname 5
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=7
-%def :image, "ind-l.10.0"
+%def :image, "ind-factory-h0.10.0"
 %autoname 6
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=8
-%def :image, "ind-l.12.0"
+%def :image, "ind-factory-h0.12.0"
 %autoname 7
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=8
-%def :image, "ind-l.14.0"
+%def :image, "ind-factory-h0.14.0"
 %autoname 8
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=9
-%def :image, "ind-l.16.0"
+%def :image, "ind-factory-h0.16.0"
 %autoname 9
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=9
-%def :image, "ind-l.18.0"
+%def :image, "ind-factory-h0.18.0"
 %autoname 10
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=10
-%def :image, "ind-m1.0.0"
+%def :image, "ind-office-h1.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=11
-%def :image, "ind-m1.4.0"
+%def :image, "ind-office-h1.4.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=12
-%def :image, "ind-m1.8.0"
+%def :image, "ind-office-h1.8.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=13
-%def :image, "ind-m1.12.0"
+%def :image, "ind-office-h1.12.0"
 %autoname 4
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=14
-%def :image, "ind-m1.16.0"
+%def :image, "ind-office-h1.16.0"
 %autoname 5
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=15
-%def :image, "ind-m2.0.0"
+%def :image, "ind-office-h2.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=16
-%def :image, "ind-m2.4.0"
+%def :image, "ind-office-h2.4.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=17
-%def :image, "ind-m2.8.0"
+%def :image, "ind-office-h2.8.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=18
-%def :image, "ind-m2.12.0"
+%def :image, "ind-office-h2.12.0"
 %autoname 4
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=19
-%def :image, "ind-m2.16.0"
+%def :image, "ind-office-h2.16.0"
 %autoname 5
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=20
-%def :image, "ind-h1.0.0"
+%def :image, "ind-office-h3.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=21
-%def :image, "ind-h1.4.0"
+%def :image, "ind-office-h3.4.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=22
-%def :image, "ind-h1.8.0"
+%def :image, "ind-office-h3.8.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=23
-%def :image, "ind-h1.12.0"
+%def :image, "ind-office-h3.12.0"
 %autoname 4
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=24
-%def :image, "ind-h1.16.0"
+%def :image, "ind-office-h3.16.0"
 %autoname 5
 %include "ind"
 %buil_image 1, 1, 2, 2, 2
 ---
 level=25
-%def :image, "ind-h2.0.0"
+%def :image, "ind-office-h4.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=25
-%def :image, "ind-h2.4.0"
+%def :image, "ind-office-h4.4.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=25
-%def :image, "ind-h2.8.0"
+%def :image, "ind-office-h4.8.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=25
-%def :image, "ind-h2.12.0"
+%def :image, "ind-office-h4.12.0"
 %autoname 4
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ---
 level=25
-%def :image, "ind-h2.16.0"
+%def :image, "ind-office-h4.16.0"
 %autoname 5
 %include "ind"
 %buil_image 1, 1, 2, 8, 2
 ----
 level=5
-%def :image, "ind-parking.0.0"
+%def :image, "ind-parking-1.0.0"
 %autoname 1
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=10
-%def :image, "ind-parking.2.0"
+%def :image, "ind-parking-1.2.0"
 %autoname 2
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=20
-%def :image, "ind-parking.4.0"
+%def :image, "ind-parking-1.4.0"
 %autoname 3
 %include "ind"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=25
-%def :image, "ind-parking.6.0"
+%def :image, "ind-parking-1.6.0"
 %autoname 4
 %include "ind"
 %buil_image 1, 1, 1, 4, 2

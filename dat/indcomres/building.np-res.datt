@@ -1,28 +1,28 @@
-# 01 a a h0 t0
-# 02 a a h0 t0
-# 03 a a h0 t0
+# 01 house-h0          house-t0 ricefield field 
+# 02 house-h0          house-t0 ricefield field 
+# 03 house-h0          house-t0 ricefield field 
 # 04
-# 05 h1 s1 t1 parking
-# 06 h1 s1 t1 empty
-# 07 h1 s1 t1 
-# 08 h1 s1 t1 
-# 09 h1 s1 t1 
-# 10 h2 s2 t2 parking
-# 11 h2 s2 t2 empty
-# 12 h2 s2 t2 
-# 13 h2 s2 t2 
-# 14 h2 s2 t2 
-# 15 p        parking
-# 16 p        empty
-# 17 p
-# 18 p
-# 19 p
-# 20 m sm    parking
-# 21 m sm    empty
-# 22 m sm    mx
-# 23 m sm    mx
-# 24 m sm
-# 25 h h h h h h h h h h parking parking hhx hhx hhx hhx hhx mx mx mx
+# 05 house-h1 house-s1 house-t1 parking
+# 06 house-h1 house-s1 house-t1 emptylot
+# 07 house-h1 house-s1 house-t1 
+# 08 house-h1 house-s1 house-t1 
+# 09 house-h1 house-s1 house-t1 
+# 10 house-h2 house-s2 house-t2 parking
+# 11 house-h2 house-s2 house-t2 emptylot
+# 12 house-h2 house-s2 house-t2 
+# 13 house-h2 house-s2 house-t2 
+# 14 house-h2 house-s2 house-t2 
+# 15            apt-s0          parking
+# 16            apt-s0          emptylot
+# 17            apt-s0
+# 18            apt-s0
+# 19            apt-s0
+# 20 apt-h1     apt-s1          parking
+# 21 apt-h1     apt-s1          emptylot
+# 22 apt-h1     apt-s1          apt-hx1
+# 23 apt-h1     apt-s1          apt-hx1
+# 24 apt-h1     apt-s1
+# 25 apt-h2 * 10 parking * 2 apt-hx1 * 3 apt-hx2 * 5
 ---
 %resource "res"
 copyright=wa
@@ -30,443 +30,443 @@ obj=building
 type=res
 ---
 level=1
-%def :image, "res-a.0.0"
+%def :image, "res-ricefield.0.0"
 %autoname 1
 %include "res"
 climates=desert,mediterran
 %buil_image 1, 1, 1, 4, 5
 ---
 level=2
-%def :image, "res-a.5.0"
+%def :image, "res-ricefield.5.0"
 %autoname 2
 %include "res"
 climates=desert,mediterran
 %buil_image 1, 1, 1, 4, 5
 ---
 level=3
-%def :image, "res-a.10.0"
+%def :image, "res-ricefield.10.0"
 %autoname 3
 %include "res"
 climates=desert,mediterran
 %buil_image 1, 1, 1, 4, 5
 ---
 level=1
-%def :image, "ind-a.0.0"
-name=np-res-a-04
+%def :image, "ind-field.0.0"
+name=np-res-field-01
 %include "res"
 climates=temperate,tundra,rocky
 %buil_image 1, 1, 1, 4, 5
 ---
 level=2
-%def :image, "ind-a.5.0"
-name=np-res-a-05
+%def :image, "ind-field.5.0"
+name=np-res-field-02
 %include "res"
 climates=temperate,tundra,rocky
 %buil_image 1, 1, 1, 4, 5
 ---
 level=3
-%def :image, "ind-a.10.0"
-name=np-res-a-06
+%def :image, "ind-field.10.0"
+name=np-res-field-03
 %include "res"
 climates=temperate,tundra,rocky
 %buil_image 1, 1, 1, 4, 5
 ---
 level=1
 chance=15
-%def :image, "res-h0.0.0"
+%def :image, "res-house-h0.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
 level=2
 chance=25
-%def :image, "res-h0.2.0"
+%def :image, "res-house-h0.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
 level=3
 chance=35
-%def :image, "res-h0.4.0"
+%def :image, "res-house-h0.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
 level=1
 chance=15
-%def :image, "res-t0.0.0"
+%def :image, "res-house-t0.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
 level=2
 chance=25
-%def :image, "res-t0.2.0"
+%def :image, "res-house-t0.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
 level=3
 chance=35
-%def :image, "res-t0.4.0"
+%def :image, "res-house-t0.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 1
 ---
 level=5
-%def :image, "res-s1.0.0"
+%def :image, "res-house-s1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=6
-%def :image, "res-s1.2.0"
+%def :image, "res-house-s1.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=7
-%def :image, "res-s1.4.0"
+%def :image, "res-house-s1.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=8
-%def :image, "res-s1.6.0"
+%def :image, "res-house-s1.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=9
-%def :image, "res-s1.8.0"
+%def :image, "res-house-s1.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=10
-%def :image, "res-s2.0.0"
+%def :image, "res-house-s2.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=11
-%def :image, "res-s2.2.0"
+%def :image, "res-house-s2.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=12
-%def :image, "res-s2.4.0"
+%def :image, "res-house-s2.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=13
-%def :image, "res-s2.6.0"
+%def :image, "res-house-s2.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=14
-%def :image, "res-s2.8.0"
+%def :image, "res-house-s2.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=5
-%def :image, "res-h1.0.0"
+%def :image, "res-house-h1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=6
-%def :image, "res-h1.2.0"
+%def :image, "res-house-h1.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=7
-%def :image, "res-h1.4.0"
+%def :image, "res-house-h1.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=8
-%def :image, "res-h1.6.0"
+%def :image, "res-house-h1.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=9
-%def :image, "res-h1.8.0"
+%def :image, "res-house-h1.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=10
-%def :image, "res-h2.0.0"
+%def :image, "res-house-h2.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=11
-%def :image, "res-h2.2.0"
+%def :image, "res-house-h2.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=12
-%def :image, "res-h2.4.0"
+%def :image, "res-house-h2.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=13
-%def :image, "res-h2.6.0"
+%def :image, "res-house-h2.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=14
-%def :image, "res-h2.8.0"
+%def :image, "res-house-h2.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=5
-%def :image, "res-t1.0.0"
+%def :image, "res-house-t1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=6
-%def :image, "res-t1.2.0"
+%def :image, "res-house-t1.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=7
-%def :image, "res-t1.4.0"
+%def :image, "res-house-t1.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=8
-%def :image, "res-t1.6.0"
+%def :image, "res-house-t1.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=9
-%def :image, "res-t1.8.0"
+%def :image, "res-house-t1.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=10
-%def :image, "res-t2.0.0"
+%def :image, "res-house-t2.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=11
-%def :image, "res-t2.2.0"
+%def :image, "res-house-t2.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=12
-%def :image, "res-t2.4.0"
+%def :image, "res-house-t2.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=13
-%def :image, "res-t2.6.0"
+%def :image, "res-house-t2.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=14
-%def :image, "res-t2.8.0"
+%def :image, "res-house-t2.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=15
-%def :image, "res-p.0.0"
+%def :image, "res-apt-s0.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=16
-%def :image, "res-p.2.0"
+%def :image, "res-apt-s0.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=17
-%def :image, "res-p.4.0"
+%def :image, "res-apt-s0.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=18
-%def :image, "res-p.6.0"
+%def :image, "res-apt-s0.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=19
-%def :image, "res-p.8.0"
+%def :image, "res-apt-s0.8.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ---
 level=20
-%def :image, "res-m.0.0"
+%def :image, "res-apt-h1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=21
-%def :image, "res-m.4.0"
+%def :image, "res-apt-h1.4.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=22
-%def :image, "res-m.8.0"
+%def :image, "res-apt-h1.8.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=23
-%def :image, "res-m.12.0"
+%def :image, "res-apt-h1.12.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=24
-%def :image, "res-m.16.0"
+%def :image, "res-apt-h1.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=20
-%def :image, "res-sm.0.0"
+%def :image, "res-apt-s1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
 level=21
-%def :image, "res-sm.4.0"
+%def :image, "res-apt-s1.4.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
 level=22
-%def :image, "res-sm.8.0"
+%def :image, "res-apt-s1.8.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
 level=23
-%def :image, "res-sm.12.0"
+%def :image, "res-apt-s1.12.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 %undef /backimage\[.\]\[.\]\[.\]\[1\]\[.\]\[.\]/
 ---
 level=24
-%def :image, "res-sm.16.0"
+%def :image, "res-apt-s1.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h.0.0"
+%def :image, "res-apt-h2-1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h.4.0"
+%def :image, "res-apt-h2-1.4.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h.8.0"
+%def :image, "res-apt-h2-1.8.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h.12.0"
+%def :image, "res-apt-h2-1.12.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h.16.0"
+%def :image, "res-apt-h2-1.16.0"
 %autoname 5
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h-2.0.0"
+%def :image, "res-apt-h2-2.0.0"
 %autoname 6
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h-2.4.0"
+%def :image, "res-apt-h2-2.4.0"
 %autoname 7
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h-2.8.0"
+%def :image, "res-apt-h2-2.8.0"
 %autoname 8
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h-2.12.0"
+%def :image, "res-apt-h2-2.12.0"
 %autoname 9
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ---
 level=25
-%def :image, "res-h-2.16.0"
+%def :image, "res-apt-h2-2.16.0"
 %autoname 10
 %include "res"
 %buil_image 1, 1, 2, 4, 2
 ----
 level=5
-%def :image, "res-parking.0.0"
+%def :image, "res-parking-1.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=10
-%def :image, "res-parking.2.0"
+%def :image, "res-parking-1.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=20
-%def :image, "res-parking.4.0"
+%def :image, "res-parking-1.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=25
-%def :image, "res-parking.6.0"
+%def :image, "res-parking-1.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
@@ -484,25 +484,25 @@ level=25
 %buil_image 1, 1, 2, 4, 2
 ----
 level=6
-%def :image, "res-empty.0.0"
+%def :image, "res-emptylot.0.0"
 %autoname 1
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=11
-%def :image, "res-empty.2.0"
+%def :image, "res-emptylot.2.0"
 %autoname 2
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=16
-%def :image, "res-empty.4.0"
+%def :image, "res-emptylot.4.0"
 %autoname 3
 %include "res"
 %buil_image 1, 1, 1, 4, 2
 ----
 level=21
-%def :image, "res-empty.6.0"
+%def :image, "res-emptylot.6.0"
 %autoname 4
 %include "res"
 %buil_image 1, 1, 1, 4, 2
