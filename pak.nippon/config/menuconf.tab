@@ -68,7 +68,9 @@ icon_height = 32
 # WKZ_ERR_MESSAGE_TOOL=37 (internal only)
 # WKZ_CHANGE_WATER_HEIGHT=38
 # WKZ_SET_CLIMATE=39
-#
+# WKZ_ROTATE_BUILDING=40
+# WKZ_MERGE_STOP=41
+
 general_tool[0]=0,0,9,a
 general_tool[1]=1,1,14,r
 general_tool[2]=2,2,11,u
@@ -81,7 +83,7 @@ general_tool[7]=6,6,,b
 general_tool[8]=7,7,11,g
 general_tool[9]=8,8,11,C
 # general tool 10 needs a parameter + icon & cursor depends on it => not defined here
-general_tool[11]=9,9,9,§
+general_tool[11]=9,9,9,ï¿½
 # general tools 12...22 will get their content from other entries; but we must define so defaults
 # define the cursor for schedule tools
 general_tool[12]=,10
@@ -109,7 +111,10 @@ general_tool[31]=14,11,,
 general_tool[32]=15,11,,
 general_tool[33]=,1,11,
 general_tool[34]=,,11,
-general_tool[35]=,,11,^K
+general_tool[35]=16,7,11,^K
+# 36 - 39 defined elsewhere
+general_tool[40]=17,7,
+general_tool[41]=18,11,
 
 # SECOND SECTION: simple tools
 # since these tools act immeadiately
@@ -149,12 +154,12 @@ general_tool[35]=,,11,^K
 # WKZ_PWDHASH_TOOL=27 (internal use)
 # WKZ_SET_PLAYER_TOOL=28 (internal use)
 # WKZ_TRAFFIC_LIGHT_TOOL=29 (internal use)
-#WKZ_CHANGE_CITY_TOOL=30 (internal use)
-#WKZ_RENAME_TOOL=31 (internal use)
-#WKZ_ADD_MESSAGE_TOOL=32 (internal use)
-#WKZ_TOGGLE_RESERVATION=33
-#WKZ_VIEW_OWNER=34
-#WKZ_HIDE_UNDER_CURSOR=35
+# WKZ_CHANGE_CITY_TOOL=30 (internal use)
+# WKZ_RENAME_TOOL=31 (internal use)
+# WKZ_ADD_MESSAGE_TOOL=32 (internal use)
+# WKZ_TOGGLE_RESERVATION=33
+# WKZ_VIEW_OWNER=34
+# WKZ_HIDE_UNDER_CURSOR=35
 #
 simple_tool[0]=0,p
 simple_tool[1]=1,W
@@ -218,6 +223,10 @@ simple_tool[34]=,O
 # WKZ_SETTINGS=27
 # WKZ_GAMEINFO_NETWORK=28
 # WKZ_THEMES=29
+# WKZ_SCENARIO=30
+# WKZ_SCENARIO_INFO=31
+# WKZ_LIST_DEPOT=32
+# WKZ_LIST_VEHICLE=33
 #
 dialog_tool[0]=0,?
 dialog_tool[1]=1,Q
@@ -247,7 +256,12 @@ dialog_tool[24]=25
 dialog_tool[25]=20 
 #dialog_tool[26]= 
 #dialog_tool[27]= 
-dialog_tool[28]=,n 
+dialog_tool[28]=27,n 
+dialog_tool[29]= 
+dialog_tool[30]=28
+dialog_tool[31]=29
+dialog_tool[32]=30,^d
+dialog_tool[33]=31,^e
 
 
 # FINAL SECTION: compose all tool bars
@@ -348,6 +362,7 @@ toolbar[0][35]=simple_tool[15],,
 toolbar[0][36]=dialog_tool[28]
 # last used toolbar (without icon yet)
 toolbar[0][37]=toolbar[LAST_USED],,z,Last used tools,
+toolbar[0][38]=toolbar[LAST_USED],,^z
 
 
 # slope tools
@@ -460,8 +475,9 @@ toolbar[8][9]=general_tool[8]
 toolbar[8][10]=general_tool[6]
 toolbar[8][11]=general_tool[31]
 toolbar[8][12]=general_tool[32]
-toolbar[8][13]=toolbar[10],29,,EDITTOOLS,edittools.txt
-toolbar[8][14]=general_tool[14],,l,128
+toolbar[8][13]=general_tool[41]
+toolbar[8][14]=toolbar[10],29,,EDITTOOLS,edittools.txt
+toolbar[8][15]=general_tool[14],,l,128
 
 # editor tools
 toolbar[9][0]=general_tool[10],25,,+100
@@ -473,32 +489,36 @@ toolbar[9][5]=dialog_tool[20]
 toolbar[9][6]=general_tool[26]
 toolbar[9][7]=dialog_tool[21]
 toolbar[9][8]=dialog_tool[22]
-toolbar[9][9]=dialog_tool[23]
-toolbar[9][10]=general_tool[30]
-toolbar[9][11]=simple_tool[6]
-toolbar[9][12]=dialog_tool[24]
-toolbar[9][13]=general_tool[28]
+toolbar[9][9]=general_tool[40]
+toolbar[9][10]=general_tool[35]
+toolbar[9][11]=dialog_tool[23]
+toolbar[9][12]=general_tool[30]
+toolbar[9][13]=simple_tool[6]
+toolbar[9][14]=dialog_tool[24]
+toolbar[9][15]=general_tool[28]
 # fill and draw bassins (images would be 30 and 31)
-toolbar[9][14]=general_tool[38],30,,+1
-toolbar[9][15]=general_tool[38],31,,-1
+toolbar[9][16]=general_tool[38],30,,+1
+toolbar[9][17]=general_tool[38],31,,-1
 # new terraforming
-toolbar[9][16]=general_tool[39],32,,0
-toolbar[9][17]=general_tool[39],33,,1
-toolbar[9][18]=general_tool[39],34,,2
-toolbar[9][19]=general_tool[39],35,,3
-toolbar[9][20]=general_tool[39],36,,4
-toolbar[9][21]=general_tool[39],37,,5
-toolbar[9][22]=general_tool[39],38,,6
-toolbar[9][23]=general_tool[39],39,,7
+toolbar[9][18]=general_tool[39],32,,0
+toolbar[9][19]=general_tool[39],33,,1
+toolbar[9][20]=general_tool[39],34,,2
+toolbar[9][21]=general_tool[39],35,,3
+toolbar[9][22]=general_tool[39],36,,4
+toolbar[9][23]=general_tool[39],37,,5
+toolbar[9][24]=general_tool[39],38,,6
+toolbar[9][25]=general_tool[39],39,,7
 # second pause
-toolbar[9][24]=simple_tool[0],,^p,
+toolbar[9][26]=simple_tool[0],,^p,
 
 # list tools
-toolbar[10][0]=dialog_tool[14]
-toolbar[10][1]=dialog_tool[3]
-toolbar[10][2]=dialog_tool[15]
-toolbar[10][3]=dialog_tool[16]
-toolbar[10][4]=dialog_tool[17]
-toolbar[10][5]=dialog_tool[18]
-toolbar[10][6]=dialog_tool[19]
-toolbar[10][7]=dialog_tool[25],,^M
+toolbar[10][0]=dialog_tool[3]
+toolbar[10][1]=dialog_tool[15]
+toolbar[10][2]=dialog_tool[14]
+toolbar[10][3]=dialog_tool[32]
+toolbar[10][4]=dialog_tool[33]
+toolbar[10][5]=dialog_tool[16]
+toolbar[10][6]=dialog_tool[17]
+toolbar[10][7]=dialog_tool[18]
+toolbar[10][8]=dialog_tool[19]
+toolbar[10][9]=dialog_tool[25],,^M
