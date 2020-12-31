@@ -28,6 +28,7 @@ PAKS: $(RELEASE_DIR)bridge.np-monorail.pak \
 	$(RELEASE_DIR)building.np-habour-flat.pak \
 	$(RELEASE_DIR)building.np-habour.pak \
 	$(RELEASE_DIR)building.np-hq.pak \
+	$(RELEASE_DIR)building.np-ind-mt.pak \
 	$(RELEASE_DIR)building.np-ind.pak \
 	$(RELEASE_DIR)building.np-miscext-containeryard.pak \
 	$(RELEASE_DIR)building.np-miscext-post-office.pak \
@@ -88,7 +89,7 @@ $(RELEASE_DIR)building.np-airext.pak: dat/stop-air/building.np-airext.dat dat/st
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airext.dat
 $(RELEASE_DIR)building.np-airstop.pak: dat/stop-air/building.np-airstop.dat dat/stop-air/airstop.png
 	$(MAKEOBJ64) $@ dat/stop-air/building.np-airstop.dat
-$(RELEASE_DIR)building.np-com.pak: dat/indcomres/building.np-com.dat dat/indcomres/com-a.png dat/indcomres/com-l1.png dat/indcomres/com-t.png dat/indcomres/com-l2.png dat/indcomres/com-s.png dat/indcomres/com-hl2.png dat/indcomres/com-m1.png dat/indcomres/com-m2.png dat/indcomres/com-h1.png dat/indcomres/com-h2.png dat/indcomres/com-parking.png dat/indcomres/com-parking-2.png
+$(RELEASE_DIR)building.np-com.pak: dat/indcomres/building.np-com.dat dat/indcomres/com-ricefield.png dat/indcomres/com-store-h1.png dat/indcomres/com-store-t1.png dat/indcomres/com-store-h2.png dat/indcomres/com-store-s2.png dat/indcomres/com-store-h3.png dat/indcomres/com-storebldg-h1.png dat/indcomres/com-storebldg-h2.png dat/indcomres/com-storebldg-h3.png dat/indcomres/com-storebldg-h4.png dat/indcomres/com-parking-1.png dat/indcomres/com-parking-2.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-com.dat
 $(RELEASE_DIR)building.np-cur-castle.pak: dat/cur/building.np-cur-castle.dat dat/cur/castle-1-tile.png dat/cur/castle-2-tile.png dat/cur/castle-3-tile.png dat/cur/castle-4-tile.png
 	$(MAKEOBJ64) $@ dat/cur/building.np-cur-castle.dat
@@ -122,7 +123,9 @@ $(RELEASE_DIR)building.np-habour.pak: dat/harbor/building.np-habour.dat dat/harb
 	$(MAKEOBJ64) $@ dat/harbor/building.np-habour.dat
 $(RELEASE_DIR)building.np-hq.pak: dat/hq/building.np-hq.dat dat/hq/hq-1-tile.png dat/hq/hq-2-tile.png dat/hq/hq-3-tile.png dat/hq/hq-4-tile.png dat/hq/hq-5-tile.png
 	$(MAKEOBJ64) $@ dat/hq/building.np-hq.dat
-$(RELEASE_DIR)building.np-ind.pak: dat/indcomres/building.np-ind.dat dat/indcomres/ind-a.png dat/indcomres/ind-l.png dat/indcomres/ind-m1.png dat/indcomres/ind-m2.png dat/indcomres/ind-h1.png dat/indcomres/ind-h2.png dat/indcomres/ind-parking.png dat/indcomres/ind-parking-2.png
+$(RELEASE_DIR)building.np-ind-mt.pak: dat/indcomres-mt/building.np-ind-mt.dat dat/indcomres-mt/ind-office-hx2-1.png dat/indcomres-mt/ind-office-hx2-2.png dat/indcomres-mt/ind-office-hx2-3.png dat/indcomres-mt/ind-office-hx2-4.png dat/indcomres-mt/ind-office-hx2-5.png dat/indcomres-mt/ind-construction-site.png dat/indcomres-mt/ind-office-hx2-6.png dat/indcomres-mt/ind-office-hx2-7.png dat/indcomres-mt/ind-office-hx2-8.png dat/indcomres-mt/ind-office-hx1-1.png dat/indcomres-mt/ind-office-hx1-2.png dat/indcomres-mt/ind-office-hx1-3.png dat/indcomres-mt/ind-parking-x-1.png
+	$(MAKEOBJ64) $@ dat/indcomres-mt/building.np-ind-mt.dat
+$(RELEASE_DIR)building.np-ind.pak: dat/indcomres/building.np-ind.dat dat/indcomres/ind-field.png dat/indcomres/ind-factory-h0.png dat/indcomres/ind-office-h1.png dat/indcomres/ind-office-h2.png dat/indcomres/ind-office-h3.png dat/indcomres/ind-office-h4.png dat/indcomres/ind-parking-1.png dat/indcomres/ind-parking-2.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-ind.dat
 $(RELEASE_DIR)building.np-miscext-containeryard.pak: dat/stop-freight-station/building.np-miscext-containeryard.dat dat/stop-freight-station/containeryard.png dat/stop-freight-station/freight-station-office.png dat/stop-freight-station/freight-roof-platform-ext.png
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-miscext-containeryard.dat
@@ -144,9 +147,9 @@ $(RELEASE_DIR)building.np-railstop-freight-station.pak: dat/stop-freight-station
 	$(MAKEOBJ64) $@ dat/stop-freight-station/building.np-railstop-freight-station.dat
 $(RELEASE_DIR)building.np-railstop-platform.pak: dat/stop-platform/building.np-railstop-platform.dat dat/stop-platform/platform-0.png dat/stop-platform/platform-0-winter.png dat/stop-platform/platform-1.png dat/stop-platform/platform-1-winter.png dat/stop-platform/platform-1s.png dat/stop-platform/platform-1s-winter.png dat/stop-platform/platform-1b.png dat/stop-platform/platform-1b-winter.png dat/stop-platform/platform-1u.png dat/stop-platform/platform-1u-winter.png dat/stop-platform/platform-2.png dat/stop-platform/platform-2-winter.png dat/stop-platform/platform-2s.png dat/stop-platform/platform-2s-winter.png dat/stop-platform/platform-2u.png dat/stop-platform/platform-2u-winter.png dat/stop-platform/platform-2b.png dat/stop-platform/platform-2b-winter.png dat/stop-platform/platform-3.png dat/stop-platform/platform-3-winter.png dat/stop-platform/platform-3s.png dat/stop-platform/platform-3s-winter.png dat/stop-platform/platform-3u.png dat/stop-platform/platform-3u-winter.png dat/stop-platform/platform-4.png dat/stop-platform/platform-4-winter.png
 	$(MAKEOBJ64) $@ dat/stop-platform/building.np-railstop-platform.dat
-$(RELEASE_DIR)building.np-res-mt.pak: dat/indcomres-mt/building.np-res-mt.dat dat/indcomres-mt/res-mx-1.png dat/indcomres-mt/res-mx-2.png dat/indcomres-mt/res-mx-3.png dat/indcomres-mt/res-mx-4.png dat/indcomres-mt/res-mx-5.png dat/indcomres-mt/res-hhx-1.png dat/indcomres-mt/res-hhx-2.png dat/indcomres-mt/res-hhx-3.png dat/indcomres-mt/res-hhx-4.png dat/indcomres-mt/res-hhx-5.png
+$(RELEASE_DIR)building.np-res-mt.pak: dat/indcomres-mt/building.np-res-mt.dat dat/indcomres-mt/res-apt-hx1-1.png dat/indcomres-mt/res-apt-hx1-2.png dat/indcomres-mt/res-apt-hx1-3.png dat/indcomres-mt/res-apt-hx1-4.png dat/indcomres-mt/res-apt-hx1-5.png dat/indcomres-mt/res-apt-hx2-1.png dat/indcomres-mt/res-apt-hx2-2.png dat/indcomres-mt/res-apt-hx2-3.png dat/indcomres-mt/res-apt-hx2-4.png dat/indcomres-mt/res-apt-hx2-5.png
 	$(MAKEOBJ64) $@ dat/indcomres-mt/building.np-res-mt.dat
-$(RELEASE_DIR)building.np-res.pak: dat/indcomres/building.np-res.dat dat/indcomres/res-a.png dat/indcomres/ind-a.png dat/indcomres/res-s1.png dat/indcomres/res-s2.png dat/indcomres/res-h1.png dat/indcomres/res-h2.png dat/indcomres/res-t1.png dat/indcomres/res-t2.png dat/indcomres/res-p.png dat/indcomres/res-m.png dat/indcomres/res-sm.png dat/indcomres/res-h.png dat/indcomres/res-h-2.png dat/indcomres/res-parking.png dat/indcomres/res-parking-2.png dat/indcomres/res-empty.png
+$(RELEASE_DIR)building.np-res.pak: dat/indcomres/building.np-res.dat dat/indcomres/res-ricefield.png dat/indcomres/ind-field.png dat/indcomres/res-house-h0.png dat/indcomres/res-house-t0.png dat/indcomres/res-house-s1.png dat/indcomres/res-house-s2.png dat/indcomres/res-house-h1.png dat/indcomres/res-house-h2.png dat/indcomres/res-house-t1.png dat/indcomres/res-house-t2.png dat/indcomres/res-apt-s0.png dat/indcomres/res-apt-h1.png dat/indcomres/res-apt-s1.png dat/indcomres/res-apt-h2-1.png dat/indcomres/res-apt-h2-2.png dat/indcomres/res-parking-1.png dat/indcomres/res-parking-2.png dat/indcomres/res-emptylot.png
 	$(MAKEOBJ64) $@ dat/indcomres/building.np-res.dat
 $(RELEASE_DIR)building.np-roadstop-freight.pak: dat/stop-road/building.np-roadstop-freight.dat dat/stop-road/freightstop-1.png dat/stop-road/freightstop-1d.png dat/stop-road/freightstop-2.png dat/stop-road/freightstop-2-winter.png dat/stop-road/freightstop-2d.png dat/stop-road/freightstop-2d-winter.png dat/stop-road/carstop.png
 	$(MAKEOBJ64) $@ dat/stop-road/building.np-roadstop-freight.dat
@@ -251,6 +254,8 @@ dat/harbor/building.np-habour-flat.dat: dat/harbor/building.np-habour-flat.datt
 dat/harbor/building.np-habour.dat: dat/harbor/building.np-habour.datt
 	$(DATT) $** > $@
 dat/hq/building.np-hq.dat: dat/hq/building.np-hq.datt
+	$(DATT) $** > $@
+dat/indcomres-mt/building.np-ind-mt.dat: dat/indcomres-mt/building.np-ind-mt.datt
 	$(DATT) $** > $@
 dat/indcomres-mt/building.np-res-mt.dat: dat/indcomres-mt/building.np-res-mt.datt
 	$(DATT) $** > $@
