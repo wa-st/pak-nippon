@@ -5,7 +5,7 @@
 ## 導入方法
 
 ### 1. Simutrans本体のインストール
-pak.nipponを実行するにはバージョン120.4以降のSimutransが必要です。
+pak.nipponを実行するにはバージョン122.0以降のSimutransが必要です。
 最新のSimutrans本体は[SourceForgeのプロジェクトページ](http://sourceforge.net/projects/simutrans/files/simutrans/)からダウンロードできます。
 
 ### 2. pak.nipponのインストール
