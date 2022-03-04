@@ -142,9 +142,9 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\factory.Oelfeld.pak
 @del %TARGET_DIR%\factory.Oelkraftwerk.pak
 @del %TARGET_DIR%\factory.Oelpumpe.pak
+@del %TARGET_DIR%\factory.PVkraftwerk.pak
 @del %TARGET_DIR%\factory.Papierfabrik.pak
 @del %TARGET_DIR%\factory.Pharmaceutics.pak
-@del %TARGET_DIR%\factory.PVkraftwerk.pak
 @del %TARGET_DIR%\factory.Raffinerie.pak
 @del %TARGET_DIR%\factory.Rinnenkraftwerk.pak
 @del %TARGET_DIR%\factory.Saegewerk.pak
@@ -194,7 +194,6 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\misc.PowerSource.pak
 @del %TARGET_DIR%\misc.Sidewalk.pak
 @del %TARGET_DIR%\pedestrian.*.pak
-@del %TARGET_DIR%\roadsign.choose_point.pak
 @del %TARGET_DIR%\roadsign.ChooseSignals.pak
 @del %TARGET_DIR%\roadsign.ChooseSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.Endofchoosetrack.pak
@@ -204,6 +203,7 @@ set TARGET_DIR=R:\simutrans\pak
 @del %TARGET_DIR%\roadsign.Railgate.pak
 @del %TARGET_DIR%\roadsign.Signals.pak
 @del %TARGET_DIR%\roadsign.SignalsMonorail.pak
+@del %TARGET_DIR%\roadsign.choose_point.pak
 @del %TARGET_DIR%\roadsign.preSignals.pak
 @del %TARGET_DIR%\roadsign.preSignalsMonorail.pak
 @del %TARGET_DIR%\roadsign.traffic_light.pak
