@@ -1140,6 +1140,8 @@ np-road-traffic-light
 #_____________________________________tree______________________________________
 np-tree-akaezomatsu
 アカエゾマツ
+np-tree-akamatsu
+アカマツ
 np-tree-arakashi
 アラカシ
 np-tree-buna
@@ -1156,10 +1158,16 @@ np-tree-kaede
 カエデ
 np-tree-keyaki
 ケヤキ
+np-tree-konara
+コナラ
+np-tree-kunugi
+クヌギ
 np-tree-kusunoki
 クスノキ
 np-tree-mizunara
 ミズナラ
+np-tree-sakura
+サクラ
 np-tree-shirakashi
 シラカシ
 np-tree-tabunoki
